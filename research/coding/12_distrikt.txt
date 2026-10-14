@@ -1,47 +1,47 @@
 # --- dist_municipal_merge: «Staten bør gi sterkere insentiver til at kommuner slår seg sammen til større kommuner.»
-dist_municipal_merge|Ap|U|-|-|Programmet tar ikke stilling.
+dist_municipal_merge|Ap|2|MEDIUM|src:ntb_kommunesammenslaing_2027|Ap-regjeringen foreslår i statsbudsjettet for 2027 nye økonomiske virkemidler for frivillige kommunesammenslåinger (gjengitt av NTB).
 dist_municipal_merge|H|3|HIGH|83-84|Høyre vil premiere kommunesammenslåinger i inntektssystemet og legge til rette for større kommuner.
 dist_municipal_merge|FrP|U|-|10|Programmet vil styrke kommunenes handlingsrom, men tar ikke stilling til sammenslåing.
 dist_municipal_merge|Sp|-3|HIGH|10|Sp vil ikke tvangssammenslå kommuner og vil ha et inntektssystem som ikke stimulerer til sammenslåinger.
 dist_municipal_merge|SV|U|-|-|Programmet tar ikke stilling.
-dist_municipal_merge|R|-2|MEDIUM|73|Rødt kritiserer tvangssammenslåinger av kommuner som sentraliseringspolitikk.
+dist_municipal_merge|R|-2|LOW|73|Rødt kritiserer tvangssammenslåinger av kommuner som sentraliseringspolitikk.
 dist_municipal_merge|V|3|HIGH|58-59|Venstre vil gjeninnføre og kraftig styrke insentivene til kommunesammenslåinger.
-dist_municipal_merge|KrF|U|-|-|Programmet tar ikke stilling.
-dist_municipal_merge|MDG|-1|MEDIUM|75|MDG er mot tvangssammenslåing, men anerkjenner at små kommuner har utfordringer.
+dist_municipal_merge|KrF|2|HIGH|54|KrF vil legge til rette for frivillige sammenslåinger og opprettholde og styrke økonomiske insentiver.
+dist_municipal_merge|MDG|2|MEDIUM|77|MDG vil gi insentiver til frivillige kommunesammenslåinger, men ikke bruke tvang.
 # --- dist_county: «Fylkeskommunen bør legges ned, slik at vi får to forvaltningsnivåer: stat og kommune.»
-dist_county|Ap|U|-|-|Programmet tar ikke stilling.
+dist_county|Ap|-3|MEDIUM|src:sting_innst_196s_2526|Ap er med i stortingsflertallet som «ønsker derfor ikke å avvikle fylkeskommunen» (Innst. 196 S 2025–2026).
 dist_county|H|3|HIGH|84|Høyre vil ha to forvaltningsnivåer og avvikle fylkeskommunen.
 dist_county|FrP|3|HIGH|7,10|FrP vil legge ned fylkeskommunen og fordele oppgavene mellom stat, kommune og private.
 dist_county|Sp|-3|HIGH|10|Sp vil videreføre tre forvaltningsnivåer: stat, fylke og kommune.
 dist_county|SV|U|-|-|Programmet tar ikke stilling.
-dist_county|R|U|-|-|Programmet tar ikke stilling.
-dist_county|V|1|LOW|59|Venstre mener organiseringen på fylkesnivå bør vurderes som del av en kommunereform.
-dist_county|KrF|U|-|-|Programmet tar ikke stilling.
+dist_county|R|-3|HIGH|76|Rødt vil forsvare og videreutvikle en modell med tre forvaltningsnivåer: kommune, fylke og stat.
+dist_county|V|U|-|-|Venstre vil vurdere organiseringen på fylkes-/regionnivå uten å angi retning.
+dist_county|KrF|-3|HIGH|54|KrF vil beholde fylkeskommunen som eget forvaltningsnivå.
 dist_county|MDG|U|-|75|MDG er mot tvangssammenslåing av fylker, men tar ikke stilling til å avvikle fylkeskommunen.
 # --- agri_tariffs: «Tollvernet for norske landbruksvarer bør styrkes for å sikre norsk matproduksjon, selv om det kan gi høyere matpriser.»
 agri_tariffs|Ap|1|MEDIUM|45|Ap vil ivareta et fungerende tollvern som en av pilarene i landbrukspolitikken.
 agri_tariffs|H|-1|HIGH|39|Høyre vil beholde et importvern, men lette på det for enkelte varer.
-agri_tariffs|FrP|-3|HIGH|42,51|FrP vil redusere tollsatser og at produksjon og priser i landbruket skal styres av markedet.
+agri_tariffs|FrP|-3|HIGH|42,44,51|FrP vil redusere tollsatser og at produksjon og priser i landbruket skal styres av markedet.
 agri_tariffs|Sp|3|HIGH|68-69|Sp vil styrke importvernet og tollvernet for å sikre norsk jordbruksproduksjon.
-agri_tariffs|SV|1|LOW|46|SV vil at handelsavtaler skal bygge på retten til tollvern.
+agri_tariffs|SV|2|MEDIUM|38,46|SV vil gå fra krone- til prosenttoll på landbruksprodukter der det gir best beskyttelse.
 agri_tariffs|R|3|HIGH|54,66|Rødt vil styrke importvernet og tollvernet for matvarer.
 agri_tariffs|V|U|-|-|Programmet tar ikke stilling til tollvern for landbruk.
 agri_tariffs|KrF|1|MEDIUM|71|KrF vil sikre et velfungerende importvern som bidrar til høy norsk matproduksjon.
 agri_tariffs|MDG|1|MEDIUM|52|MDG vil ha et tollvern som sikrer norske bønder lønnsomhet.
 # --- agri_income: «Staten bør bruke mer penger på landbruket for å tette inntektsgapet mellom bønder og andre grupper.»
 agri_income|Ap|2|HIGH|44-45|Ap vil følge opp planen for å tette inntektsgapet for landbruket innen 2027.
-agri_income|H|U|-|39|Programmet tar ikke stilling til inntektsgapet.
-agri_income|FrP|-2|MEDIUM|50-51|FrP vil liberalisere jordbruksavtalesystemet og la markedet styre produksjon og priser.
+agri_income|H|-2|MEDIUM|39|Høyre vil gjøre landbruket mindre avhengig av offentlige overføringer og mener økte overføringer ikke har bedret lønnsomheten.
+agri_income|FrP|-3|HIGH|50-51|FrP vil gradvis redusere næringsoverføringene til landbruket.
 agri_income|Sp|3|HIGH|68-69|Sp vil øke bondens inntekt og tette inntektsgapet til andre næringer innen 2027.
 agri_income|SV|3|HIGH|38|SV vil tette inntektsgapet i løpet av neste stortingsperiode.
-agri_income|R|2|MEDIUM|65-66|Rødt vil styrke jordbruksavtalen og innføre småbrukstilskudd til alle produksjoner.
+agri_income|R|3|HIGH|66|Rødt vil at inntektene i jordbruket skal jamstilles med andre grupper.
 agri_income|V|U|-|40|Programmet tar ikke stilling til inntektsgapet.
-agri_income|KrF|2|HIGH|71|KrF vil tette inntektsgapet mellom bønder og andre grupper innen 2027.
+agri_income|KrF|3|HIGH|71|KrF vil tette inntektsgapet mellom bønder og andre grupper innen 2027.
 agri_income|MDG|2|HIGH|52|MDG vil tette inntektsgapet mellom landbruket og andre yrkesgrupper.
 # --- agri_predators: «Bestandene av ulv og andre store rovdyr i Norge bør få bli større enn i dag.»
 agri_predators|Ap|-1|MEDIUM|125|Ap vil at rovvilt over bestandsmålet skal forvaltes ned til målet vedtatt av Stortinget.
 agri_predators|H|0|MEDIUM|46|Høyre vil legge rovdyrforliket og den todelte målsettingen om beitedyr og bærekraftige bestander til grunn.
-agri_predators|FrP|-3|HIGH|51|FrP vil avvikle de prioriterte rovdyrsonene og la forvaltningen skje lokalt.
+agri_predators|FrP|-2|MEDIUM|51|FrP vil oppheve kjerneområdene for rovdyr og overføre rovdyrforvaltningen til lokale myndigheter.
 agri_predators|Sp|-3|HIGH|72|Sp vil ha effektive uttak og la staten ta større ansvar for å regulere bestandene.
 agri_predators|SV|1|MEDIUM|33|SV vil sikre levedyktige bestander av de fire store rovdyrene.
 agri_predators|R|2|MEDIUM|42|Rødt vil at bestandsmålene skal være minimumsmål og bygge på faglige utredninger av levedyktige bestander.

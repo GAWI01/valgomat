@@ -10,16 +10,16 @@ oil_explore|KrF|-1|MEDIUM|48|KrF vil begrense fremtidige lisenstildelinger til u
 oil_explore|MDG|-3|HIGH|10,45|MDG vil umiddelbart stanse all leting etter nye olje- og gassforekomster.
 # --- oil_end_date: «Norge bør vedta en sluttdato for olje- og gassproduksjonen.»
 oil_end_date|Ap|-3|MEDIUM|118|Ap vil «utvikle, ikke avvikle» aktiviteten på sokkelen og legge til rette for et stabilt høyt aktivitetsnivå.
-oil_end_date|H|-3|MEDIUM|40|Høyre vil opprettholde leteaktivitet og Norges rolle som stabil energileverandør til Europa.
-oil_end_date|FrP|-3|HIGH|80|FrP mener næringen skal bidra til verdiskaping «i uoverskuelig framtid».
-oil_end_date|Sp|-3|HIGH|105|Sp vil utvikle, ikke avvikle, norsk petroleumssektor.
+oil_end_date|H|-2|MEDIUM|40|Høyre vil opprettholde leteaktivitet og Norges rolle som stabil energileverandør til Europa.
+oil_end_date|FrP|-3|MEDIUM|80|FrP mener næringen skal bidra til verdiskaping «i uoverskuelig framtid».
+oil_end_date|Sp|-3|MEDIUM|105|Sp vil utvikle, ikke avvikle, norsk petroleumssektor.
 oil_end_date|SV|2|MEDIUM|32|SV vil lage en plan for utfasing av olje- og gassproduksjonen i tråd med Klimautvalget 2050, uten å angi årstall.
 oil_end_date|R|2|MEDIUM|57|Rødt vil ha en planmessig nedtrapping der bare igangsatte og vedtatte utbygginger gjennomføres, men angir ikke en sluttdato.
 oil_end_date|V|1|MEDIUM|9|Venstre vil utvikle en plan for sluttfasen av norsk petroleumsindustri, med gradvis omstilling.
 oil_end_date|KrF|-1|LOW|48|KrF vil videreføre kompetansen i næringen og hindre at teknologi og leverandørindustri går tapt for tidlig.
 oil_end_date|MDG|3|HIGH|45|MDG vil at norsk olje og gass skal avvikles innen 2040.
 # --- oil_lofoten: «Havområdene utenfor Lofoten, Vesterålen og Senja bør vernes permanent mot oljevirksomhet.»
-oil_lofoten|Ap|2|HIGH|119|Ap vil ikke gå inn for konsekvensutredning av Nordland VI, VII og Troms II, men heller utvikle andre næringer der.
+oil_lofoten|Ap|2|MEDIUM|119|Ap vil ikke gå inn for konsekvensutredning av Nordland VI, VII og Troms II, men heller utvikle andre næringer der.
 oil_lofoten|H|-2|HIGH|41|Høyre vil konsekvensutrede med sikte på gjenåpning av Nordland VI.
 oil_lofoten|FrP|-3|HIGH|80-81|FrP vil konsekvensutrede Lofoten, Vesterålen og Senja for åpning av olje- og gassproduksjon snarest.
 oil_lofoten|Sp|3|HIGH|23,106|Sp vil ikke åpne for olje- og gassvirksomhet i Lofoten, Vesterålen eller utenfor Senja.
@@ -37,47 +37,47 @@ energy_nuclear|SV|U|-|-|Programmet tar ikke stilling.
 energy_nuclear|R|0|MEDIUM|59-60|Rødt vil ha forskning og utredning, men mener kjernekraft ikke kommer tidsnok som klimaløsning; forutsetningen må være statlig eierskap.
 energy_nuclear|V|3|HIGH|9-10|Venstre mener kjernekraft er en viktig del av løsningen og vil legge til rette for at aktører kan etablere kjernekraftverk.
 energy_nuclear|KrF|3|HIGH|46-47|KrF vil ha kjernekraft i energimiksen og sikre at små modulære reaktorer er i drift i Norge innen 2040.
-energy_nuclear|MDG|1|MEDIUM|17|MDG vil åpne for utredning og etablering av kjernekraftverk som ikke forsinker omstillingen bort fra petroleum.
+energy_nuclear|MDG|2|MEDIUM|17|MDG vil åpne for utredning og etablering av kjernekraftverk som ikke forsinker omstillingen.
 # --- energy_onshore_wind: «Det bør bygges mer vindkraft på land i Norge.»
 energy_onshore_wind|Ap|2|MEDIUM|117|Ap vil legge til rette for utbygging av blant annet vindkraft.
 energy_onshore_wind|H|2|MEDIUM|40|Høyre ser vindkraft på land som et av tiltakene som på kort sikt kan styrke kraftbalansen.
 energy_onshore_wind|FrP|-3|HIGH|84|FrP sier prinsipielt nei til vindkraft på land, med mindre kommunen har sagt ja i folkeavstemning.
-energy_onshore_wind|Sp|-1|LOW|44|Sp vil øke vind- og solkraft på allerede utbygde næringsområder og grå arealer, og forutsetter lokal tilslutning.
-energy_onshore_wind|SV|-3|HIGH|34|SV sier nei til videre utbygging av storskala vindkraft på land.
+energy_onshore_wind|Sp|0|MEDIUM|43-44|Sp vil øke vind- og solkraft på allerede utbygde næringsområder og grå arealer, med kommunal vetorett.
+energy_onshore_wind|SV|-2|HIGH|34|SV sier nei til mer storskala vindkraft på land, men vil prioritere småskala vindkraft på industrialiserte områder.
 energy_onshore_wind|R|-3|HIGH|60|Rødt sier nei til vindkraft på land.
 energy_onshore_wind|V|1|MEDIUM|8|Venstre ser vindkraft som viktig, men vil ha tydelige rammer for landbasert vindkraft av hensyn til natur.
 energy_onshore_wind|KrF|0|MEDIUM|46|KrF vil vurdere hvordan vindkraft på land best kan tas i bruk, men opprettholde kommunenes vetorett.
-energy_onshore_wind|MDG|-1|MEDIUM|5,17|MDG vil bygge vindkraft på allerede nedbygde arealer og konfliktfri nærenergi, ikke i urørt natur.
+energy_onshore_wind|MDG|0|MEDIUM|5,16|MDG vil ha vindkraft på allerede nedbygde arealer, men ikke i urørt natur.
 # --- energy_offshore_wind: «Staten bør gi økonomisk støtte for å få bygget ut havvind.»
 energy_offshore_wind|Ap|2|MEDIUM|117,119|Ap vil prioritere havvind, lyse ut 50 GW og ta en verdensledende posisjon innen flytende havvind.
 energy_offshore_wind|H|2|HIGH|41|Høyre vil videreføre differansekontrakter som virkemiddel for å realisere havvind.
-energy_offshore_wind|FrP|-1|LOW|84,92|FrP vil ha en helhetlig plan for «eventuell videre utbygging» av havvind og er generelt imot subsidier til utpekte næringer.
+energy_offshore_wind|FrP|-3|HIGH|84|FrP vil fjerne alle direkte og indirekte subsidier til utbygging av vindkraft, også til havs.
 energy_offshore_wind|Sp|U|-|43|Programmet sier nei til nye utenlandskabler i havvindprosjekter, men tar ikke stilling til støtte.
-energy_offshore_wind|SV|1|MEDIUM|34|SV vil prioritere flytende havvind, men si nei til bunnfast havvind nær kysten.
-energy_offshore_wind|R|-1|LOW|58-59|Rødt sier nei til elektrifisering av sokkelen med havvind og nei til hybridkabler.
+energy_offshore_wind|SV|1|LOW|34|SV vil prioritere flytende havvind, men si nei til bunnfast havvind nær kysten.
+energy_offshore_wind|R|U|-|-|Rødt sier nei til elektrifisering av sokkelen med havvind og til hybridkabler, men tar ikke stilling til statlig støtte.
 energy_offshore_wind|V|2|HIGH|8-9|Venstre mener det kan være behov for offentlige midler i startfasen for havvind.
 energy_offshore_wind|KrF|-3|HIGH|49|KrF vil kutte subsidiene til havvind.
 energy_offshore_wind|MDG|2|MEDIUM|16|MDG vil satse stort på havvind på norsk sokkel, forutsatt forsvarlige naturkonsekvenser.
 # --- energy_hydro: «Det bør åpnes for mer vannkraftutbygging, også i noen vassdrag som i dag er vernet.»
 energy_hydro|Ap|1|LOW|117|Ap vil legge til rette for vannkraftutbygging og oppgradere eksisterende anlegg, men nevner ikke vernede vassdrag.
-energy_hydro|H|1|LOW|40|Høyre fremhever oppgradering av vannkraft og småkraft, men nevner ikke vernede vassdrag.
-energy_hydro|FrP|3|HIGH|81|FrP vil revidere vassdragsvernet for å gi flere muligheter for økt kraftproduksjon.
+energy_hydro|H|2|MEDIUM|41|Høyre vil gjennomgå verneplanene for vassdrag og vurdere kraftproduksjon som ikke forringer verneverdiene.
+energy_hydro|FrP|3|HIGH|82|FrP vil revidere vassdragsvernet for å gi flere muligheter for økt kraftproduksjon.
 energy_hydro|Sp|2|HIGH|42-43|Sp vil tilrettelegge for skånsom utbygging av ny vannkraft i vernede vassdrag som flomdempende tiltak.
 energy_hydro|SV|-3|HIGH|34|SV vil verne flere vassdrag og være garantisten mot utbygging i vernede vassdrag.
 energy_hydro|R|-1|LOW|59|Rødt vil oppgradere dagens vannkraftverk, men understreker at all kraftproduksjon medfører naturinngrep.
 energy_hydro|V|-3|HIGH|8|Venstre vil sikre vernede vassdrag og utvide verneplanen.
-energy_hydro|KrF|-1|LOW|46|KrF vil åpne for ny vannkraft der det kan forsvares ut fra naturhensyn, men nevner ikke vernede vassdrag.
+energy_hydro|KrF|1|LOW|46|KrF vil legge til rette for ny vannkraft og småkraft der det kan forsvares ut fra naturhensyn.
 energy_hydro|MDG|-3|HIGH|16|MDG sier nei til utbygging av vannkraft i vernede vassdrag.
 # --- energy_cables: «Norge bør ikke bygge flere strømkabler til utlandet.»
 energy_cables|Ap|3|HIGH|116-117|Ap vil ikke fornye SK1/SK2 eller legge til rette for nye utenlandskabler i kommende periode.
 energy_cables|H|-1|MEDIUM|41|Høyre vil legge til rette for et nordsjønett i samarbeid med andre land.
-energy_cables|FrP|3|HIGH|85-86|FrP mener det ikke skal bygges utenlandskabler som presser strømprisene opp, og vil ha restriksjoner på kraftutveksling.
+energy_cables|FrP|2|MEDIUM|85|FrP vil ikke bygge utenlandskabler som presser norske strømpriser opp, og vil reforhandle eksisterende avtaler.
 energy_cables|Sp|3|HIGH|43|Sp vil si nei til nye utenlandskabler, også i forbindelse med havvind.
 energy_cables|SV|3|HIGH|34|SV vil ikke bygge nye utenlandskabler til kontinentet.
 energy_cables|R|3|HIGH|59|Rødt sier nei til nye strømkabler til utlandet, også hybridkabler.
 energy_cables|V|-2|MEDIUM|9|Venstre mener hybridkabler er vesentlig for å få lønnsomhet i havvind og et mer effektivt kraftsystem.
 energy_cables|KrF|U|-|-|Programmet tar ikke stilling.
-energy_cables|MDG|U|-|-|Programmet tar ikke stilling.
+energy_cables|MDG|-3|HIGH|17|MDG vil beholde, fornye og øke antallet mellomlandsforbindelser.
 # --- energy_price_control: «Staten bør styre strømprisen for husholdningene, for eksempel med fastpris eller makspris, i stedet for at markedet alene bestemmer.»
 energy_price_control|Ap|2|HIGH|114|Ap vil innføre Norgespris for å gi forutsigbar strømpris og videreføre strømstøtten.
 energy_price_control|H|-1|MEDIUM|41|Høyre vil beholde strømstøtte så lenge det er nødvendig, men satse på markedsbaserte fastprisavtaler.
@@ -87,7 +87,7 @@ energy_price_control|SV|2|HIGH|8|SV vil innføre et toprissystem der nødvendig 
 energy_price_control|R|3|HIGH|59|Rødt vil innføre makspris på strøm basert på produksjonskostnadene.
 energy_price_control|V|-1|LOW|9|Venstre vil forbedre strømstøtten for utjevning og sparing, men foreslår ikke fast pris.
 energy_price_control|KrF|0|MEDIUM|47|KrF vil videreføre en strømstøtte som skjermer mot de verste pristoppene og samtidig gir insentiv til sparing.
-energy_price_control|MDG|-1|MEDIUM|6,15|MDG vil ha en flat strømstøtte uavhengig av forbruk, slik at prissignalet og sparing beholdes.
+energy_price_control|MDG|0|MEDIUM|6,15,17|MDG vil ha flat strømstøtte og bedre prisreguleringsregimer mot uforutsigbare prishopp, men ikke statlig fastpris.
 # --- eu_energy_package: «Norge bør si nei til EUs fjerde energimarkedspakke.»
 eu_energy_package|Ap|U|-|-|Programmet tar ikke stilling.
 eu_energy_package|H|U|-|-|Programmet tar ikke stilling.

@@ -1,0 +1,146 @@
+qid	parti	før	etter	merknad
+econ_tax_level	V	2 HIGH 42	3 HIGH 42	Ordrett samme påstand («redusere det samlede skatte- og avgiftstrykket»), kategorisk.
+econ_wealth_working	SV	-3 HIGH 4	-3 MEDIUM 4	Programmet sier «økt skatt på større formuer», nevner ikke arbeidende kapital spesifikt.
+econ_top_tax	KrF	2 HIGH 50	3 HIGH 50	«øke bruttobeskatningen av de høyeste inntektene» er like eksplisitt som SV/R/MDG (3).
+econ_property_tax	Sp	0 LOW 109	1 LOW 109	Tidligere 0: begrunnelsen blandet statlig og kommunal eiendomsskatt.
+econ_oil_money	FrP	1 MEDIUM 41-42	1 LOW 42-43	Programmet nevner ikke handlingsregelen; slutning fra at handlingsrommet skal brukes til investeringer og et infrastrukturfond.
+econ_oil_money	R	1 LOW 7	U - -	Omplassering ≠ økt bruk.
+econ_oil_money	V	-2 MEDIUM 43	-3 HIGH 43	Konkret innstramming.
+econ_state_owner	V	2 MEDIUM 43	2 HIGH 43	Eksplisitt kulepunkt s.43.
+welfare_commercial	Ap	-1 LOW 50,53,70	-1 LOW 50,70,95	s.95 (offentlig og ideelt barnevern) er relevant; s.53 gjaldt privatskoler.
+work_sickpay	H	1 LOW 57-58	-2 HIGH 57	FEIL FORTEGN rettet (var +1 LOW).
+work_temp_agency	KrF	U - -	-2 MEDIUM 49	Fra U.
+work_temp_agency	MDG	U - -	1 LOW 22-23	Fra U; blandet → LOW.
+work_min_benefits	Ap	1 MEDIUM 25	1 LOW 25	Programmet sier at minstenivåene skal følge utviklingen – regulering, ikke økning.
+work_min_benefits	V	1 MEDIUM 24	2 MEDIUM 24	
+work_min_benefits	MDG	2 MEDIUM 21	3 HIGH 21,25	
+housing_nonprofit	Ap	2 HIGH 29	2 MEDIUM 29	Begrunnelsen utelot næringsliv.
+housing_nonprofit	V	-1 MEDIUM 25	-1 LOW 25	Prioritering av det ordinære markedet, ikke avvisning.
+housing_nonprofit	MDG	3 HIGH 24	2 HIGH 24	«Legge til rette» ≠ statlig finansiering av mange flere.
+health_free_choice	Ap	-2 MEDIUM 70	-1 MEDIUM 70	Var -2; påstand om regjeringsvedtak hentet utenfor kilden er fjernet.
+health_free_choice	FrP	3 MEDIUM 59	3 HIGH 59-60	Eksplisitt: tjenestene finansieres av det offentlige uansett utfører.
+health_free_choice	SV	-3 HIGH 15,17	-3 MEDIUM 15,17	Retningen er klar, men fritt behandlingsvalg nevnes ikke.
+health_free_choice	R	-3 MEDIUM 16	-3 HIGH 13-14	Riktig side (s.16 gjaldt helseforsikring).
+health_trusts	FrP	2 MEDIUM 59	1 MEDIUM 59	Bare første del av påstanden oppfylt.
+imm_level	Sp	1 MEDIUM 63-64	1 MEDIUM 63-64	Parafrase rettet.
+imm_level	R	-3 HIGH 95	-3 MEDIUM 95	Feil parafrase rettet («større ansvar» gjaldt flyktningleirene).
+imm_level	MDG	-2 MEDIUM 103	-2 MEDIUM 103-104	Grunnlovsfesting av asylretten står på s.104.
+imm_quota	R	3 HIGH 95	3 MEDIUM 95	Kildene gjelder å styrke kvoteordningen, ikke kvotetallet direkte.
+imm_offshore	H	2 MEDIUM 76-77	1 MEDIUM 76-77	Bare beslektet tiltak.
+imm_family	H	3 HIGH 76	3 HIGH 76	«vurdere» var gjengitt som vedtatt krav.
+imm_family	Sp	2 HIGH 65	3 HIGH 65	Samme eksplisitte formulering som Høyre («Stramme inn vilkårene for familieinnvandring»).
+imm_family	R	U - -	-2 MEDIUM 69	Fra U.
+imm_family	V	U - 48	-1 LOW 27,48	Fra U.
+imm_residence	V	U - -	-1 LOW 27	Fra U; smal gruppe → LOW.
+imm_residence	KrF	-2 MEDIUM 36	-2 MEDIUM 36,38	
+imm_labour	Ap	U - 112	1 LOW 36	Fra U; raskere behandling, ikke lempeligere vilkår → LOW.
+imm_labour	R	1 LOW 96	0 LOW 11,96	Var +1.
+imm_labour	MDG	U - -	2 MEDIUM 23	Fra U.
+imm_amnesty	H	-2 HIGH 76-77	-2 MEDIUM 76-77	Svarer ikke direkte på lengeværende.
+imm_amnesty	Sp	-2 HIGH 64	-2 MEDIUM 64	Også «gjennomgå situasjonen for ureturnerbare».
+imm_amnesty	R	2 MEDIUM 96	3 HIGH 96,98	
+imm_amnesty	KrF	1 LOW 36-37	1 LOW 36-38	
+imm_temporary	R	-2 MEDIUM 96	-1 LOW 96	«Begrensede» tillatelser er en egen kategori, ikke midlertidig beskyttelse.
+imm_temporary	KrF	-1 LOW 37	-1 LOW 36-37	
+imm_integration_req	Ap	2 MEDIUM 111	1 MEDIUM 111	Bare «vurdere», bare familieinnvandrere.
+imm_integration_req	V	1 LOW 26	U - -	Kilden svarte ikke på påstanden.
+just_sentences	Sp	1 LOW 83,88	1 LOW 83,85,88	
+just_surveillance	FrP	1 MEDIUM 33-34	2 MEDIUM 33-34	Påstanden gjelder alvorlig kriminalitet.
+just_surveillance	V	-2 MEDIUM 47	-2 MEDIUM 45,61	Riktig side.
+just_surveillance	KrF	-1 MEDIUM 39	-1 LOW 39,85	Forbudet gjelder kommersiell bruk, ikke politiet.
+just_alt_sentences	R	U - -	2 HIGH 97-98	Fra U.
+just_alt_sentences	V	1 LOW 46	3 HIGH 46	Eksplisitt punkt var oversett.
+drug_alcohol	FrP	3 MEDIUM 56	3 HIGH 56-57	
+drug_alcohol	V	3 HIGH 32-33	2 HIGH 32-33	Konteksten demper.
+drug_alcohol	MDG	-1 MEDIUM 41	-2 MEDIUM 41	Vil beholde Vinmonopolet og en restriktiv omsetningspolitikk – samme kombinasjon som Ap (-2).
+cli_target	FrP	-3 HIGH 92-93	-3 MEDIUM 92-93	Sterk retning, men ikke direkte om 2035-målet.
+cli_target	V	1 MEDIUM 6	1 LOW 6	Bare 2030/2050-tall; 2035 er slutning.
+cli_target	KrF	2 HIGH 41	3 HIGH 41	«minst 80 prosent innen 2035» er like eksplisitt som SV/MDG.
+cli_domestic	Ap	-1 MEDIUM 121	0 MEDIUM 121	Begrunnelsen utelot halve setningen.
+cli_domestic	V	3 HIGH 6	2 HIGH 6	Mindre kategorisk enn SV/R.
+cli_co2_tax	R	1 MEDIUM 39	1 LOW 39	Sier «gradvis», ikke raskere enn planen.
+cli_co2_tax	KrF	1 MEDIUM 41	1 LOW 41	Sier «gradvis økning», ikke raskere enn planen.
+nature_protect	Sp	-1 MEDIUM 24	-2 MEDIUM 19,24,78	
+edu_private_schools	SV	U - 26	-2 MEDIUM 27	Fra U.
+edu_absence_limit	FrP	3 HIGH 69	3 MEDIUM 69	Sier «innføre fraværsgrense på ungdomsskolen», ikke eksplisitt «beholde» i vgs.
+edu_national_tests	SV	U - -	-1 LOW 26	Fra U.
+edu_national_tests	R	-2 MEDIUM 26	-3 HIGH 26,28	
+oil_end_date	H	-3 MEDIUM 40	-2 MEDIUM 40	H sier ikke «ikke avvikle»; tydelig retning.
+oil_end_date	FrP	-3 HIGH 80	-3 MEDIUM 80	Sluttdato nevnes ikke direkte.
+oil_end_date	Sp	-3 HIGH 105	-3 MEDIUM 105	Samme formulering som Ap (MEDIUM).
+oil_lofoten	Ap	2 HIGH 119	2 MEDIUM 119	Gjelder perioden, ikke permanent vern.
+energy_nuclear	MDG	1 MEDIUM 17	2 MEDIUM 17	
+energy_onshore_wind	Sp	-1 LOW 44	0 MEDIUM 43-44	Mellomposisjon, ikke nei.
+energy_onshore_wind	SV	-3 HIGH 34	-2 HIGH 34	
+energy_onshore_wind	MDG	-1 MEDIUM 5,17	0 MEDIUM 5,16	Mellomposisjon, ikke nei.
+energy_offshore_wind	FrP	-1 LOW 84,92	-3 HIGH 84	Eksplisitt.
+energy_offshore_wind	SV	1 MEDIUM 34	1 LOW 34	SV vil at oljeselskapene finansierer havvind.
+energy_offshore_wind	R	-1 LOW 58-59	U - -	Sitatene svarte ikke på påstanden.
+energy_hydro	H	1 LOW 40	2 MEDIUM 41	Begrunnelsen «nevner ikke vernede vassdrag» var feil.
+energy_hydro	FrP	3 HIGH 81	3 HIGH 82	Riktig side.
+energy_hydro	KrF	-1 LOW 46	1 LOW 46	Var -1; samme formulering som Ap (+1 LOW).
+energy_cables	FrP	3 HIGH 85-86	2 MEDIUM 85	Betinget nei.
+energy_cables	MDG	U - -	-3 HIGH 17	Fra U.
+energy_price_control	MDG	-1 MEDIUM 6,15	0 MEDIUM 6,15,17	Var -1.
+transport_rail_vs_road	KrF	U - -	-1 LOW 63	Fra U; samme grunnlag som Sp.
+transport_fuel_tax	KrF	-1 LOW 50	U - -	Var -1 LOW. Eneste belegg var CO₂-avgiften, som allerede teller i cli_co2_tax – å bruke samme setning to ganger er dobbelttelling.
+transport_fuel_tax	Ap	U - 12	U - 12,121	Beholdt U: eneste belegg ville vært CO₂-avgiften (dobbelttelling med cli_co2_tax).
+transport_fuel_tax	V	-2 MEDIUM 42	U - 42	Var -2 MEDIUM. «noe som øker drivstoffkostnadene» var vår slutning; samme belegg teller allerede i cli_co2_tax (dobbelttelling).
+fam_leave_quota	Sp	-2 HIGH 33	-3 HIGH 33	«Minst opprettholde mødre-/fedrekvote på 15 uker» – eksplisitt.
+fam_leave_quota	R	-2 MEDIUM 35	-3 HIGH 35	Eksplisitte øremerkede kvoter.
+fam_leave_quota	MDG	-2 HIGH 26	-3 HIGH 26	«Bevare … foreldrekvoter på 15 uker hver».
+fam_child_benefit_tax	FrP	-1 MEDIUM 115-116	-1 LOW 115-116	Skatt og økning nevnes ikke.
+fam_child_benefit_tax	Sp	U - 33	-3 HIGH 33	Fra U; begrunnelsen var feil.
+fam_abortion	SV	-3 HIGH 19	-3 MEDIUM 19	Uke-grensen nevnes ikke.
+fam_abortion	MDG	-3 HIGH 62	-3 MEDIUM 62	Uke-grensen nevnes ikke.
+val_sunday	Sp	-3 HIGH 100	-2 HIGH 100	Harmonisert med Ap (samme formulering).
+val_sunday	V	3 HIGH 52	3 MEDIUM 52	Full liberalisering, ikke kommunalt valg.
+val_sunday	KrF	-3 MEDIUM 56	-2 MEDIUM 56	Butikker nevnes ikke; -3 MEDIUM bryter konvensjonen.
+econ_nrk	Ap	-2 HIGH 141	-2 MEDIUM 141	Finansieringsnivå nevnes ikke.
+econ_nrk	H	1 MEDIUM 72	1 LOW 72	Sier ikke at NRK skal få mindre.
+econ_nrk	Sp	-2 HIGH 92-93	-2 MEDIUM 92-93	Finansieringsnivå nevnes ikke.
+econ_nrk	KrF	-2 HIGH 85	-2 MEDIUM 85	Finansieringsnivå nevnes ikke.
+dist_municipal_merge	R	-2 MEDIUM 73	-2 LOW 73	Kritiserer tvang; insentiver nevnes ikke.
+dist_municipal_merge	KrF	U - -	2 HIGH 54	Fra U.
+dist_municipal_merge	MDG	-1 MEDIUM 75	2 MEDIUM 77	FEIL FORTEGN rettet (var -1).
+dist_county	R	U - -	-3 HIGH 76	Fra U.
+dist_county	V	1 LOW 59	U - -	Kilden angir ingen retning.
+dist_county	KrF	U - -	-3 HIGH 54	Fra U.
+agri_tariffs	FrP	-3 HIGH 42,51	-3 HIGH 42,44,51	
+agri_tariffs	SV	1 LOW 46	2 MEDIUM 38,46	
+agri_income	H	U - 39	-2 MEDIUM 39	Fra U.
+agri_income	FrP	-2 MEDIUM 50-51	-3 HIGH 50-51	
+agri_income	R	2 MEDIUM 65-66	3 HIGH 66	
+agri_income	KrF	2 HIGH 71	3 HIGH 71	Samme formulering som Sp («tette inntektsgapet … innen 2027»).
+agri_predators	FrP	-3 HIGH 51	-2 MEDIUM 51	Reduksjon sies ikke eksplisitt.
+eu_membership	Ap	-1 MEDIUM src:altinget_ap_eu_2025	-1 MEDIUM 169;src:altinget_ap_eu_2025	Begrunnelsen sa feilaktig at programmet ikke tar stilling.
+eu_reservation	KrF	-1 LOW 76	U - -	
+def_budget	Ap	0 MEDIUM 176	0 MEDIUM 176	«uten å gå utover planen» stod ikke i kilden.
+def_budget	FrP	3 HIGH 17	3 HIGH 19-20	Riktig side.
+def_budget	Sp	3 HIGH 48	2 MEDIUM 43,48	Mindre kategorisk enn KrF.
+def_budget	R	-1 LOW 88	0 LOW 87-88	Var -1.
+def_budget	V	0 MEDIUM 66	1 LOW 66	
+def_allied_bases	Sp	U - 46	-3 HIGH 48	Fra U.
+def_allied_bases	V	U - -	2 MEDIUM 66	Fra U.
+def_allied_bases	MDG	U - -	1 MEDIUM 105	Fra U.
+def_ukraine	MDG	U - 105	2 MEDIUM 110	Fra U.
+for_aid	R	U - -	3 HIGH 93	Fra U; begrunnelsen var feil.
+for_nuclear_ban	Ap	1 MEDIUM 171	0 MEDIUM 171	Dokumentert mellomposisjon.
+for_nuclear_ban	Sp	U - -	0 MEDIUM 134	Fra U.
+for_nuclear_ban	R	2 MEDIUM 86	3 HIGH 86	
+for_nuclear_ban	V	U - -	-1 LOW 65	Fra U.
+for_israel_sanctions	SV	3 HIGH 45	2 HIGH 45	Målrettet mot okkupasjonsøkonomien.
+for_israel_sanctions	V	U - 65	1 LOW 64-65	Fra U.
+econ_wealth_working	Ap	U - 12-13	-2 MEDIUM src:ap_web_skatt	Fra U.
+econ_inheritance	Ap	U - -	-3 HIGH src:ap_web_arveavgift	Fra U.
+just_police_arms	Ap	U - -	3 HIGH src:ap_lm2025_bevapning	Fra U.
+just_surveillance	Ap	U - 145	1 MEDIUM src:sting_innst_368l_2526	Fra U; ett tiltak → +1.
+drug_cannabis	Ap	U - -	-3 HIGH src:ap_web_rus	Fra U.
+transport_ev	Ap	U - -	-2 HIGH src:ap_budsjettavtale_2026	Fra U.
+edu_absence_limit	Ap	U - -	2 HIGH src:ap_web_fravar	Fra U.
+edu_national_tests	Ap	U - 53	-2 MEDIUM src:sting_innst_236s_2526	Fra U.
+edu_national_tests	KrF	U - -	-2 MEDIUM src:sting_innst_236s_2526	Fra U (samme kilde som Ap).
+fam_leave_quota	Ap	U - -	-3 HIGH src:ap_web_foreldrepermisjon	Fra U.
+dist_municipal_merge	Ap	U - -	2 MEDIUM src:ntb_kommunesammenslaing_2027	Fra U; sekundærkilde.
+dist_county	Ap	U - -	-3 MEDIUM src:sting_innst_196s_2526	Fra U.
+for_israel_sanctions	Ap	U - -	1 MEDIUM src:ap_web_palestina	Fra U.

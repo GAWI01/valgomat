@@ -1,16 +1,41 @@
 import { useCallback, useEffect, useState } from 'react';
 import type { Answer, Answers, Importance } from './types';
+import raw from '../data/data.json';
+
+const QUESTION_IDS = new Set((raw as { questions: Array<{ id: string }> }).questions.map((q) => q.id));
 
 const KEY = 'valgomat2027:v1';
 
 interface Saved { answers: Answers; index: number; updated: number }
 
+/**
+ * Lagrede data kan være endret for hånd eller komme fra en eldre versjon. Vi beholder bare svar på kjente
+ * spørsmål med gyldig verdi (−3…3 eller «vet ikke») og viktighet (0/1/2), slik at scoringen aldri får søppel.
+ */
+export function sanitizeAnswers(input: unknown): Answers {
+  const out: Answers = {};
+  if (!input || typeof input !== 'object') return out;
+  for (const [id, a] of Object.entries(input as Record<string, unknown>)) {
+    if (!QUESTION_IDS.has(id) || !a || typeof a !== 'object') continue;
+    const { value, importance } = a as { value?: unknown; importance?: unknown };
+    const okValue = value === null || (typeof value === 'number' && Number.isInteger(value) && value >= -3 && value <= 3);
+    if (!okValue) continue;
+    const imp: Importance = importance === 1 || importance === 2 ? importance : 0;
+    out[id] = { value: value as number | null, importance: imp };
+  }
+  return out;
+}
+
 function load(): Saved {
   try {
-    const raw = localStorage.getItem(KEY);
-    if (raw) {
-      const parsed = JSON.parse(raw) as Saved;
-      if (parsed && typeof parsed === 'object' && parsed.answers) return { answers: parsed.answers, index: parsed.index ?? 0, updated: parsed.updated ?? 0 };
+    const stored = localStorage.getItem(KEY);
+    if (stored) {
+      const parsed = JSON.parse(stored) as Partial<Saved>;
+      if (parsed && typeof parsed === 'object') {
+        const index = typeof parsed.index === 'number' && Number.isInteger(parsed.index) && parsed.index >= 0 ? parsed.index : 0;
+        const updated = typeof parsed.updated === 'number' ? parsed.updated : 0;
+        return { answers: sanitizeAnswers(parsed.answers), index, updated };
+      }
     }
   } catch {
     /* privat modus eller blokkert lagring: start tomt */

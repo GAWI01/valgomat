@@ -157,7 +157,7 @@ klynge: krafteksport
 dim: intl=-1
 kort: Ingen nye utenlandskabler
 tekst: Norge bør ikke bygge flere strømkabler til utlandet.
-bakgrunn: Norge har strømkabler til blant annet Danmark, Nederland, Tyskland og Storbritannia. De gjør det mulig å eksportere og importere strøm. Mange mener kablene har bidratt til høyere og mer svingende priser i Sør-Norge.
+bakgrunn: Norge har strømkabler til blant annet Danmark, Nederland, Tyskland og Storbritannia. De gjør det mulig å eksportere og importere strøm. Det er uenighet om hvor mye kablene har bidratt til høyere og mer svingende strømpriser i Sør-Norge, sammenlignet med blant annet gassprisene i Europa og tilsiget til vannmagasinene.
 for: Færre kabler kan gi lavere og mer stabile strømpriser i Norge.
 for: Norsk vannkraft bør i første rekke komme norsk industri og husholdninger til gode.
 for: Det gir større nasjonal kontroll over kraftsystemet.
@@ -185,7 +185,7 @@ klynge: euregler
 dim: intl=-1
 kort: Nei til EUs fjerde energimarkedspakke
 tekst: Norge bør si nei til EUs fjerde energimarkedspakke.
-bakgrunn: EUs fjerde energimarkedspakke er et sett regler for det europeiske strømmarkedet. Spørsmålet om Norge skal innlemme den gjennom EØS-avtalen, har skapt stor debatt, blant annet om hvor mye makt som overføres til EUs energibyrå ACER.
+bakgrunn: EUs fjerde energimarkedspakke er et sett regler for det europeiske strømmarkedet. Spørsmålet om Norge skal innlemme den gjennom EØS-avtalen, har skapt stor debatt, blant annet om hvor mye makt som overføres til EUs energibyrå ACER. I juni 2025 sluttet et flertall på Stortinget seg til å innlemme tre av rettsaktene (fornybar-, energieffektiviserings- og bygningsenergidirektivet). Resten av pakken, blant annet de nye reglene for strømmarkedet, er ikke innlemmet, og spørsmålet gjelder denne delen.
 for: Norge bør ha full nasjonal kontroll over kraften og kraftmarkedet.
 for: Regelverket kan gjøre det vanskeligere å skjerme norske forbrukere mot høye europeiske priser.
 for: Overføring av myndighet til EU-organer svekker folkestyret.

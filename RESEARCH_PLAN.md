@@ -19,7 +19,7 @@ Vi presenterer ikke eldre standpunkter (f.eks. fra 2021-programmene eller avisar
 5. Uttalelser fra partiledelse/fagpolitikere når programmet ikke avklarer saken
 6. Seriøse sekundærkilder – bare som supplement, og bare når innholdet er verifisert
 
-I denne versjonen bygger 571 av 572 kodede standpunkter på nivå 1. Ett bygger på nivå 6 (Altinget om Aps landsmøtevedtak).
+Etter red-team-gjennomgangen (se POLITICAL_QA.md) bygger 590 av 603 kodede standpunkter på nivå 1. 13 bygger utelukkende på andre kilder: 8 på nivå 2 (Aps nettsider, landsmøtevedtak og budsjettavtale), 4 på nivå 4 (Stortingets innstillinger) og 1 på nivå 6 (NTB om statsbudsjettet 2027, fordi regjeringen.no var utilgjengelig). Aps EU-standpunkt bygger på programmet sammen med en sekundærkilde (Altinget om landsmøtevedtaket). Kilder på nivå 4–6 gir høyst MEDIUM confidence.
 
 ## 3. Primærkilder per parti
 
@@ -108,14 +108,14 @@ Implementert i `src/lib/scoring.ts`, dokumentert for brukerne på siden «Hvorda
 | **Oktober hvert år** | Statsbudsjett og alternative budsjetter | Gå gjennom regjeringens forslag og partienes alternative budsjetter for skatte-, avgifts-, bistands- og forsvarsspørsmål. Prioriter Aps ukjente standpunkter (regjeringspartiet). |
 | **Etter hvert landsmøte** | Nye vedtak og uttalelser | Partiene holder landsmøter hvert eller annethvert år. Vedtatte uttalelser som endrer et standpunkt, legges inn som egen kilde (nivå 2) med dato. |
 | **Ved større saker i Stortinget** | Avstemninger | Bruk stortinget.no (voteringer) for spørsmål der programmet er uklart. Registrer saksnummer som kilde. |
-| **Vår 2027** | Full gjennomgang før lokalvalget | Gå gjennom alle 720 kodinger på nytt, med vekt på spørsmål med `LOW` eller `unknown` (se RESEARCH_AUDIT.md). Oppdater «Sist oppdatert». |
+| **Vår 2027** | Full gjennomgang før lokalvalget | Gå gjennom alle 720 kodinger på nytt (slik det ble gjort i oktober 2026, se POLITICAL_QA.md), med vekt på spørsmål med `LOW` eller `unknown` (se RESEARCH_AUDIT.md). Oppdater «Sist oppdatert». |
 | **2028–2029** | Nye programmer | Når programutkast for 2029–2033 publiseres, lag en egen gren med nye kodinger. Bytt til de vedtatte programmene først når de er vedtatt på landsmøtet. |
 
 **Kjente forbedringspunkter for neste runde:**
 
-1. Aps 30 ukjente standpunkter – særlig formuesskatt, arveavgift, eiendomsskatt, bompenger og etiske spørsmål – bør vurderes mot regjeringens budsjetter og dokumenterte avstemninger.
-2. Rødts sidehenvisninger bør kontrolleres mot partiets egen PDF (teksten ble hentet fra et speil).
-3. LOW-kodinger (43 stk.) bør få en ekstra vurdering, gjerne av en annen person enn den som kodet.
+1. Aps 17 gjenværende ukjente standpunkter, blant annet toppskatt, eiendomsskatt, bompenger og etiske spørsmål, bør vurderes på nytt når regjeringen.no er tilgjengelig og etter Aps neste landsmøte. 13 av de opprinnelige 30 er kodet ut fra nyere offisielle kilder (POLITICAL_QA.md §6).
+2. Rødts PDF bør sammenlignes byte for byte med partiets egen fil. roedt.no avviste alle forsøk under gjennomgangen (HTTP 429). Speilet er kontrollert for tittel, vedtaksdato, produksjonsdato og sidetall (POLITICAL_QA.md §7).
+3. LOW-kodinger (52 stk.) og de omstridte kodingene i POLITICAL_QA.md §5 bør vurderes av en annen person enn den som kodet, og gjerne legges fram for partiene.
 4. En uavhengig andregangskoding av et tilfeldig utvalg (f.eks. 10 %) vil gi et mål på kodingens pålitelighet.
 
 ## 8. Rettigheter og etikk

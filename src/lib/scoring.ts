@@ -22,6 +22,11 @@
  *  5. Usikkerhet:             vektet «bayesiansk bootstrap» over spørsmålene: vi trekker tilfeldige
  *                             vekter på spørsmålene 400 ganger og ser hvor ofte hvert parti havner øverst.
  *                             Det viser hvor sårbar rangeringen er for hvilke spørsmål som er med.
+ *  6. Tilfeldighetsnivå:      brukerens egne svar stokkes tilfeldig mellom de besvarte spørsmålene
+ *                             (200 ganger), og vi ser hvor høyt det beste partiet da scorer. Er det
+ *                             beste partiets faktiske score lavere enn 90-persentilen av dette,
+ *                             passer ingen partier spesielt godt: like høy score kunne oppstått med
+ *                             tilfeldig sammensatte svar med samme fordeling som brukerens.
  */
 import type { Answers, Confidence, Dataset, Importance, Position, Question } from './types';
 
@@ -31,6 +36,10 @@ export const SCALE_SPAN = 6; // avstand fra -3 til +3
 export const BOOTSTRAP_DRAWS = 400;
 export const MIN_ANSWERS_FOR_RESULT = 10;
 export const MIN_ANSWERS_PER_DIMENSION = 3;
+export const BASELINE_DRAWS = 200;
+export const BASELINE_PERCENTILE = 0.9;
+/** Ligger beste parti mindre enn dette over tilfeldighetsnivået, får brukeren en merknad om at treffet er mindre presist enn prosenten tilsier. */
+export const MODEST_FIT_MARGIN = 0.1;
 
 export interface QuestionContribution {
   questionId: string;
@@ -72,7 +81,7 @@ export interface Uncertainty {
   interval: Record<string, [number, number]>;
 }
 
-export type Verdict = 'clear' | 'close' | 'uncertain' | 'insufficient';
+export type Verdict = 'clear' | 'close' | 'uncertain' | 'weak' | 'insufficient';
 
 export interface ResultSummary {
   answeredCount: number;
@@ -83,6 +92,8 @@ export interface ResultSummary {
   /** Partier som realistisk kan være «på topp» gitt usikkerheten */
   contenders: string[];
   gap: number | null;
+  /** 90-persentilen for beste partis score når brukerens svar stokkes mellom spørsmålene (null ved for få svar) */
+  baseline: number | null;
 }
 
 const positionIndex = new WeakMap<Dataset, Map<string, Position>>();
@@ -275,7 +286,7 @@ export function bootstrap(results: PartyResult[], answers: Answers, draws = BOOT
 }
 
 /** Klassifiserer hvor tydelig resultatet er. Grensene er dokumentert på metodesiden. */
-export function classify(ranking: PartyResult[], uncertainty: Uncertainty, answeredCount: number): { verdict: Verdict; contenders: string[]; gap: number | null } {
+export function classify(ranking: PartyResult[], uncertainty: Uncertainty, answeredCount: number, baseline: number | null = null): { verdict: Verdict; contenders: string[]; gap: number | null } {
   const scored = ranking.filter((r) => r.score !== null);
   if (answeredCount < MIN_ANSWERS_FOR_RESULT || scored.length < 2) {
     return { verdict: 'insufficient', contenders: scored.slice(0, 1).map((r) => r.party), gap: null };
@@ -287,10 +298,61 @@ export function classify(ranking: PartyResult[], uncertainty: Uncertainty, answe
     .filter((r, i) => i === 0 || (top.score! - r.score!) * 100 < 3 || (uncertainty.topShare[r.party] ?? 0) >= 0.15)
     .map((r) => r.party);
   let verdict: Verdict;
-  if (gap >= 6 && share >= 0.8 && top.coverage >= 0.6) verdict = 'clear';
+  if (baseline !== null && top.score! < baseline) verdict = 'weak';
+  else if (gap >= 6 && share >= 0.8 && top.coverage >= 0.6) verdict = 'clear';
   else if (gap >= 2.5 && share >= 0.5) verdict = 'close';
   else verdict = 'uncertain';
   return { verdict, contenders: verdict === 'clear' ? [top.party] : contenders, gap };
+}
+
+/**
+ * Tilfeldighetsnivå: hvor høyt ville det beste partiet scoret om brukerens svar (verdi og viktighet)
+ * ble fordelt tilfeldig på de samme besvarte spørsmålene? Returnerer valgt persentil av beste partis
+ * score over trekkene. Deterministisk for gitte svar.
+ */
+export function chanceBaseline(data: Dataset, answers: Answers, draws = BASELINE_DRAWS, percentileP = BASELINE_PERCENTILE): number | null {
+  const answered = answeredQuestions(data, answers);
+  if (answered.length < MIN_ANSWERS_FOR_RESULT) return null;
+  const rand = mulberry32(hashAnswers(answers) ^ 0x9e3779b9);
+  const ids = answered.map((q) => q.id);
+  const vals = ids.map((id) => answers[id]);
+  const known = data.parties.map((p) => ids.map((id) => {
+    const pos = getPosition(data, id, p.id);
+    return pos && pos.position !== null && pos.confidence !== null ? { v: pos.position, c: CONFIDENCE_WEIGHT[pos.confidence] } : null;
+  }));
+  const tops: number[] = [];
+  for (let d = 0; d < draws; d++) {
+    const perm = [...vals];
+    for (let i = perm.length - 1; i > 0; i--) {
+      const j = Math.floor(rand() * (i + 1));
+      [perm[i], perm[j]] = [perm[j], perm[i]];
+    }
+    const shuffled: Answers = {};
+    ids.forEach((id, i) => (shuffled[id] = perm[i]));
+    const w = baseWeights(data, shuffled);
+    let best = -Infinity;
+    for (const kp of known) {
+      let num = 0;
+      let den = 0;
+      ids.forEach((id, i) => {
+        const k = kp[i];
+        if (!k) return;
+        const wi = w.get(id)! * k.c;
+        num += wi * agreement(perm[i].value!, k.v);
+        den += wi;
+      });
+      if (den > 0) best = Math.max(best, num / den);
+    }
+    if (best > -Infinity) tops.push(best);
+  }
+  tops.sort((a, b) => a - b);
+  return tops.length ? percentile(tops, percentileP) : null;
+}
+
+/** Beste parti slår tilfeldighetsnivået, men bare med liten margin (brukes til en advarsel i teksten). */
+export function isModestFit(summary: ResultSummary): boolean {
+  const top = summary.ranking[0];
+  return summary.baseline !== null && top?.score != null && summary.verdict !== 'weak' && summary.verdict !== 'insufficient' && top.score - summary.baseline < MODEST_FIT_MARGIN;
 }
 
 export function computeResults(data: Dataset, answers: Answers): ResultSummary {
@@ -300,7 +362,8 @@ export function computeResults(data: Dataset, answers: Answers): ResultSummary {
   const uncertainty = bootstrap(results, answers);
   const answeredCount = answeredQuestions(data, answers).length;
   const dontKnowCount = Object.values(answers).filter((a) => a.value === null).length;
-  return { answeredCount, dontKnowCount, ranking, uncertainty, ...classify(ranking, uncertainty, answeredCount) };
+  const baseline = chanceBaseline(data, answers);
+  return { answeredCount, dontKnowCount, ranking, uncertainty, baseline, ...classify(ranking, uncertainty, answeredCount, baseline) };
 }
 
 /* ------------------------------------------------------------------ */
@@ -352,16 +415,32 @@ export function partyDimensions(data: Dataset, partyId: string): DimensionValue[
 /* Forklaringer per parti                                              */
 /* ------------------------------------------------------------------ */
 
+/**
+ * Tekstlige merkelapper skal bety det de sier:
+ *  - «enig»: høyst ett skalasteg fra hverandre, eller to steg på samme side av midten (f.eks. +1 og +3).
+ *    +1 og −1 er bare to steg fra hverandre, men på hver sin side – det regnes ikke som enighet.
+ *  - «reell konflikt»: på hver sin side av midten med minst tre stegs avstand (f.eks. +2 og −1),
+ *    eller minst fire stegs avstand. Et nøytralt svar mot et ytterpunkt (0 mot +3) regnes ikke som konflikt.
+ */
+export function isAgreement(user: number, party: number): boolean {
+  const d = Math.abs(user - party);
+  return d <= 1 || (d === 2 && user * party > 0);
+}
+export function isConflict(user: number, party: number): boolean {
+  const d = Math.abs(user - party);
+  return d >= 4 || (d >= 3 && user * party < 0);
+}
+
 export function topAgreements(r: PartyResult, limit = 8): QuestionContribution[] {
   return r.contributions
-    .filter((c) => c.agreement !== null && c.agreement >= 2 / 3)
+    .filter((c) => c.agreement !== null && isAgreement(c.user, c.party!))
     .sort((a, b) => b.weight * b.agreement! - a.weight * a.agreement! || b.agreement! - a.agreement!)
     .slice(0, limit);
 }
 
 export function topDisagreements(r: PartyResult, limit = 8): QuestionContribution[] {
   return r.contributions
-    .filter((c) => c.agreement !== null && c.agreement <= 0.5)
+    .filter((c) => c.agreement !== null && isConflict(c.user, c.party!))
     .sort((a, b) => b.weight * (1 - b.agreement!) - a.weight * (1 - a.agreement!))
     .slice(0, limit);
 }

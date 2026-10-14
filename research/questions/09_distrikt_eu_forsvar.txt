@@ -134,6 +134,7 @@ bakgrunn: Norge har vært medlem av forsvarsalliansen NATO siden 1949. Sverige o
 for: NATO er en atomvåpenallianse som har vært involvert i kriger Norge ikke burde vært en del av.
 for: Utmelding kan gi Norge større selvstendighet i utenrikspolitikken.
 for: Et nordisk forsvarssamarbeid kan være et alternativ.
+for: USA har blitt en mindre forutsigbar alliert, og Norge bør ikke gjøre sin sikkerhet avhengig av én stormakt.
 mot: NATO er Norges viktigste sikkerhetsgaranti, og ingen andre kan gi samme beskyttelse.
 mot: Utmelding i dagens sikkerhetssituasjon vil gjøre Norge mer sårbart overfor Russland.
 mot: Alle våre nordiske naboer er nå medlemmer, og samarbeidet skjer innenfor NATO.
@@ -206,4 +207,4 @@ for: Norge bør ikke tjene penger på eller bidra økonomisk til ulovlig okkupas
 for: Sanksjoner har vært brukt mot andre land som bryter folkeretten, for eksempel Russland.
 mot: Dialog og diplomati gir Norge større mulighet til å bidra til fred.
 mot: Boikott kan ramme vanlige mennesker og samarbeid som fremmer forsoning.
-mot: Ensidige sanksjoner mot Israel kan oppleves som urettferdig i en konflikt med flere parter.
+mot: Ensidige sanksjoner tar lite hensyn til Israels sikkerhetsbehov etter terrorangrepet 7. oktober 2023, og kan gjøre at Norge oppfattes som part i konflikten og mister rollen som tilrettelegger.

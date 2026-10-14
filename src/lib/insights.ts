@@ -4,7 +4,7 @@
  * standpunktene. Tersklene er bevisst konservative for å unngå støy.
  */
 import type { Answers, Dataset } from './types';
-import type { ResultSummary } from './scoring';
+import { isConflict, type ResultSummary } from './scoring';
 
 export type Insight =
   | { kind: 'dealbreaker'; party: string; questionId: string; importance: 1 | 2; user: number; partyPos: number }
@@ -25,7 +25,7 @@ export function buildInsights(data: Dataset, _answers: Answers, summary: ResultS
 
   // 1. Høyeste totalmatch, men tydelig uenig på en sak brukeren markerte som viktig.
   const conflicts = top.contributions
-    .filter((c) => c.importance > 0 && c.party !== null && Math.abs(c.user - c.party) >= DEALBREAKER_DISTANCE)
+    .filter((c) => c.importance > 0 && c.party !== null && Math.abs(c.user - c.party) >= DEALBREAKER_DISTANCE && isConflict(c.user, c.party))
     .sort((a, b) => b.importance - a.importance || Math.abs(b.user - b.party!) - Math.abs(a.user - a.party!));
   for (const c of conflicts.slice(0, 3)) {
     out.push({ kind: 'dealbreaker', party: top.party, questionId: c.questionId, importance: c.importance as 1 | 2, user: c.user, partyPos: c.party! });

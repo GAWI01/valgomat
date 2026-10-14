@@ -39,7 +39,7 @@
     "cluster": "okonomi/formue",
     "short": "Formuesskatt på bedriftseierskap",
     "text": "Formuesskatten på eierskap i bedrifter (såkalt arbeidende kapital) bør fjernes.",
-    "background": "Formuesskatt betales av nettoformue over et bunnfradrag. «Arbeidende kapital» er formue som er bundet i bedrifter, for eksempel aksjer og driftsmidler. Skatten betales uavhengig av om bedriften går med overskudd."
+    "background": "Formuesskatt betales av nettoformue over et bunnfradrag. «Arbeidende kapital» er formue som er bundet i bedrifter, for eksempel aksjer og driftsmidler. Slike eiendeler verdsettes i dag med en rabatt i formuesskatten, og skatten betales uavhengig av om bedriften går med overskudd."
   },
   {
     "id": "econ_top_tax",
@@ -183,7 +183,7 @@
     "theme": "arbeid",
     "cluster": "arbeid/sykelonn",
     "short": "Lavere sykelønn ved lange fravær",
-    "text": "Sykelønnen bør reduseres noe ved lange sykemeldinger (for eksempel fra 100 til 80 prosent etter seks måneder) for å få ned sykefraværet.",
+    "text": "Sykelønnen bør reduseres noe ved lange sykemeldinger, for eksempel fra 100 til 80 prosent etter seks måneder.",
     "background": "I dag får arbeidstakere normalt full lønn (opp til 6G) i inntil ett år ved sykdom. Norge har et av de høyeste sykefraværene i OECD. Sysselsettingsutvalgets ekspertgruppe foreslo blant annet redusert kompensasjon etter en tid."
   },
   {
@@ -247,7 +247,7 @@
     "cluster": "arbeid/ytelser",
     "short": "Høyere minsteytelser",
     "text": "Minsteytelsene i velferden (som minstepensjon, minste uføretrygd og sosialhjelp) bør økes betydelig.",
-    "background": "Minsteytelser er de laveste beløpene man kan få fra folketrygden eller kommunen. Mange som lever på slike ytelser, har inntekt under EUs fattigdomsgrense."
+    "background": "Minsteytelser er de laveste beløpene man kan få fra folketrygden eller kommunen. Mange som lever på slike ytelser, har inntekt under EUs lavinntektsgrense (60 prosent av medianinntekten)."
   },
   {
     "id": "welfare_commercial",
@@ -436,7 +436,7 @@
     "cluster": "innvandring/asylniva",
     "short": "Kvoteflyktninger etter FNs anbefaling",
     "text": "Norge bør ta imot minst så mange kvoteflyktninger som FN anbefaler.",
-    "background": "Kvoteflyktninger (overføringsflyktninger) er flyktninger som FNs høykommissær for flyktninger (UNHCR) har plukket ut som særlig sårbare, og som Norge henter direkte fra flyktningleirer. Stortinget bestemmer antallet hvert år."
+    "background": "Kvoteflyktninger (overføringsflyktninger) er flyktninger som FNs høykommissær for flyktninger (UNHCR) har plukket ut som særlig sårbare, og som Norge henter direkte fra flyktningleirer. UNHCR ber hvert år land om å ta imot flere slike flyktninger, men Stortinget bestemmer selv antallet, og det har variert mye fra år til år."
   },
   {
     "id": "imm_offshore",
@@ -457,7 +457,7 @@
     "cluster": "innvandring/asylsystem",
     "short": "Asylbehandling utenfor Europa",
     "text": "Asylsøkere som kommer til Norge, bør kunne sendes til et mottak i et trygt land utenfor Europa mens søknaden behandles.",
-    "background": "Flere europeiske land diskuterer eller prøver ut ordninger der asylsøknader behandles i land utenfor EU, for eksempel Italias avtale med Albania. Slike ordninger er omstridte juridisk og politisk."
+    "background": "Flere europeiske land diskuterer eller prøver ut ordninger der asylsøknader behandles i et annet land, for eksempel Storbritannias skrinlagte avtale med Rwanda og Italias avtale med Albania (som ligger utenfor EU). Slike ordninger er omstridte juridisk og politisk."
   },
   {
     "id": "imm_family",
@@ -499,7 +499,7 @@
     "cluster": "innvandring/varig",
     "short": "Strengere krav for varig opphold og statsborgerskap",
     "text": "Det bør stilles strengere krav for å få permanent opphold og norsk statsborgerskap, for eksempel om selvforsørgelse og norskkunnskaper.",
-    "background": "I dag kreves blant annet botid, norskkunnskaper (muntlig B1 for statsborgerskap) og bestått samfunnskunnskapsprøve. Permanent opphold krever normalt tre til fem års botid avhengig av grunnlag."
+    "background": "I dag kreves blant annet botid, norskkunnskaper (muntlig B1 for statsborgerskap) og bestått samfunnskunnskapsprøve eller statsborgerprøve. Permanent opphold krever normalt tre til fem års botid avhengig av grunnlag, og blant annet at man ikke har mottatt sosialhjelp det siste året."
   },
   {
     "id": "imm_labour",
@@ -526,7 +526,7 @@
     "id": "imm_amnesty",
     "pro": [
       "Etter mange år har folk, ikke minst barn, fått sitt liv og nettverk i Norge.",
-      "Det er inhumant å la mennesker leve i årevis uten rettigheter og fremtid.",
+      "Det er en stor belastning å leve i årevis uten rettigheter, arbeid og fremtidsutsikter, særlig for barn.",
       "Å la dem jobbe lovlig er bedre for samfunnet enn at de lever i skyggeøkonomien."
     ],
     "con": [
@@ -562,7 +562,7 @@
     "cluster": "innvandring/varig",
     "short": "Midlertidig opphold for flyktninger",
     "text": "Flyktninger bør som hovedregel bare få midlertidig opphold og returnere når hjemlandet er trygt.",
-    "background": "Flyktningstatus gis i dag normalt med mulighet for permanent opphold etter noen år. Danmark og flere andre land har gått over til mer midlertidig beskyttelse."
+    "background": "Flyktninger får i dag først en midlertidig oppholdstillatelse, og kan normalt få permanent opphold etter noen år. Beskyttelsen kan i prinsippet opphøre hvis forholdene i hjemlandet bedres varig, men dette brukes sjelden. Danmark og flere andre land har gått over til mer midlertidig beskyttelse."
   },
   {
     "id": "imm_integration_req",
@@ -979,7 +979,7 @@
     "cluster": "energi/krafteksport",
     "short": "Ingen nye utenlandskabler",
     "text": "Norge bør ikke bygge flere strømkabler til utlandet.",
-    "background": "Norge har strømkabler til blant annet Danmark, Nederland, Tyskland og Storbritannia. De gjør det mulig å eksportere og importere strøm. Mange mener kablene har bidratt til høyere og mer svingende priser i Sør-Norge."
+    "background": "Norge har strømkabler til blant annet Danmark, Nederland, Tyskland og Storbritannia. De gjør det mulig å eksportere og importere strøm. Det er uenighet om hvor mye kablene har bidratt til høyere og mer svingende strømpriser i Sør-Norge, sammenlignet med blant annet gassprisene i Europa og tilsiget til vannmagasinene."
   },
   {
     "id": "energy_price_control",
@@ -1021,7 +1021,7 @@
     "cluster": "eu/euregler",
     "short": "Nei til EUs fjerde energimarkedspakke",
     "text": "Norge bør si nei til EUs fjerde energimarkedspakke.",
-    "background": "EUs fjerde energimarkedspakke er et sett regler for det europeiske strømmarkedet. Spørsmålet om Norge skal innlemme den gjennom EØS-avtalen, har skapt stor debatt, blant annet om hvor mye makt som overføres til EUs energibyrå ACER."
+    "background": "EUs fjerde energimarkedspakke er et sett regler for det europeiske strømmarkedet. Spørsmålet om Norge skal innlemme den gjennom EØS-avtalen, har skapt stor debatt, blant annet om hvor mye makt som overføres til EUs energibyrå ACER. I juni 2025 sluttet et flertall på Stortinget seg til å innlemme tre av rettsaktene (fornybar-, energieffektiviserings- og bygningsenergidirektivet). Resten av pakken, blant annet de nye reglene for strømmarkedet, er ikke innlemmet, og spørsmålet gjelder denne delen."
   },
   {
     "id": "transport_toll",
@@ -1251,8 +1251,8 @@
     "theme": "familie",
     "cluster": "familie/barnetrygd",
     "short": "Høyere, skattepliktig barnetrygd",
-    "text": "Barnetrygden bør økes og gjøres skattepliktig, slik at familier med lave inntekter får mest igjen.",
-    "background": "Barnetrygden er i dag en skattefri, universell ytelse som alle foreldre får uavhengig av inntekt. Å gjøre den skattepliktig betyr at familier med høy inntekt beholder mindre etter skatt."
+    "text": "Barnetrygden bør gjøres skattepliktig og samtidig økes, slik at familier med lave inntekter får mest igjen.",
+    "background": "Barnetrygden er i dag en skattefri, universell ytelse som alle foreldre får uavhengig av inntekt. Å gjøre den skattepliktig betyr at familier med høy inntekt beholder mindre etter skatt. Påstanden gjelder kombinasjonen: høyere sats og skatteplikt samtidig. Den som vil øke barnetrygden uten å skattlegge den, er altså uenig i påstanden."
   },
   {
     "id": "fam_abortion",
@@ -1280,7 +1280,7 @@
     "pro": [
       "Mennesker med uhelbredelig sykdom og store lidelser bør selv kunne bestemme over sin egen død.",
       "Strenge regler og kontroll kan hindre misbruk.",
-      "Mange nordmenn reiser i dag til utlandet for å få hjelp, noe som kan være belastende."
+      "Noen nordmenn reiser i dag til utlandet, for eksempel til Sveits, for å få hjelp, noe som kan være belastende for dem og de pårørende."
     ],
     "con": [
       "Svake grupper kan føle press om å avslutte livet for ikke å være en byrde.",
@@ -1348,7 +1348,7 @@
     "con": [
       "Forbudet beskytter sårbare mennesker mot utnyttelse og menneskehandel.",
       "Loven sender et signal om at kjøp av andres kropp ikke er akseptabelt.",
-      "Etterspørselen etter sex driver menneskehandel, og forbudet bidrar til å redusere den."
+      "Etterspørselen etter sex driver menneskehandel, og forbudet kan bidra til å redusere den."
     ],
     "dims": {
       "social": 1
@@ -1551,7 +1551,8 @@
     "pro": [
       "NATO er en atomvåpenallianse som har vært involvert i kriger Norge ikke burde vært en del av.",
       "Utmelding kan gi Norge større selvstendighet i utenrikspolitikken.",
-      "Et nordisk forsvarssamarbeid kan være et alternativ."
+      "Et nordisk forsvarssamarbeid kan være et alternativ.",
+      "USA har blitt en mindre forutsigbar alliert, og Norge bør ikke gjøre sin sikkerhet avhengig av én stormakt."
     ],
     "con": [
       "NATO er Norges viktigste sikkerhetsgaranti, og ingen andre kan gi samme beskyttelse.",
@@ -1657,7 +1658,7 @@
     "con": [
       "Dialog og diplomati gir Norge større mulighet til å bidra til fred.",
       "Boikott kan ramme vanlige mennesker og samarbeid som fremmer forsoning.",
-      "Ensidige sanksjoner mot Israel kan oppleves som urettferdig i en konflikt med flere parter."
+      "Ensidige sanksjoner tar lite hensyn til Israels sikkerhetsbehov etter terrorangrepet 7. oktober 2023, og kan gjøre at Norge oppfattes som part i konflikten og mister rollen som tilrettelegger."
     ],
     "dims": {},
     "theme": "forsvar",

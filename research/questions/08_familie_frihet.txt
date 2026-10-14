@@ -31,8 +31,8 @@ tema: familie
 klynge: barnetrygd
 dim: econ=-1
 kort: Høyere, skattepliktig barnetrygd
-tekst: Barnetrygden bør økes og gjøres skattepliktig, slik at familier med lave inntekter får mest igjen.
-bakgrunn: Barnetrygden er i dag en skattefri, universell ytelse som alle foreldre får uavhengig av inntekt. Å gjøre den skattepliktig betyr at familier med høy inntekt beholder mindre etter skatt.
+tekst: Barnetrygden bør gjøres skattepliktig og samtidig økes, slik at familier med lave inntekter får mest igjen.
+bakgrunn: Barnetrygden er i dag en skattefri, universell ytelse som alle foreldre får uavhengig av inntekt. Å gjøre den skattepliktig betyr at familier med høy inntekt beholder mindre etter skatt. Påstanden gjelder kombinasjonen: høyere sats og skatteplikt samtidig. Den som vil øke barnetrygden uten å skattlegge den, er altså uenig i påstanden.
 for: En høyere, skattepliktig barnetrygd treffer barnefattigdom bedre uten å miste den universelle ordningen.
 for: Familier med høy inntekt trenger mindre støtte enn familier med lav inntekt.
 for: Det gir mer effekt for hver krone staten bruker.
@@ -63,7 +63,7 @@ tekst: Aktiv dødshjelp bør bli tillatt for alvorlig syke voksne, under strenge
 bakgrunn: Aktiv dødshjelp er forbudt i Norge. Land som Nederland, Belgia, Canada og Spania tillater det under bestemte vilkår.
 for: Mennesker med uhelbredelig sykdom og store lidelser bør selv kunne bestemme over sin egen død.
 for: Strenge regler og kontroll kan hindre misbruk.
-for: Mange nordmenn reiser i dag til utlandet for å få hjelp, noe som kan være belastende.
+for: Noen nordmenn reiser i dag til utlandet, for eksempel til Sveits, for å få hjelp, noe som kan være belastende for dem og de pårørende.
 mot: Svake grupper kan føle press om å avslutte livet for ikke å være en byrde.
 mot: Erfaringer fra andre land viser at kriteriene ofte utvides over tid.
 mot: Bedre lindrende behandling og omsorg er det riktige svaret på lidelse.
@@ -108,4 +108,4 @@ for: Forbudet kan gjøre forholdene farligere for dem som selger sex, fordi det 
 for: Organisasjoner for sexarbeidere mener loven gjør det vanskeligere å søke hjelp fra politiet.
 mot: Forbudet beskytter sårbare mennesker mot utnyttelse og menneskehandel.
 mot: Loven sender et signal om at kjøp av andres kropp ikke er akseptabelt.
-mot: Etterspørselen etter sex driver menneskehandel, og forbudet bidrar til å redusere den.
+mot: Etterspørselen etter sex driver menneskehandel, og forbudet kan bidra til å redusere den.

@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import type { Answers } from '../lib/types';
 import { data, orderedQuestions, party, pct, question, themeLabel, valueLabel } from '../lib/data';
-import { computeResults, partyDimensions, userDimensions, MIN_ANSWERS_FOR_RESULT, type PartyResult, type ResultSummary } from '../lib/scoring';
+import { computeResults, isModestFit, partyDimensions, userDimensions, MIN_ANSWERS_FOR_RESULT, type PartyResult, type ResultSummary } from '../lib/scoring';
 import { buildInsights, type Insight } from '../lib/insights';
 import { href } from '../lib/router';
 import { PageTitle, PartySwatch, Section, Stars } from '../components/ui';
@@ -108,12 +108,19 @@ function Verdict({ summary }: { summary: ResultSummary }) {
     clear: { label: 'Klar match', cls: 'border-emerald-300 bg-emerald-50 dark:border-emerald-500/40 dark:bg-emerald-500/10', text: <>{party(a.party).name} ligger tydelig nærmest dine svar i denne testen, og er øverst i {pct(summary.uncertainty.topShare[a.party])} av simuleringene der spørsmålsutvalget varieres.</> },
     close: { label: 'Nær match', cls: 'border-amber-300 bg-amber-50 dark:border-amber-500/40 dark:bg-amber-500/10', text: <>{party(a.party).name} ligger øverst, men {party(b.party).name} er ikke langt unna ({Math.round(summary.gap ?? 0)} prosentpoeng). Små endringer i hvilke spørsmål som er med, kan endre rekkefølgen.</> },
     uncertain: { label: 'Usikkert mellom flere partier', cls: 'border-sky-300 bg-sky-50 dark:border-sky-500/40 dark:bg-sky-500/10', text: <>{names(summary.contenders)} ligger i praksis svært nær hverandre i denne testen. Ingen av dem bør regnes som en klar vinner.</> },
+    weak: { label: 'Ingen parti passer spesielt godt', cls: 'border-slate-300 bg-slate-50 dark:border-white/20 dark:bg-white/5', text: <>{party(a.party).name} ligger øverst med {pct(a.score)}, men det er ikke høyere enn det beste partiet typisk får når de samme svarene dine stokkes tilfeldig mellom spørsmålene ({pct(summary.baseline)}). Svarene dine går på tvers av partiene – se temaoversikten for hvor hvert parti passer deg.</> },
     insufficient: { label: 'For få svar', cls: 'border-sand-200 bg-white dark:border-white/10', text: <>Svar på flere spørsmål for å få et mer pålitelig resultat.</> },
   }[summary.verdict];
   return (
     <div className={`rounded-2xl border-2 p-5 ${conf.cls}`} role="status">
       <p className="text-sm font-bold uppercase tracking-wide">{conf.label}</p>
       <p className="mt-1 text-lg leading-snug">{conf.text}</p>
+      {isModestFit(summary) && (
+        <p className="mt-2">
+          Merk: {party(a.party).name} er enig med deg i {pct(a.score)}, men en stor del av dette ville det beste partiet typisk fått også om de samme svarene
+          dine ble stokket tilfeldig mellom spørsmålene ({pct(summary.baseline)}). Treffet er derfor mindre presist enn prosenten tilsier.
+        </p>
+      )}
       <p className="muted mt-3 text-sm">
         Basert på {summary.answeredCount} besvarte spørsmål{summary.dontKnowCount ? ` (${summary.dontKnowCount} «vet ikke» er holdt utenfor)` : ''}.
       </p>

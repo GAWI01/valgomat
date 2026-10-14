@@ -9,17 +9,17 @@ transport_toll|V|-2|HIGH|12|Venstre mener bompenger er et viktig virkemiddel for
 transport_toll|KrF|-1|MEDIUM|64|KrF vil vurdere veiprising som alternativ til bompenger.
 transport_toll|MDG|-2|HIGH|94-95|MDG vil vurdere dynamisk veiprising og bruke bompenger til kollektiv, sykkel og gange.
 # --- transport_fuel_tax: «Avgiftene på bensin og diesel bør settes ned.»
-transport_fuel_tax|Ap|U|-|12|Ap vil balansere klimaavgifter med avgiftsreduksjoner for folk, men tar ikke stilling til drivstoffavgiftene spesifikt.
+transport_fuel_tax|Ap|U|-|12,121|Ap vil trappe opp CO₂-avgiften og balansere klimaavgifter med andre avgiftsreduksjoner, men tar ikke stilling til drivstoffavgiftene spesifikt.
 transport_fuel_tax|H|U|-|42|Høyre vil øke CO₂-avgiftene og kompensere med andre skattelettelser, men nevner ikke drivstoffavgiftene spesifikt.
 transport_fuel_tax|FrP|3|HIGH|42|FrP vil redusere bil- og drivstoffavgiftene.
 transport_fuel_tax|Sp|3|HIGH|109|Sp vil redusere drivstoffavgiftene.
 transport_fuel_tax|SV|U|-|-|Programmet tar ikke stilling.
 transport_fuel_tax|R|U|-|-|Programmet tar ikke stilling til drivstoffavgiftene spesifikt.
-transport_fuel_tax|V|-2|MEDIUM|42|Venstre vil trappe opp CO₂-avgiften kraftig, noe som øker drivstoffkostnadene.
-transport_fuel_tax|KrF|-1|LOW|50|KrF vil gradvis øke CO₂-avgiften.
+transport_fuel_tax|V|U|-|42|Venstre vil trappe opp CO₂-avgiften kraftig, men tar ikke stilling til avgiftene på bensin og diesel som sådan.
+transport_fuel_tax|KrF|U|-|-|KrF vil gradvis øke CO₂-avgiften, men tar ikke stilling til avgiftene på bensin og diesel som sådan.
 transport_fuel_tax|MDG|-3|HIGH|94|MDG vil trappe opp avgiftene på fossilt drivstoff.
 # --- transport_ev: «Elbiler bør fortsatt ha store avgiftsfordeler sammenlignet med bensin- og dieselbiler.»
-transport_ev|Ap|U|-|-|Programmet tar ikke stilling.
+transport_ev|Ap|-2|HIGH|src:ap_budsjettavtale_2026|Ap mener «tiden er moden for å fase ut elbilfordelene i merverdiavgiftssystemet», med lavere beløpsgrense i 2026–2028.
 transport_ev|H|U|-|-|Programmet tar ikke stilling.
 transport_ev|FrP|-1|MEDIUM|42|FrP vil at kjøretøy skal omfattes av et teknologinøytralt regelverk uten ytterligere særavgifter.
 transport_ev|Sp|U|-|-|Programmet tar ikke stilling.
@@ -36,7 +36,7 @@ transport_rail_vs_road|Sp|-1|LOW|114|Sp vil videreføre Nye Veier og finansiere 
 transport_rail_vs_road|SV|3|HIGH|10,35|SV vil stanse nye «miljøfiendtlige» motorveier og prioritere fylkesveier, jernbane og kollektiv.
 transport_rail_vs_road|R|3|HIGH|8,47|Rødt vil satse på jernbane, trygge veier og lokale ruter fremfor «massive motorveier».
 transport_rail_vs_road|V|2|HIGH|13|Venstre vil prioritere andre tiltak fremfor kostbare flerfelts motorveier.
-transport_rail_vs_road|KrF|U|-|-|Programmet tar ikke tydelig stilling.
+transport_rail_vs_road|KrF|-1|LOW|63|KrF vil videreføre finansieringen og porteføljen til Nye Veier.
 transport_rail_vs_road|MDG|3|HIGH|94|MDG går imot alle nye kapasitetsøkende motorveiutbygginger.
 # --- transport_rail_tender: «Persontrafikken på jernbanen bør konkurranseutsettes, slik at flere selskaper kan konkurrere om å kjøre togene.»
 transport_rail_tender|Ap|-3|HIGH|162|Ap sier nei til privatisering av persontrafikk, drift og vedlikehold på jernbanen.

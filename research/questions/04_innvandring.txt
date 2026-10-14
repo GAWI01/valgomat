@@ -18,7 +18,7 @@ klynge: asylniva
 dim: immigration=-1
 kort: Kvoteflyktninger etter FNs anbefaling
 tekst: Norge bør ta imot minst så mange kvoteflyktninger som FN anbefaler.
-bakgrunn: Kvoteflyktninger (overføringsflyktninger) er flyktninger som FNs høykommissær for flyktninger (UNHCR) har plukket ut som særlig sårbare, og som Norge henter direkte fra flyktningleirer. Stortinget bestemmer antallet hvert år.
+bakgrunn: Kvoteflyktninger (overføringsflyktninger) er flyktninger som FNs høykommissær for flyktninger (UNHCR) har plukket ut som særlig sårbare, og som Norge henter direkte fra flyktningleirer. UNHCR ber hvert år land om å ta imot flere slike flyktninger, men Stortinget bestemmer selv antallet, og det har variert mye fra år til år.
 for: Kvotesystemet hjelper de mest sårbare, ikke bare dem som har råd til å reise til Europa.
 for: Det er en trygg og ordnet vei som ikke gir penger til menneskesmuglere.
 for: Å følge FNs anbefaling viser solidaritet og styrker Norges troverdighet internasjonalt.
@@ -32,7 +32,7 @@ klynge: asylsystem
 dim: immigration=+1
 kort: Asylbehandling utenfor Europa
 tekst: Asylsøkere som kommer til Norge, bør kunne sendes til et mottak i et trygt land utenfor Europa mens søknaden behandles.
-bakgrunn: Flere europeiske land diskuterer eller prøver ut ordninger der asylsøknader behandles i land utenfor EU, for eksempel Italias avtale med Albania. Slike ordninger er omstridte juridisk og politisk.
+bakgrunn: Flere europeiske land diskuterer eller prøver ut ordninger der asylsøknader behandles i et annet land, for eksempel Storbritannias skrinlagte avtale med Rwanda og Italias avtale med Albania (som ligger utenfor EU). Slike ordninger er omstridte juridisk og politisk.
 for: Det kan fjerne insentivet til å betale menneskesmuglere for farlige reiser til Europa.
 for: Det gir staten bedre kontroll over hvem som kommer til landet.
 for: Ressursene kan brukes mer effektivt dersom flere får beskyttelse nærmere hjemlandet.
@@ -60,7 +60,7 @@ klynge: varig
 dim: immigration=+1
 kort: Strengere krav for varig opphold og statsborgerskap
 tekst: Det bør stilles strengere krav for å få permanent opphold og norsk statsborgerskap, for eksempel om selvforsørgelse og norskkunnskaper.
-bakgrunn: I dag kreves blant annet botid, norskkunnskaper (muntlig B1 for statsborgerskap) og bestått samfunnskunnskapsprøve. Permanent opphold krever normalt tre til fem års botid avhengig av grunnlag.
+bakgrunn: I dag kreves blant annet botid, norskkunnskaper (muntlig B1 for statsborgerskap) og bestått samfunnskunnskapsprøve eller statsborgerprøve. Permanent opphold krever normalt tre til fem års botid avhengig av grunnlag, og blant annet at man ikke har mottatt sosialhjelp det siste året.
 for: Krav om selvforsørgelse og norsk gir sterke insentiver til å komme i jobb og lære språket.
 for: Statsborgerskap er en tillitserklæring som bør henge sammen med god integrering.
 for: Strengere krav kan styrke befolkningens tillit til innvandringspolitikken.
@@ -90,7 +90,7 @@ kort: La lengeværende få bli
 tekst: Personer som har fått endelig avslag på asyl, men har bodd lenge i Norge, bør kunne få bli.
 bakgrunn: Noen som får endelig avslag, blir værende i Norge i mange år fordi de ikke kan eller vil returnere. Debatten handler særlig om barnefamilier og såkalt lengeværende.
 for: Etter mange år har folk, ikke minst barn, fått sitt liv og nettverk i Norge.
-for: Det er inhumant å la mennesker leve i årevis uten rettigheter og fremtid.
+for: Det er en stor belastning å leve i årevis uten rettigheter, arbeid og fremtidsutsikter, særlig for barn.
 for: Å la dem jobbe lovlig er bedre for samfunnet enn at de lever i skyggeøkonomien.
 mot: Det kan undergrave asylsystemet hvis man kan få opphold ved å trosse et endelig avslag.
 mot: Det kan gi insentiv til å unndra seg retur og skjule seg for myndighetene.
@@ -102,7 +102,7 @@ klynge: varig
 dim: immigration=+1
 kort: Midlertidig opphold for flyktninger
 tekst: Flyktninger bør som hovedregel bare få midlertidig opphold og returnere når hjemlandet er trygt.
-bakgrunn: Flyktningstatus gis i dag normalt med mulighet for permanent opphold etter noen år. Danmark og flere andre land har gått over til mer midlertidig beskyttelse.
+bakgrunn: Flyktninger får i dag først en midlertidig oppholdstillatelse, og kan normalt få permanent opphold etter noen år. Beskyttelsen kan i prinsippet opphøre hvis forholdene i hjemlandet bedres varig, men dette brukes sjelden. Danmark og flere andre land har gått over til mer midlertidig beskyttelse.
 for: Beskyttelse handler om å gi trygghet mens det er farlig, ikke nødvendigvis om varig innvandring.
 for: Retur kan bidra til gjenoppbygging av hjemlandet.
 for: Det kan gjøre Norge mindre attraktivt for dem som ikke har reelt beskyttelsesbehov.

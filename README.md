@@ -28,6 +28,8 @@ Nettlesertest (mobil 320/375 px og desktop, inkl. horisontal scroll, autosave og
 ```bash
 npm run build && npx vite preview --port 4173 &
 node scripts/qa/smoke.mjs
+npx vite-node scripts/qa/stress.ts     # stresstest med 8000+ syntetiske profiler → STRESS_TEST.md
+npx vite-node scripts/qa/clusters.ts   # dobbelttellingsanalyse → test-results/clusters.md
 ```
 
 ## Struktur
@@ -51,6 +53,9 @@ node scripts/qa/smoke.mjs
 - [`RESEARCH_PLAN.md`](RESEARCH_PLAN.md) – kildehierarki, primærkilder, datamodell, algoritme og oppdateringsplan mot 2027
 - [`QUESTION_BANK.md`](QUESTION_BANK.md) – alle spørsmål med partienes koding og kvalitetskontroll
 - [`RESEARCH_AUDIT.md`](RESEARCH_AUDIT.md) – full revisjon av alle 720 posisjoner
+- [`POLITICAL_QA.md`](POLITICAL_QA.md) – red-team-faktasjekk av alle standpunkter, med endringslogg
+- [`STRESS_TEST.md`](STRESS_TEST.md) – stresstest, kalibrering og testpersoner
+- [`FINAL_VALIDATION_REPORT.md`](FINAL_VALIDATION_REPORT.md) – sluttrapport (PASS/FIXED/WARNING/UNKNOWN/BLOCKER)
 
 ## Teknologivalg
 

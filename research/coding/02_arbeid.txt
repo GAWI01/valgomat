@@ -1,6 +1,6 @@
-# --- work_sickpay: «Sykelønnen bør reduseres noe ved lange sykemeldinger (for eksempel fra 100 til 80 prosent etter seks måneder) for å få ned sykefraværet.»
+# --- work_sickpay: «Sykelønnen bør reduseres noe ved lange sykemeldinger, for eksempel fra 100 til 80 prosent etter seks måneder.»
 work_sickpay|Ap|-3|HIGH|18-19|Ap vil «garantere for at sykelønnen ikke kuttes» og at ansatte fortsatt skal ha full lønn under sykdom.
-work_sickpay|H|1|LOW|57-58|Høyre vil endre finansieringen (mer arbeidsgiveransvar ved langtidsfravær) og evaluere ordningen med partene, men sier ikke eksplisitt at kompensasjonen skal kuttes.
+work_sickpay|H|-2|HIGH|57|Høyre vil beholde dagens kompensasjon (full lønn inntil 6 G), men endre kostnadsfordelingen mellom arbeidsgiver og stat og evaluere sykepengeordningen.
 work_sickpay|FrP|-2|MEDIUM|105-106|FrP vil ha en sykelønnsordning som «i likhet med dagens ordning» sikrer trygg inntekt, men foreslår en tidskontoordning.
 work_sickpay|Sp|-3|HIGH|28|Sp vil videreføre sykelønnsordningen på nivået den har i dag.
 work_sickpay|SV|-3|HIGH|13|SV vil bevare og styrke sykelønnsordningen.
@@ -26,15 +26,15 @@ work_temp_agency|Sp|U|-|91|Programmet nevner kun utvidet adgang til midlertidige
 work_temp_agency|SV|-3|HIGH|13|SV vil avvikle bemanningsbransjen og gjøre arbeidsformidling til et offentlig ansvar.
 work_temp_agency|R|-3|HIGH|10|Rødt vil forby bemanningsselskaper.
 work_temp_agency|V|3|HIGH|23|Venstre vil gjeninnføre innleie ved midlertidig arbeid, generell adgang til midlertidig ansettelse og oppheve det geografiske innleieforbudet i byggebransjen.
-work_temp_agency|KrF|U|-|-|Programmet tar ikke stilling.
-work_temp_agency|MDG|U|-|-|Programmet tar ikke stilling.
+work_temp_agency|KrF|-2|MEDIUM|49|KrF vil arbeide for å redusere bruken av midlertidige stillinger (innleie nevnes ikke).
+work_temp_agency|MDG|1|LOW|22-23|MDG vil tilpasse innleieregelen slik at virksomheter kan leie inn ekspertise til avgrensede prosjekter, men vil samtidig styrke fast ansettelse.
 # --- work_min_benefits: «Minsteytelsene i velferden (som minstepensjon, minste uføretrygd og sosialhjelp) bør økes betydelig.»
-work_min_benefits|Ap|1|MEDIUM|25|Ap vil at minstenivåene for pensjon skal følge utviklingen i samfunnet og ikke henge etter.
+work_min_benefits|Ap|1|LOW|25|Ap vil at minstenivåene for pensjon skal følge utviklingen i samfunnet og ikke henge etter.
 work_min_benefits|H|U|-|-|Programmet tar ikke stilling til nivået på minsteytelsene.
 work_min_benefits|FrP|1|MEDIUM|112-113|FrP vil sikre minstepensjonister en anstendig pensjon og en minsteytelse i uførestønaden det går an å leve av, men vil avvikle supplerende stønad.
 work_min_benefits|Sp|2|MEDIUM|29|Sp vil øke minstepensjonen med et kronetillegg.
 work_min_benefits|SV|3|HIGH|4,14|SV vil øke minsteytelsene i folketrygden og lovfeste at sosialhjelp og trygd løftes til SIFO-nivå.
 work_min_benefits|R|3|HIGH|32,37|Rødt vil at ingen Nav-ytelser skal ligge under EUs fattigdomsgrense, og gjeninnføre minstepensjon.
-work_min_benefits|V|1|MEDIUM|24|Venstre vil ha høyere minstesatser i statlige ytelser for å redusere behovet for supplerende sosialhjelp.
+work_min_benefits|V|2|MEDIUM|24|Venstre vil redusere behovet for sosialhjelp gjennom høyere minstesatser i statlige ytelser og heve minstesatsen på AAP for unge.
 work_min_benefits|KrF|1|LOW|51|KrF vil at de som har minst skal prioriteres ved økninger i pensjoner.
-work_min_benefits|MDG|2|MEDIUM|21|MDG mener sosialhjelpssatsene bør dekke grunnleggende behov etter SIFOs referansebudsjett.
+work_min_benefits|MDG|3|HIGH|21,25|MDG vil løfte minste pensjonsnivå over EUs fattigdomsgrense (EU60) og fastsette sosialhjelpen etter SIFOs referansebudsjett.

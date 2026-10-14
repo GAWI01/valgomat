@@ -2,7 +2,7 @@ import { useState } from 'react';
 import type { Answers } from '../lib/types';
 import { data, formatDate, orderedQuestions, questionsByTheme, valueLabel } from '../lib/data';
 import { href, navigate } from '../lib/router';
-import { BOOTSTRAP_DRAWS, CONFIDENCE_WEIGHT, IMPORTANCE_WEIGHT, MIN_ANSWERS_FOR_RESULT, MIN_ANSWERS_PER_DIMENSION } from '../lib/scoring';
+import { BASELINE_DRAWS, BOOTSTRAP_DRAWS, MODEST_FIT_MARGIN, CONFIDENCE_WEIGHT, IMPORTANCE_WEIGHT, MIN_ANSWERS_FOR_RESULT, MIN_ANSWERS_PER_DIMENSION } from '../lib/scoring';
 import { CLOSE_PAIR_GAP, DEALBREAKER_DISTANCE, LOW_COVERAGE } from '../lib/insights';
 import { PageTitle, PartySwatch, Stars } from '../components/ui';
 import { firstUnanswered } from './ResultsPage';
@@ -218,7 +218,8 @@ export function MethodPage() {
       </ul>
       <p>
         Prosenten er ikke en sannsynlighet og ikke en anbefaling. Fordi svar sjelden er helt motsatte, havner de fleste partier for de fleste brukere et sted
-        mellom 40 og 85 %. Det er rekkefølgen og avstanden mellom partiene som er mest informativ.
+        mellom 40 og 85 %. Selv helt tilfeldige svar gir typisk rundt 55 % til hvert parti og rundt 64 % til det beste partiet (se STRESS_TEST.md i
+        kildekoden). Det er derfor rekkefølgen og avstanden mellom partiene, ikke prosenten alene, som er mest informativ.
       </p>
 
       <h2>5. Hvor sikkert er resultatet?</h2>
@@ -238,15 +239,20 @@ export function MethodPage() {
           <strong>Usikkert mellom flere partier:</strong> ellers. Da nevnes alle partier som ligger innen 3 prosentpoeng av toppen eller er øverst i minst 15 % av
           simuleringene.
         </li>
+        <li>
+          <strong>Ingen parti passer spesielt godt:</strong> vi stokker dine egne svar tilfeldig mellom spørsmålene du har besvart ({BASELINE_DRAWS} ganger) og
+          regner ut hvor høyt det beste partiet da scorer. Er det beste partiets faktiske score lavere enn 90-persentilen av dette, kunne like høy enighet
+          oppstått med tilfeldig sammensatte svar. Da sier vi det rett ut i stedet for å kåre en vinner. Dette går foran de tre kategoriene over. Ligger beste parti over tilfeldighetsnivået, men med mindre enn {Math.round(MODEST_FIT_MARGIN * 100)} prosentpoeng, viser vi en egen merknad om at treffet er mindre presist enn prosenten tilsier, også når ett parti ligger klart foran de andre.
+        </li>
         <li>Med færre enn {MIN_ANSWERS_FOR_RESULT} svar vises ikke noe resultat.</li>
       </ul>
 
       <h2>6. Forklaringene</h2>
       <ul>
-        <li>«Mest enige» er spørsmål med minst 67 % enighet, sortert etter vekt × enighet.</li>
-        <li>«Mest uenige» er spørsmål med høyst 50 % enighet, sortert etter vekt × uenighet.</li>
+        <li>«Mest enige» er spørsmål der du og partiet er høyst ett skalasteg fra hverandre, eller to steg på samme side av midten (f.eks. «litt enig» og «helt enig»), sortert etter vekt × enighet.</li>
+        <li>«Mest uenige» er spørsmål der du og partiet står på hver side av midten med minst tre stegs avstand, eller er minst fire steg fra hverandre, sortert etter vekt × uenighet. Et nøytralt svar mot et ytterpunkt regnes ikke som uenighet.</li>
         <li>
-          Vi varsler om en mulig «dealbreaker» når ditt toppparti ligger minst {DEALBREAKER_DISTANCE} skalasteg fra deg på en sak du har markert som viktig.
+          Vi varsler om en mulig «dealbreaker» når ditt toppparti ligger minst {DEALBREAKER_DISTANCE} skalasteg fra deg, på motsatt side av midten (eller minst fire steg unna), på en sak du har markert som viktig.
         </li>
         <li>
           Når de to øverste ligger innenfor {CLOSE_PAIR_GAP} prosentpoeng, viser vi hvilke temaer som skiller dem (minst 10 prosentpoengs forskjell i temaet).
@@ -397,7 +403,7 @@ export function SourcesPage() {
               </a>
             </p>
             <p className="muted mt-1">
-              {s.type === 'partiprogram' ? 'Partiprogram' : 'Sekundærkilde'}
+              {s.type.charAt(0).toUpperCase() + s.type.slice(1)}
               {s.adopted ? ` · ${s.adopted}` : ''} · Hentet {formatDate(s.accessed)}
               {s.pages ? ` · ${s.pages} PDF-sider` : ''}
             </p>

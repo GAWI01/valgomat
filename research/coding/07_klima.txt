@@ -1,21 +1,21 @@
 # --- cli_target: «Norge bør ha et strengere klimamål for 2035 enn dagens mål om 70–75 prosent kutt (sammenlignet med 1990).»
 cli_target|Ap|0|HIGH|121|Ap foreslår selv dagens mål: minst 70–75 prosent kutt innen 2035, lovfestet i klimaloven.
 cli_target|H|-1|LOW|42|Høyre vil oppnå «betydelige utslippsreduksjoner» i samarbeid med EU, uten å angi et strengere 2035-mål.
-cli_target|FrP|-3|HIGH|92-93|FrP kritiserer andre partiers «urealistiske, ineffektive og kostbare mål» og vil basere klimatiltak på kost/nytte.
+cli_target|FrP|-3|MEDIUM|92-93|FrP kritiserer andre partiers «urealistiske, ineffektive og kostbare mål» og vil basere klimatiltak på kost/nytte.
 cli_target|Sp|-1|LOW|19,22|Sp vil prioritere «effektive» kutt, inkludert kvotekjøp, og innta skog i 2035-målet dersom det gjør det enklere å nå målet.
 cli_target|SV|3|HIGH|32|SV vil lovfeste et mål om 80 prosent nasjonale kutt i 2035.
 cli_target|R|1|LOW|38|Rødt vil kutte minst 55 prosent innen 2030 og gradvis forsterke forpliktelsene, uten et tallfestet 2035-mål.
-cli_target|V|1|MEDIUM|6|Venstre vil kutte 55 % innen 2030 og 95 % innen 2050 gjennom nasjonale tiltak, men angir ikke et eget 2035-mål.
-cli_target|KrF|2|HIGH|41|KrF vil kutte minst 80 prosent innen 2035, koblet til EUs klimamål.
+cli_target|V|1|LOW|6|Venstre vil kutte 55 % innen 2030 og 95 % innen 2050 gjennom nasjonale tiltak, men angir ikke et eget 2035-mål.
+cli_target|KrF|3|HIGH|41|KrF vil kutte minst 80 prosent innen 2035, koblet til EUs klimamål.
 cli_target|MDG|3|HIGH|7|MDG vil kutte minst 80 prosent av territorielle utslipp innen 2035 og nå netto null i 2045.
 # --- cli_domestic: «Norge bør ta klimakuttene hjemme i Norge, heller enn å betale for kutt i andre land (for eksempel gjennom klimakvoter).»
-cli_domestic|Ap|-1|MEDIUM|121|Ap vil nå klimamålene i samarbeid med EU, som innebærer bruk av europeisk kvotesystem og fleksibilitet.
+cli_domestic|Ap|0|MEDIUM|121|Ap vil at 2035-målet i hovedsak skal nås gjennom nasjonale tiltak og gjennom samarbeid med EU.
 cli_domestic|H|-2|MEDIUM|42|Høyre vil oppfylle målene i samarbeid med EU fordi det gir større fleksibilitet og er mer kostnadseffektivt enn å nå målene alene.
 cli_domestic|FrP|-3|HIGH|92-93|FrP vil kjøpe klimakvoter for å gjennomføre utslippskutt der de er billigst.
 cli_domestic|Sp|-1|MEDIUM|19|Sp vil kutte nasjonalt, men også bidra der kutt er mest effektive, inkludert kvotekjøp.
 cli_domestic|SV|3|HIGH|4|SV vil ikke benytte fleksible mekanismer for å oppfylle nasjonale klimamål, men gjennomføre en nasjonal omstilling.
 cli_domestic|R|3|HIGH|38|Rødt vil at kuttene tas innenlands, ikke gjennom kvotekjøp.
-cli_domestic|V|3|HIGH|6|Venstre vil planlegge for at klimamålene nås gjennom nasjonale tiltak.
+cli_domestic|V|2|HIGH|6|Venstre vil planlegge for at klimamålene nås gjennom nasjonale tiltak, men også forlenge klimaavtalen med EU.
 cli_domestic|KrF|2|MEDIUM|41|KrF vil at Norge tar «betydelige, raske og tilstrekkelige kutt hjemme», men beholder EUs kvotemarked som sentralt virkemiddel for industrien.
 cli_domestic|MDG|3|HIGH|7|MDG vil kutte 80 % av territorielle utslipp uten at kvotehandel regnes med.
 # --- cli_co2_tax: «CO₂-avgiften bør økes raskere enn dagens plan om rundt 2000 kroner per tonn i 2030.»
@@ -24,15 +24,15 @@ cli_co2_tax|H|0|MEDIUM|42|Høyre vil fortsette opptrappingen av CO₂-avgiftene,
 cli_co2_tax|FrP|-3|HIGH|92|FrP vil ikke ha særnorske klimaavgifter og mener det ikke er riktig å øke CO₂-avgiften før alternativ teknologi finnes.
 cli_co2_tax|Sp|-2|MEDIUM|102,109|Sp vil ikke innføre CO₂-avgift på biologiske produksjoner, fjerne CO₂-avgift på LNG i innenriks sjøfart og redusere drivstoffavgifter.
 cli_co2_tax|SV|2|MEDIUM|5,32|SV mener prisen på CO₂-utslipp i olje og gass bør økes kraftig fram mot 2030.
-cli_co2_tax|R|1|MEDIUM|39|Rødt vil øke CO₂-avgiften gradvis og betale tilbake gjennom en omfordelende ordning.
+cli_co2_tax|R|1|LOW|39|Rødt vil øke CO₂-avgiften gradvis og betale tilbake gjennom en omfordelende ordning.
 cli_co2_tax|V|3|HIGH|5,42|Venstre vil trappe opp CO₂-avgiften til 3000 kroner innen 2030.
-cli_co2_tax|KrF|1|MEDIUM|41|KrF vil heve CO₂-avgiften i en forutsigbar, økende prisbane som er tilstrekkelig for å nå målene.
+cli_co2_tax|KrF|1|LOW|41|KrF vil heve CO₂-avgiften i en forutsigbar, økende prisbane som er tilstrekkelig for å nå målene.
 cli_co2_tax|MDG|2|MEDIUM|45,49|MDG vil trappe opp klimaavgiftene i tråd med klimamålene og 1,5-gradersmålet, også etter 2030.
 # --- nature_protect: «Mer natur bør vernes, selv om det begrenser utbygging av for eksempel hytter, veier og næringsområder.»
 nature_protect|Ap|2|HIGH|125|Ap vil verne og beskytte minst 30 prosent av naturen og gjøre Norge arealnøytralt innen 2040, i samarbeid med lokaldemokratiet.
 nature_protect|H|1|MEDIUM|45-46|Høyre vil støtte frivillig skogvern og bruke allerede utbygde områder, men vektlegger lokale beslutninger uten statlig overstyring.
 nature_protect|FrP|-3|HIGH|90,93|FrP vil basere politikken på bruk fremfor vern og vurdere å oppheve vedtatte verneområder.
-nature_protect|Sp|-1|MEDIUM|24|Sp vil at lokale interesser vektlegges når vern vurderes, og at skogvern er frivillig.
+nature_protect|Sp|-2|MEDIUM|19,24,78|Sp vil ivareta naturen «ikke gjennom ensidig vern», begrense marine verneplaner og bare ha frivillig skogvern.
 nature_protect|SV|3|HIGH|31|SV vil forby nedbygging av myr og innføre en handlingsregel for natur mot nedbygging av grønne områder.
 nature_protect|R|3|HIGH|40|Rødt vil ha føre-var-holdning til naturinngrep, kreve arealnøytral planlegging og lage ny verneplan.
 nature_protect|V|3|HIGH|6|Venstre vil ha nullvisjon for tap av naturmangfold og formelt verne 30 % av arealene i Norge.

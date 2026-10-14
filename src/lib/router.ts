@@ -10,10 +10,22 @@ export type Route =
   | { name: 'why' }
   | { name: 'sources' };
 
+/** Ugyldig prosentkoding (f.eks. «%E0%A4») skal ikke krasje appen. */
+function safeDecode(s: string): string {
+  try {
+    return decodeURIComponent(s);
+  } catch {
+    return '';
+  }
+}
+
 export function parseHash(hash: string): Route {
-  const parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
+  const parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(safeDecode);
   switch (parts[0]) {
-    case 'sporsmal': return { name: 'quiz', index: Math.max(0, Number(parts[1] ?? 1) - 1) || 0 };
+    case 'sporsmal': {
+      const n = Number(parts[1] ?? 1);
+      return { name: 'quiz', index: Number.isInteger(n) && n >= 1 && n <= 1000 ? n - 1 : 0 };
+    }
     case 'oversikt': return { name: 'overview' };
     case 'resultat': return { name: 'results', party: parts[1] === 'parti' ? parts[2] : undefined, tab: parts[1] !== 'parti' ? parts[1] : undefined };
     case 'sak': return { name: 'question', id: parts[1] ?? '' };

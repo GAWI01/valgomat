@@ -1,0 +1,148 @@
+# Endringer fra RED-TEAM-faktasjekken 14.10.2026. Format: qid|parti|verdi|conf|ref|ny begrunnelse (tom = behold)|merknad
+# Felt som er "=" beholdes uendret.
+econ_tax_level|V|3|HIGH|=||Ordrett samme påstand («redusere det samlede skatte- og avgiftstrykket»), kategorisk.
+econ_wealth_working|SV|=|MEDIUM|=||Programmet sier «økt skatt på større formuer», nevner ikke arbeidende kapital spesifikt.
+econ_top_tax|KrF|3|HIGH|=||«øke bruttobeskatningen av de høyeste inntektene» er like eksplisitt som SV/R/MDG (3).
+econ_property_tax|Sp|1|LOW|109|Sp vil gjøre det mulig for kommunene å sette eiendomsskatt bare på fritidsboliger og differensiere mellom bolig og fritid – kommunal adgang forutsettes videreført. Sp går imot statlig eiendomsskatt på bolig.|Tidligere 0: begrunnelsen blandet statlig og kommunal eiendomsskatt.
+econ_oil_money|FrP|=|LOW|42-43||Programmet nevner ikke handlingsregelen; slutning fra at handlingsrommet skal brukes til investeringer og et infrastrukturfond.
+econ_oil_money|R|U|-|-|Rødt vil omplassere deler av fondet til et investeringsfond for norsk industri og «hente ut avkastningen over tid uten å tømme fondet», men tar ikke stilling til uttaksnivået.|Omplassering ≠ økt bruk.
+econ_oil_money|V|-3|HIGH|43|Venstre vil ha en øvre grense på 25 prosent for hvor stor del av statens utgifter som kan finansieres med uttak fra oljefondet, og holde mer igjen på pengebruken.|Konkret innstramming.
+econ_state_owner|V|=|HIGH|=||Eksplisitt kulepunkt s.43.
+welfare_commercial|Ap|=|=|50,70,95||s.95 (offentlig og ideelt barnevern) er relevant; s.53 gjaldt privatskoler.
+work_sickpay|H|-2|HIGH|57|Høyre vil beholde dagens kompensasjon (full lønn inntil 6 G), men endre kostnadsfordelingen mellom arbeidsgiver og stat og evaluere sykepengeordningen.|FEIL FORTEGN rettet (var +1 LOW).
+work_temp_agency|KrF|-2|MEDIUM|49|KrF vil arbeide for å redusere bruken av midlertidige stillinger (innleie nevnes ikke).|Fra U.
+work_temp_agency|MDG|1|LOW|22-23|MDG vil tilpasse innleieregelen slik at virksomheter kan leie inn ekspertise til avgrensede prosjekter, men vil samtidig styrke fast ansettelse.|Fra U; blandet → LOW.
+work_min_benefits|Ap|=|LOW|=||Programmet sier at minstenivåene skal følge utviklingen – regulering, ikke økning.
+work_min_benefits|V|2|MEDIUM|24|Venstre vil redusere behovet for sosialhjelp gjennom høyere minstesatser i statlige ytelser og heve minstesatsen på AAP for unge.|
+work_min_benefits|MDG|3|HIGH|21,25|MDG vil løfte minste pensjonsnivå over EUs fattigdomsgrense (EU60) og fastsette sosialhjelpen etter SIFOs referansebudsjett.|
+housing_nonprofit|Ap|=|MEDIUM|=|Ap vil, i samarbeid med kommuner, næringsliv, ideelle og boligbyggelag, ha en kraftfull satsing på flere rimelige leieboliger og en tredje boligsektor.|Begrunnelsen utelot næringsliv.
+housing_nonprofit|V|=|LOW|=||Prioritering av det ordinære markedet, ikke avvisning.
+housing_nonprofit|MDG|2|HIGH|=|MDG vil legge til rette for allmennboliger og ikke-kommersielle utleieselskaper, og la kommunene kreve en andel slike boliger.|«Legge til rette» ≠ statlig finansiering av mange flere.
+health_free_choice|Ap|-1|MEDIUM|70|Ap vil videreføre fritt sykehusvalg mellom offentlige sykehus og private sykehus med avtale, men vil styre og avgrense bruken av kommersielle aktører. Programmet nevner ikke fritt behandlingsvalg.|Var -2; påstand om regjeringsvedtak hentet utenfor kilden er fjernet.
+health_free_choice|FrP|=|HIGH|59-60||Eksplisitt: tjenestene finansieres av det offentlige uansett utfører.
+health_free_choice|SV|=|MEDIUM|=||Retningen er klar, men fritt behandlingsvalg nevnes ikke.
+health_free_choice|R|=|HIGH|13-14|Rødt vil ikke la kommersielle aktører drive offentlig finansierte grunnleggende velferdstjenester; fritt valg skal bare gjelde offentlige eller ideelle sykehus.|Riktig side (s.16 gjaldt helseforsikring).
+health_trusts|FrP|1|MEDIUM|=|FrP vil avskaffe de regionale helseforetakene og erstatte dem med en nasjonal styringsenhet og selvstendige lokale helseforetak – foretaksmodellen beholdes lokalt, uten mer folkevalgt styring.|Bare første del av påstanden oppfylt.
+imm_level|Sp|=|=|=|Sp mener Norge ikke over tid kan ha en asylpraksis som skiller seg vesentlig fra nabolandene, og vil ha en streng og rettferdig innvandringspolitikk.|Parafrase rettet.
+imm_level|R|=|MEDIUM|=|Rødt mener asylpolitikken er blant de strengeste i Europa, vil styrke kvoteordningen og sikre at retten til å søke asyl ikke hindres.|Feil parafrase rettet («større ansvar» gjaldt flyktningleirene).
+imm_level|MDG|=|=|103-104||Grunnlovsfesting av asylretten står på s.104.
+imm_quota|R|=|MEDIUM|=||Kildene gjelder å styrke kvoteordningen, ikke kvotetallet direkte.
+imm_offshore|H|1|MEDIUM|=|Høyre vil returnere asylsøkere som har oppholdt seg i trygge land, og utrede et system der Norge betaler for omplassering til trygge land nærmere hjemlandet – ikke mottak i tredjeland mens søknaden behandles.|Bare beslektet tiltak.
+imm_family|H|=|=|=|Høyre vil stramme inn regelverket for familieinnvandring, blant annet ved å vurdere forsørgerkrav for flyktninger.|«vurdere» var gjengitt som vedtatt krav.
+imm_family|Sp|3|HIGH|=||Samme eksplisitte formulering som Høyre («Stramme inn vilkårene for familieinnvandring»).
+imm_family|R|-2|MEDIUM|69|Rødt vil fjerne femårsregelen ved familiegjenforening og avskaffe gebyrene for å søke selvstendig oppholdstillatelse.|Fra U.
+imm_family|V|-1|LOW|27,48|Venstre vil korte ned saksbehandlingstiden for familiegjenforening kraftig og innføre kjærestevisum.|Fra U.
+imm_residence|V|-1|LOW|27|Venstre vil redusere kravet til oppholdstid før statsborgerskap for personer gift med norske statsborgere.|Fra U; smal gruppe → LOW.
+imm_residence|KrF|=|=|36,38||
+imm_labour|Ap|1|LOW|36|Ap vil korte ned godkjenningsprosessen for arbeidstillatelser til tre dager for å gi bedrifter rask tilgang til utenlandsk kompetanse.|Fra U; raskere behandling, ikke lempeligere vilkår → LOW.
+imm_labour|R|0|LOW|11,96|Rødt vil at arbeidsinnvandrere må ha tariffbetingelser for å få opphold, men at asylsøkere med avslag skal kunne søke som arbeidssøkere – trekker i begge retninger.|Var +1.
+imm_labour|MDG|2|MEDIUM|23|MDG vil ha et enkelt regelverk for arbeidsinnvandring og utrede om personer utenfor EU kan få samme vilkår for midlertidig arbeidstillatelse som EU-borgere.|Fra U.
+imm_amnesty|H|=|MEDIUM|=||Svarer ikke direkte på lengeværende.
+imm_amnesty|Sp|=|MEDIUM|=||Også «gjennomgå situasjonen for ureturnerbare».
+imm_amnesty|R|3|HIGH|96,98|Rødt vil jobbe for en amnestiregel for ureturnerbare som har vært i Norge over en viss periode.|
+imm_amnesty|KrF|=|=|36-38||
+imm_temporary|R|-1|LOW|96|Rødt vil avvikle praksisen med begrensede oppholdstillatelser og styrke flyktningers rettigheter.|«Begrensede» tillatelser er en egen kategori, ikke midlertidig beskyttelse.
+imm_temporary|KrF|=|=|36-37||
+imm_integration_req|Ap|1|MEDIUM|=|Ap vil vurdere nye sanksjonsmuligheter dersom personer med familieinnvandringstillatelse ikke gjennomfører opplæringstilbud.|Bare «vurdere», bare familieinnvandrere.
+imm_integration_req|V|U|-|-|Venstre vil stille krav om å respektere norsk lov og gi flere tilbud om norskopplæring, men tar ikke stilling til trekk i støtte.|Kilden svarte ikke på påstanden.
+just_sentences|Sp|=|=|83,85,88||
+just_surveillance|FrP|2|MEDIUM|=|FrP vil begrense overvåking generelt, men mener politiet mangler effektive metoder mot alvorlig kriminalitet og vil pålegge datalagring og tillate rom- og telefonavlytting og bevisprovokasjon.|Påstanden gjelder alvorlig kriminalitet.
+just_surveillance|V|=|=|45,61|Venstre sier nei til all digital masseovervåking og vil ha høy terskel for politiets skjulte tvangsmidler.|Riktig side.
+just_surveillance|KrF|=|LOW|39,85|KrF vil forby kommersiell ansiktsgjenkjenning og at nye overvåkingsmetoder skal vurderes av domstolene.|Forbudet gjelder kommersiell bruk, ikke politiet.
+just_alt_sentences|R|2|HIGH|97-98|Rødt vil utvikle og forsterke alternativer til fengsel og mener fengsel bør forbeholdes dem som er til skade for andre eller har begått betydelig kriminalitet.|Fra U.
+just_alt_sentences|V|3|HIGH|46|Venstre vil øke bruken av soning med fotlenke og videreutvikle samfunnsstraff.|Eksplisitt punkt var oversett.
+drug_alcohol|FrP|=|HIGH|56-57|FrP vil liberalisere alkohollovgivningen og oppheve monopolet for omsetning av alkoholholdige drikker.|
+drug_alcohol|V|2|HIGH|=|Venstre vil i hovedsak videreføre dagens alkoholpolitikk, men åpne for enkelte liberaliseringer som sterkøl i butikk og lokale salgstider.|Konteksten demper.
+drug_alcohol|MDG|-2|MEDIUM|=||Vil beholde Vinmonopolet og en restriktiv omsetningspolitikk – samme kombinasjon som Ap (-2).
+cli_target|FrP|=|MEDIUM|=||Sterk retning, men ikke direkte om 2035-målet.
+cli_target|V|=|LOW|=||Bare 2030/2050-tall; 2035 er slutning.
+cli_target|KrF|3|HIGH|=||«minst 80 prosent innen 2035» er like eksplisitt som SV/MDG.
+cli_domestic|Ap|0|MEDIUM|=|Ap vil at 2035-målet i hovedsak skal nås gjennom nasjonale tiltak og gjennom samarbeid med EU.|Begrunnelsen utelot halve setningen.
+cli_domestic|V|2|HIGH|=|Venstre vil planlegge for at klimamålene nås gjennom nasjonale tiltak, men også forlenge klimaavtalen med EU.|Mindre kategorisk enn SV/R.
+cli_co2_tax|R|=|LOW|=||Sier «gradvis», ikke raskere enn planen.
+cli_co2_tax|KrF|=|LOW|=||Sier «gradvis økning», ikke raskere enn planen.
+nature_protect|Sp|-2|MEDIUM|19,24,78|Sp vil ivareta naturen «ikke gjennom ensidig vern», begrense marine verneplaner og bare ha frivillig skogvern.|
+edu_private_schools|SV|-2|MEDIUM|27|SV vil ha demokratisk styring av private skoler slik at antall private plasser reduseres, og forby profitt.|Fra U.
+edu_absence_limit|FrP|=|MEDIUM|=||Sier «innføre fraværsgrense på ungdomsskolen», ikke eksplisitt «beholde» i vgs.
+edu_national_tests|SV|-1|LOW|26|SV mener målstyringen har gått for langt og at standardiserte prøver har gitt for mye pugging.|Fra U.
+edu_national_tests|R|-3|HIGH|26,28|Rødt vil stanse rangering gjennom obligatoriske, standardiserte tester og erstatte dem med utvalgsprøver.|
+oil_end_date|H|-2|MEDIUM|=||H sier ikke «ikke avvikle»; tydelig retning.
+oil_end_date|FrP|=|MEDIUM|=||Sluttdato nevnes ikke direkte.
+oil_end_date|Sp|=|MEDIUM|=||Samme formulering som Ap (MEDIUM).
+oil_lofoten|Ap|=|MEDIUM|=||Gjelder perioden, ikke permanent vern.
+energy_nuclear|MDG|2|MEDIUM|=|MDG vil åpne for utredning og etablering av kjernekraftverk som ikke forsinker omstillingen.|
+energy_onshore_wind|Sp|0|MEDIUM|43-44|Sp vil øke vind- og solkraft på allerede utbygde næringsområder og grå arealer, med kommunal vetorett.|Mellomposisjon, ikke nei.
+energy_onshore_wind|SV|-2|HIGH|34|SV sier nei til mer storskala vindkraft på land, men vil prioritere småskala vindkraft på industrialiserte områder.|
+energy_onshore_wind|MDG|0|MEDIUM|5,16|MDG vil ha vindkraft på allerede nedbygde arealer, men ikke i urørt natur.|Mellomposisjon, ikke nei.
+energy_offshore_wind|FrP|-3|HIGH|84|FrP vil fjerne alle direkte og indirekte subsidier til utbygging av vindkraft, også til havs.|Eksplisitt.
+energy_offshore_wind|SV|=|LOW|=||SV vil at oljeselskapene finansierer havvind.
+energy_offshore_wind|R|U|-|-|Rødt sier nei til elektrifisering av sokkelen med havvind og til hybridkabler, men tar ikke stilling til statlig støtte.|Sitatene svarte ikke på påstanden.
+energy_hydro|H|2|MEDIUM|41|Høyre vil gjennomgå verneplanene for vassdrag og vurdere kraftproduksjon som ikke forringer verneverdiene.|Begrunnelsen «nevner ikke vernede vassdrag» var feil.
+energy_hydro|FrP|=|=|82||Riktig side.
+energy_hydro|KrF|1|LOW|46|KrF vil legge til rette for ny vannkraft og småkraft der det kan forsvares ut fra naturhensyn.|Var -1; samme formulering som Ap (+1 LOW).
+energy_cables|FrP|2|MEDIUM|85|FrP vil ikke bygge utenlandskabler som presser norske strømpriser opp, og vil reforhandle eksisterende avtaler.|Betinget nei.
+energy_cables|MDG|-3|HIGH|17|MDG vil beholde, fornye og øke antallet mellomlandsforbindelser.|Fra U.
+energy_price_control|MDG|0|MEDIUM|6,15,17|MDG vil ha flat strømstøtte og bedre prisreguleringsregimer mot uforutsigbare prishopp, men ikke statlig fastpris.|Var -1.
+transport_rail_vs_road|KrF|-1|LOW|63|KrF vil videreføre finansieringen og porteføljen til Nye Veier.|Fra U; samme grunnlag som Sp.
+transport_fuel_tax|KrF|U|-|-|KrF vil gradvis øke CO₂-avgiften, men tar ikke stilling til avgiftene på bensin og diesel som sådan.|Var -1 LOW. Eneste belegg var CO₂-avgiften, som allerede teller i cli_co2_tax – å bruke samme setning to ganger er dobbelttelling.
+transport_fuel_tax|Ap|U|-|12,121|Ap vil trappe opp CO₂-avgiften og balansere klimaavgifter med andre avgiftsreduksjoner, men tar ikke stilling til drivstoffavgiftene spesifikt.|Beholdt U: eneste belegg ville vært CO₂-avgiften (dobbelttelling med cli_co2_tax).
+transport_fuel_tax|V|U|-|42|Venstre vil trappe opp CO₂-avgiften kraftig, men tar ikke stilling til avgiftene på bensin og diesel som sådan.|Var -2 MEDIUM. «noe som øker drivstoffkostnadene» var vår slutning; samme belegg teller allerede i cli_co2_tax (dobbelttelling).
+fam_leave_quota|Sp|-3|HIGH|=||«Minst opprettholde mødre-/fedrekvote på 15 uker» – eksplisitt.
+fam_leave_quota|R|-3|HIGH|=||Eksplisitte øremerkede kvoter.
+fam_leave_quota|MDG|-3|HIGH|=||«Bevare … foreldrekvoter på 15 uker hver».
+fam_child_benefit_tax|FrP|=|LOW|=||Skatt og økning nevnes ikke.
+fam_child_benefit_tax|Sp|-3|HIGH|33|Sp vil øke barnetrygden, men beholde den som en universell ordning uten behovsprøving eller beskatning.|Fra U; begrunnelsen var feil.
+fam_abortion|SV|=|MEDIUM|=||Uke-grensen nevnes ikke.
+fam_abortion|MDG|=|MEDIUM|=||Uke-grensen nevnes ikke.
+val_sunday|Sp|-2|HIGH|=|Sp vil ikke utvide ordningen med søndagsåpne butikker.|Harmonisert med Ap (samme formulering).
+val_sunday|V|=|MEDIUM|=||Full liberalisering, ikke kommunalt valg.
+val_sunday|KrF|-2|MEDIUM|=||Butikker nevnes ikke; -3 MEDIUM bryter konvensjonen.
+econ_nrk|Ap|=|MEDIUM|=||Finansieringsnivå nevnes ikke.
+econ_nrk|H|=|LOW|=||Sier ikke at NRK skal få mindre.
+econ_nrk|Sp|=|MEDIUM|=||Finansieringsnivå nevnes ikke.
+econ_nrk|KrF|=|MEDIUM|=||Finansieringsnivå nevnes ikke.
+dist_municipal_merge|R|=|LOW|=||Kritiserer tvang; insentiver nevnes ikke.
+dist_municipal_merge|KrF|2|HIGH|54|KrF vil legge til rette for frivillige sammenslåinger og opprettholde og styrke økonomiske insentiver.|Fra U.
+dist_municipal_merge|MDG|2|MEDIUM|77|MDG vil gi insentiver til frivillige kommunesammenslåinger, men ikke bruke tvang.|FEIL FORTEGN rettet (var -1).
+dist_county|R|-3|HIGH|76|Rødt vil forsvare og videreutvikle en modell med tre forvaltningsnivåer: kommune, fylke og stat.|Fra U.
+dist_county|V|U|-|-|Venstre vil vurdere organiseringen på fylkes-/regionnivå uten å angi retning.|Kilden angir ingen retning.
+dist_county|KrF|-3|HIGH|54|KrF vil beholde fylkeskommunen som eget forvaltningsnivå.|Fra U.
+agri_tariffs|FrP|=|=|42,44,51||
+agri_tariffs|SV|2|MEDIUM|38,46|SV vil gå fra krone- til prosenttoll på landbruksprodukter der det gir best beskyttelse.|
+agri_income|H|-2|MEDIUM|39|Høyre vil gjøre landbruket mindre avhengig av offentlige overføringer og mener økte overføringer ikke har bedret lønnsomheten.|Fra U.
+agri_income|FrP|-3|HIGH|50-51|FrP vil gradvis redusere næringsoverføringene til landbruket.|
+agri_income|R|3|HIGH|66|Rødt vil at inntektene i jordbruket skal jamstilles med andre grupper.|
+agri_income|KrF|3|HIGH|=||Samme formulering som Sp («tette inntektsgapet … innen 2027»).
+agri_predators|FrP|-2|MEDIUM|=|FrP vil oppheve kjerneområdene for rovdyr og overføre rovdyrforvaltningen til lokale myndigheter.|Reduksjon sies ikke eksplisitt.
+eu_membership|Ap|=|=|169;src:altinget_ap_eu_2025|Programmet sier at Ap er tilhenger av sterkt europeisk samarbeid, at det er rom for ulike syn, og at et medlemskapsspørsmål skal behandles på et nytt landsmøte. Ifølge Altinget vedtok landsmøtet i april 2025 at «det ikke er tiden for en medlemskapsprosess nå». Kodet svakt negativt fordi Ap ikke vil søke nå.|Begrunnelsen sa feilaktig at programmet ikke tar stilling.
+eu_reservation|KrF|U|-|-|KrF vil beholde dagens tilknytningsform, men tar ikke stilling til å reservere seg oftere.|
+def_budget|Ap|=|=|=|Ap vil være garantisten for at forsvarsløftet i langtidsplanen gjennomføres, og at Norge oppfyller NATOs toprosentmål.|«uten å gå utover planen» stod ikke i kilden.
+def_budget|FrP|=|=|19-20||Riktig side.
+def_budget|Sp|2|MEDIUM|43,48|Sp vil ha forsvarsbudsjett på minimum 3 prosent av BNP, men øke bevilgningene i tråd med langtidsplanen og uten tidsangivelse.|Mindre kategorisk enn KrF.
+def_budget|R|0|LOW|87-88|Rødt har sluttet seg til forsvarsforliket og vil styrke den nasjonale forsvarsevnen, men prioriterer også nedrustning.|Var -1.
+def_budget|V|1|LOW|66|Venstre vil kraftig ruste opp Forsvarets operative evne og vurdere toprosentmålet i takt med situasjonen.|
+def_allied_bases|Sp|-3|HIGH|48|Sp vil sikre at NATO-soldater i Norge forblir rotasjonsbasert uten permanent tilstedeværelse.|Fra U.
+def_allied_bases|V|2|MEDIUM|66|Venstre vil oppdatere basepolitikken for å åpne for større nærvær av allierte styrker og fast samarbeid.|Fra U.
+def_allied_bases|MDG|1|MEDIUM|105|MDG vil samarbeide om omforente områder for utstasjonering av allierte tropper, med utvetydig rett til oppsigelse.|Fra U.
+def_ukraine|MDG|2|MEDIUM|110|MDG vil styrke Nansenprogrammet med ekstrainntektene fra krigen for å støtte Ukrainas forsvar og gjenoppbygging.|Fra U.
+for_aid|R|3|HIGH|93|Rødt vil at minst 1 prosent av BNI brukes til samfunnsutvikling i fattige land.|Fra U; begrunnelsen var feil.
+for_nuclear_ban|Ap|0|MEDIUM|171|Ap mener det i dagens situasjon ikke er mulig for NATO-land som Norge å undertegne, men at det bør være et mål.|Dokumentert mellomposisjon.
+for_nuclear_ban|Sp|0|MEDIUM|134|Sp mener det er et mål på sikt å signere, men at det forutsetter gjensidige og verifiserbare nedrustningsavtaler.|Fra U.
+for_nuclear_ban|R|3|HIGH|86|Rødt vil at Norge umiddelbart ratifiserer avtalen om forbud mot atomvåpen.|
+for_nuclear_ban|V|-1|LOW|65|Venstre vil prioritere avtaler der atomvåpenstatene er parter, med en forbudsavtale som omfatter alle atommaktene som mål på sikt.|Fra U.
+for_israel_sanctions|SV|2|HIGH|45|SV vil trekke oljefondet ut av selskaper på FNs svarteliste og forby økonomisk virksomhet knyttet til okkuperte områder.|Målrettet mot okkupasjonsøkonomien.
+for_israel_sanctions|V|1|LOW|64-65|Venstre vil at oljefondet ikke skal investeres i selskaper som bidrar til ulovlig okkupasjon.|Fra U.
+# --- Aps ukjente standpunkter (nyere offisielle kilder, se POLITICAL_QA.md §2)
+econ_wealth_working|Ap|-2|MEDIUM|src:ap_web_skatt|Ap vil «beholde den omfordelende og rettferdige formuesskatten» (partiets nettside). Programmet nevner ikke arbeidende kapital.|Fra U.
+econ_inheritance|Ap|-3|HIGH|src:ap_web_arveavgift|«Arveavgiften skal ikke gjeninnføres» (partiets nettside).|Fra U.
+just_police_arms|Ap|3|HIGH|src:ap_lm2025_bevapning|Landsmøtet 2025 vedtok at det bør innføres generell bevæpning av politiet, med en tydelig innramming.|Fra U.
+just_surveillance|Ap|1|MEDIUM|src:sting_innst_368l_2526|Ap-regjeringen har foreslått og Ap støttet utvidet adgang til skjult kameraovervåking med mobilt kamera og droner (Prop. 59 L, Innst. 368 L 2025–2026). Ansiktsgjenkjenning er ikke omtalt.|Fra U; ett tiltak → +1.
+drug_cannabis|Ap|-3|HIGH|src:ap_web_rus|Ap vil at narkotika fortsatt skal være forbudt i Norge (partiets nettside).|Fra U.
+transport_ev|Ap|-2|HIGH|src:ap_budsjettavtale_2026|Ap mener «tiden er moden for å fase ut elbilfordelene i merverdiavgiftssystemet», med lavere beløpsgrense i 2026–2028.|Fra U.
+edu_absence_limit|Ap|2|HIGH|src:ap_web_fravar|«Dagens fraværsgrense består», men med egenmelding for sykefravær opp til grensen (partiets nettside).|Fra U.
+edu_national_tests|Ap|-2|MEDIUM|src:sting_innst_236s_2526|I Innst. 236 S (2025–2026) er Ap med i flertallet som mener det er «på høy tid med endring» av dagens nasjonale prøver, og som gikk imot forslaget om å beholde dem.|Fra U.
+edu_national_tests|KrF|-2|MEDIUM|src:sting_innst_236s_2526|I Innst. 236 S (2025–2026) er KrF med i flertallet som mener det er «på høy tid med endring» av dagens nasjonale prøver, og som gikk imot forslaget om å beholde dem.|Fra U (samme kilde som Ap).
+fam_leave_quota|Ap|-3|HIGH|src:ap_web_foreldrepermisjon|Ap vil «beholde dagens vellykkede fedrekvote og en tredelt foreldrepermisjon» (partiets nettside).|Fra U.
+dist_municipal_merge|Ap|2|MEDIUM|src:ntb_kommunesammenslaing_2027|Ap-regjeringen foreslår i statsbudsjettet for 2027 nye økonomiske virkemidler for frivillige kommunesammenslåinger (gjengitt av NTB).|Fra U; sekundærkilde.
+dist_county|Ap|-3|MEDIUM|src:sting_innst_196s_2526|Ap er med i stortingsflertallet som «ønsker derfor ikke å avvikle fylkeskommunen» (Innst. 196 S 2025–2026).|Fra U.
+for_israel_sanctions|Ap|1|MEDIUM|src:ap_web_palestina|Ap vil innføre handelsforbud med varer produsert i de folkerettsstridige israelske bosetningene, men ikke generelle sanksjoner mot Israel.|Fra U.

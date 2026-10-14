@@ -8,6 +8,11 @@ import {
   computeResults,
   scoreParty,
   userDimensions,
+  chanceBaseline,
+  isModestFit,
+  isAgreement,
+  isConflict,
+  mulberry32,
   IMPORTANCE_WEIGHT,
 } from '../src/lib/scoring';
 import { buildInsights } from '../src/lib/insights';
@@ -279,5 +284,53 @@ describe('Datasettets integritet', () => {
     for (const q of data.questions) {
       expect(Math.abs(q.pro.length - q.con.length), q.id).toBeLessThanOrEqual(1);
     }
+  });
+});
+
+describe('Tilfeldighetsnivå («ingen parti passer spesielt godt»)', () => {
+  const rnd = mulberry32(42);
+  const pick = () => Math.floor(rnd() * 7) - 3;
+
+  it('et partis egen profil passer klart bedre enn tilfeldig stokkede svar', () => {
+    for (const party of data.parties) {
+      const answers: Answers = {};
+      for (const p of data.positions.filter((x) => x.party === party.id && x.position !== null)) answers[p.question] = ans(p.position!);
+      const res = computeResults(data, answers);
+      expect(res.verdict).not.toBe('weak');
+      expect(res.ranking[0].score!).toBeGreaterThan(res.baseline! + 0.15);
+      expect(isModestFit(res)).toBe(false);
+    }
+  });
+
+  it('helt tilfeldige svar klassifiseres som regel som «ingen parti passer spesielt godt»', () => {
+    let weak = 0;
+    for (let i = 0; i < 40; i++) {
+      const answers: Answers = Object.fromEntries(data.questions.map((q) => [q.id, ans(pick())]));
+      if (computeResults(data, answers).verdict === 'weak') weak++;
+    }
+    expect(weak).toBeGreaterThanOrEqual(30);
+  });
+
+  it('er deterministisk og null ved for få svar', () => {
+    const answers: Answers = Object.fromEntries(data.questions.slice(0, 20).map((q, i) => [q.id, ans((i % 7) - 3)]));
+    expect(chanceBaseline(data, answers)).toBe(chanceBaseline(data, answers));
+    expect(chanceBaseline(data, { [data.questions[0].id]: ans(1) })).toBeNull();
+  });
+});
+
+describe('Merkelapper for enighet og konflikt', () => {
+  it('«enig» krever nærhet og samme side', () => {
+    expect(isAgreement(2, 3)).toBe(true);
+    expect(isAgreement(1, 3)).toBe(true);
+    expect(isAgreement(0, 1)).toBe(true);
+    expect(isAgreement(1, -1)).toBe(false); // to steg, men hver sin side
+    expect(isAgreement(0, 2)).toBe(false);
+  });
+  it('«konflikt» krever motsatt side eller stor avstand', () => {
+    expect(isConflict(2, -1)).toBe(true);
+    expect(isConflict(-3, 3)).toBe(true);
+    expect(isConflict(0, 3)).toBe(false); // nøytral mot ytterpunkt
+    expect(isConflict(-1, 3)).toBe(true); // fire steg
+    expect(isConflict(1, -1)).toBe(false);
   });
 });

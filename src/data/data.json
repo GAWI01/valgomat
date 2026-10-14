@@ -305,6 +305,126 @@
    "adopted": null,
    "accessed": "2026-10-14",
    "note": "Sekundærkilde. Omtaler landsmøtets uttalelse om at det «ikke er tiden for en medlemskapsprosess nå». Brukes kun fordi partiprogrammet ikke tar stilling."
+  },
+  {
+   "id": "ap_web_skatt",
+   "party": "Ap",
+   "type": "partiets nettside",
+   "title": "Arbeiderpartiet.no: «Skatt»",
+   "url": "https://www.arbeiderpartiet.no/politikken/skatt/",
+   "adopted": "Sist endret 2025-08 (sitemap)",
+   "accessed": "2026-10-14",
+   "note": "Partiets egen politikkside. Sidene er ikke datert; dato er «lastmod» i arbeiderpartiet.no/sitemap.xml. Brukes kun fordi partiprogrammet ikke tar stilling."
+  },
+  {
+   "id": "ap_web_arveavgift",
+   "party": "Ap",
+   "type": "partiets nettside",
+   "title": "Arbeiderpartiet.no: «Arveavgift»",
+   "url": "https://www.arbeiderpartiet.no/politikken/arveavgift/",
+   "adopted": "Sist endret 2025-08 (sitemap)",
+   "accessed": "2026-10-14",
+   "note": "Partiets egen politikkside. Sidene er ikke datert; dato er «lastmod» i arbeiderpartiet.no/sitemap.xml. Brukes kun fordi partiprogrammet ikke tar stilling."
+  },
+  {
+   "id": "ap_web_rus",
+   "party": "Ap",
+   "type": "partiets nettside",
+   "title": "Arbeiderpartiet.no: «Rus»",
+   "url": "https://www.arbeiderpartiet.no/politikken/rus/",
+   "adopted": "2025 (sitemap)",
+   "accessed": "2026-10-14",
+   "note": "Partiets egen politikkside. Sidene er ikke datert; dato er «lastmod» i arbeiderpartiet.no/sitemap.xml. Brukes kun fordi partiprogrammet ikke tar stilling."
+  },
+  {
+   "id": "ap_web_foreldrepermisjon",
+   "party": "Ap",
+   "type": "partiets nettside",
+   "title": "Arbeiderpartiet.no: «Foreldrepermisjon og pappaperm»",
+   "url": "https://www.arbeiderpartiet.no/politikken/foreldrepermisjon-og-pappaperm/",
+   "adopted": "2025 (sitemap)",
+   "accessed": "2026-10-14",
+   "note": "Partiets egen politikkside. Sidene er ikke datert; dato er «lastmod» i arbeiderpartiet.no/sitemap.xml. Brukes kun fordi partiprogrammet ikke tar stilling."
+  },
+  {
+   "id": "ap_web_fravar",
+   "party": "Ap",
+   "type": "partiets nettside",
+   "title": "Arbeiderpartiet.no: «Fraværsregler»",
+   "url": "https://www.arbeiderpartiet.no/politikken/fravarsregler/",
+   "adopted": "2025 (sitemap)",
+   "accessed": "2026-10-14",
+   "note": "Partiets egen politikkside. Sidene er ikke datert; dato er «lastmod» i arbeiderpartiet.no/sitemap.xml. Brukes kun fordi partiprogrammet ikke tar stilling."
+  },
+  {
+   "id": "ap_web_palestina",
+   "party": "Ap",
+   "type": "partiets nettside",
+   "title": "Arbeiderpartiet.no: «Palestina»",
+   "url": "https://www.arbeiderpartiet.no/politikken/palestina/",
+   "adopted": "2025–2026 (sitemap)",
+   "accessed": "2026-10-14",
+   "note": "Partiets egen politikkside. Sidene er ikke datert; dato er «lastmod» i arbeiderpartiet.no/sitemap.xml. Brukes kun fordi partiprogrammet ikke tar stilling."
+  },
+  {
+   "id": "ap_lm2025_bevapning",
+   "party": "Ap",
+   "type": "landsmøtevedtak",
+   "title": "Arbeiderpartiets landsmøte 2025: vedtak «Politiets sivile preg og bevæpning av politiet»",
+   "url": "https://res.cloudinary.com/arbeiderpartiet/image/upload/fl_attachment:0404-politi-og-bevapning/v1/ievv_filestore/8381a50f22ba40afbff791cdbbedf8205882dbcdc4484cfc8352dae8cf323885",
+   "adopted": "Landsmøtet april 2025",
+   "accessed": "2026-10-14",
+   "note": "Vedtatt resolusjon (PDF fra partiets filarkiv)."
+  },
+  {
+   "id": "ap_budsjettavtale_2026",
+   "party": "Ap",
+   "type": "partiets nettside",
+   "title": "Arbeiderpartiet.no: «Flertall for statsbudsjett 2026 med Arbeiderpartiet, SV, Sp, Rødt og MDG»",
+   "url": "https://www.arbeiderpartiet.no/aktuelt/flertall-for-statsbudsjett-2026-med-arbeiderpartiet-sv-sp-rodt-og-mdg/",
+   "adopted": "Budsjettenighet høsten 2025",
+   "accessed": "2026-10-14",
+   "note": "Partiets egen omtale av vedtatt budsjett."
+  },
+  {
+   "id": "sting_innst_236s_2526",
+   "party": null,
+   "type": "stortingsdokument",
+   "title": "Innst. 236 S (2025–2026): representantforslag om å beholde og forbedre nasjonale prøver og kartleggingsprøver",
+   "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-236s/",
+   "adopted": "Mai 2026",
+   "accessed": "2026-10-14",
+   "note": "Komitéflertallet (A, SV, Sp, R, KrF) er kritisk til dagens nasjonale prøver og gikk imot forslaget om å beholde dem. Partienes merknader i en innstilling regnes som MEDIUM."
+  },
+  {
+   "id": "sting_innst_196s_2526",
+   "party": null,
+   "type": "stortingsdokument",
+   "title": "Innst. 196 S (2025–2026): representantforslag om å starte avviklingen av fylkeskommunen",
+   "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-196s/",
+   "adopted": "Mars 2026",
+   "accessed": "2026-10-14",
+   "note": "Flertallet (A, SV, Sp, R, MDG): «ønsker derfor ikke å avvikle fylkeskommunen»."
+  },
+  {
+   "id": "sting_innst_368l_2526",
+   "party": null,
+   "type": "stortingsdokument",
+   "title": "Innst. 368 L (2025–2026): skjult kameraovervåking ved bruk av mobilt kamera m.m. (Prop. 59 L)",
+   "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-368l/",
+   "adopted": "2026",
+   "accessed": "2026-10-14",
+   "note": "Ap-regjeringens lovforslag om utvidede skjulte overvåkingsmetoder for politiet."
+  },
+  {
+   "id": "ntb_kommunesammenslaing_2027",
+   "party": "Ap",
+   "type": "sekundærkilde",
+   "title": "NTB/Adresseavisen: «Kommuner som slår seg sammen kan få belønning» (7. oktober 2026)",
+   "url": "https://www.adressa.no/nyheter/innenriks/i/lKw0pA/kommuner-som-slaar-seg-sammen-kan-faa-beloenning",
+   "adopted": "Statsbudsjettet 2027 (regjeringens forslag)",
+   "accessed": "2026-10-14",
+   "note": "Sekundærkilde som gjengir regjeringens budsjettforslag for 2027; regjeringen.no var utilgjengelig (HTTP 403) under researchen."
   }
  ],
  "questions": [
@@ -348,7 +468,7 @@
    "cluster": "okonomi/formue",
    "short": "Formuesskatt på bedriftseierskap",
    "text": "Formuesskatten på eierskap i bedrifter (såkalt arbeidende kapital) bør fjernes.",
-   "background": "Formuesskatt betales av nettoformue over et bunnfradrag. «Arbeidende kapital» er formue som er bundet i bedrifter, for eksempel aksjer og driftsmidler. Skatten betales uavhengig av om bedriften går med overskudd."
+   "background": "Formuesskatt betales av nettoformue over et bunnfradrag. «Arbeidende kapital» er formue som er bundet i bedrifter, for eksempel aksjer og driftsmidler. Slike eiendeler verdsettes i dag med en rabatt i formuesskatten, og skatten betales uavhengig av om bedriften går med overskudd."
   },
   {
    "id": "econ_top_tax",
@@ -492,7 +612,7 @@
    "theme": "arbeid",
    "cluster": "arbeid/sykelonn",
    "short": "Lavere sykelønn ved lange fravær",
-   "text": "Sykelønnen bør reduseres noe ved lange sykemeldinger (for eksempel fra 100 til 80 prosent etter seks måneder) for å få ned sykefraværet.",
+   "text": "Sykelønnen bør reduseres noe ved lange sykemeldinger, for eksempel fra 100 til 80 prosent etter seks måneder.",
    "background": "I dag får arbeidstakere normalt full lønn (opp til 6G) i inntil ett år ved sykdom. Norge har et av de høyeste sykefraværene i OECD. Sysselsettingsutvalgets ekspertgruppe foreslo blant annet redusert kompensasjon etter en tid."
   },
   {
@@ -556,7 +676,7 @@
    "cluster": "arbeid/ytelser",
    "short": "Høyere minsteytelser",
    "text": "Minsteytelsene i velferden (som minstepensjon, minste uføretrygd og sosialhjelp) bør økes betydelig.",
-   "background": "Minsteytelser er de laveste beløpene man kan få fra folketrygden eller kommunen. Mange som lever på slike ytelser, har inntekt under EUs fattigdomsgrense."
+   "background": "Minsteytelser er de laveste beløpene man kan få fra folketrygden eller kommunen. Mange som lever på slike ytelser, har inntekt under EUs lavinntektsgrense (60 prosent av medianinntekten)."
   },
   {
    "id": "welfare_commercial",
@@ -745,7 +865,7 @@
    "cluster": "innvandring/asylniva",
    "short": "Kvoteflyktninger etter FNs anbefaling",
    "text": "Norge bør ta imot minst så mange kvoteflyktninger som FN anbefaler.",
-   "background": "Kvoteflyktninger (overføringsflyktninger) er flyktninger som FNs høykommissær for flyktninger (UNHCR) har plukket ut som særlig sårbare, og som Norge henter direkte fra flyktningleirer. Stortinget bestemmer antallet hvert år."
+   "background": "Kvoteflyktninger (overføringsflyktninger) er flyktninger som FNs høykommissær for flyktninger (UNHCR) har plukket ut som særlig sårbare, og som Norge henter direkte fra flyktningleirer. UNHCR ber hvert år land om å ta imot flere slike flyktninger, men Stortinget bestemmer selv antallet, og det har variert mye fra år til år."
   },
   {
    "id": "imm_offshore",
@@ -766,7 +886,7 @@
    "cluster": "innvandring/asylsystem",
    "short": "Asylbehandling utenfor Europa",
    "text": "Asylsøkere som kommer til Norge, bør kunne sendes til et mottak i et trygt land utenfor Europa mens søknaden behandles.",
-   "background": "Flere europeiske land diskuterer eller prøver ut ordninger der asylsøknader behandles i land utenfor EU, for eksempel Italias avtale med Albania. Slike ordninger er omstridte juridisk og politisk."
+   "background": "Flere europeiske land diskuterer eller prøver ut ordninger der asylsøknader behandles i et annet land, for eksempel Storbritannias skrinlagte avtale med Rwanda og Italias avtale med Albania (som ligger utenfor EU). Slike ordninger er omstridte juridisk og politisk."
   },
   {
    "id": "imm_family",
@@ -808,7 +928,7 @@
    "cluster": "innvandring/varig",
    "short": "Strengere krav for varig opphold og statsborgerskap",
    "text": "Det bør stilles strengere krav for å få permanent opphold og norsk statsborgerskap, for eksempel om selvforsørgelse og norskkunnskaper.",
-   "background": "I dag kreves blant annet botid, norskkunnskaper (muntlig B1 for statsborgerskap) og bestått samfunnskunnskapsprøve. Permanent opphold krever normalt tre til fem års botid avhengig av grunnlag."
+   "background": "I dag kreves blant annet botid, norskkunnskaper (muntlig B1 for statsborgerskap) og bestått samfunnskunnskapsprøve eller statsborgerprøve. Permanent opphold krever normalt tre til fem års botid avhengig av grunnlag, og blant annet at man ikke har mottatt sosialhjelp det siste året."
   },
   {
    "id": "imm_labour",
@@ -835,7 +955,7 @@
    "id": "imm_amnesty",
    "pro": [
     "Etter mange år har folk, ikke minst barn, fått sitt liv og nettverk i Norge.",
-    "Det er inhumant å la mennesker leve i årevis uten rettigheter og fremtid.",
+    "Det er en stor belastning å leve i årevis uten rettigheter, arbeid og fremtidsutsikter, særlig for barn.",
     "Å la dem jobbe lovlig er bedre for samfunnet enn at de lever i skyggeøkonomien."
    ],
    "con": [
@@ -871,7 +991,7 @@
    "cluster": "innvandring/varig",
    "short": "Midlertidig opphold for flyktninger",
    "text": "Flyktninger bør som hovedregel bare få midlertidig opphold og returnere når hjemlandet er trygt.",
-   "background": "Flyktningstatus gis i dag normalt med mulighet for permanent opphold etter noen år. Danmark og flere andre land har gått over til mer midlertidig beskyttelse."
+   "background": "Flyktninger får i dag først en midlertidig oppholdstillatelse, og kan normalt få permanent opphold etter noen år. Beskyttelsen kan i prinsippet opphøre hvis forholdene i hjemlandet bedres varig, men dette brukes sjelden. Danmark og flere andre land har gått over til mer midlertidig beskyttelse."
   },
   {
    "id": "imm_integration_req",
@@ -1288,7 +1408,7 @@
    "cluster": "energi/krafteksport",
    "short": "Ingen nye utenlandskabler",
    "text": "Norge bør ikke bygge flere strømkabler til utlandet.",
-   "background": "Norge har strømkabler til blant annet Danmark, Nederland, Tyskland og Storbritannia. De gjør det mulig å eksportere og importere strøm. Mange mener kablene har bidratt til høyere og mer svingende priser i Sør-Norge."
+   "background": "Norge har strømkabler til blant annet Danmark, Nederland, Tyskland og Storbritannia. De gjør det mulig å eksportere og importere strøm. Det er uenighet om hvor mye kablene har bidratt til høyere og mer svingende strømpriser i Sør-Norge, sammenlignet med blant annet gassprisene i Europa og tilsiget til vannmagasinene."
   },
   {
    "id": "energy_price_control",
@@ -1330,7 +1450,7 @@
    "cluster": "eu/euregler",
    "short": "Nei til EUs fjerde energimarkedspakke",
    "text": "Norge bør si nei til EUs fjerde energimarkedspakke.",
-   "background": "EUs fjerde energimarkedspakke er et sett regler for det europeiske strømmarkedet. Spørsmålet om Norge skal innlemme den gjennom EØS-avtalen, har skapt stor debatt, blant annet om hvor mye makt som overføres til EUs energibyrå ACER."
+   "background": "EUs fjerde energimarkedspakke er et sett regler for det europeiske strømmarkedet. Spørsmålet om Norge skal innlemme den gjennom EØS-avtalen, har skapt stor debatt, blant annet om hvor mye makt som overføres til EUs energibyrå ACER. I juni 2025 sluttet et flertall på Stortinget seg til å innlemme tre av rettsaktene (fornybar-, energieffektiviserings- og bygningsenergidirektivet). Resten av pakken, blant annet de nye reglene for strømmarkedet, er ikke innlemmet, og spørsmålet gjelder denne delen."
   },
   {
    "id": "transport_toll",
@@ -1560,8 +1680,8 @@
    "theme": "familie",
    "cluster": "familie/barnetrygd",
    "short": "Høyere, skattepliktig barnetrygd",
-   "text": "Barnetrygden bør økes og gjøres skattepliktig, slik at familier med lave inntekter får mest igjen.",
-   "background": "Barnetrygden er i dag en skattefri, universell ytelse som alle foreldre får uavhengig av inntekt. Å gjøre den skattepliktig betyr at familier med høy inntekt beholder mindre etter skatt."
+   "text": "Barnetrygden bør gjøres skattepliktig og samtidig økes, slik at familier med lave inntekter får mest igjen.",
+   "background": "Barnetrygden er i dag en skattefri, universell ytelse som alle foreldre får uavhengig av inntekt. Å gjøre den skattepliktig betyr at familier med høy inntekt beholder mindre etter skatt. Påstanden gjelder kombinasjonen: høyere sats og skatteplikt samtidig. Den som vil øke barnetrygden uten å skattlegge den, er altså uenig i påstanden."
   },
   {
    "id": "fam_abortion",
@@ -1589,7 +1709,7 @@
    "pro": [
     "Mennesker med uhelbredelig sykdom og store lidelser bør selv kunne bestemme over sin egen død.",
     "Strenge regler og kontroll kan hindre misbruk.",
-    "Mange nordmenn reiser i dag til utlandet for å få hjelp, noe som kan være belastende."
+    "Noen nordmenn reiser i dag til utlandet, for eksempel til Sveits, for å få hjelp, noe som kan være belastende for dem og de pårørende."
    ],
    "con": [
     "Svake grupper kan føle press om å avslutte livet for ikke å være en byrde.",
@@ -1657,7 +1777,7 @@
    "con": [
     "Forbudet beskytter sårbare mennesker mot utnyttelse og menneskehandel.",
     "Loven sender et signal om at kjøp av andres kropp ikke er akseptabelt.",
-    "Etterspørselen etter sex driver menneskehandel, og forbudet bidrar til å redusere den."
+    "Etterspørselen etter sex driver menneskehandel, og forbudet kan bidra til å redusere den."
    ],
    "dims": {
     "social": 1
@@ -1860,7 +1980,8 @@
    "pro": [
     "NATO er en atomvåpenallianse som har vært involvert i kriger Norge ikke burde vært en del av.",
     "Utmelding kan gi Norge større selvstendighet i utenrikspolitikken.",
-    "Et nordisk forsvarssamarbeid kan være et alternativ."
+    "Et nordisk forsvarssamarbeid kan være et alternativ.",
+    "USA har blitt en mindre forutsigbar alliert, og Norge bør ikke gjøre sin sikkerhet avhengig av én stormakt."
    ],
    "con": [
     "NATO er Norges viktigste sikkerhetsgaranti, og ingen andre kan gi samme beskyttelse.",
@@ -1966,7 +2087,7 @@
    "con": [
     "Dialog og diplomati gir Norge større mulighet til å bidra til fred.",
     "Boikott kan ramme vanlige mennesker og samarbeid som fremmer forsoning.",
-    "Ensidige sanksjoner mot Israel kan oppleves som urettferdig i en konflikt med flere parter."
+    "Ensidige sanksjoner tar lite hensyn til Israels sikkerhetsbehov etter terrorangrepet 7. oktober 2023, og kan gjøre at Norge oppfattes som part i konflikten og mister rollen som tilrettelegger."
    ],
    "dims": {},
    "theme": "forsvar",
@@ -2058,7 +2179,7 @@
   {
    "question": "econ_tax_level",
    "party": "V",
-   "position": 2,
+   "position": 3,
    "confidence": "HIGH",
    "reasoning": "Venstre ønsker å redusere det samlede skatte- og avgiftstrykket, men vil øke skatt på eiendom, forbruk og forurensning (skatteveksling).",
    "refs": [
@@ -2097,13 +2218,13 @@
   {
    "question": "econ_wealth_working",
    "party": "Ap",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet nevner ikke formuesskatt direkte.",
+   "position": -2,
+   "confidence": "MEDIUM",
+   "reasoning": "Ap vil «beholde den omfordelende og rettferdige formuesskatten» (partiets nettside). Programmet nevner ikke arbeidende kapital.",
    "refs": [
     {
-     "source": "prog_ap",
-     "pages": "12-13"
+     "source": "ap_web_skatt",
+     "pages": null
     }
    ]
   },
@@ -2150,7 +2271,7 @@
    "question": "econ_wealth_working",
    "party": "SV",
    "position": -3,
-   "confidence": "HIGH",
+   "confidence": "MEDIUM",
    "reasoning": "SV vil øke skatten på store formuer.",
    "refs": [
     {
@@ -2305,7 +2426,7 @@
   {
    "question": "econ_top_tax",
    "party": "KrF",
-   "position": 2,
+   "position": 3,
    "confidence": "HIGH",
    "reasoning": "KrF vil øke bruttobeskatningen av de høyeste inntektene.",
    "refs": [
@@ -2331,12 +2452,12 @@
   {
    "question": "econ_inheritance",
    "party": "Ap",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": -3,
+   "confidence": "HIGH",
+   "reasoning": "«Arveavgiften skal ikke gjeninnføres» (partiets nettside).",
    "refs": [
     {
-     "source": "prog_ap",
+     "source": "ap_web_arveavgift",
      "pages": null
     }
    ]
@@ -2487,9 +2608,9 @@
   {
    "question": "econ_property_tax",
    "party": "Sp",
-   "position": 0,
+   "position": 1,
    "confidence": "LOW",
-   "reasoning": "Sp vil skjerme primærboliger med vanlig standard, men åpne for at kommuner kan ha eiendomsskatt kun på fritidsboliger. Blandet posisjon.",
+   "reasoning": "Sp vil gjøre det mulig for kommunene å sette eiendomsskatt bare på fritidsboliger og differensiere mellom bolig og fritid – kommunal adgang forutsettes videreført. Sp går imot statlig eiendomsskatt på bolig.",
    "refs": [
     {
      "source": "prog_sp",
@@ -2592,12 +2713,12 @@
    "question": "econ_oil_money",
    "party": "FrP",
    "position": 1,
-   "confidence": "MEDIUM",
+   "confidence": "LOW",
    "reasoning": "FrP vil skille mellom drift og investeringer i statsbudsjettet, og at oljeverdier også investeres i lønnsom norsk infrastruktur. Ikke eksplisitt om å bryte handlingsregelen.",
    "refs": [
     {
      "source": "prog_frp",
-     "pages": "41-42"
+     "pages": "42-43"
     }
    ]
   },
@@ -2630,22 +2751,22 @@
   {
    "question": "econ_oil_money",
    "party": "R",
-   "position": 1,
-   "confidence": "LOW",
-   "reasoning": "Rødt vil omplassere deler av fondet til et investeringsfond for norsk industri og klimavennlig infrastruktur. Ikke eksplisitt om handlingsregelen.",
+   "position": null,
+   "confidence": null,
+   "reasoning": "Rødt vil omplassere deler av fondet til et investeringsfond for norsk industri og «hente ut avkastningen over tid uten å tømme fondet», men tar ikke stilling til uttaksnivået.",
    "refs": [
     {
      "source": "prog_r",
-     "pages": "7"
+     "pages": null
     }
    ]
   },
   {
    "question": "econ_oil_money",
    "party": "V",
-   "position": -2,
-   "confidence": "MEDIUM",
-   "reasoning": "Venstre vektlegger mer ansvarlig offentlig pengebruk og handlingsregelens rolle i nedgangstider.",
+   "position": -3,
+   "confidence": "HIGH",
+   "reasoning": "Venstre vil ha en øvre grense på 25 prosent for hvor stor del av statens utgifter som kan finansieres med uttak fra oljefondet, og holde mer igjen på pengebruken.",
    "refs": [
     {
      "source": "prog_v",
@@ -2761,7 +2882,7 @@
    "question": "econ_state_owner",
    "party": "V",
    "position": 2,
-   "confidence": "MEDIUM",
+   "confidence": "HIGH",
    "reasoning": "Venstre mener statlig eierskap «for eierskapets skyld» gjør det offentliges grep om økonomien unødvendig stort, men vil sikre nasjonalt eierskap i grunnleggende infrastruktur.",
    "refs": [
     {
@@ -2805,7 +2926,7 @@
    "refs": [
     {
      "source": "prog_ap",
-     "pages": "50, 53, 70"
+     "pages": "50, 70, 95"
     }
    ]
   },
@@ -2929,13 +3050,13 @@
   {
    "question": "work_sickpay",
    "party": "H",
-   "position": 1,
-   "confidence": "LOW",
-   "reasoning": "Høyre vil endre finansieringen (mer arbeidsgiveransvar ved langtidsfravær) og evaluere ordningen med partene, men sier ikke eksplisitt at kompensasjonen skal kuttes.",
+   "position": -2,
+   "confidence": "HIGH",
+   "reasoning": "Høyre vil beholde dagens kompensasjon (full lønn inntil 6 G), men endre kostnadsfordelingen mellom arbeidsgiver og stat og evaluere sykepengeordningen.",
    "refs": [
     {
      "source": "prog_h",
-     "pages": "57-58"
+     "pages": "57"
     }
    ]
   },
@@ -3241,26 +3362,26 @@
   {
    "question": "work_temp_agency",
    "party": "KrF",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": -2,
+   "confidence": "MEDIUM",
+   "reasoning": "KrF vil arbeide for å redusere bruken av midlertidige stillinger (innleie nevnes ikke).",
    "refs": [
     {
      "source": "prog_krf",
-     "pages": null
+     "pages": "49"
     }
    ]
   },
   {
    "question": "work_temp_agency",
    "party": "MDG",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": 1,
+   "confidence": "LOW",
+   "reasoning": "MDG vil tilpasse innleieregelen slik at virksomheter kan leie inn ekspertise til avgrensede prosjekter, men vil samtidig styrke fast ansettelse.",
    "refs": [
     {
      "source": "prog_mdg",
-     "pages": null
+     "pages": "22-23"
     }
    ]
   },
@@ -3268,7 +3389,7 @@
    "question": "work_min_benefits",
    "party": "Ap",
    "position": 1,
-   "confidence": "MEDIUM",
+   "confidence": "LOW",
    "reasoning": "Ap vil at minstenivåene for pensjon skal følge utviklingen i samfunnet og ikke henge etter.",
    "refs": [
     {
@@ -3345,9 +3466,9 @@
   {
    "question": "work_min_benefits",
    "party": "V",
-   "position": 1,
+   "position": 2,
    "confidence": "MEDIUM",
-   "reasoning": "Venstre vil ha høyere minstesatser i statlige ytelser for å redusere behovet for supplerende sosialhjelp.",
+   "reasoning": "Venstre vil redusere behovet for sosialhjelp gjennom høyere minstesatser i statlige ytelser og heve minstesatsen på AAP for unge.",
    "refs": [
     {
      "source": "prog_v",
@@ -3371,22 +3492,22 @@
   {
    "question": "work_min_benefits",
    "party": "MDG",
-   "position": 2,
-   "confidence": "MEDIUM",
-   "reasoning": "MDG mener sosialhjelpssatsene bør dekke grunnleggende behov etter SIFOs referansebudsjett.",
+   "position": 3,
+   "confidence": "HIGH",
+   "reasoning": "MDG vil løfte minste pensjonsnivå over EUs fattigdomsgrense (EU60) og fastsette sosialhjelpen etter SIFOs referansebudsjett.",
    "refs": [
     {
      "source": "prog_mdg",
-     "pages": "21"
+     "pages": "21, 25"
     }
    ]
   },
   {
    "question": "health_free_choice",
    "party": "Ap",
-   "position": -2,
+   "position": -1,
    "confidence": "MEDIUM",
-   "reasoning": "Ap vil at offentlig helsetjeneste skal være hovedmodellen; private og ideelle kan supplere gjennom forpliktende samarbeid «så lenge det er det offentlige som har» ansvaret. Ap avviklet fritt behandlingsvalg i regjering, men programmet nevner ikke ordningen direkte.",
+   "reasoning": "Ap vil videreføre fritt sykehusvalg mellom offentlige sykehus og private sykehus med avtale, men vil styre og avgrense bruken av kommersielle aktører. Programmet nevner ikke fritt behandlingsvalg.",
    "refs": [
     {
      "source": "prog_ap",
@@ -3411,12 +3532,12 @@
    "question": "health_free_choice",
    "party": "FrP",
    "position": 3,
-   "confidence": "MEDIUM",
+   "confidence": "HIGH",
    "reasoning": "FrP vil at tjenestene finansieres av det offentlige uansett om de utføres av offentlige, ideelle eller private, og at pasienten selv skal velge.",
    "refs": [
     {
      "source": "prog_frp",
-     "pages": "59"
+     "pages": "59-60"
     }
    ]
   },
@@ -3437,7 +3558,7 @@
    "question": "health_free_choice",
    "party": "SV",
    "position": -3,
-   "confidence": "HIGH",
+   "confidence": "MEDIUM",
    "reasoning": "SV vil motvirke privatiseringen og hindre at private tilbud utarmer den offentlige helsetjenesten.",
    "refs": [
     {
@@ -3450,12 +3571,12 @@
    "question": "health_free_choice",
    "party": "R",
    "position": -3,
-   "confidence": "MEDIUM",
-   "reasoning": "Rødt mener private helseforsikringer skaper et todelt helsevesen og vil ha et offentlig helsetilbud for alle.",
+   "confidence": "HIGH",
+   "reasoning": "Rødt vil ikke la kommersielle aktører drive offentlig finansierte grunnleggende velferdstjenester; fritt valg skal bare gjelde offentlige eller ideelle sykehus.",
    "refs": [
     {
      "source": "prog_r",
-     "pages": "16"
+     "pages": "13-14"
     }
    ]
   },
@@ -3527,9 +3648,9 @@
   {
    "question": "health_trusts",
    "party": "FrP",
-   "position": 2,
+   "position": 1,
    "confidence": "MEDIUM",
-   "reasoning": "FrP vil avskaffe de regionale helseforetakene og erstatte dem med en nasjonal styringsenhet og selvstendige lokale helseforetak (ikke direkte folkevalgt styring).",
+   "reasoning": "FrP vil avskaffe de regionale helseforetakene og erstatte dem med en nasjonal styringsenhet og selvstendige lokale helseforetak – foretaksmodellen beholdes lokalt, uten mer folkevalgt styring.",
    "refs": [
     {
      "source": "prog_frp",
@@ -3893,7 +4014,7 @@
    "party": "Sp",
    "position": 1,
    "confidence": "MEDIUM",
-   "reasoning": "Sp mener Norge ikke kan ha en mer liberal praksis enn nabolandene, og vil begrense antallet asylsøkere uten beskyttelsesbehov.",
+   "reasoning": "Sp mener Norge ikke over tid kan ha en asylpraksis som skiller seg vesentlig fra nabolandene, og vil ha en streng og rettferdig innvandringspolitikk.",
    "refs": [
     {
      "source": "prog_sp",
@@ -3918,8 +4039,8 @@
    "question": "imm_level",
    "party": "R",
    "position": -3,
-   "confidence": "HIGH",
-   "reasoning": "Rødt mener norsk asylpolitikk er blant de strengeste i Europa og vil at Norge tar et langt større ansvar.",
+   "confidence": "MEDIUM",
+   "reasoning": "Rødt mener asylpolitikken er blant de strengeste i Europa, vil styrke kvoteordningen og sikre at retten til å søke asyl ikke hindres.",
    "refs": [
     {
      "source": "prog_r",
@@ -3962,7 +4083,7 @@
    "refs": [
     {
      "source": "prog_mdg",
-     "pages": "103"
+     "pages": "103-104"
     }
    ]
   },
@@ -4035,7 +4156,7 @@
    "question": "imm_quota",
    "party": "R",
    "position": 3,
-   "confidence": "HIGH",
+   "confidence": "MEDIUM",
    "reasoning": "Rødt vil styrke kvoteflyktningordningen og følge anbefalingene til FNs høykommissær for flyktninger.",
    "refs": [
     {
@@ -4099,9 +4220,9 @@
   {
    "question": "imm_offshore",
    "party": "H",
-   "position": 2,
+   "position": 1,
    "confidence": "MEDIUM",
-   "reasoning": "Høyre vil returnere asylsøkere som har vært i andre trygge land og utrede et system med omplassering til trygge land nærmere hjemlandet.",
+   "reasoning": "Høyre vil returnere asylsøkere som har oppholdt seg i trygge land, og utrede et system der Norge betaler for omplassering til trygge land nærmere hjemlandet – ikke mottak i tredjeland mens søknaden behandles.",
    "refs": [
     {
      "source": "prog_h",
@@ -4218,7 +4339,7 @@
    "party": "H",
    "position": 3,
    "confidence": "HIGH",
-   "reasoning": "Høyre vil stramme inn vilkårene for familiegjenforening, blant annet med forsørgerkrav for flyktninger.",
+   "reasoning": "Høyre vil stramme inn regelverket for familieinnvandring, blant annet ved å vurdere forsørgerkrav for flyktninger.",
    "refs": [
     {
      "source": "prog_h",
@@ -4242,7 +4363,7 @@
   {
    "question": "imm_family",
    "party": "Sp",
-   "position": 2,
+   "position": 3,
    "confidence": "HIGH",
    "reasoning": "Sp vil stramme inn vilkårene for familieinnvandring.",
    "refs": [
@@ -4268,26 +4389,26 @@
   {
    "question": "imm_family",
    "party": "R",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke eksplisitt stilling til familiegjenforening.",
+   "position": -2,
+   "confidence": "MEDIUM",
+   "reasoning": "Rødt vil fjerne femårsregelen ved familiegjenforening og avskaffe gebyrene for å søke selvstendig oppholdstillatelse.",
    "refs": [
     {
      "source": "prog_r",
-     "pages": null
+     "pages": "69"
     }
    ]
   },
   {
    "question": "imm_family",
    "party": "V",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet nevner bare at likekjønnede par skal ha samme mulighet til familieinnvandring som andre.",
+   "position": -1,
+   "confidence": "LOW",
+   "reasoning": "Venstre vil korte ned saksbehandlingstiden for familiegjenforening kraftig og innføre kjærestevisum.",
    "refs": [
     {
      "source": "prog_v",
-     "pages": "48"
+     "pages": "27, 48"
     }
    ]
   },
@@ -4398,13 +4519,13 @@
   {
    "question": "imm_residence",
    "party": "V",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling til kravene (kun til tilbakekall).",
+   "position": -1,
+   "confidence": "LOW",
+   "reasoning": "Venstre vil redusere kravet til oppholdstid før statsborgerskap for personer gift med norske statsborgere.",
    "refs": [
     {
      "source": "prog_v",
-     "pages": null
+     "pages": "27"
     }
    ]
   },
@@ -4417,7 +4538,7 @@
    "refs": [
     {
      "source": "prog_krf",
-     "pages": "36"
+     "pages": "36, 38"
     }
    ]
   },
@@ -4437,13 +4558,13 @@
   {
    "question": "imm_labour",
    "party": "Ap",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Ap omtaler arbeidsinnvandring positivt, men tar ikke stilling til regelverket for arbeidstillatelse.",
+   "position": 1,
+   "confidence": "LOW",
+   "reasoning": "Ap vil korte ned godkjenningsprosessen for arbeidstillatelser til tre dager for å gi bedrifter rask tilgang til utenlandsk kompetanse.",
    "refs": [
     {
      "source": "prog_ap",
-     "pages": "112"
+     "pages": "36"
     }
    ]
   },
@@ -4502,13 +4623,13 @@
   {
    "question": "imm_labour",
    "party": "R",
-   "position": 1,
+   "position": 0,
    "confidence": "LOW",
-   "reasoning": "Rødt vil la asylsøkere med avslag søke opphold som arbeidssøkere på lik linje med andre utenfor EØS.",
+   "reasoning": "Rødt vil at arbeidsinnvandrere må ha tariffbetingelser for å få opphold, men at asylsøkere med avslag skal kunne søke som arbeidssøkere – trekker i begge retninger.",
    "refs": [
     {
      "source": "prog_r",
-     "pages": "96"
+     "pages": "11, 96"
     }
    ]
   },
@@ -4541,13 +4662,13 @@
   {
    "question": "imm_labour",
    "party": "MDG",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": 2,
+   "confidence": "MEDIUM",
+   "reasoning": "MDG vil ha et enkelt regelverk for arbeidsinnvandring og utrede om personer utenfor EU kan få samme vilkår for midlertidig arbeidstillatelse som EU-borgere.",
    "refs": [
     {
      "source": "prog_mdg",
-     "pages": null
+     "pages": "23"
     }
    ]
   },
@@ -4568,7 +4689,7 @@
    "question": "imm_amnesty",
    "party": "H",
    "position": -2,
-   "confidence": "HIGH",
+   "confidence": "MEDIUM",
    "reasoning": "Høyre vil sørge for at returer gjennomføres hurtig og styrke returarbeidet.",
    "refs": [
     {
@@ -4594,7 +4715,7 @@
    "question": "imm_amnesty",
    "party": "Sp",
    "position": -2,
-   "confidence": "HIGH",
+   "confidence": "MEDIUM",
    "reasoning": "Sp vil ha rask retur av dem som har fått endelig avslag, men gjennomgå situasjonen for ureturnerbare.",
    "refs": [
     {
@@ -4619,13 +4740,13 @@
   {
    "question": "imm_amnesty",
    "party": "R",
-   "position": 2,
-   "confidence": "MEDIUM",
-   "reasoning": "Rødt vil gi asylsøkere med avslag mulighet til å søke opphold som arbeidssøkere og gi arbeidstillatelse også til papirløse og ureturnerbare.",
+   "position": 3,
+   "confidence": "HIGH",
+   "reasoning": "Rødt vil jobbe for en amnestiregel for ureturnerbare som har vært i Norge over en viss periode.",
    "refs": [
     {
      "source": "prog_r",
-     "pages": "96"
+     "pages": "96, 98"
     }
    ]
   },
@@ -4651,7 +4772,7 @@
    "refs": [
     {
      "source": "prog_krf",
-     "pages": "36-37"
+     "pages": "36-38"
     }
    ]
   },
@@ -4736,9 +4857,9 @@
   {
    "question": "imm_temporary",
    "party": "R",
-   "position": -2,
-   "confidence": "MEDIUM",
-   "reasoning": "Rødt vil avvikle begrensede oppholdstillatelser fordi de hemmer integrering.",
+   "position": -1,
+   "confidence": "LOW",
+   "reasoning": "Rødt vil avvikle praksisen med begrensede oppholdstillatelser og styrke flyktningers rettigheter.",
    "refs": [
     {
      "source": "prog_r",
@@ -4768,7 +4889,7 @@
    "refs": [
     {
      "source": "prog_krf",
-     "pages": "37"
+     "pages": "36-37"
     }
    ]
   },
@@ -4788,9 +4909,9 @@
   {
    "question": "imm_integration_req",
    "party": "Ap",
-   "position": 2,
+   "position": 1,
    "confidence": "MEDIUM",
-   "reasoning": "Ap vil innføre integreringskontrakt for familieinnvandrere og vurdere nye sanksjoner ved manglende deltakelse i norsk- og samfunnsopplæring.",
+   "reasoning": "Ap vil vurdere nye sanksjonsmuligheter dersom personer med familieinnvandringstillatelse ikke gjennomfører opplæringstilbud.",
    "refs": [
     {
      "source": "prog_ap",
@@ -4866,13 +4987,13 @@
   {
    "question": "imm_integration_req",
    "party": "V",
-   "position": 1,
-   "confidence": "LOW",
-   "reasoning": "Venstre mener det er viktig å stille krav til dem som får opphold, men nevner ikke økonomiske sanksjoner.",
+   "position": null,
+   "confidence": null,
+   "reasoning": "Venstre vil stille krav om å respektere norsk lov og gi flere tilbud om norskopplæring, men tar ikke stilling til trekk i støtte.",
    "refs": [
     {
      "source": "prog_v",
-     "pages": "26"
+     "pages": null
     }
    ]
   },
@@ -4950,7 +5071,7 @@
    "refs": [
     {
      "source": "prog_sp",
-     "pages": "83, 88"
+     "pages": "83, 85, 88"
     }
    ]
   },
@@ -5022,12 +5143,12 @@
   {
    "question": "just_police_arms",
    "party": "Ap",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": 3,
+   "confidence": "HIGH",
+   "reasoning": "Landsmøtet 2025 vedtok at det bør innføres generell bevæpning av politiet, med en tydelig innramming.",
    "refs": [
     {
-     "source": "prog_ap",
+     "source": "ap_lm2025_bevapning",
      "pages": null
     }
    ]
@@ -5139,13 +5260,13 @@
   {
    "question": "just_surveillance",
    "party": "Ap",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Ap vil beskytte innbyggerne mot digital overvåking fra private selskaper, men tar ikke stilling til politiets metoder.",
+   "position": 1,
+   "confidence": "MEDIUM",
+   "reasoning": "Ap-regjeringen har foreslått og Ap støttet utvidet adgang til skjult kameraovervåking med mobilt kamera og droner (Prop. 59 L, Innst. 368 L 2025–2026). Ansiktsgjenkjenning er ikke omtalt.",
    "refs": [
     {
-     "source": "prog_ap",
-     "pages": "145"
+     "source": "sting_innst_368l_2526",
+     "pages": null
     }
    ]
   },
@@ -5165,9 +5286,9 @@
   {
    "question": "just_surveillance",
    "party": "FrP",
-   "position": 1,
+   "position": 2,
    "confidence": "MEDIUM",
-   "reasoning": "FrP vil begrense overvåking generelt, men akseptere forhåndsgodkjent romavlytting, bevisprovokasjon og overvåking ved alvorlig kriminalitet.",
+   "reasoning": "FrP vil begrense overvåking generelt, men mener politiet mangler effektive metoder mot alvorlig kriminalitet og vil pålegge datalagring og tillate rom- og telefonavlytting og bevisprovokasjon.",
    "refs": [
     {
      "source": "prog_frp",
@@ -5219,11 +5340,11 @@
    "party": "V",
    "position": -2,
    "confidence": "MEDIUM",
-   "reasoning": "Venstre mener trygghet skal bygges gjennom tillitsbyggende arbeid «og ikke gjennom overvåking av borgerne».",
+   "reasoning": "Venstre sier nei til all digital masseovervåking og vil ha høy terskel for politiets skjulte tvangsmidler.",
    "refs": [
     {
      "source": "prog_v",
-     "pages": "47"
+     "pages": "45, 61"
     }
    ]
   },
@@ -5231,12 +5352,12 @@
    "question": "just_surveillance",
    "party": "KrF",
    "position": -1,
-   "confidence": "MEDIUM",
-   "reasoning": "KrF vil forby kommersiell ansiktsgjenkjenning og annen biometrisk fjernidentifisering i offentlige rom.",
+   "confidence": "LOW",
+   "reasoning": "KrF vil forby kommersiell ansiktsgjenkjenning og at nye overvåkingsmetoder skal vurderes av domstolene.",
    "refs": [
     {
      "source": "prog_krf",
-     "pages": "39"
+     "pages": "39, 85"
     }
    ]
   },
@@ -5321,22 +5442,22 @@
   {
    "question": "just_alt_sentences",
    "party": "R",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": 2,
+   "confidence": "HIGH",
+   "reasoning": "Rødt vil utvikle og forsterke alternativer til fengsel og mener fengsel bør forbeholdes dem som er til skade for andre eller har begått betydelig kriminalitet.",
    "refs": [
     {
      "source": "prog_r",
-     "pages": null
+     "pages": "97-98"
     }
    ]
   },
   {
    "question": "just_alt_sentences",
    "party": "V",
-   "position": 1,
-   "confidence": "LOW",
-   "reasoning": "Venstre vil bruke ungdomsstraff der det er mulig og redusere minstestraffer, men tar ikke generelt stilling.",
+   "position": 3,
+   "confidence": "HIGH",
+   "reasoning": "Venstre vil øke bruken av soning med fotlenke og videreutvikle samfunnsstraff.",
    "refs": [
     {
      "source": "prog_v",
@@ -5490,12 +5611,12 @@
   {
    "question": "drug_cannabis",
    "party": "Ap",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling til legalisering av cannabis.",
+   "position": -3,
+   "confidence": "HIGH",
+   "reasoning": "Ap vil at narkotika fortsatt skal være forbudt i Norge (partiets nettside).",
    "refs": [
     {
-     "source": "prog_ap",
+     "source": "ap_web_rus",
      "pages": null
     }
    ]
@@ -5634,12 +5755,12 @@
    "question": "drug_alcohol",
    "party": "FrP",
    "position": 3,
-   "confidence": "MEDIUM",
-   "reasoning": "FrP mener dagens høye avgifter og reguleringer fører til smugling, vil la serveringssteder fastsette egne tider og tillate salg av sterkøl og vin fra lokale produsenter i butikk.",
+   "confidence": "HIGH",
+   "reasoning": "FrP vil liberalisere alkohollovgivningen og oppheve monopolet for omsetning av alkoholholdige drikker.",
    "refs": [
     {
      "source": "prog_frp",
-     "pages": "56"
+     "pages": "56-57"
     }
    ]
   },
@@ -5685,9 +5806,9 @@
   {
    "question": "drug_alcohol",
    "party": "V",
-   "position": 3,
+   "position": 2,
    "confidence": "HIGH",
-   "reasoning": "Venstre vil åpne for salg av sterkøl i butikk, gi kommunene frihet over salgstider og oppheve forbudet mot alkohol i det offentlige rom.",
+   "reasoning": "Venstre vil i hovedsak videreføre dagens alkoholpolitikk, men åpne for enkelte liberaliseringer som sterkøl i butikk og lokale salgstider.",
    "refs": [
     {
      "source": "prog_v",
@@ -5711,7 +5832,7 @@
   {
    "question": "drug_alcohol",
    "party": "MDG",
-   "position": -1,
+   "position": -2,
    "confidence": "MEDIUM",
    "reasoning": "MDG vil videreføre en restriktiv omsetningspolitikk og beholde Vinmonopolet, men åpne for alkoholkonsum i enkelte parker.",
    "refs": [
@@ -5751,7 +5872,7 @@
    "question": "cli_target",
    "party": "FrP",
    "position": -3,
-   "confidence": "HIGH",
+   "confidence": "MEDIUM",
    "reasoning": "FrP kritiserer andre partiers «urealistiske, ineffektive og kostbare mål» og vil basere klimatiltak på kost/nytte.",
    "refs": [
     {
@@ -5803,7 +5924,7 @@
    "question": "cli_target",
    "party": "V",
    "position": 1,
-   "confidence": "MEDIUM",
+   "confidence": "LOW",
    "reasoning": "Venstre vil kutte 55 % innen 2030 og 95 % innen 2050 gjennom nasjonale tiltak, men angir ikke et eget 2035-mål.",
    "refs": [
     {
@@ -5815,7 +5936,7 @@
   {
    "question": "cli_target",
    "party": "KrF",
-   "position": 2,
+   "position": 3,
    "confidence": "HIGH",
    "reasoning": "KrF vil kutte minst 80 prosent innen 2035, koblet til EUs klimamål.",
    "refs": [
@@ -5841,9 +5962,9 @@
   {
    "question": "cli_domestic",
    "party": "Ap",
-   "position": -1,
+   "position": 0,
    "confidence": "MEDIUM",
-   "reasoning": "Ap vil nå klimamålene i samarbeid med EU, som innebærer bruk av europeisk kvotesystem og fleksibilitet.",
+   "reasoning": "Ap vil at 2035-målet i hovedsak skal nås gjennom nasjonale tiltak og gjennom samarbeid med EU.",
    "refs": [
     {
      "source": "prog_ap",
@@ -5919,9 +6040,9 @@
   {
    "question": "cli_domestic",
    "party": "V",
-   "position": 3,
+   "position": 2,
    "confidence": "HIGH",
-   "reasoning": "Venstre vil planlegge for at klimamålene nås gjennom nasjonale tiltak.",
+   "reasoning": "Venstre vil planlegge for at klimamålene nås gjennom nasjonale tiltak, men også forlenge klimaavtalen med EU.",
    "refs": [
     {
      "source": "prog_v",
@@ -6024,7 +6145,7 @@
    "question": "cli_co2_tax",
    "party": "R",
    "position": 1,
-   "confidence": "MEDIUM",
+   "confidence": "LOW",
    "reasoning": "Rødt vil øke CO₂-avgiften gradvis og betale tilbake gjennom en omfordelende ordning.",
    "refs": [
     {
@@ -6050,7 +6171,7 @@
    "question": "cli_co2_tax",
    "party": "KrF",
    "position": 1,
-   "confidence": "MEDIUM",
+   "confidence": "LOW",
    "reasoning": "KrF vil heve CO₂-avgiften i en forutsigbar, økende prisbane som er tilstrekkelig for å nå målene.",
    "refs": [
     {
@@ -6114,13 +6235,13 @@
   {
    "question": "nature_protect",
    "party": "Sp",
-   "position": -1,
+   "position": -2,
    "confidence": "MEDIUM",
-   "reasoning": "Sp vil at lokale interesser vektlegges når vern vurderes, og at skogvern er frivillig.",
+   "reasoning": "Sp vil ivareta naturen «ikke gjennom ensidig vern», begrense marine verneplaner og bare ha frivillig skogvern.",
    "refs": [
     {
      "source": "prog_sp",
-     "pages": "24"
+     "pages": "19, 24, 78"
     }
    ]
   },
@@ -6322,7 +6443,7 @@
   {
    "question": "oil_end_date",
    "party": "H",
-   "position": -3,
+   "position": -2,
    "confidence": "MEDIUM",
    "reasoning": "Høyre vil opprettholde leteaktivitet og Norges rolle som stabil energileverandør til Europa.",
    "refs": [
@@ -6336,7 +6457,7 @@
    "question": "oil_end_date",
    "party": "FrP",
    "position": -3,
-   "confidence": "HIGH",
+   "confidence": "MEDIUM",
    "reasoning": "FrP mener næringen skal bidra til verdiskaping «i uoverskuelig framtid».",
    "refs": [
     {
@@ -6349,7 +6470,7 @@
    "question": "oil_end_date",
    "party": "Sp",
    "position": -3,
-   "confidence": "HIGH",
+   "confidence": "MEDIUM",
    "reasoning": "Sp vil utvikle, ikke avvikle, norsk petroleumssektor.",
    "refs": [
     {
@@ -6427,7 +6548,7 @@
    "question": "oil_lofoten",
    "party": "Ap",
    "position": 2,
-   "confidence": "HIGH",
+   "confidence": "MEDIUM",
    "reasoning": "Ap vil ikke gå inn for konsekvensutredning av Nordland VI, VII og Troms II, men heller utvikle andre næringer der.",
    "refs": [
     {
@@ -6647,9 +6768,9 @@
   {
    "question": "energy_nuclear",
    "party": "MDG",
-   "position": 1,
+   "position": 2,
    "confidence": "MEDIUM",
-   "reasoning": "MDG vil åpne for utredning og etablering av kjernekraftverk som ikke forsinker omstillingen bort fra petroleum.",
+   "reasoning": "MDG vil åpne for utredning og etablering av kjernekraftverk som ikke forsinker omstillingen.",
    "refs": [
     {
      "source": "prog_mdg",
@@ -6699,22 +6820,22 @@
   {
    "question": "energy_onshore_wind",
    "party": "Sp",
-   "position": -1,
-   "confidence": "LOW",
-   "reasoning": "Sp vil øke vind- og solkraft på allerede utbygde næringsområder og grå arealer, og forutsetter lokal tilslutning.",
+   "position": 0,
+   "confidence": "MEDIUM",
+   "reasoning": "Sp vil øke vind- og solkraft på allerede utbygde næringsområder og grå arealer, med kommunal vetorett.",
    "refs": [
     {
      "source": "prog_sp",
-     "pages": "44"
+     "pages": "43-44"
     }
    ]
   },
   {
    "question": "energy_onshore_wind",
    "party": "SV",
-   "position": -3,
+   "position": -2,
    "confidence": "HIGH",
-   "reasoning": "SV sier nei til videre utbygging av storskala vindkraft på land.",
+   "reasoning": "SV sier nei til mer storskala vindkraft på land, men vil prioritere småskala vindkraft på industrialiserte områder.",
    "refs": [
     {
      "source": "prog_sv",
@@ -6764,13 +6885,13 @@
   {
    "question": "energy_onshore_wind",
    "party": "MDG",
-   "position": -1,
+   "position": 0,
    "confidence": "MEDIUM",
-   "reasoning": "MDG vil bygge vindkraft på allerede nedbygde arealer og konfliktfri nærenergi, ikke i urørt natur.",
+   "reasoning": "MDG vil ha vindkraft på allerede nedbygde arealer, men ikke i urørt natur.",
    "refs": [
     {
      "source": "prog_mdg",
-     "pages": "5, 17"
+     "pages": "5, 16"
     }
    ]
   },
@@ -6803,13 +6924,13 @@
   {
    "question": "energy_offshore_wind",
    "party": "FrP",
-   "position": -1,
-   "confidence": "LOW",
-   "reasoning": "FrP vil ha en helhetlig plan for «eventuell videre utbygging» av havvind og er generelt imot subsidier til utpekte næringer.",
+   "position": -3,
+   "confidence": "HIGH",
+   "reasoning": "FrP vil fjerne alle direkte og indirekte subsidier til utbygging av vindkraft, også til havs.",
    "refs": [
     {
      "source": "prog_frp",
-     "pages": "84, 92"
+     "pages": "84"
     }
    ]
   },
@@ -6830,7 +6951,7 @@
    "question": "energy_offshore_wind",
    "party": "SV",
    "position": 1,
-   "confidence": "MEDIUM",
+   "confidence": "LOW",
    "reasoning": "SV vil prioritere flytende havvind, men si nei til bunnfast havvind nær kysten.",
    "refs": [
     {
@@ -6842,13 +6963,13 @@
   {
    "question": "energy_offshore_wind",
    "party": "R",
-   "position": -1,
-   "confidence": "LOW",
-   "reasoning": "Rødt sier nei til elektrifisering av sokkelen med havvind og nei til hybridkabler.",
+   "position": null,
+   "confidence": null,
+   "reasoning": "Rødt sier nei til elektrifisering av sokkelen med havvind og til hybridkabler, men tar ikke stilling til statlig støtte.",
    "refs": [
     {
      "source": "prog_r",
-     "pages": "58-59"
+     "pages": null
     }
    ]
   },
@@ -6907,13 +7028,13 @@
   {
    "question": "energy_hydro",
    "party": "H",
-   "position": 1,
-   "confidence": "LOW",
-   "reasoning": "Høyre fremhever oppgradering av vannkraft og småkraft, men nevner ikke vernede vassdrag.",
+   "position": 2,
+   "confidence": "MEDIUM",
+   "reasoning": "Høyre vil gjennomgå verneplanene for vassdrag og vurdere kraftproduksjon som ikke forringer verneverdiene.",
    "refs": [
     {
      "source": "prog_h",
-     "pages": "40"
+     "pages": "41"
     }
    ]
   },
@@ -6926,7 +7047,7 @@
    "refs": [
     {
      "source": "prog_frp",
-     "pages": "81"
+     "pages": "82"
     }
    ]
   },
@@ -6985,9 +7106,9 @@
   {
    "question": "energy_hydro",
    "party": "KrF",
-   "position": -1,
+   "position": 1,
    "confidence": "LOW",
-   "reasoning": "KrF vil åpne for ny vannkraft der det kan forsvares ut fra naturhensyn, men nevner ikke vernede vassdrag.",
+   "reasoning": "KrF vil legge til rette for ny vannkraft og småkraft der det kan forsvares ut fra naturhensyn.",
    "refs": [
     {
      "source": "prog_krf",
@@ -7037,13 +7158,13 @@
   {
    "question": "energy_cables",
    "party": "FrP",
-   "position": 3,
-   "confidence": "HIGH",
-   "reasoning": "FrP mener det ikke skal bygges utenlandskabler som presser strømprisene opp, og vil ha restriksjoner på kraftutveksling.",
+   "position": 2,
+   "confidence": "MEDIUM",
+   "reasoning": "FrP vil ikke bygge utenlandskabler som presser norske strømpriser opp, og vil reforhandle eksisterende avtaler.",
    "refs": [
     {
      "source": "prog_frp",
-     "pages": "85-86"
+     "pages": "85"
     }
    ]
   },
@@ -7115,13 +7236,13 @@
   {
    "question": "energy_cables",
    "party": "MDG",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": -3,
+   "confidence": "HIGH",
+   "reasoning": "MDG vil beholde, fornye og øke antallet mellomlandsforbindelser.",
    "refs": [
     {
      "source": "prog_mdg",
-     "pages": null
+     "pages": "17"
     }
    ]
   },
@@ -7232,13 +7353,13 @@
   {
    "question": "energy_price_control",
    "party": "MDG",
-   "position": -1,
+   "position": 0,
    "confidence": "MEDIUM",
-   "reasoning": "MDG vil ha en flat strømstøtte uavhengig av forbruk, slik at prissignalet og sparing beholdes.",
+   "reasoning": "MDG vil ha flat strømstøtte og bedre prisreguleringsregimer mot uforutsigbare prishopp, men ikke statlig fastpris.",
    "refs": [
     {
      "source": "prog_mdg",
-     "pages": "6, 15"
+     "pages": "6, 15, 17"
     }
    ]
   },
@@ -7481,11 +7602,11 @@
    "party": "Ap",
    "position": null,
    "confidence": null,
-   "reasoning": "Ap vil balansere klimaavgifter med avgiftsreduksjoner for folk, men tar ikke stilling til drivstoffavgiftene spesifikt.",
+   "reasoning": "Ap vil trappe opp CO₂-avgiften og balansere klimaavgifter med andre avgiftsreduksjoner, men tar ikke stilling til drivstoffavgiftene spesifikt.",
    "refs": [
     {
      "source": "prog_ap",
-     "pages": "12"
+     "pages": "12, 121"
     }
    ]
   },
@@ -7557,9 +7678,9 @@
   {
    "question": "transport_fuel_tax",
    "party": "V",
-   "position": -2,
-   "confidence": "MEDIUM",
-   "reasoning": "Venstre vil trappe opp CO₂-avgiften kraftig, noe som øker drivstoffkostnadene.",
+   "position": null,
+   "confidence": null,
+   "reasoning": "Venstre vil trappe opp CO₂-avgiften kraftig, men tar ikke stilling til avgiftene på bensin og diesel som sådan.",
    "refs": [
     {
      "source": "prog_v",
@@ -7570,13 +7691,13 @@
   {
    "question": "transport_fuel_tax",
    "party": "KrF",
-   "position": -1,
-   "confidence": "LOW",
-   "reasoning": "KrF vil gradvis øke CO₂-avgiften.",
+   "position": null,
+   "confidence": null,
+   "reasoning": "KrF vil gradvis øke CO₂-avgiften, men tar ikke stilling til avgiftene på bensin og diesel som sådan.",
    "refs": [
     {
      "source": "prog_krf",
-     "pages": "50"
+     "pages": null
     }
    ]
   },
@@ -7596,12 +7717,12 @@
   {
    "question": "transport_ev",
    "party": "Ap",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": -2,
+   "confidence": "HIGH",
+   "reasoning": "Ap mener «tiden er moden for å fase ut elbilfordelene i merverdiavgiftssystemet», med lavere beløpsgrense i 2026–2028.",
    "refs": [
     {
-     "source": "prog_ap",
+     "source": "ap_budsjettavtale_2026",
      "pages": null
     }
    ]
@@ -7804,13 +7925,13 @@
   {
    "question": "transport_rail_vs_road",
    "party": "KrF",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke tydelig stilling.",
+   "position": -1,
+   "confidence": "LOW",
+   "reasoning": "KrF vil videreføre finansieringen og porteføljen til Nye Veier.",
    "refs": [
     {
      "source": "prog_krf",
-     "pages": null
+     "pages": "63"
     }
    ]
   },
@@ -7999,13 +8120,13 @@
   {
    "question": "edu_private_schools",
    "party": "SV",
-   "position": null,
-   "confidence": null,
-   "reasoning": "SV vektlegger en inkluderende fellesskole, men tar ikke eksplisitt stilling til friskoler.",
+   "position": -2,
+   "confidence": "MEDIUM",
+   "reasoning": "SV vil ha demokratisk styring av private skoler slik at antall private plasser reduseres, og forby profitt.",
    "refs": [
     {
      "source": "prog_sv",
-     "pages": "26"
+     "pages": "27"
     }
    ]
   },
@@ -8064,12 +8185,12 @@
   {
    "question": "edu_absence_limit",
    "party": "Ap",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": 2,
+   "confidence": "HIGH",
+   "reasoning": "«Dagens fraværsgrense består», men med egenmelding for sykefravær opp til grensen (partiets nettside).",
    "refs": [
     {
-     "source": "prog_ap",
+     "source": "ap_web_fravar",
      "pages": null
     }
    ]
@@ -8091,7 +8212,7 @@
    "question": "edu_absence_limit",
    "party": "FrP",
    "position": 3,
-   "confidence": "HIGH",
+   "confidence": "MEDIUM",
    "reasoning": "FrP vil også innføre fraværsgrense på ungdomsskolen.",
    "refs": [
     {
@@ -8181,13 +8302,13 @@
   {
    "question": "edu_national_tests",
    "party": "Ap",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Ap vil «sikre fortsatt kunnskap om elevenes faglige utvikling over tid», uten å nevne nasjonale prøver.",
+   "position": -2,
+   "confidence": "MEDIUM",
+   "reasoning": "I Innst. 236 S (2025–2026) er Ap med i flertallet som mener det er «på høy tid med endring» av dagens nasjonale prøver, og som gikk imot forslaget om å beholde dem.",
    "refs": [
     {
-     "source": "prog_ap",
-     "pages": "53"
+     "source": "sting_innst_236s_2526",
+     "pages": null
     }
    ]
   },
@@ -8233,26 +8354,26 @@
   {
    "question": "edu_national_tests",
    "party": "SV",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": -1,
+   "confidence": "LOW",
+   "reasoning": "SV mener målstyringen har gått for langt og at standardiserte prøver har gitt for mye pugging.",
    "refs": [
     {
      "source": "prog_sv",
-     "pages": null
+     "pages": "26"
     }
    ]
   },
   {
    "question": "edu_national_tests",
    "party": "R",
-   "position": -2,
-   "confidence": "MEDIUM",
-   "reasoning": "Rødt kritiserer at nasjonale prøver har blitt gjenstand for prestisjejag og ført til mer undervisning rettet mot prøveresultater.",
+   "position": -3,
+   "confidence": "HIGH",
+   "reasoning": "Rødt vil stanse rangering gjennom obligatoriske, standardiserte tester og erstatte dem med utvalgsprøver.",
    "refs": [
     {
      "source": "prog_r",
-     "pages": "26"
+     "pages": "26, 28"
     }
    ]
   },
@@ -8272,12 +8393,12 @@
   {
    "question": "edu_national_tests",
    "party": "KrF",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": -2,
+   "confidence": "MEDIUM",
+   "reasoning": "I Innst. 236 S (2025–2026) er KrF med i flertallet som mener det er «på høy tid med endring» av dagens nasjonale prøver, og som gikk imot forslaget om å beholde dem.",
    "refs": [
     {
-     "source": "prog_krf",
+     "source": "sting_innst_236s_2526",
      "pages": null
     }
    ]
@@ -8415,12 +8536,12 @@
   {
    "question": "fam_leave_quota",
    "party": "Ap",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": -3,
+   "confidence": "HIGH",
+   "reasoning": "Ap vil «beholde dagens vellykkede fedrekvote og en tredelt foreldrepermisjon» (partiets nettside).",
    "refs": [
     {
-     "source": "prog_ap",
+     "source": "ap_web_foreldrepermisjon",
      "pages": null
     }
    ]
@@ -8454,7 +8575,7 @@
   {
    "question": "fam_leave_quota",
    "party": "Sp",
-   "position": -2,
+   "position": -3,
    "confidence": "HIGH",
    "reasoning": "Sp vil minst opprettholde kvoter på 15 uker til hver forelder.",
    "refs": [
@@ -8480,8 +8601,8 @@
   {
    "question": "fam_leave_quota",
    "party": "R",
-   "position": -2,
-   "confidence": "MEDIUM",
+   "position": -3,
+   "confidence": "HIGH",
    "reasoning": "Rødt vil sikre mor 20 uker og den andre forelderen egne uker; resten kan deles.",
    "refs": [
     {
@@ -8519,7 +8640,7 @@
   {
    "question": "fam_leave_quota",
    "party": "MDG",
-   "position": -2,
+   "position": -3,
    "confidence": "HIGH",
    "reasoning": "MDG vil bevare dagens foreldrekvoter på 15 uker hver.",
    "refs": [
@@ -8559,7 +8680,7 @@
    "question": "fam_child_benefit_tax",
    "party": "FrP",
    "position": -1,
-   "confidence": "MEDIUM",
+   "confidence": "LOW",
    "reasoning": "FrP vil videreføre barnetrygden som universell ordning, begrenset til fem barn.",
    "refs": [
     {
@@ -8571,9 +8692,9 @@
   {
    "question": "fam_child_benefit_tax",
    "party": "Sp",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Sp vil holde barnetrygden utenfor ved beregning av sosialhjelp, men tar ikke stilling til skatt.",
+   "position": -3,
+   "confidence": "HIGH",
+   "reasoning": "Sp vil øke barnetrygden, men beholde den som en universell ordning uten behovsprøving eller beskatning.",
    "refs": [
     {
      "source": "prog_sp",
@@ -8702,7 +8823,7 @@
    "question": "fam_abortion",
    "party": "SV",
    "position": -3,
-   "confidence": "HIGH",
+   "confidence": "MEDIUM",
    "reasoning": "SV vil avskaffe abortnemndene og sikre kvinners rett til å bestemme over egen kropp.",
    "refs": [
     {
@@ -8754,7 +8875,7 @@
    "question": "fam_abortion",
    "party": "MDG",
    "position": -3,
-   "confidence": "HIGH",
+   "confidence": "MEDIUM",
    "reasoning": "MDG vil erstatte abortnemnda med et frivillig rådgivende tilbud og utrede å grunnlovsfeste reproduktiv selvbestemmelse.",
    "refs": [
     {
@@ -9039,7 +9160,7 @@
   {
    "question": "val_sunday",
    "party": "Sp",
-   "position": -3,
+   "position": -2,
    "confidence": "HIGH",
    "reasoning": "Sp vil ikke utvide ordningen med søndagsåpne butikker.",
    "refs": [
@@ -9079,7 +9200,7 @@
    "question": "val_sunday",
    "party": "V",
    "position": 3,
-   "confidence": "HIGH",
+   "confidence": "MEDIUM",
    "reasoning": "Venstre vil oppheve loven om helligdagsfred.",
    "refs": [
     {
@@ -9091,7 +9212,7 @@
   {
    "question": "val_sunday",
    "party": "KrF",
-   "position": -3,
+   "position": -2,
    "confidence": "MEDIUM",
    "reasoning": "KrF vil opprettholde søndagen som en «annerledesdag».",
    "refs": [
@@ -9235,7 +9356,7 @@
    "question": "econ_nrk",
    "party": "Ap",
    "position": -2,
-   "confidence": "HIGH",
+   "confidence": "MEDIUM",
    "reasoning": "Ap vil sikre NRKs rolle som bred allmennkringkaster med sterk tilstedeværelse i hele landet.",
    "refs": [
     {
@@ -9248,7 +9369,7 @@
    "question": "econ_nrk",
    "party": "H",
    "position": 1,
-   "confidence": "MEDIUM",
+   "confidence": "LOW",
    "reasoning": "Høyre vil beholde et offentlig finansiert NRK, men mener NRK har en dominerende rolle og ikke må svekke kommersielle medier.",
    "refs": [
     {
@@ -9274,7 +9395,7 @@
    "question": "econ_nrk",
    "party": "Sp",
    "position": -2,
-   "confidence": "HIGH",
+   "confidence": "MEDIUM",
    "reasoning": "Sp vil styrke NRKs distriktskontorer og allmennkringkastingsoppdrag.",
    "refs": [
     {
@@ -9326,7 +9447,7 @@
    "question": "econ_nrk",
    "party": "KrF",
    "position": -2,
-   "confidence": "HIGH",
+   "confidence": "MEDIUM",
    "reasoning": "KrF vil beholde NRK som et ikke-kommersielt allmennkringkastingstilbud av høy kvalitet.",
    "refs": [
     {
@@ -9351,12 +9472,12 @@
   {
    "question": "dist_municipal_merge",
    "party": "Ap",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": 2,
+   "confidence": "MEDIUM",
+   "reasoning": "Ap-regjeringen foreslår i statsbudsjettet for 2027 nye økonomiske virkemidler for frivillige kommunesammenslåinger (gjengitt av NTB).",
    "refs": [
     {
-     "source": "prog_ap",
+     "source": "ntb_kommunesammenslaing_2027",
      "pages": null
     }
    ]
@@ -9417,7 +9538,7 @@
    "question": "dist_municipal_merge",
    "party": "R",
    "position": -2,
-   "confidence": "MEDIUM",
+   "confidence": "LOW",
    "reasoning": "Rødt kritiserer tvangssammenslåinger av kommuner som sentraliseringspolitikk.",
    "refs": [
     {
@@ -9442,38 +9563,38 @@
   {
    "question": "dist_municipal_merge",
    "party": "KrF",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": 2,
+   "confidence": "HIGH",
+   "reasoning": "KrF vil legge til rette for frivillige sammenslåinger og opprettholde og styrke økonomiske insentiver.",
    "refs": [
     {
      "source": "prog_krf",
-     "pages": null
+     "pages": "54"
     }
    ]
   },
   {
    "question": "dist_municipal_merge",
    "party": "MDG",
-   "position": -1,
+   "position": 2,
    "confidence": "MEDIUM",
-   "reasoning": "MDG er mot tvangssammenslåing, men anerkjenner at små kommuner har utfordringer.",
+   "reasoning": "MDG vil gi insentiver til frivillige kommunesammenslåinger, men ikke bruke tvang.",
    "refs": [
     {
      "source": "prog_mdg",
-     "pages": "75"
+     "pages": "77"
     }
    ]
   },
   {
    "question": "dist_county",
    "party": "Ap",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": -3,
+   "confidence": "MEDIUM",
+   "reasoning": "Ap er med i stortingsflertallet som «ønsker derfor ikke å avvikle fylkeskommunen» (Innst. 196 S 2025–2026).",
    "refs": [
     {
-     "source": "prog_ap",
+     "source": "sting_innst_196s_2526",
      "pages": null
     }
    ]
@@ -9533,39 +9654,39 @@
   {
    "question": "dist_county",
    "party": "R",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": -3,
+   "confidence": "HIGH",
+   "reasoning": "Rødt vil forsvare og videreutvikle en modell med tre forvaltningsnivåer: kommune, fylke og stat.",
    "refs": [
     {
      "source": "prog_r",
-     "pages": null
+     "pages": "76"
     }
    ]
   },
   {
    "question": "dist_county",
    "party": "V",
-   "position": 1,
-   "confidence": "LOW",
-   "reasoning": "Venstre mener organiseringen på fylkesnivå bør vurderes som del av en kommunereform.",
+   "position": null,
+   "confidence": null,
+   "reasoning": "Venstre vil vurdere organiseringen på fylkes-/regionnivå uten å angi retning.",
    "refs": [
     {
      "source": "prog_v",
-     "pages": "59"
+     "pages": null
     }
    ]
   },
   {
    "question": "dist_county",
    "party": "KrF",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": -3,
+   "confidence": "HIGH",
+   "reasoning": "KrF vil beholde fylkeskommunen som eget forvaltningsnivå.",
    "refs": [
     {
      "source": "prog_krf",
-     "pages": null
+     "pages": "54"
     }
    ]
   },
@@ -9617,7 +9738,7 @@
    "refs": [
     {
      "source": "prog_frp",
-     "pages": "42, 51"
+     "pages": "42, 44, 51"
     }
    ]
   },
@@ -9637,13 +9758,13 @@
   {
    "question": "agri_tariffs",
    "party": "SV",
-   "position": 1,
-   "confidence": "LOW",
-   "reasoning": "SV vil at handelsavtaler skal bygge på retten til tollvern.",
+   "position": 2,
+   "confidence": "MEDIUM",
+   "reasoning": "SV vil gå fra krone- til prosenttoll på landbruksprodukter der det gir best beskyttelse.",
    "refs": [
     {
      "source": "prog_sv",
-     "pages": "46"
+     "pages": "38, 46"
     }
    ]
   },
@@ -9715,9 +9836,9 @@
   {
    "question": "agri_income",
    "party": "H",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling til inntektsgapet.",
+   "position": -2,
+   "confidence": "MEDIUM",
+   "reasoning": "Høyre vil gjøre landbruket mindre avhengig av offentlige overføringer og mener økte overføringer ikke har bedret lønnsomheten.",
    "refs": [
     {
      "source": "prog_h",
@@ -9728,9 +9849,9 @@
   {
    "question": "agri_income",
    "party": "FrP",
-   "position": -2,
-   "confidence": "MEDIUM",
-   "reasoning": "FrP vil liberalisere jordbruksavtalesystemet og la markedet styre produksjon og priser.",
+   "position": -3,
+   "confidence": "HIGH",
+   "reasoning": "FrP vil gradvis redusere næringsoverføringene til landbruket.",
    "refs": [
     {
      "source": "prog_frp",
@@ -9767,13 +9888,13 @@
   {
    "question": "agri_income",
    "party": "R",
-   "position": 2,
-   "confidence": "MEDIUM",
-   "reasoning": "Rødt vil styrke jordbruksavtalen og innføre småbrukstilskudd til alle produksjoner.",
+   "position": 3,
+   "confidence": "HIGH",
+   "reasoning": "Rødt vil at inntektene i jordbruket skal jamstilles med andre grupper.",
    "refs": [
     {
      "source": "prog_r",
-     "pages": "65-66"
+     "pages": "66"
     }
    ]
   },
@@ -9793,7 +9914,7 @@
   {
    "question": "agri_income",
    "party": "KrF",
-   "position": 2,
+   "position": 3,
    "confidence": "HIGH",
    "reasoning": "KrF vil tette inntektsgapet mellom bønder og andre grupper innen 2027.",
    "refs": [
@@ -9845,9 +9966,9 @@
   {
    "question": "agri_predators",
    "party": "FrP",
-   "position": -3,
-   "confidence": "HIGH",
-   "reasoning": "FrP vil avvikle de prioriterte rovdyrsonene og la forvaltningen skje lokalt.",
+   "position": -2,
+   "confidence": "MEDIUM",
+   "reasoning": "FrP vil oppheve kjerneområdene for rovdyr og overføre rovdyrforvaltningen til lokale myndigheter.",
    "refs": [
     {
      "source": "prog_frp",
@@ -9938,8 +10059,12 @@
    "party": "Ap",
    "position": -1,
    "confidence": "MEDIUM",
-   "reasoning": "Ifølge Altinget vedtok landsmøtet i april 2025 en uttalelse om at «det ikke er tiden for en medlemskapsprosess nå», samtidig som programmet ikke tar stilling til medlemskap. Kodet svakt negativt fordi Ap ikke vil søke nå.",
+   "reasoning": "Programmet sier at Ap er tilhenger av sterkt europeisk samarbeid, at det er rom for ulike syn, og at et medlemskapsspørsmål skal behandles på et nytt landsmøte. Ifølge Altinget vedtok landsmøtet i april 2025 at «det ikke er tiden for en medlemskapsprosess nå». Kodet svakt negativt fordi Ap ikke vil søke nå.",
    "refs": [
+    {
+     "source": "prog_ap",
+     "pages": "169"
+    },
     {
      "source": "altinget_ap_eu_2025",
      "pages": null
@@ -10261,13 +10386,13 @@
   {
    "question": "eu_reservation",
    "party": "KrF",
-   "position": -1,
-   "confidence": "LOW",
-   "reasoning": "KrF er fornøyd med dagens tilknytning til EU, men tar ikke eksplisitt stilling til reservasjonsretten.",
+   "position": null,
+   "confidence": null,
+   "reasoning": "KrF vil beholde dagens tilknytningsform, men tar ikke stilling til å reservere seg oftere.",
    "refs": [
     {
      "source": "prog_krf",
-     "pages": "76"
+     "pages": null
     }
    ]
   },
@@ -10289,7 +10414,7 @@
    "party": "Ap",
    "position": 0,
    "confidence": "MEDIUM",
-   "reasoning": "Ap vil sikre at forsvarsløftet i langtidsplanen gjennomføres og at Norge oppfyller NATOs mål, uten å gå utover planen.",
+   "reasoning": "Ap vil være garantisten for at forsvarsløftet i langtidsplanen gjennomføres, og at Norge oppfyller NATOs toprosentmål.",
    "refs": [
     {
      "source": "prog_ap",
@@ -10319,20 +10444,20 @@
    "refs": [
     {
      "source": "prog_frp",
-     "pages": "17"
+     "pages": "19-20"
     }
    ]
   },
   {
    "question": "def_budget",
    "party": "Sp",
-   "position": 3,
-   "confidence": "HIGH",
-   "reasoning": "Sp vil styrke bevilgningene til Forsvaret til minimum 3 prosent av BNP.",
+   "position": 2,
+   "confidence": "MEDIUM",
+   "reasoning": "Sp vil ha forsvarsbudsjett på minimum 3 prosent av BNP, men øke bevilgningene i tråd med langtidsplanen og uten tidsangivelse.",
    "refs": [
     {
      "source": "prog_sp",
-     "pages": "48"
+     "pages": "43, 48"
     }
    ]
   },
@@ -10352,22 +10477,22 @@
   {
    "question": "def_budget",
    "party": "R",
-   "position": -1,
+   "position": 0,
    "confidence": "LOW",
-   "reasoning": "Rødt vil bevilge mer til fred og nedrustning hver gang forsvarsbevilgningene økes, og kan stemme mot nye fregatter.",
+   "reasoning": "Rødt har sluttet seg til forsvarsforliket og vil styrke den nasjonale forsvarsevnen, men prioriterer også nedrustning.",
    "refs": [
     {
      "source": "prog_r",
-     "pages": "88"
+     "pages": "87-88"
     }
    ]
   },
   {
    "question": "def_budget",
    "party": "V",
-   "position": 0,
-   "confidence": "MEDIUM",
-   "reasoning": "Venstre vil fortsette å oppfylle NATOs toprosentmål, men er åpne for at målet må vurderes.",
+   "position": 1,
+   "confidence": "LOW",
+   "reasoning": "Venstre vil kraftig ruste opp Forsvarets operative evne og vurdere toprosentmålet i takt med situasjonen.",
    "refs": [
     {
      "source": "prog_v",
@@ -10560,13 +10685,13 @@
   {
    "question": "def_allied_bases",
    "party": "Sp",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Sp omtaler alliert mottak og amerikanske forhåndslagre, men tar ikke stilling til faste baser.",
+   "position": -3,
+   "confidence": "HIGH",
+   "reasoning": "Sp vil sikre at NATO-soldater i Norge forblir rotasjonsbasert uten permanent tilstedeværelse.",
    "refs": [
     {
      "source": "prog_sp",
-     "pages": "46"
+     "pages": "48"
     }
    ]
   },
@@ -10599,13 +10724,13 @@
   {
    "question": "def_allied_bases",
    "party": "V",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": 2,
+   "confidence": "MEDIUM",
+   "reasoning": "Venstre vil oppdatere basepolitikken for å åpne for større nærvær av allierte styrker og fast samarbeid.",
    "refs": [
     {
      "source": "prog_v",
-     "pages": null
+     "pages": "66"
     }
    ]
   },
@@ -10625,13 +10750,13 @@
   {
    "question": "def_allied_bases",
    "party": "MDG",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": 1,
+   "confidence": "MEDIUM",
+   "reasoning": "MDG vil samarbeide om omforente områder for utstasjonering av allierte tropper, med utvetydig rett til oppsigelse.",
    "refs": [
     {
      "source": "prog_mdg",
-     "pages": null
+     "pages": "105"
     }
    ]
   },
@@ -10742,13 +10867,13 @@
   {
    "question": "def_ukraine",
    "party": "MDG",
-   "position": null,
-   "confidence": null,
-   "reasoning": "MDG støtter ukrainsk NATO-medlemskap, men tar ikke stilling til omfanget av støtten.",
+   "position": 2,
+   "confidence": "MEDIUM",
+   "reasoning": "MDG vil styrke Nansenprogrammet med ekstrainntektene fra krigen for å støtte Ukrainas forsvar og gjenoppbygging.",
    "refs": [
     {
      "source": "prog_mdg",
-     "pages": "105"
+     "pages": "110"
     }
    ]
   },
@@ -10820,13 +10945,13 @@
   {
    "question": "for_aid",
    "party": "R",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet angir ikke et nivå.",
+   "position": 3,
+   "confidence": "HIGH",
+   "reasoning": "Rødt vil at minst 1 prosent av BNI brukes til samfunnsutvikling i fattige land.",
    "refs": [
     {
      "source": "prog_r",
-     "pages": null
+     "pages": "93"
     }
    ]
   },
@@ -10872,9 +10997,9 @@
   {
    "question": "for_nuclear_ban",
    "party": "Ap",
-   "position": 1,
+   "position": 0,
    "confidence": "MEDIUM",
-   "reasoning": "Ap mener det bør være et mål for Norge og andre NATO-land å underskrive atomvåpenforbudet, uten å redusere innflytelse og beskyttelse.",
+   "reasoning": "Ap mener det i dagens situasjon ikke er mulig for NATO-land som Norge å undertegne, men at det bør være et mål.",
    "refs": [
     {
      "source": "prog_ap",
@@ -10911,13 +11036,13 @@
   {
    "question": "for_nuclear_ban",
    "party": "Sp",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": 0,
+   "confidence": "MEDIUM",
+   "reasoning": "Sp mener det er et mål på sikt å signere, men at det forutsetter gjensidige og verifiserbare nedrustningsavtaler.",
    "refs": [
     {
      "source": "prog_sp",
-     "pages": null
+     "pages": "134"
     }
    ]
   },
@@ -10937,9 +11062,9 @@
   {
    "question": "for_nuclear_ban",
    "party": "R",
-   "position": 2,
-   "confidence": "MEDIUM",
-   "reasoning": "Rødt vil jobbe for universell oppslutning om forbudene mot kjemiske, biologiske og kjernefysiske våpen.",
+   "position": 3,
+   "confidence": "HIGH",
+   "reasoning": "Rødt vil at Norge umiddelbart ratifiserer avtalen om forbud mot atomvåpen.",
    "refs": [
     {
      "source": "prog_r",
@@ -10950,13 +11075,13 @@
   {
    "question": "for_nuclear_ban",
    "party": "V",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": -1,
+   "confidence": "LOW",
+   "reasoning": "Venstre vil prioritere avtaler der atomvåpenstatene er parter, med en forbudsavtale som omfatter alle atommaktene som mål på sikt.",
    "refs": [
     {
      "source": "prog_v",
-     "pages": null
+     "pages": "65"
     }
    ]
   },
@@ -10989,12 +11114,12 @@
   {
    "question": "for_israel_sanctions",
    "party": "Ap",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": 1,
+   "confidence": "MEDIUM",
+   "reasoning": "Ap vil innføre handelsforbud med varer produsert i de folkerettsstridige israelske bosetningene, men ikke generelle sanksjoner mot Israel.",
    "refs": [
     {
-     "source": "prog_ap",
+     "source": "ap_web_palestina",
      "pages": null
     }
    ]
@@ -11041,9 +11166,9 @@
   {
    "question": "for_israel_sanctions",
    "party": "SV",
-   "position": 3,
+   "position": 2,
    "confidence": "HIGH",
-   "reasoning": "SV vil trekke oljefondet ut av selskaper som bidrar til okkupasjonen og forby økonomisk virksomhet som bidrar til folkerettsbrudd.",
+   "reasoning": "SV vil trekke oljefondet ut av selskaper på FNs svarteliste og forby økonomisk virksomhet knyttet til okkuperte områder.",
    "refs": [
     {
      "source": "prog_sv",
@@ -11067,13 +11192,13 @@
   {
    "question": "for_israel_sanctions",
    "party": "V",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Venstre krever at okkupasjonen og bosetningene opphører, men tar ikke stilling til sanksjoner.",
+   "position": 1,
+   "confidence": "LOW",
+   "reasoning": "Venstre vil at oljefondet ikke skal investeres i selskaper som bidrar til ulovlig okkupasjon.",
    "refs": [
     {
      "source": "prog_v",
-     "pages": "65"
+     "pages": "64-65"
     }
    ]
   },
@@ -11224,8 +11349,8 @@
    "question": "housing_nonprofit",
    "party": "Ap",
    "position": 2,
-   "confidence": "HIGH",
-   "reasoning": "Ap vil gjennomføre en kraftfull satsing på flere rimelige leieboliger i samarbeid med kommuner, ideelle og boligbyggelag.",
+   "confidence": "MEDIUM",
+   "reasoning": "Ap vil, i samarbeid med kommuner, næringsliv, ideelle og boligbyggelag, ha en kraftfull satsing på flere rimelige leieboliger og en tredje boligsektor.",
    "refs": [
     {
      "source": "prog_ap",
@@ -11302,7 +11427,7 @@
    "question": "housing_nonprofit",
    "party": "V",
    "position": -1,
-   "confidence": "MEDIUM",
+   "confidence": "LOW",
    "reasoning": "Venstre mener det viktigste er at det ordinære boligmarkedet fungerer best mulig og at det bygges flere boliger.",
    "refs": [
     {
@@ -11327,9 +11452,9 @@
   {
    "question": "housing_nonprofit",
    "party": "MDG",
-   "position": 3,
+   "position": 2,
    "confidence": "HIGH",
-   "reasoning": "MDG vil legge til rette for allmennboliger og ikke-kommersielle utleieselskaper eid av ideelle og det offentlige.",
+   "reasoning": "MDG vil legge til rette for allmennboliger og ikke-kommersielle utleieselskaper, og la kommunene kreve en andel slike boliger.",
    "refs": [
     {
      "source": "prog_mdg",

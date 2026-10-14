@@ -21,7 +21,7 @@ klynge: formue
 dim: econ=+1
 kort: Formuesskatt på bedriftseierskap
 tekst: Formuesskatten på eierskap i bedrifter (såkalt arbeidende kapital) bør fjernes.
-bakgrunn: Formuesskatt betales av nettoformue over et bunnfradrag. «Arbeidende kapital» er formue som er bundet i bedrifter, for eksempel aksjer og driftsmidler. Skatten betales uavhengig av om bedriften går med overskudd.
+bakgrunn: Formuesskatt betales av nettoformue over et bunnfradrag. «Arbeidende kapital» er formue som er bundet i bedrifter, for eksempel aksjer og driftsmidler. Slike eiendeler verdsettes i dag med en rabatt i formuesskatten, og skatten betales uavhengig av om bedriften går med overskudd.
 for: Skatten må betales selv i år uten overskudd, og kan tvinge eiere til å ta ut utbytte eller selge seg ned for å betale den.
 for: Utenlandske eiere betaler ikke norsk formuesskatt, noe som kan gi norske eiere en ulempe.
 for: Familieeide bedrifter, ofte viktige lokale arbeidsgivere, rammes særlig.

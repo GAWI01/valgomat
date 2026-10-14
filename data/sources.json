@@ -126,5 +126,125 @@
     "adopted": null,
     "accessed": "2026-10-14",
     "note": "Sekundærkilde. Omtaler landsmøtets uttalelse om at det «ikke er tiden for en medlemskapsprosess nå». Brukes kun fordi partiprogrammet ikke tar stilling."
+  },
+  {
+    "id": "ap_web_skatt",
+    "party": "Ap",
+    "type": "partiets nettside",
+    "title": "Arbeiderpartiet.no: «Skatt»",
+    "url": "https://www.arbeiderpartiet.no/politikken/skatt/",
+    "adopted": "Sist endret 2025-08 (sitemap)",
+    "accessed": "2026-10-14",
+    "note": "Partiets egen politikkside. Sidene er ikke datert; dato er «lastmod» i arbeiderpartiet.no/sitemap.xml. Brukes kun fordi partiprogrammet ikke tar stilling."
+  },
+  {
+    "id": "ap_web_arveavgift",
+    "party": "Ap",
+    "type": "partiets nettside",
+    "title": "Arbeiderpartiet.no: «Arveavgift»",
+    "url": "https://www.arbeiderpartiet.no/politikken/arveavgift/",
+    "adopted": "Sist endret 2025-08 (sitemap)",
+    "accessed": "2026-10-14",
+    "note": "Partiets egen politikkside. Sidene er ikke datert; dato er «lastmod» i arbeiderpartiet.no/sitemap.xml. Brukes kun fordi partiprogrammet ikke tar stilling."
+  },
+  {
+    "id": "ap_web_rus",
+    "party": "Ap",
+    "type": "partiets nettside",
+    "title": "Arbeiderpartiet.no: «Rus»",
+    "url": "https://www.arbeiderpartiet.no/politikken/rus/",
+    "adopted": "2025 (sitemap)",
+    "accessed": "2026-10-14",
+    "note": "Partiets egen politikkside. Sidene er ikke datert; dato er «lastmod» i arbeiderpartiet.no/sitemap.xml. Brukes kun fordi partiprogrammet ikke tar stilling."
+  },
+  {
+    "id": "ap_web_foreldrepermisjon",
+    "party": "Ap",
+    "type": "partiets nettside",
+    "title": "Arbeiderpartiet.no: «Foreldrepermisjon og pappaperm»",
+    "url": "https://www.arbeiderpartiet.no/politikken/foreldrepermisjon-og-pappaperm/",
+    "adopted": "2025 (sitemap)",
+    "accessed": "2026-10-14",
+    "note": "Partiets egen politikkside. Sidene er ikke datert; dato er «lastmod» i arbeiderpartiet.no/sitemap.xml. Brukes kun fordi partiprogrammet ikke tar stilling."
+  },
+  {
+    "id": "ap_web_fravar",
+    "party": "Ap",
+    "type": "partiets nettside",
+    "title": "Arbeiderpartiet.no: «Fraværsregler»",
+    "url": "https://www.arbeiderpartiet.no/politikken/fravarsregler/",
+    "adopted": "2025 (sitemap)",
+    "accessed": "2026-10-14",
+    "note": "Partiets egen politikkside. Sidene er ikke datert; dato er «lastmod» i arbeiderpartiet.no/sitemap.xml. Brukes kun fordi partiprogrammet ikke tar stilling."
+  },
+  {
+    "id": "ap_web_palestina",
+    "party": "Ap",
+    "type": "partiets nettside",
+    "title": "Arbeiderpartiet.no: «Palestina»",
+    "url": "https://www.arbeiderpartiet.no/politikken/palestina/",
+    "adopted": "2025–2026 (sitemap)",
+    "accessed": "2026-10-14",
+    "note": "Partiets egen politikkside. Sidene er ikke datert; dato er «lastmod» i arbeiderpartiet.no/sitemap.xml. Brukes kun fordi partiprogrammet ikke tar stilling."
+  },
+  {
+    "id": "ap_lm2025_bevapning",
+    "party": "Ap",
+    "type": "landsmøtevedtak",
+    "title": "Arbeiderpartiets landsmøte 2025: vedtak «Politiets sivile preg og bevæpning av politiet»",
+    "url": "https://res.cloudinary.com/arbeiderpartiet/image/upload/fl_attachment:0404-politi-og-bevapning/v1/ievv_filestore/8381a50f22ba40afbff791cdbbedf8205882dbcdc4484cfc8352dae8cf323885",
+    "adopted": "Landsmøtet april 2025",
+    "accessed": "2026-10-14",
+    "note": "Vedtatt resolusjon (PDF fra partiets filarkiv)."
+  },
+  {
+    "id": "ap_budsjettavtale_2026",
+    "party": "Ap",
+    "type": "partiets nettside",
+    "title": "Arbeiderpartiet.no: «Flertall for statsbudsjett 2026 med Arbeiderpartiet, SV, Sp, Rødt og MDG»",
+    "url": "https://www.arbeiderpartiet.no/aktuelt/flertall-for-statsbudsjett-2026-med-arbeiderpartiet-sv-sp-rodt-og-mdg/",
+    "adopted": "Budsjettenighet høsten 2025",
+    "accessed": "2026-10-14",
+    "note": "Partiets egen omtale av vedtatt budsjett."
+  },
+  {
+    "id": "sting_innst_236s_2526",
+    "party": null,
+    "type": "stortingsdokument",
+    "title": "Innst. 236 S (2025–2026): representantforslag om å beholde og forbedre nasjonale prøver og kartleggingsprøver",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-236s/",
+    "adopted": "Mai 2026",
+    "accessed": "2026-10-14",
+    "note": "Komitéflertallet (A, SV, Sp, R, KrF) er kritisk til dagens nasjonale prøver og gikk imot forslaget om å beholde dem. Partienes merknader i en innstilling regnes som MEDIUM."
+  },
+  {
+    "id": "sting_innst_196s_2526",
+    "party": null,
+    "type": "stortingsdokument",
+    "title": "Innst. 196 S (2025–2026): representantforslag om å starte avviklingen av fylkeskommunen",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-196s/",
+    "adopted": "Mars 2026",
+    "accessed": "2026-10-14",
+    "note": "Flertallet (A, SV, Sp, R, MDG): «ønsker derfor ikke å avvikle fylkeskommunen»."
+  },
+  {
+    "id": "sting_innst_368l_2526",
+    "party": null,
+    "type": "stortingsdokument",
+    "title": "Innst. 368 L (2025–2026): skjult kameraovervåking ved bruk av mobilt kamera m.m. (Prop. 59 L)",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-368l/",
+    "adopted": "2026",
+    "accessed": "2026-10-14",
+    "note": "Ap-regjeringens lovforslag om utvidede skjulte overvåkingsmetoder for politiet."
+  },
+  {
+    "id": "ntb_kommunesammenslaing_2027",
+    "party": "Ap",
+    "type": "sekundærkilde",
+    "title": "NTB/Adresseavisen: «Kommuner som slår seg sammen kan få belønning» (7. oktober 2026)",
+    "url": "https://www.adressa.no/nyheter/innenriks/i/lKw0pA/kommuner-som-slaar-seg-sammen-kan-faa-beloenning",
+    "adopted": "Statsbudsjettet 2027 (regjeringens forslag)",
+    "accessed": "2026-10-14",
+    "note": "Sekundærkilde som gjengir regjeringens budsjettforslag for 2027; regjeringen.no var utilgjengelig (HTTP 403) under researchen."
   }
 ]

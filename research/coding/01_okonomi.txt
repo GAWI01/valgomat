@@ -6,15 +6,15 @@ econ_tax_level|FrP|3|HIGH|42|FrP vil redusere skatte- og avgiftsnivået.
 econ_tax_level|Sp|U|-|109|Programmet vil redusere skatt på lave/vanlige inntekter og avgifter som elavgift, men tar ikke stilling til det samlede nivået.
 econ_tax_level|SV|-2|MEDIUM|4|SV vil øke skatten på store formuer, arv, eiendom og høye inntekter, og vil ha et skattenivå som finansierer felles velferd. Kodet -2 (ikke -3) fordi SV også vil senke skatten på lave og vanlige inntekter.
 econ_tax_level|R|-2|MEDIUM|5|Rødt vil øke skatt på høye inntekter, store formuer, utbytte og innføre arveskatt, men kutte skatt for dem som tjener minst og flate avgifter.
-econ_tax_level|V|2|HIGH|42|Venstre ønsker å redusere det samlede skatte- og avgiftstrykket, men vil øke skatt på eiendom, forbruk og forurensning (skatteveksling).
+econ_tax_level|V|3|HIGH|42|Venstre ønsker å redusere det samlede skatte- og avgiftstrykket, men vil øke skatt på eiendom, forbruk og forurensning (skatteveksling).
 econ_tax_level|KrF|0|HIGH|50|KrF vil holde skatte- og avgiftsnivået om lag på dagens nivå.
 econ_tax_level|MDG|-1|LOW|49|MDG vil innføre arveavgift, eiendomsskatt på næringseiendom og øke klimaavgifter, men også senke skatten for lave inntekter. Netto retning er ikke eksplisitt; kodet svakt negativt.
 # --- econ_wealth_working: «Formuesskatten på eierskap i bedrifter (såkalt arbeidende kapital) bør fjernes.»
-econ_wealth_working|Ap|U|-|12-13|Programmet nevner ikke formuesskatt direkte.
+econ_wealth_working|Ap|-2|MEDIUM|src:ap_web_skatt|Ap vil «beholde den omfordelende og rettferdige formuesskatten» (partiets nettside). Programmet nevner ikke arbeidende kapital.
 econ_wealth_working|H|3|HIGH|32|Høyre vil fjerne formuesskatten på arbeidende kapital.
 econ_wealth_working|FrP|3|HIGH|40,42|FrP vil avvikle hele formuesskatten.
 econ_wealth_working|Sp|1|HIGH|100,109|Sp vil redusere (ikke fjerne) formuesskatten for eiere av små og mellomstore bedrifter, mens store formuer skal bidra etter evne.
-econ_wealth_working|SV|-3|HIGH|4|SV vil øke skatten på store formuer.
+econ_wealth_working|SV|-3|MEDIUM|4|SV vil øke skatten på store formuer.
 econ_wealth_working|R|-3|HIGH|5|Rødt vil øke formuesskatten på store formuer og fjerne verdsettingsrabatten på aksjer.
 econ_wealth_working|V|3|HIGH|42|Venstre vil fjerne formuesskatten på arbeidende kapital.
 econ_wealth_working|KrF|3|HIGH|50|KrF vil fjerne formuesskatten på arbeidende kapital.
@@ -27,10 +27,10 @@ econ_top_tax|Sp|1|LOW|109|Sp vil gjøre skattesystemet mer progressivt, men gjen
 econ_top_tax|SV|3|HIGH|4|SV vil øke skatten på høye inntekter.
 econ_top_tax|R|3|HIGH|5|Rødt vil ha en mer progressiv inntektsskatt med økt skatt på høye inntekter.
 econ_top_tax|V|-1|LOW|42|Venstre vil senke skattene på inntekt, særlig de laveste. Ikke eksplisitt om høye inntekter.
-econ_top_tax|KrF|2|HIGH|50|KrF vil øke bruttobeskatningen av de høyeste inntektene.
+econ_top_tax|KrF|3|HIGH|50|KrF vil øke bruttobeskatningen av de høyeste inntektene.
 econ_top_tax|MDG|3|HIGH|49|MDG vil ha høyere sats for de høyeste inntektene.
 # --- econ_inheritance: «Norge bør innføre skatt på store arv.»
-econ_inheritance|Ap|U|-|-|Programmet tar ikke stilling.
+econ_inheritance|Ap|-3|HIGH|src:ap_web_arveavgift|«Arveavgiften skal ikke gjeninnføres» (partiets nettside).
 econ_inheritance|H|-3|HIGH|32|Høyre vil ikke gjeninnføre arveavgift.
 econ_inheritance|FrP|-3|HIGH|42|FrP vil hindre at arveavgiften gjeninnføres, uavhengig av modell.
 econ_inheritance|Sp|U|-|-|Programmet tar ikke stilling.
@@ -43,7 +43,7 @@ econ_inheritance|MDG|3|HIGH|49|MDG vil innføre arveavgift med et høyt bunnfrad
 econ_property_tax|Ap|U|-|-|Programmet tar ikke stilling.
 econ_property_tax|H|U|-|-|Programmet tar ikke stilling til kommunal eiendomsskatt på bolig.
 econ_property_tax|FrP|-3|HIGH|10|FrP vil at kommunenes anledning til å kreve «usosial eiendomsskatt» avvikles.
-econ_property_tax|Sp|0|LOW|109|Sp vil skjerme primærboliger med vanlig standard, men åpne for at kommuner kan ha eiendomsskatt kun på fritidsboliger. Blandet posisjon.
+econ_property_tax|Sp|1|LOW|109|Sp vil gjøre det mulig for kommunene å sette eiendomsskatt bare på fritidsboliger og differensiere mellom bolig og fritid – kommunal adgang forutsettes videreført. Sp går imot statlig eiendomsskatt på bolig.
 econ_property_tax|SV|3|HIGH|30|SV vil ha progressiv beskatning av bolig og fjerne grensen for maksimal eiendomsskatt.
 econ_property_tax|R|3|HIGH|7|Rødt vil gi kommunene større handlingsrom til lokal eiendomsskatt med sosial profil og høyere makssats.
 econ_property_tax|V|2|MEDIUM|42|Venstre vil øke skattene på fast eiendom som del av en skatteveksling.
@@ -52,11 +52,11 @@ econ_property_tax|MDG|3|HIGH|78|MDG vil beholde kommunenes adgang til å kreve e
 # --- econ_oil_money: «Norge bør kunne bruke mer av oljefondet enn handlingsregelen tillater i dag.»
 econ_oil_money|Ap|-3|HIGH|13|Ap vil følge handlingsregelen.
 econ_oil_money|H|-3|HIGH|31|Høyre holder fast ved handlingsregelen og vil utrede skjerpelser av den.
-econ_oil_money|FrP|1|MEDIUM|41-42|FrP vil skille mellom drift og investeringer i statsbudsjettet, og at oljeverdier også investeres i lønnsom norsk infrastruktur. Ikke eksplisitt om å bryte handlingsregelen.
+econ_oil_money|FrP|1|LOW|42-43|FrP vil skille mellom drift og investeringer i statsbudsjettet, og at oljeverdier også investeres i lønnsom norsk infrastruktur. Ikke eksplisitt om å bryte handlingsregelen.
 econ_oil_money|Sp|-3|HIGH|108|Sp vil holde bruken av oljepenger innenfor rammene handlingsregelen setter.
 econ_oil_money|SV|2|MEDIUM|11,46|SV vil ha en egen «handlingsregel utland» med årlig uttak på 0,25 % av oljefondet til internasjonal klimafinansiering i tillegg til dagens regel.
-econ_oil_money|R|1|LOW|7|Rødt vil omplassere deler av fondet til et investeringsfond for norsk industri og klimavennlig infrastruktur. Ikke eksplisitt om handlingsregelen.
-econ_oil_money|V|-2|MEDIUM|43|Venstre vektlegger mer ansvarlig offentlig pengebruk og handlingsregelens rolle i nedgangstider.
+econ_oil_money|R|U|-|-|Rødt vil omplassere deler av fondet til et investeringsfond for norsk industri og «hente ut avkastningen over tid uten å tømme fondet», men tar ikke stilling til uttaksnivået.
+econ_oil_money|V|-3|HIGH|43|Venstre vil ha en øvre grense på 25 prosent for hvor stor del av statens utgifter som kan finansieres med uttak fra oljefondet, og holde mer igjen på pengebruken.
 econ_oil_money|KrF|-3|HIGH|49|KrF vil følge handlingsregelen.
 econ_oil_money|MDG|2|HIGH|108,110|MDG vil overføre et beløp tilsvarende 1 % av BNI årlig fra oljefondet til klimatiltak i utviklingsland, uavhengig av handlingsregelen.
 # --- econ_state_owner: «Staten bør eie mindre i norsk næringsliv enn i dag.»
@@ -66,11 +66,11 @@ econ_state_owner|FrP|2|HIGH|100,124|FrP vil blant annet selge statens eierskap i
 econ_state_owner|Sp|-2|HIGH|98,106|Sp vil beholde statlig eierskap i de store børsnoterte selskapene og sikre statlig aksjemajoritet i Equinor.
 econ_state_owner|SV|-3|HIGH|4,40|SV vil øke statlig eierskap i nøkkelbedrifter og grønne næringer.
 econ_state_owner|R|-3|HIGH|4|Rødt vil at staten gradvis kjøper seg opp i Equinor, Telenor, Hydro, Yara og DNB og tar dem av børs.
-econ_state_owner|V|2|MEDIUM|43|Venstre mener statlig eierskap «for eierskapets skyld» gjør det offentliges grep om økonomien unødvendig stort, men vil sikre nasjonalt eierskap i grunnleggende infrastruktur.
+econ_state_owner|V|2|HIGH|43|Venstre mener statlig eierskap «for eierskapets skyld» gjør det offentliges grep om økonomien unødvendig stort, men vil sikre nasjonalt eierskap i grunnleggende infrastruktur.
 econ_state_owner|KrF|1|LOW|49|KrF vil styrke det private eierskapet, men sikre statlig eierskap der det er nødvendig for sentrale samfunnsoppgaver.
 econ_state_owner|MDG|-1|MEDIUM|49|MDG vil at samfunnskritisk infrastruktur som hovedregel skal eies av det offentlige eller samvirker.
 # --- welfare_commercial: «Kommersielle selskaper bør kunne drive offentlig finansierte velferdstjenester som barnehager, sykehjem og barnevern.»
-welfare_commercial|Ap|-1|LOW|50,53,70|Ap sier nei til nye kommersielle privatskoler og vil ha en offentlig helsetjeneste der private kun supplerer, men vil gi forutsigbarhet for private barnehager.
+welfare_commercial|Ap|-1|LOW|50,70,95|Ap sier nei til nye kommersielle privatskoler og vil ha en offentlig helsetjeneste der private kun supplerer, men vil gi forutsigbarhet for private barnehager.
 welfare_commercial|H|3|HIGH|20,50|Høyre vil likebehandle offentlige, ideelle og private barnehager og ta private aktører i bruk i eldreomsorgen.
 welfare_commercial|FrP|3|HIGH|8|FrP vil likestille offentlige og private leverandører og tjenesteytere.
 welfare_commercial|Sp|-2|HIGH|34,37,50|Sp vil øke innslaget av ideelle aktører «på bekostning av privat, kommersiell sektor» og avvikle stor bruk av kommersielle i barnevernet.

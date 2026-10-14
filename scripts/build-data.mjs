@@ -142,27 +142,30 @@ export function parseCoding(files, questions, parties, sources) {
         if (!CONFIDENCES.includes(conf)) fail(`${file}:${i + 1}: ugyldig confidence ${conf}`);
         confidence = conf;
       }
-      // Kildehenvisning: «13», «31-32», «11,46», «src:id» eller «src:id@12». «-» betyr ingen relevant side.
+      // Kildehenvisning: «13», «31-32», «11,46», «src:id» eller «src:id@12», flere skilt med «;». «-» betyr ingen relevant side.
       const refs = [];
       const partyDef = parties.find((p) => p.id === party);
       if (ref !== '-') {
-        let srcId = partyDef.programSource;
-        let pagesPart = ref;
-        if (ref.startsWith('src:')) {
-          const [id, pg] = ref.slice(4).split('@');
-          srcId = id;
-          pagesPart = pg ?? '';
-        }
-        const src = srcById[srcId];
-        if (!src) fail(`${file}:${i + 1}: ukjent kilde ${srcId}`);
-        const pages = pagesPart ? pagesPart.split(',').map((s) => s.trim()) : [];
-        for (const p of pages) {
-          const [a, b] = p.split('-').map(Number);
-          for (const n of [a, b].filter((x) => x !== undefined)) {
-            if (!Number.isInteger(n) || n < 1 || (src.pages && n > src.pages)) fail(`${file}:${i + 1}: side ${p} er utenfor ${srcId}`);
+        // Flere kilder skilles med «;», f.eks. «169;src:altinget_ap_eu_2025».
+        for (const part of ref.split(';').map((x) => x.trim())) {
+          let srcId = partyDef.programSource;
+          let pagesPart = part;
+          if (part.startsWith('src:')) {
+            const [id, pg] = part.slice(4).split('@');
+            srcId = id;
+            pagesPart = pg ?? '';
           }
+          const src = srcById[srcId];
+          if (!src) fail(`${file}:${i + 1}: ukjent kilde ${srcId}`);
+          const pages = pagesPart ? pagesPart.split(',').map((s) => s.trim()) : [];
+          for (const p of pages) {
+            const [a, b] = p.split('-').map(Number);
+            for (const n of [a, b].filter((x) => x !== undefined)) {
+              if (!Number.isInteger(n) || n < 1 || (src.pages && n > src.pages)) fail(`${file}:${i + 1}: side ${p} er utenfor ${srcId}`);
+            }
+          }
+          refs.push({ source: srcId, pages: pages.join(', ') || null });
         }
-        refs.push({ source: srcId, pages: pages.join(', ') || null });
       } else if (position !== null) {
         fail(`${file}:${i + 1}: kodet standpunkt uten kildehenvisning`);
       }
@@ -182,6 +185,10 @@ export function loadAll() {
   const questions = parseQuestions(readDir(join(research, 'questions')));
   const positions = parseCoding(readDir(join(research, 'coding')), questions, parties, sources);
   for (const p of parties) if (!sources.some((s) => s.id === p.programSource)) fail(`${p.id}: ukjent programkilde`);
+  // Alle lenker vises som klikkbare lenker i appen: bare https er tillatt (ingen javascript:/data:-URL-er).
+  for (const s of sources) for (const k of ['url', 'landingPage', 'mirror']) {
+    if (s[k] !== undefined && !/^https:\/\/[^\s"'<>]+$/.test(s[k])) fail(`${s.id}: ${k} må være en https-URL`);
+  }
   return {
     meta: { lastUpdated: LAST_UPDATED, scale: { min: -3, max: 3 } },
     themes: THEMES,

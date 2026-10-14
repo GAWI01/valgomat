@@ -1,17 +1,17 @@
 # --- health_free_choice: «Pasienter bør kunne velge behandling hos private klinikker, betalt av det offentlige (fritt behandlingsvalg).»
-health_free_choice|Ap|-2|MEDIUM|70|Ap vil at offentlig helsetjeneste skal være hovedmodellen; private og ideelle kan supplere gjennom forpliktende samarbeid «så lenge det er det offentlige som har» ansvaret. Ap avviklet fritt behandlingsvalg i regjering, men programmet nevner ikke ordningen direkte.
+health_free_choice|Ap|-1|MEDIUM|70|Ap vil videreføre fritt sykehusvalg mellom offentlige sykehus og private sykehus med avtale, men vil styre og avgrense bruken av kommersielle aktører. Programmet nevner ikke fritt behandlingsvalg.
 health_free_choice|H|3|HIGH|47-48|Høyre vil innføre/gjenopprette Fritt behandlingsvalg og gi pasienter rett til behandling hos private med avtale.
-health_free_choice|FrP|3|MEDIUM|59|FrP vil at tjenestene finansieres av det offentlige uansett om de utføres av offentlige, ideelle eller private, og at pasienten selv skal velge.
+health_free_choice|FrP|3|HIGH|59-60|FrP vil at tjenestene finansieres av det offentlige uansett om de utføres av offentlige, ideelle eller private, og at pasienten selv skal velge.
 health_free_choice|Sp|-2|MEDIUM|60|Sp vil bygge opp det offentlige helsetilbudet; bruk av private skal skje gjennom langsiktige avtaler styrt av det offentlige.
-health_free_choice|SV|-3|HIGH|15,17|SV vil motvirke privatiseringen og hindre at private tilbud utarmer den offentlige helsetjenesten.
-health_free_choice|R|-3|MEDIUM|16|Rødt mener private helseforsikringer skaper et todelt helsevesen og vil ha et offentlig helsetilbud for alle.
+health_free_choice|SV|-3|MEDIUM|15,17|SV vil motvirke privatiseringen og hindre at private tilbud utarmer den offentlige helsetjenesten.
+health_free_choice|R|-3|HIGH|13-14|Rødt vil ikke la kommersielle aktører drive offentlig finansierte grunnleggende velferdstjenester; fritt valg skal bare gjelde offentlige eller ideelle sykehus.
 health_free_choice|V|3|HIGH|35|Venstre vil innføre fritt behandlingsvalg.
 health_free_choice|KrF|3|HIGH|31|KrF vil gjeninnføre fritt behandlingsvalg.
 health_free_choice|MDG|1|MEDIUM|41|MDG vil gjeninnføre fritt behandlingsvalg i rusomsorgen, og er åpne for private aktører i psykisk helsevern (s. 39), men vil ha et sterkt offentlig helsevesen.
 # --- health_trusts: «Helseforetaksmodellen bør avvikles, slik at sykehusene styres mer direkte av folkevalgte.»
 health_trusts|Ap|1|LOW|76|Ap mener det etter 25 år er behov for en ny helsereform som gir mer sammenhengende demokratisk styring, men sier ikke at modellen skal avvikles.
 health_trusts|H|U|-|-|Programmet tar ikke stilling til helseforetaksmodellen.
-health_trusts|FrP|2|MEDIUM|59|FrP vil avskaffe de regionale helseforetakene og erstatte dem med en nasjonal styringsenhet og selvstendige lokale helseforetak (ikke direkte folkevalgt styring).
+health_trusts|FrP|1|MEDIUM|59|FrP vil avskaffe de regionale helseforetakene og erstatte dem med en nasjonal styringsenhet og selvstendige lokale helseforetak – foretaksmodellen beholdes lokalt, uten mer folkevalgt styring.
 health_trusts|Sp|3|HIGH|61|Sp vil avvikle helseforetaksmodellen og ta sykehusene tilbake til folkevalgt styring.
 health_trusts|SV|3|HIGH|17|SV vil avvikle helseforetaksmodellen og erstatte den med en demokratisk styringsmodell.
 health_trusts|R|3|HIGH|14|Rødt vil avvikle helseforetaksmodellen og organisere sykehusene som offentlig forvaltning.
