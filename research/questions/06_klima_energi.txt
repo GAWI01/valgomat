@@ -57,17 +57,16 @@ mot: Norge har allerede mye vernet natur og et omfattende regelverk.
 ### oil_explore
 tema: energi
 klynge: olje
-dim: climate=+1
-kort: Stans i oljeleting
-tekst: Norge bør slutte å lete etter ny olje og gass.
+dim: climate=-1
+kort: Fortsatt oljeleting
+tekst: Norge bør fortsette å lete etter ny olje og gass.
 bakgrunn: Norske myndigheter tildeler hvert år nye leteområder på sokkelen. Olje og gass er Norges største eksportnæring og en viktig kilde til statens inntekter.
-for: Verden har allerede funnet mer fossil energi enn klimaet tåler at vi brenner.
-for: Å stanse leting gir en forutsigbar nedtrapping og frigjør kompetanse til nye næringer.
-for: Det reduserer den økonomiske risikoen ved investeringer som kan bli ulønnsomme.
-mot: Europa trenger norsk gass for energisikkerhet, ikke minst etter Russlands invasjon av Ukraina.
-mot: Uten leting faller produksjonen raskt, med tap av arbeidsplasser og inntekter.
-mot: Hvis Norge produserer mindre, kan annen og mer forurensende produksjon ta over.
-
+for: Europa trenger norsk gass for energisikkerhet, ikke minst etter Russlands invasjon av Ukraina.
+for: Uten leting faller produksjonen raskt, med tap av arbeidsplasser og inntekter.
+for: Hvis Norge produserer mindre, kan annen og mer forurensende produksjon ta over.
+mot: Verden har allerede funnet mer fossil energi enn klimaet tåler at vi brenner.
+mot: Å stanse leting gir en forutsigbar nedtrapping og frigjør kompetanse til nye næringer.
+mot: Det reduserer den økonomiske risikoen ved investeringer som kan bli ulønnsomme.
 ### oil_end_date
 tema: energi
 klynge: olje

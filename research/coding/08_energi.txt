@@ -1,13 +1,13 @@
-# --- oil_explore: «Norge bør slutte å lete etter ny olje og gass.»
-oil_explore|Ap|-3|HIGH|118-119|Ap vil at olje- og gassindustrien fortsatt skal lete, produsere og levere til Europa, hovedsakelig i modne områder.
-oil_explore|H|-3|HIGH|40-41|Høyre vil opprettholde en forutsigbar leteaktivitet og lyse ut 26. konsesjonsrunde.
-oil_explore|FrP|-3|HIGH|80-81|FrP vil føre en offensiv letepolitikk og gjeninnføre regelmessige konsesjonsrunder.
-oil_explore|Sp|-3|HIGH|105|Sp vil utvikle, ikke avvikle, petroleumssektoren og fortsatt lyse ut nye arealer gjennom TFO og nummererte runder.
-oil_explore|SV|3|HIGH|32|SV vil stanse leting etter olje og gass og si nei til nye letelisenser.
-oil_explore|R|3|HIGH|57|Rødt vil ikke tildele nye tillatelser på sokkelen, heller ikke gjennom TFO, og avslutte seismikk for ny leting.
-oil_explore|V|3|HIGH|9|Venstre vil slutte å lete etter mer olje og gass og ikke tildele nye lisenser.
-oil_explore|KrF|1|MEDIUM|48|KrF vil begrense fremtidige lisenstildelinger til utvidelser eller forlengelse av eksisterende produksjon i modne områder.
-oil_explore|MDG|3|HIGH|10,45|MDG vil umiddelbart stanse all leting etter nye olje- og gassforekomster.
+# --- oil_explore: «Norge bør fortsette å lete etter ny olje og gass.»
+oil_explore|Ap|3|HIGH|118-119|Ap vil at olje- og gassindustrien fortsatt skal lete, produsere og levere til Europa, hovedsakelig i modne områder.
+oil_explore|H|3|HIGH|40-41|Høyre vil opprettholde en forutsigbar leteaktivitet og lyse ut 26. konsesjonsrunde.
+oil_explore|FrP|3|HIGH|80-81|FrP vil føre en offensiv letepolitikk og gjeninnføre regelmessige konsesjonsrunder.
+oil_explore|Sp|3|HIGH|105|Sp vil utvikle, ikke avvikle, petroleumssektoren og fortsatt lyse ut nye arealer gjennom TFO og nummererte runder.
+oil_explore|SV|-3|HIGH|32|SV vil stanse leting etter olje og gass og si nei til nye letelisenser.
+oil_explore|R|-3|HIGH|57|Rødt vil ikke tildele nye tillatelser på sokkelen, heller ikke gjennom TFO, og avslutte seismikk for ny leting.
+oil_explore|V|-3|HIGH|9|Venstre vil slutte å lete etter mer olje og gass og ikke tildele nye lisenser.
+oil_explore|KrF|-1|MEDIUM|48|KrF vil begrense fremtidige lisenstildelinger til utvidelser eller forlengelse av eksisterende produksjon i modne områder.
+oil_explore|MDG|-3|HIGH|10,45|MDG vil umiddelbart stanse all leting etter nye olje- og gassforekomster.
 # --- oil_end_date: «Norge bør vedta en sluttdato for olje- og gassproduksjonen.»
 oil_end_date|Ap|-3|MEDIUM|118|Ap vil «utvikle, ikke avvikle» aktiviteten på sokkelen og legge til rette for et stabilt høyt aktivitetsnivå.
 oil_end_date|H|-3|MEDIUM|40|Høyre vil opprettholde leteaktivitet og Norges rolle som stabil energileverandør til Europa.

@@ -17,7 +17,7 @@ export const THEME_DIFF = 0.1; // 10 prosentpoeng
 export const CLOSE_PAIR_GAP = 3; // prosentpoeng
 export const LOW_COVERAGE = 0.6;
 
-export function buildInsights(data: Dataset, answers: Answers, summary: ResultSummary): Insight[] {
+export function buildInsights(data: Dataset, _answers: Answers, summary: ResultSummary): Insight[] {
   const out: Insight[] = [];
   const ranked = summary.ranking.filter((r) => r.score !== null);
   if (ranked.length === 0) return out;
@@ -50,6 +50,8 @@ export function buildInsights(data: Dataset, answers: Answers, summary: ResultSu
   }
 
   // 3. Parti lenger ned på lista som likevel er best på et helt tema (med minst to besvarte spørsmål).
+  //    Maks tre, de med størst margin, for å unngå støy.
+  const winners: Insight[] = [];
   for (const theme of data.themes) {
     const scored = ranked
       .map((r, i) => ({ r, rank: i + 1, t: r.themes.find((t) => t.theme === theme.id) }))
@@ -59,9 +61,11 @@ export function buildInsights(data: Dataset, answers: Answers, summary: ResultSu
     const [first, second] = scored;
     const margin = first.t!.score! - second.t!.score!;
     if (first.rank >= 3 && margin >= 0.05) {
-      out.push({ kind: 'themeWinner', party: first.r.party, rank: first.rank, theme: theme.id, margin });
+      winners.push({ kind: 'themeWinner', party: first.r.party, rank: first.rank, theme: theme.id, margin });
     }
   }
+  winners.sort((x, y) => (y.kind === 'themeWinner' ? y.margin : 0) - (x.kind === 'themeWinner' ? x.margin : 0));
+  out.push(...winners.slice(0, 3));
 
   // 4. Partier der vi kjenner for lite av standpunktene bak brukerens svar.
   for (const r of ranked) if (r.coverage < LOW_COVERAGE) out.push({ kind: 'lowCoverage', party: r.party, coverage: r.coverage });

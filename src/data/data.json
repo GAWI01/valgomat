@@ -1129,22 +1129,22 @@
   {
    "id": "oil_explore",
    "pro": [
-    "Verden har allerede funnet mer fossil energi enn klimaet tåler at vi brenner.",
-    "Å stanse leting gir en forutsigbar nedtrapping og frigjør kompetanse til nye næringer.",
-    "Det reduserer den økonomiske risikoen ved investeringer som kan bli ulønnsomme."
-   ],
-   "con": [
     "Europa trenger norsk gass for energisikkerhet, ikke minst etter Russlands invasjon av Ukraina.",
     "Uten leting faller produksjonen raskt, med tap av arbeidsplasser og inntekter.",
     "Hvis Norge produserer mindre, kan annen og mer forurensende produksjon ta over."
    ],
+   "con": [
+    "Verden har allerede funnet mer fossil energi enn klimaet tåler at vi brenner.",
+    "Å stanse leting gir en forutsigbar nedtrapping og frigjør kompetanse til nye næringer.",
+    "Det reduserer den økonomiske risikoen ved investeringer som kan bli ulønnsomme."
+   ],
    "dims": {
-    "climate": 1
+    "climate": -1
    },
    "theme": "energi",
    "cluster": "energi/olje",
-   "short": "Stans i oljeleting",
-   "text": "Norge bør slutte å lete etter ny olje og gass.",
+   "short": "Fortsatt oljeleting",
+   "text": "Norge bør fortsette å lete etter ny olje og gass.",
    "background": "Norske myndigheter tildeler hvert år nye leteområder på sokkelen. Olje og gass er Norges største eksportnæring og en viktig kilde til statens inntekter."
   },
   {
@@ -6192,7 +6192,7 @@
   {
    "question": "oil_explore",
    "party": "Ap",
-   "position": -3,
+   "position": 3,
    "confidence": "HIGH",
    "reasoning": "Ap vil at olje- og gassindustrien fortsatt skal lete, produsere og levere til Europa, hovedsakelig i modne områder.",
    "refs": [
@@ -6205,7 +6205,7 @@
   {
    "question": "oil_explore",
    "party": "H",
-   "position": -3,
+   "position": 3,
    "confidence": "HIGH",
    "reasoning": "Høyre vil opprettholde en forutsigbar leteaktivitet og lyse ut 26. konsesjonsrunde.",
    "refs": [
@@ -6218,7 +6218,7 @@
   {
    "question": "oil_explore",
    "party": "FrP",
-   "position": -3,
+   "position": 3,
    "confidence": "HIGH",
    "reasoning": "FrP vil føre en offensiv letepolitikk og gjeninnføre regelmessige konsesjonsrunder.",
    "refs": [
@@ -6231,7 +6231,7 @@
   {
    "question": "oil_explore",
    "party": "Sp",
-   "position": -3,
+   "position": 3,
    "confidence": "HIGH",
    "reasoning": "Sp vil utvikle, ikke avvikle, petroleumssektoren og fortsatt lyse ut nye arealer gjennom TFO og nummererte runder.",
    "refs": [
@@ -6244,7 +6244,7 @@
   {
    "question": "oil_explore",
    "party": "SV",
-   "position": 3,
+   "position": -3,
    "confidence": "HIGH",
    "reasoning": "SV vil stanse leting etter olje og gass og si nei til nye letelisenser.",
    "refs": [
@@ -6257,7 +6257,7 @@
   {
    "question": "oil_explore",
    "party": "R",
-   "position": 3,
+   "position": -3,
    "confidence": "HIGH",
    "reasoning": "Rødt vil ikke tildele nye tillatelser på sokkelen, heller ikke gjennom TFO, og avslutte seismikk for ny leting.",
    "refs": [
@@ -6270,7 +6270,7 @@
   {
    "question": "oil_explore",
    "party": "V",
-   "position": 3,
+   "position": -3,
    "confidence": "HIGH",
    "reasoning": "Venstre vil slutte å lete etter mer olje og gass og ikke tildele nye lisenser.",
    "refs": [
@@ -6283,7 +6283,7 @@
   {
    "question": "oil_explore",
    "party": "KrF",
-   "position": 1,
+   "position": -1,
    "confidence": "MEDIUM",
    "reasoning": "KrF vil begrense fremtidige lisenstildelinger til utvidelser eller forlengelse av eksisterende produksjon i modne områder.",
    "refs": [
@@ -6296,7 +6296,7 @@
   {
    "question": "oil_explore",
    "party": "MDG",
-   "position": 3,
+   "position": -3,
    "confidence": "HIGH",
    "reasoning": "MDG vil umiddelbart stanse all leting etter nye olje- og gassforekomster.",
    "refs": [
