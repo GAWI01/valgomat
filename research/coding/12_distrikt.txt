@@ -1,5 +1,5 @@
 # --- dist_municipal_merge: «Staten bør gi sterkere insentiver til at kommuner slår seg sammen til større kommuner.»
-dist_municipal_merge|Ap|2|MEDIUM|src:ntb_kommunesammenslaing_2027|Ap-regjeringen foreslår i statsbudsjettet for 2027 nye økonomiske virkemidler for frivillige kommunesammenslåinger (gjengitt av NTB).
+dist_municipal_merge|Ap|2|MEDIUM|src:sf_budsjett_2027|Ap-regjeringen foreslår i statsbudsjettet for 2027 «mer forutsigbare økonomiske virkemidler» for frivillige kommunesammenslåinger, blant annet et nytt oppstartstilskudd.
 dist_municipal_merge|H|3|HIGH|83-84|Høyre vil premiere kommunesammenslåinger i inntektssystemet og legge til rette for større kommuner.
 dist_municipal_merge|FrP|U|-|10|Programmet vil styrke kommunenes handlingsrom, men tar ikke stilling til sammenslåing.
 dist_municipal_merge|Sp|-3|HIGH|10|Sp vil ikke tvangssammenslå kommuner og vil ha et inntektssystem som ikke stimulerer til sammenslåinger.
@@ -13,11 +13,11 @@ dist_county|Ap|-3|MEDIUM|src:sting_innst_196s_2526|Ap er med i stortingsflertall
 dist_county|H|3|HIGH|84|Høyre vil ha to forvaltningsnivåer og avvikle fylkeskommunen.
 dist_county|FrP|3|HIGH|7,10|FrP vil legge ned fylkeskommunen og fordele oppgavene mellom stat, kommune og private.
 dist_county|Sp|-3|HIGH|10|Sp vil videreføre tre forvaltningsnivåer: stat, fylke og kommune.
-dist_county|SV|U|-|-|Programmet tar ikke stilling.
+dist_county|SV|-3|MEDIUM|src:sting_innst_196s_2526|SV (med Sp og R) «er imot å legge ned fylkeskommunene».
 dist_county|R|-3|HIGH|76|Rødt vil forsvare og videreutvikle en modell med tre forvaltningsnivåer: kommune, fylke og stat.
 dist_county|V|U|-|-|Venstre vil vurdere organiseringen på fylkes-/regionnivå uten å angi retning.
 dist_county|KrF|-3|HIGH|54|KrF vil beholde fylkeskommunen som eget forvaltningsnivå.
-dist_county|MDG|U|-|75|MDG er mot tvangssammenslåing av fylker, men tar ikke stilling til å avvikle fylkeskommunen.
+dist_county|MDG|-3|MEDIUM|src:sting_innst_196s_2526|MDG er med i flertallet som «ønsker derfor ikke å avvikle fylkeskommunen», og vil tilføre fylkeskommunen oppgaver.
 # --- agri_tariffs: «Tollvernet for norske landbruksvarer bør styrkes for å sikre norsk matproduksjon, selv om det kan gi høyere matpriser.»
 agri_tariffs|Ap|1|MEDIUM|45|Ap vil ivareta et fungerende tollvern som en av pilarene i landbrukspolitikken.
 agri_tariffs|H|-1|HIGH|39|Høyre vil beholde et importvern, men lette på det for enkelte varer.

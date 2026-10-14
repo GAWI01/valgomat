@@ -39,7 +39,7 @@ imm_family|V|-1|LOW|27,48|Venstre vil korte ned saksbehandlingstiden for familie
 imm_family|KrF|-1|LOW|36|KrF vil redusere saksbehandlingstiden for familiegjenforening; skjerping kun for voldsdømte.
 imm_family|MDG|-3|HIGH|104|MDG vil redusere inntektskravet for familiegjenforening og fjerne urimelige hindringer.
 # --- imm_residence: «Det bør stilles strengere krav for å få permanent opphold og norsk statsborgerskap, for eksempel om selvforsørgelse og norskkunnskaper.»
-imm_residence|Ap|U|-|111|Ap vil «gjennomgå regelverket for statsborgerskap», uten å angi retning.
+imm_residence|Ap|-1|LOW|src:sting_innst_232s_2526|Ap mener at «dagens vilkår for å få innvilget norsk statsborgerskap ligger på et riktig nivå» og stemte mot strengere krav. Permanent opphold er ikke omtalt.
 imm_residence|H|3|HIGH|77|Høyre vil kreve fire års selvforsørgelse for permanent opphold, ingen gjeld til det offentlige, og vurdere å øke språkkravet til B2.
 imm_residence|FrP|3|HIGH|24,29|FrP vil kreve åtte år for permanent opphold og ti års botid, B2-norsk og selvforsørgelse for statsborgerskap.
 imm_residence|Sp|U|-|-|Programmet tar ikke stilling.
@@ -47,7 +47,7 @@ imm_residence|SV|-2|MEDIUM|25|SV vil reversere botidskravet for permanent opphol
 imm_residence|R|-3|HIGH|96|Rødt vil gi rett til statsborgerskap etter fem år og fjerne krav om norsk-/samfunnskunnskapstest og selvforsørgelse.
 imm_residence|V|-1|LOW|27|Venstre vil redusere kravet til oppholdstid før statsborgerskap for personer gift med norske statsborgere.
 imm_residence|KrF|-2|MEDIUM|36,38|KrF vil senke botidskravet til tre år for permanent opphold for borgere utenfor EØS.
-imm_residence|MDG|U|-|-|Programmet tar ikke stilling til kravene (kun til tilbakekall).
+imm_residence|MDG|-2|MEDIUM|src:sting_innst_232s_2526|MDG (med SV) mener ytterligere innstramminger i statsborgerskapsregelverket «vil kunne svekke integreringen og øke utenforskap».
 # --- imm_labour: «Det bør bli enklere for folk fra land utenfor EU/EØS å få arbeidstillatelse i Norge.»
 imm_labour|Ap|1|LOW|36|Ap vil korte ned godkjenningsprosessen for arbeidstillatelser til tre dager for å gi bedrifter rask tilgang til utenlandsk kompetanse.
 imm_labour|H|2|HIGH|60|Høyre vil ha raskere arbeidstillatelser og en «fast track»-ordning for høykompetent arbeidskraft.
@@ -82,9 +82,9 @@ imm_temporary|MDG|U|-|-|Programmet tar ikke stilling.
 imm_integration_req|Ap|1|MEDIUM|111|Ap vil vurdere nye sanksjonsmuligheter dersom personer med familieinnvandringstillatelse ikke gjennomfører opplæringstilbud.
 imm_integration_req|H|2|HIGH|78|Høyre vil knytte deltakelse i norskopplæring til gratis kjernetid og vurdere aktivitetsplikt og norskopplæring for flere ikke-universelle ytelser.
 imm_integration_req|FrP|3|HIGH|26|FrP vil at fravær fra introduksjonsprogrammet gir bortfall av stønad og brudd på aktivitetsplikt gir avkortning.
-imm_integration_req|Sp|U|-|65|Sp vil at vilkårene for sosialhjelp skal fremme integrering, uten å nevne sanksjoner.
-imm_integration_req|SV|U|-|-|Programmet tar ikke stilling.
-imm_integration_req|R|U|-|-|Programmet tar ikke stilling.
+imm_integration_req|Sp|1|LOW|src:sting_innst_309l_2526|Sp fremmet (med Ap og H) forslag om å «vurdere konsekvenser ved manglende oppfyllelse av integreringsforpliktelser, inkludert økonomiske sanksjoner».
+imm_integration_req|SV|-2|MEDIUM|src:sting_innst_221s_2526|SV (med R og MDG) «advarer mot å bruke sanksjoner og økonomisk utrygghet som integreringspolitiske virkemidler».
+imm_integration_req|R|-2|MEDIUM|src:sting_innst_221s_2526|Rødt (med SV og MDG) «advarer mot å bruke sanksjoner og økonomisk utrygghet som integreringspolitiske virkemidler».
 imm_integration_req|V|U|-|-|Venstre vil stille krav om å respektere norsk lov og gi flere tilbud om norskopplæring, men tar ikke stilling til trekk i støtte.
-imm_integration_req|KrF|U|-|-|Programmet tar ikke stilling.
-imm_integration_req|MDG|U|-|-|Programmet tar ikke stilling.
+imm_integration_req|KrF|1|LOW|src:sting_innst_309l_2526|KrF stemte for å be regjeringen vurdere konsekvenser, inkludert økonomiske sanksjoner, ved manglende oppfyllelse av integreringsforpliktelser.
+imm_integration_req|MDG|-2|MEDIUM|src:sting_innst_221s_2526|MDG (med SV og R) «advarer mot å bruke sanksjoner og økonomisk utrygghet som integreringspolitiske virkemidler».

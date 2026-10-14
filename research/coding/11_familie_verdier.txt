@@ -69,7 +69,7 @@ val_sunday|V|3|MEDIUM|52|Venstre vil oppheve loven om helligdagsfred.
 val_sunday|KrF|-2|MEDIUM|56|KrF vil opprettholde søndagen som en «annerledesdag».
 val_sunday|MDG|U|-|-|Programmet tar ikke stilling.
 # --- val_sex_purchase: «Forbudet mot å kjøpe sex (sexkjøpsloven) bør oppheves.»
-val_sex_purchase|Ap|U|-|-|Programmet tar ikke stilling.
+val_sex_purchase|Ap|-3|MEDIUM|src:sting_innst_428s_2526|Ap (med Sp) «deler departementets vurderinger og beslutning … om ikke å følge opp rådets forslag om å avkriminalisere kjøp av seksuelle tjenester».
 val_sex_purchase|H|U|-|-|Programmet tar ikke stilling.
 val_sex_purchase|FrP|3|HIGH|37|FrP vil oppheve sexkjøpsloven og hallikparagrafen.
 val_sex_purchase|Sp|-3|HIGH|83|Sp vil opprettholde sexkjøpsloven.

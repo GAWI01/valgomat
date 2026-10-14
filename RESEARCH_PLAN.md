@@ -19,7 +19,7 @@ Vi presenterer ikke eldre standpunkter (f.eks. fra 2021-programmene eller avisar
 5. Uttalelser fra partiledelse/fagpolitikere når programmet ikke avklarer saken
 6. Seriøse sekundærkilder – bare som supplement, og bare når innholdet er verifisert
 
-Etter red-team-gjennomgangen (se POLITICAL_QA.md) bygger 590 av 603 kodede standpunkter på nivå 1. 13 bygger utelukkende på andre kilder: 8 på nivå 2 (Aps nettsider, landsmøtevedtak og budsjettavtale), 4 på nivå 4 (Stortingets innstillinger) og 1 på nivå 6 (NTB om statsbudsjettet 2027, fordi regjeringen.no var utilgjengelig). Aps EU-standpunkt bygger på programmet sammen med en sekundærkilde (Altinget om landsmøtevedtaket). Kilder på nivå 4–6 gir høyst MEDIUM confidence.
+Etter red-team-gjennomgangen (se POLITICAL_QA.md) bygger 591 av 619 kodede standpunkter på nivå 1. 28 bygger utelukkende på andre kilder: 8 på nivå 2 (Aps nettsider og landsmøtevedtak), 1 på nivå 3 (regjeringens budsjettforslag for 2027, gjengitt av Statsforvalteren fordi regjeringen.no var utilgjengelig) og 19 på nivå 4 (partienes egne merknader og forslag i Stortingets innstillinger og debatter 2025–2026). Aps EU-standpunkt bygger på programmet sammen med en sekundærkilde (Altinget om landsmøtevedtaket). Kilder på nivå 2–6 gir høyst MEDIUM confidence, unntatt partiets egne nettsider og landsmøtevedtak når de svarer direkte på påstanden.
 
 ## 3. Primærkilder per parti
 
@@ -30,12 +30,12 @@ Etter red-team-gjennomgangen (se POLITICAL_QA.md) bygger 590 av 603 kodede stand
 | Fremskrittspartiet | [Partiprogram 2025–2029](https://www.frp.no/files/Program/2025/Program-2025-2029.pdf) | 2025 | 125 |
 | Senterpartiet | [Stortingsvalgprogram 2025–2029 (bokmål)](https://www.senterpartiet.no/politikk) | 2025 | 140 |
 | SV | [Arbeidsprogram 2025–2029](https://www.sv.no/politikken/arbeidsprogram/) | Landsmøtet 16. mars 2025 | 53 |
-| Rødt | [Arbeidsprogram 2025–2029](https://roedt.no/arbeidsprogram) | Landsmøtet 28. feb.–2. mars 2025 | 106 |
+| Rødt | [Arbeidsprogram 2025–2029](https://roedt.no/arbeidsprogram) (gjeldende fil fra 2. sept. 2025) | Landsmøtet 28. feb.–2. mars 2025 | 106 |
 | Venstre | [Stortingsvalgprogram 2025–2029](https://www.venstre.no/assets/venstre-stortingsprogram-2025-2029.pdf) | Landsmøtet mars 2025 | 68 |
 | KrF | [Stortingsprogram 2025–2029](https://krf.no/content/uploads/2020/09/Partiprogram-2025-2029.pdf) | 2025 | 86 |
 | MDG | [Arbeidsprogram 2025–2029](https://www.mdg.no/politikk) | 2025 | 112 |
 
-Fullstendige URL-er, SHA-256 for hver PDF og merknader (bl.a. at Rødts tekst ble hentet fra et speil) ligger i `research/sources.json`.
+Fullstendige URL-er, SHA-256 for hver PDF og merknader ligger i `research/sources.json`. Rødts fil hentes fra partiets eget publiseringssystem (Sanity CDN) fordi roedt.no avviser automatiske nedlastinger (se POLITICAL_QA.md §7).
 
 ## 4. Arbeidsflyt (slik den ble gjennomført)
 
@@ -113,9 +113,9 @@ Implementert i `src/lib/scoring.ts`, dokumentert for brukerne på siden «Hvorda
 
 **Kjente forbedringspunkter for neste runde:**
 
-1. Aps 17 gjenværende ukjente standpunkter, blant annet toppskatt, eiendomsskatt, bompenger og etiske spørsmål, bør vurderes på nytt når regjeringen.no er tilgjengelig og etter Aps neste landsmøte. 13 av de opprinnelige 30 er kodet ut fra nyere offisielle kilder (POLITICAL_QA.md §6).
-2. Rødts PDF bør sammenlignes byte for byte med partiets egen fil. roedt.no avviste alle forsøk under gjennomgangen (HTTP 429). Speilet er kontrollert for tittel, vedtaksdato, produksjonsdato og sidetall (POLITICAL_QA.md §7).
-3. LOW-kodinger (52 stk.) og de omstridte kodingene i POLITICAL_QA.md §5 bør vurderes av en annen person enn den som kodet, og gjerne legges fram for partiene.
+1. Aps 14 gjenværende ukjente standpunkter, blant annet toppskatt, eiendomsskatt, bompenger, kontantstøtte og etiske spørsmål, bør vurderes på nytt etter Aps neste landsmøte og når Stortinget har behandlet sakene om dødshjelp og sexkjøp. 16 av de opprinnelige 30 er kodet ut fra nyere offisielle kilder (POLITICAL_QA.md §6 og §6b).
+2. Stortingets innstillinger og voteringer (data.stortinget.no) bør gjennomgås hvert halvår for alle partiers unknowns, slik det ble gjort i oktober 2026 (§6b).
+3. LOW-kodinger (56 stk.) og de omstridte kodingene i POLITICAL_QA.md §5 bør vurderes av en annen person enn den som kodet, og gjerne legges fram for partiene.
 4. En uavhengig andregangskoding av et tilfeldig utvalg (f.eks. 10 %) vil gi et mål på kodingens pålitelighet.
 
 ## 8. Rettigheter og etikk

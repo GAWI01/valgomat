@@ -19,7 +19,7 @@ eu_eea|V|-3|HIGH|64|Venstre vil delta i et så bredt og dypt samarbeid med EU so
 eu_eea|KrF|-3|HIGH|76|KrF mener EØS-avtalen er avgjørende for Norge.
 eu_eea|MDG|-3|HIGH|46,107|MDG vil bevare EØS-avtalen frem til et eventuelt medlemskap.
 # --- eu_reservation: «Norge bør oftere si nei til nye EU-regler gjennom EØS, særlig når de overfører makt til EU-organer.»
-eu_reservation|Ap|U|-|-|Programmet tar ikke stilling.
+eu_reservation|Ap|-2|MEDIUM|src:sting_innst_408s_2526|Ap (med H, MDG, V): «Dette er ikke tiden for å sette EØS-avtalen i spill. Deltagelse i ACER gir oss informasjonstilgang og innflytelse.» Stemte mot utmelding av ACER.
 eu_reservation|H|-2|MEDIUM|5|Høyre vil føre en effektiv europapolitikk og forsvare EØS-avtalen.
 eu_reservation|FrP|3|HIGH|14|FrP vil benytte reservasjonsretten for å hindre direktiver som svekker Norges interesser.
 eu_reservation|Sp|3|HIGH|138|Sp vil si nei til nye avtaler som gir for stor myndighetsoverføring og avvise regelverk som ikke er EØS-relevant.

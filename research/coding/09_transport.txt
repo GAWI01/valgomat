@@ -13,9 +13,9 @@ transport_fuel_tax|Ap|U|-|12,121|Ap vil trappe opp CO₂-avgiften og balansere k
 transport_fuel_tax|H|U|-|42|Høyre vil øke CO₂-avgiftene og kompensere med andre skattelettelser, men nevner ikke drivstoffavgiftene spesifikt.
 transport_fuel_tax|FrP|3|HIGH|42|FrP vil redusere bil- og drivstoffavgiftene.
 transport_fuel_tax|Sp|3|HIGH|109|Sp vil redusere drivstoffavgiftene.
-transport_fuel_tax|SV|U|-|-|Programmet tar ikke stilling.
+transport_fuel_tax|SV|-1|LOW|src:sting_refs_2026_03_26|SV advarte i Stortinget «mot forhastede avgiftskutt» på drivstoff og stemte mot.
 transport_fuel_tax|R|U|-|-|Programmet tar ikke stilling til drivstoffavgiftene spesifikt.
-transport_fuel_tax|V|U|-|42|Venstre vil trappe opp CO₂-avgiften kraftig, men tar ikke stilling til avgiftene på bensin og diesel som sådan.
+transport_fuel_tax|V|-2|MEDIUM|src:sting_innst_457s_2526|Venstre stemte mot å midlertidig fjerne veibruksavgiften og mener det var «både dårlig klimapolitikk og dårlig økonomisk politikk».
 transport_fuel_tax|KrF|U|-|-|KrF vil gradvis øke CO₂-avgiften, men tar ikke stilling til avgiftene på bensin og diesel som sådan.
 transport_fuel_tax|MDG|-3|HIGH|94|MDG vil trappe opp avgiftene på fossilt drivstoff.
 # --- transport_ev: «Elbiler bør fortsatt ha store avgiftsfordeler sammenlignet med bensin- og dieselbiler.»

@@ -11,12 +11,12 @@
 | Antall spørsmål | 80 |
 | Antall partier | 9 |
 | Mulige partiposisjoner (spørsmål × partier) | 720 |
-| Kodede partiposisjoner | 604 (84 %) |
+| Kodede partiposisjoner | 619 (86 %) |
 | – HIGH confidence | 377 |
-| – MEDIUM confidence | 175 |
-| – LOW confidence | 52 |
-| Unknown (programmet tar ikke stilling) | 116 |
-| Kilder i kildebiblioteket | 22 (9 partiprogrammer, 13 sekundærkilde) |
+| – MEDIUM confidence | 186 |
+| – LOW confidence | 56 |
+| Unknown (programmet tar ikke stilling) | 101 |
+| Kilder i kildebiblioteket | 31 (9 partiprogrammer, 22 sekundærkilde) |
 
 Alle 720 kombinasjoner av spørsmål og parti er gjennomgått manuelt mot partiets program. Standpunkter som ikke kunne dokumenteres, er satt til **unknown** – de er ikke gjettet. Byggeskriptet (`scripts/build-data.mjs`) avviser data der et kodet standpunkt mangler kilde, der en sidehenvisning ligger utenfor dokumentet, eller der et parti mangler koding.
 
@@ -36,15 +36,15 @@ Alle 720 kombinasjoner av spørsmål og parti er gjennomgått manuelt mot partie
 
 | Parti | HIGH | MEDIUM | LOW | Unknown | Andel kodet | Unike sidehenvisninger | Sekundærkilder |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Arbeiderpartiet | 27 | 29 | 7 | 17 | 79 % | 48 | 13 |
+| Arbeiderpartiet | 27 | 31 | 8 | 14 | 83 % | 48 | 16 |
 | Høyre | 42 | 20 | 3 | 15 | 81 % | 45 | 0 |
 | Fremskrittspartiet | 57 | 16 | 3 | 4 | 95 % | 62 | 0 |
-| Senterpartiet | 37 | 24 | 5 | 14 | 83 % | 54 | 0 |
-| Sosialistisk Venstreparti | 44 | 17 | 4 | 15 | 81 % | 41 | 0 |
-| Rødt | 52 | 9 | 7 | 12 | 85 % | 48 | 0 |
-| Venstre | 42 | 16 | 9 | 13 | 84 % | 46 | 0 |
-| Kristelig Folkeparti | 38 | 17 | 12 | 13 | 84 % | 40 | 1 |
-| Miljøpartiet De Grønne | 38 | 27 | 2 | 13 | 84 % | 45 | 0 |
+| Senterpartiet | 37 | 25 | 6 | 12 | 85 % | 54 | 2 |
+| Sosialistisk Venstreparti | 44 | 19 | 5 | 12 | 85 % | 41 | 3 |
+| Rødt | 52 | 10 | 7 | 11 | 86 % | 48 | 1 |
+| Venstre | 42 | 18 | 9 | 11 | 86 % | 46 | 2 |
+| Kristelig Folkeparti | 38 | 17 | 13 | 12 | 85 % | 40 | 3 |
+| Miljøpartiet De Grønne | 38 | 30 | 2 | 10 | 88 % | 44 | 3 |
 
 **Merknad om Arbeiderpartiet:** Aps program er mer overordnet enn de andre partienes på flere felt (særlig skatt, rus og etiske spørsmål), og har derfor flest ukjente standpunkter. Ap sitter i regjering, og regjeringens budsjetter kunne vært brukt som supplement. Regjeringen.no avviste imidlertid automatisk henting under researchen, og standpunkter som ikke kunne verifiseres direkte, er derfor ikke kodet. Dette bør prioriteres ved neste oppdatering (se `RESEARCH_PLAN.md`).
 
@@ -57,11 +57,10 @@ Spørsmål der minst fire partier er ukjent, eller der ukjent + LOW er minst fem
 | Spørsmål | Ukjent | LOW | Spredning (maks − min) |
 |---|---:|---:|---:|
 | Midlertidig opphold for flyktninger (`imm_temporary`) | 4 | 2 | 6 |
-| Kutt i støtte ved manglende deltakelse (`imm_integration_req`) | 6 | 0 | 2 |
-| Lavere bensin- og dieselavgifter (`transport_fuel_tax`) | 6 | 0 | 6 |
 | Aktivitetsplikt for sosialhjelp (`work_activity_duty`) | 5 | 0 | 5 |
 | Flere ikke-kommersielle utleieboliger (`housing_nonprofit`) | 3 | 2 | 4 |
 | Enklere arbeidsinnvandring utenfor EØS (`imm_labour`) | 3 | 2 | 3 |
+| Lavere bensin- og dieselavgifter (`transport_fuel_tax`) | 4 | 1 | 6 |
 | Tillate regulert surrogati (`val_surrogacy`) | 5 | 0 | 6 |
 | Nei til EUs fjerde energimarkedspakke (`eu_energy_package`) | 4 | 0 | 6 |
 | Tillate aktiv dødshjelp (`val_assisted_dying`) | 4 | 0 | 6 |
@@ -74,10 +73,10 @@ Alle spørsmål har en spredning på minst 2 skalasteg mellom partiene (kontroll
 
 | Spredning | Antall spørsmål |
 |---:|---:|
-| 2 | 4 |
+| 2 | 3 |
 | 3 | 3 |
 | 4 | 8 |
-| 5 | 10 |
+| 5 | 11 |
 | 6 | 55 |
 
 ## Spørsmål vurdert og forkastet
@@ -103,14 +102,12 @@ Spørsmålspar i samme tema med svært lik partiprofil (|r| ≥ 0,95 over partie
 
 | Spørsmål A | Spørsmål B | r | n | Samme klynge |
 |---|---|---:|---:|---|
-| Færre asylsøkere og flyktninger | Strengere krav for varig opphold og statsborgerskap | 0.96 | 6 | nei |
-| Kvoteflyktninger etter FNs anbefaling | Strengere krav for varig opphold og statsborgerskap | -0.97 | 6 | nei |
-| Strengere familiegjenforening | Strengere krav for varig opphold og statsborgerskap | 0.96 | 6 | nei |
+| Kvoteflyktninger etter FNs anbefaling | Strengere krav for varig opphold og statsborgerskap | -0.97 | 8 | nei |
+| Asylbehandling utenfor Europa | Strengere krav for varig opphold og statsborgerskap | 0.95 | 6 | nei |
 | Fortsatt oljeleting | Sluttdato for olje og gass | -0.95 | 9 | ja |
 | Fri fordeling av foreldrepermisjon | Abortgrensen tilbake til 12 uker | 0.98 | 7 | nei |
-| Søndagsåpne butikker | Oppheve sexkjøpsloven | 0.99 | 6 | nei |
-| Legge ned fylkeskommunen | Mer penger til landbruket | -0.98 | 6 | nei |
-| Norsk EU-medlemskap | Oftere nei til nye EU-regler | -0.99 | 7 | nei |
+| Søndagsåpne butikker | Oppheve sexkjøpsloven | 0.99 | 7 | nei |
+| Legge ned fylkeskommunen | Mer penger til landbruket | -0.98 | 8 | nei |
 
 Høy korrelasjon i partienes standpunkter betyr ikke at spørsmålene er duplikater for velgerne: mange velgere kan for eksempel være for EØS, men mot EU-medlemskap. Spørsmål som i tillegg er tematisk tett beslektet, er lagt i samme klynge og vektes ned mot dobbelttelling (se metodesiden).
 

@@ -6,7 +6,7 @@ housing_equity|Sp|1|MEDIUM|31|Sp vil gi bankene mer skjønn til å tilpasse egen
 housing_equity|SV|1|LOW|30|SV vil regulere bankenes kredittgivning slik at førstegangskjøpere lettere får kreditt, mens lån til sekundærbolig blir mindre gunstig.
 housing_equity|R|U|-|-|Programmet tar ikke stilling til egenkapitalkravet for boliglån.
 housing_equity|V|3|HIGH|26|Venstre vil fjerne egenkapitalkravet for førstegangskjøpere.
-housing_equity|KrF|1|MEDIUM|50|KrF vil vurdere avvikling av utlånsforskriften.
+housing_equity|KrF|2|MEDIUM|50;src:sting_innst_379s_2526|KrF vil vurdere avvikling av utlånsforskriften (program) og fremmet i Stortinget forslag om å avvikle den «uten ugrunnet opphold».
 housing_equity|MDG|U|-|-|Programmet tar ikke stilling.
 # --- housing_nonprofit: «Staten bør finansiere mange flere ikke-kommersielle utleieboliger med rimelig husleie.»
 housing_nonprofit|Ap|2|MEDIUM|29|Ap vil, i samarbeid med kommuner, næringsliv, ideelle og boligbyggelag, ha en kraftfull satsing på flere rimelige leieboliger og en tredje boligsektor.

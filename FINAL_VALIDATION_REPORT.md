@@ -1,6 +1,6 @@
 # Sluttrapport – validering av Valgomat 2027
 
-**Dato:** 14. oktober 2026 · **Gren:** `claude/valgomat-2027`
+**Dato:** 14. oktober 2026 (oppdatert etter oppfølgingsrunden) · **Gren:** `claude/valgomat-2027`
 
 Denne rapporten oppsummerer en red-team-gjennomgang. Målet var å vise at valgomaten tar feil, ikke å bekrefte den. Detaljene står i egne dokumenter:
 
@@ -18,29 +18,30 @@ Ingen partistandpunkter og ingen deler av algoritmen er endret for å få et bes
 | Kontroll | Resultat |
 |---|---|
 | Perfekte partiprofiler | Alle 9 partier blir nr. 1 med 100 %. Med støy og tilfeldige svar på partiets unknowns: nr. 1 i 900 av 900 profiler. |
-| Motsatte profiler | Partiet havner på plass 8 eller 9, med 6–33 %. |
-| Arketyper | Plausible og forklarbare (STRESS_TEST.md §2). Liberal → V. Konservativ → H (94 %) / KrF. Sosialist → SV. Grønn → MDG. Distrikt → Sp. Innvandringsrestriktiv → FrP. Ruspolitisk liberal → V. Forsvar/NATO → spredt på H/Ap/V/KrF/MDG, og «ingen passer» i 47 %, noe som er riktig når resten av svarene er tilfeldige. |
-| Unknown-bias når standpunkter mangler tilfeldig | Ingen systematisk skjevhet: snittendringen er 0,0–0,4 poeng ved 100/90/75/60 % dekning. Spredningen øker som forventet (std.avvik 1,5 → 3,8 poeng), og det samme gjør intervallbredden (10,9 → 13,8 poeng). |
+| Motsatte profiler | Partiet havner på plass 8 eller 9, med 7–33 %. |
+| Arketyper | Plausible og forklarbare (STRESS_TEST.md §2). Liberal → V. Konservativ → H / KrF. Sosialist → SV. Grønn → MDG. Distrikt → Sp. Innvandringsrestriktiv → FrP. Ruspolitisk liberal → V. Forsvar/NATO → spredt på flere partier, og «ingen passer» i 35 %, noe som er riktig når resten av svarene er tilfeldige. |
+| Unknown-bias når standpunkter mangler tilfeldig | Ingen systematisk skjevhet: snittendringen er 0,0–0,2 poeng ved 100/90/75/60 % dekning. Spredningen øker som forventet (std.avvik 1,5 → 3,6 poeng), og det samme gjør intervallbredden (10,8 → 13,7 poeng). |
 | Viktighet | ★★ dobler vekten. Ett enkelt spørsmål kan maksimalt utgjøre 3,5 % av vekten (med ★★, når alle 80 er besvart). Én sak kan dermed avgjøre mellom to partier som ligger nær hverandre, men kan ikke snu en hel profil (eksempel A–C i STRESS_TEST.md §5). |
 | Genererte tekster | Ingen tekst sier «du bør stemme». De to stedene ordet «stemme» brukes, er en forklaring på at prosenten ikke er en anbefaling. Invariantsjekken på 400 resultater fant 0 brudd. Den kontrollerte at: <ul><li>dealbreakers er reelle konflikter på viktige saker hos topppartiet;</li><li>«nær match» og «klar match» har minst 2,5 poengs avstand;</li><li>«klar match» krever ≥ 6 poeng og ≥ 60 % dekning;</li><li>ingen vinner kåres under tilfeldighetsnivået;</li><li>«mest enige» betyr enighet og «mest uenige» betyr konflikt.</li></ul> |
 | Personvern | Svarene lagres bare i `localStorage` (nøkkel `valgomat2027:v1`: svar, posisjon og tidsstempel; `valgomat2027:theme`: lys/mørk modus). Kildekoden har ingen `fetch`, XHR, beacon, websocket eller analyseverktøy. Den bygde siden har nå en CSP med `connect-src 'none'`, så nettleseren hindrer alle nettverkskall fra siden. |
 | Kodeinjeksjon | Ingen `innerHTML`, `dangerouslySetInnerHTML` eller `eval`. All tekst fra datafilene rendres som React-tekst og escapes derfor. Kilde-URL-er valideres i byggesteget: bare `https:` er tillatt, så `javascript:`/`data:`-lenker avvises. CSP-en tillater bare egne skript og ett hashet inline-skript. |
-| `npm audit --omit=dev` | 0 sårbarheter i det som sendes til brukeren (React og React DOM). |
-| Tester | 40 enhetstester er grønne. `tsc -b` er grønn. Bygget er grønt. Browser-QA (Playwright, 375 px, 320 px mørk modus og 1280 px) besvarer alle 80 spørsmål, sjekker at det ikke er horisontal scroll eller konsollfeil (CSP inkludert), og at autolagring og «Start på nytt» virker. |
+| `npm audit` | **0 sårbarheter**, både i det som sendes til brukeren og i test- og byggeverktøyene (etter oppgradering til vitest 5 og Tailwind 4, se FIXED). |
+| Tester | 40 enhetstester er grønne (vitest 5). `tsc -b` er grønn. Bygget er grønt. Browser-QA (Playwright, 375 px, 320 px mørk modus og 1280 px) besvarer alle 80 spørsmål, sjekker at det ikke er horisontal scroll eller konsollfeil (CSP inkludert), og at autolagring og «Start på nytt» virker. |
 
 ## FIXED
 
 ### Data
 
-- **133 endringer i partikodingen** (POLITICAL_QA.md §2–§6):
+- **160 standpunkter endret** (POLITICAL_QA.md §2–§7):
   - 3 feil fortegn;
-  - 52 verdier endret;
-  - 7 kodinger satt til unknown;
-  - 38 unknowns kodet, 25 fra programmet og 13 fra nyere offisielle kilder;
-  - 18 kodinger fikk høyere og 34 lavere confidence;
-  - 33 sidetall og 50 begrunnelser rettet.
-- **Aps unknowns gikk fra 30 til 17.** De nye kodingene bygger på Aps nettsider, landsmøtevedtak og Stortingets innstillinger. Alle sitatene er kontrollert ordrett.
-- **Dobbelttelling fjernet:** 5 drivstoffkodinger var utledet fra den samme CO₂-avgiftssetningen som allerede teller i `cli_co2_tax`. De er nå unknown.
+  - 54 verdier endret;
+  - 5 kodinger satt til unknown;
+  - 52 unknowns kodet: 25 fra programmet og 27 fra nyere offisielle kilder (partienes nettsider, landsmøtevedtak, regjeringens budsjettforslag og partienes egne merknader og forslag i Stortinget);
+  - 19 kodinger fikk høyere og 34 lavere confidence;
+  - 36 sidetall/kilder og 53 begrunnelser rettet.
+- **Aps unknowns gikk fra 30 til 14.** Alle sitatene er kontrollert ordrett mot kildene.
+- **Rødts kilde er verifisert og byttet** til partiets gjeldende programfil (2. september 2025), hentet fra Rødts eget publiseringssystem (POLITICAL_QA.md §7). Speilet vi brukte var byte-identisk med en eldre opplasting fra Rødt (6. juni 2025). Den nye versjonen har fire små tekstrettelser. Én av dem gjør at Rødt nå eksplisitt sier nei til vindkraft til havs, så `energy_offshore_wind` for Rødt er kodet −2 HIGH.
+- **Dobbelttelling fjernet:** 5 drivstoffkodinger var utledet fra den samme CO₂-avgiftssetningen som allerede teller i `cli_co2_tax`, og ble satt til unknown. V og SV er senere kodet ut fra egne uttalelser om drivstoffavgiftene i Stortinget.
 - **Bias og steelman:** 2 påstander og 8 bakgrunnstekster er presisert, og 5 for/mot-argumenter er balansert. Blant rettelsene er én faktafeil (Albania) og én utdatert opplysning (energipakken etter juni 2025). Ingen endring påvirker partikodingen (POLITICAL_QA.md §8).
 - Byggesteget godtar nå flere kilder per standpunkt (`169;src:…`). Kildebiblioteket viser kildetypen (partiprogram, nettside, landsmøtevedtak, stortingsdokument, sekundærkilde) i stedet for å kalle alt som ikke er program for «sekundærkilde».
 
@@ -49,7 +50,7 @@ Ingen partistandpunkter og ingen deler av algoritmen er endret for å få et bes
 - **«Ingen parti passer spesielt godt» (ny klassifisering).**
   - *Problem:* tilfeldige svar ga 63 % til beste parti i median og ble kalt «nær match» eller «klar match» i 41 % av tilfellene. Systemet kunne ikke si at ingen passer.
   - *Løsning:* brukerens egne svar stokkes 200 ganger mellom de besvarte spørsmålene. Er beste partis score lavere enn 90-persentilen for beste parti i de stokkede svarene, er resultatet ikke bedre enn tilfeldig. Da sier vi det.
-  - *Effekt:* 451 av 500 tilfeldige brukere får nå «ingen parti passer spesielt godt». Med 90-persentilen som terskel er det ventet at rundt 10 % av rene tilfeldighetsprofiler havner over. Ingen ekte partiprofil får denne klassifiseringen; marginen er over 15 poeng (testet).
+  - *Effekt:* 438 av 500 tilfeldige brukere får nå «ingen parti passer spesielt godt», og alle de 62 øvrige får merknaden om svak tilpasning. Med 90-persentilen som terskel er det ventet at rundt 10 % av rene tilfeldighetsprofiler havner over. Ingen ekte partiprofil får denne klassifiseringen; marginen er over 15 poeng (testet).
 - **Merknad om svak tilpasning.**
   - *Problem:* en politisk «hjemløs» testperson fikk «Klar match» for V med 68 %, bare 4,5 poeng over sitt eget tilfeldighetsnivå.
   - *Løsning:* Rangeringen er riktig, men ordet «klar» overdriver tilpasningen. Ligger beste parti mindre enn 10 poeng over tilfeldighetsnivået, får brukeren nå en merknad om at en stor del av prosenten ville kommet også med tilfeldig stokkede svar, og at treffet derfor er mindre presist enn prosenten tilsier. Vi valgte bevisst ikke å skrive «ingen partier passer» her: H/FrP/V-testpersonen nedenfor får merknaden selv med 80 % for H, fordi svarene stort sett er «enig», noe som gir et høyt tilfeldighetsnivå (73 %).
@@ -60,6 +61,23 @@ Ingen partistandpunkter og ingen deler av algoritmen er endret for å få et bes
   - *Ny definisjon av konflikt:* hver sin side av midten med minst 3 stegs avstand, eller minst 4 steg fra hverandre.
   - Definisjonene er testet og dokumentert på metodesiden.
 - **Kalibrering forklart:** metodesiden sier nå at helt tilfeldige svar gir rundt 55 % til hvert parti og rundt 64 % til det beste.
+
+### Avhengigheter (alle sårbarheter rettet)
+
+- `npm audit` viste 10 sårbarheter (2 kritiske) i test- og byggeverktøyene: vitest/tinypool og tailwind/chokidar/braces. For `braces` finnes ingen rettet versjon, så eneste løsning var å fjerne avhengigheten.
+- **vitest 3 → 5.** Alle 40 tester er grønne uten endringer.
+- **Tailwind CSS 3 → 4**, migrert med Tailwinds eget verktøy. Tailwind 4 bruker ikke lenger braces, chokidar eller micromatch, og autoprefixer trengs ikke.
+- For å beholde utseendet nøyaktig:
+  - v3-fargepaletten er låst i `@theme` (v4 har en ny standardpalett);
+  - hånd-pekeren på knapper er beholdt;
+  - v3-regelen for listeavstand i løpende tekst er gjenskapt;
+  - tre overskrifter har fått eksplisitt linjehøyde på større skjermer.
+- **Verifisert at UI-et er uendret:**
+  - beregnede stiler for alle elementer på alle sider er sammenlignet, i lys og mørk modus, på mobil og desktop;
+  - skjermbildene er sammenlignet piksel for piksel;
+  - 24 av 33 skjermbilder er identiske (innenfor normal kantutjevning), og resten har bare forskjeller i kantutjevning eller fra inn-animasjonen.
+- `vite-node` er fjernet. Det krevde Vite 8. QA-skriptene kjøres nå med Vites egen `runnerImport` (`npm run qa:stress`, `qa:clusters`, `qa:smoke`).
+- **Resultat: `npm audit` = 0 sårbarheter.**
 
 ### Sikkerhet
 
@@ -72,60 +90,58 @@ Ingen partistandpunkter og ingen deler av algoritmen er endret for å få et bes
 ## WARNING
 
 1. **Unknowns som ikke mangler tilfeldig.** Selv om unknowns i snitt ikke gir skjevhet, kan de løfte et parti for en *bestemt* bruker når partiet tier om nettopp de sakene der det er uenig med brukeren.
-   - Aps score kunne for en tilfeldig bruker ligget mellom 53,5 og 68,4 (spenn 14,9 poeng) dersom alle unknowns var henholdsvis verst og best mulig. For FrP, som har få unknowns, er spennet 3,4 poeng.
-   - Testpersonen H/FrP/V viser dette: Ap kommer på 3. plass med 73 %, men verst/best-spennet er 68–76.
-   - Appen viser datagrunnlaget per parti og merker resultater under 60 % dekning. Ap har 65,8 % dekning når alle spørsmål er besvart, og havner derfor *ikke* under grensen.
+   - Aps score kunne for en tilfeldig bruker ligget mellom 55,1 og 67,8 (spenn 12,6 poeng, ned fra 14,9 før oppfølgingsrunden) dersom alle unknowns var henholdsvis verst og best mulig. For FrP, som har få unknowns, er spennet 3,3 poeng.
+   - Testpersonen H/FrP/V viser dette: Ap kommer på 3. plass med 73 %, men verst/best-spennet er 69–75.
+   - Appen viser datagrunnlaget per parti og merker resultater under 60 % dekning. Ap har 68,2 % dekning når alle spørsmål er besvart, og havner derfor *ikke* under grensen.
    - Vi har bevisst **ikke** justert scoren: det finnes ingen nøytral måte å gjette på unknowns.
    - Anbefaling for neste runde: vurder å vise «usikkert grunnlag» også når et parti har klart lavere dekning enn de andre.
-2. **Partiene ligger i et nesten endimensjonalt rom.** Med 9 partier er 192 spørsmålspar korrelert med |r| ≥ 0,9 over partienes standpunkter, også saker uten innholdsmessig sammenheng (f.eks. alkohol og jordbruksinntekt).
+2. **Partiene ligger i et nesten endimensjonalt rom.** Med 9 partier er 210 spørsmålspar korrelert med |r| ≥ 0,9 over partienes standpunkter, også saker uten innholdsmessig sammenheng (f.eks. alkohol og jordbruksinntekt).
    - Dobbelttelling kan derfor ikke løses statistisk uten å vekte bort det meste av spørsmålsbanken. Klyngene er derfor semantiske (samme sak, samme virkemiddel).
    - Klyngene og vektandelene er dokumentert i `test-results/clusters.md`:
      - ingen tema har mer enn 8,7 % av vekten;
      - den største tverrgående blokken (klima, olje, energi og bil, 18 spørsmål) har 20,4 % av vekten, mot 22,5 % av spørsmålene;
      - økonomi-aksen har 29 % av den aksefordelte vekten.
 3. **Svake spørsmål:**
-   - `imm_integration_req` (bare 3 partier kodet, spredning 2);
-   - `transport_fuel_tax` (3 kodet);
-   - `work_min_benefits` og `housing_equity` (spredning 2);
-   - `def_ukraine` (spredning 2, nesten alle enige).
+   - `work_min_benefits`, `housing_equity` og `def_ukraine` (spredning bare 2, nesten alle enige i retning);
+   - `work_activity_duty` og `val_surrogacy` (bare 4 partier kodet).
+
+   `imm_integration_req` og `transport_fuel_tax` var svake, men har nå 8 og 5 kodede partier etter oppfølgingsrunden.
 
    De skiller lite og har derfor liten effekt, men bør vurderes erstattet før 2027. Se RESEARCH_AUDIT.md.
-4. **52 LOW-kodinger og 15 omstridte kodinger** (POLITICAL_QA.md §5). Kodingen er gjort av én koder med automatisert andregangsgjennomgang. En uavhengig menneskelig andregangskoding er ikke gjort.
-5. **Utviklingsavhengigheter:** `npm audit` viser 10 sårbarheter (2 kritiske) i vitest/tinypool og tailwind/chokidar/braces. De brukes bare ved testing og bygging lokalt og sendes ikke til brukeren. Retting krever hovedversjonsoppgradering (vitest 5, tailwind 4), som er utsatt for ikke å endre UI eller byggeoppsett under QA.
-6. **Kildetilgang:** regjeringen.no, udi.no og lovdata.no var blokkert fra researchmiljøet. Én koding (Ap `dist_municipal_merge`) bygger derfor på NTB i stedet for regjeringens egen budsjettproposisjon.
+4. **56 LOW-kodinger og 15 omstridte kodinger** (POLITICAL_QA.md §5). Kodingen er gjort av én koder med automatisert andregangsgjennomgang. En uavhengig menneskelig andregangskoding er ikke gjort.
+5. **Kildetilgang:** regjeringen.no, statsbudsjettet.no, udi.no og lovdata.no var blokkert fra researchmiljøet (HTTP 403/405). Ap `dist_municipal_merge` bygger derfor på Statsforvalterens gjengivelse av regjeringens budsjettforslag, ikke på selve proposisjonen. Stortinget.no og data.stortinget.no fungerte og er brukt som erstatning der det var mulig.
+6. **19 kodinger bygger på Stortingets innstillinger.** De er kodet bare når partiets egen merknad, forslag eller innlegg svarer direkte på påstanden, og har høyst MEDIUM confidence. En stortingsmerknad er likevel ikke det samme som et vedtatt program.
 
 ## UNKNOWN
 
-1. **Rødts kilde er ikke byte-verifisert.** roedt.no svarte HTTP 429 eller tilbakestilte forbindelsen ved alle forsøk; Wayback Machine er blokkert.
-   - Speilet hos Norges idrettsforbund er kontrollert for tittel, vedtaksdato («vedtatt på Rødts landsmøte 28. februar til 2. mars 2025»), produksjonsdato (6. juni 2025) og sidetall. Bunntekstens sidetall er lik PDF-sideindeksen.
-   - Sannsynligvis er dette riktig dokument. Merkingen er beholdt.
-2. **117 unknowns.** Fordelt per parti:
+1. ~~Rødts kilde er ikke byte-verifisert.~~ **Løst** i oppfølgingsrunden (se FIXED og POLITICAL_QA.md §7).
+2. **101 unknowns** (ned fra 148 før gjennomgangen). Fordelt per parti:
 
    | Ap | H | Sp | SV | V | R | KrF | MDG | FrP |
    |---:|---:|---:|---:|---:|---:|---:|---:|---:|
-   | 17 | 15 | 14 | 15 | 13 | 13 | 13 | 13 | 4 |
+   | 14 | 15 | 12 | 12 | 11 | 11 | 12 | 10 | 4 |
 
    De står som unknown fordi kildene ikke tar stilling. De er ikke fylt ut for å øke dekningen.
 3. Om programtekstene vil endres før 2027 (landsmøter 2026–2027), er ukjent. Kvartalsvis SHA-256-kontroll er beskrevet i RESEARCH_PLAN.md.
 
 ## BLOCKER
 
-**Ingen.** Ingen funn hindrer testing med ekte brukere. Rødt-verifiseringen og den uavhengige andregangskodingen bør gjøres før en offentlig lansering, men hindrer ikke brukertesting.
+**Ingen.** Ingen funn hindrer testing med ekte brukere. En uavhengig andregangskoding bør gjøres før en offentlig lansering, men hindrer ikke brukertesting.
 
 ## COVERAGE per parti
 
 | Parti | Kodet | HIGH | MEDIUM | LOW | Unknown | Kun ikke-programkilde | Kodet før QA | Dekning (alle 80 besvart, confidence-vektet) |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Ap | 63 | 27 | 29 | 7 | 17 | 12 | 50 | 65,8 % |
+| Ap | 66 | 27 | 31 | 8 | 14 | 15 | 50 | 68,2 % |
 | H | 65 | 42 | 20 | 3 | 15 | 0 | 64 | 72,9 % |
 | FrP | 76 | 57 | 16 | 3 | 4 | 0 | 76 | 87,4 % |
-| Sp | 66 | 37 | 24 | 5 | 14 | 0 | 63 | 73,8 % |
-| SV | 65 | 44 | 17 | 4 | 15 | 0 | 63 | 72,2 % |
-| R | 67 | 51 | 9 | 7 | 13 | 0 | 65 | 77,0 % |
-| V | 67 | 42 | 16 | 9 | 13 | 0 | 65 | 73,6 % |
-| KrF | 67 | 38 | 17 | 12 | 13 | 1 | 64 | 71,3 % |
-| MDG | 67 | 38 | 27 | 2 | 13 | 0 | 62 | 74,0 % |
-| **Sum** | **603** | **376** | **175** | **52** | **117** | **13** | **572** | |
+| Sp | 68 | 37 | 25 | 6 | 12 | 2 | 63 | 74,9 % |
+| SV | 68 | 44 | 19 | 5 | 12 | 3 | 63 | 74,2 % |
+| R | 69 | 52 | 10 | 7 | 11 | 1 | 65 | 78,6 % |
+| V | 69 | 42 | 18 | 9 | 11 | 2 | 65 | 75,6 % |
+| KrF | 68 | 38 | 17 | 13 | 12 | 2 | 64 | 71,8 % |
+| MDG | 70 | 38 | 30 | 2 | 10 | 3 | 62 | 76,3 % |
+| **Sum** | **619** | **377** | **186** | **56** | **101** | **28** | **572** | |
 
 ## SCORING STRESS TEST
 
@@ -144,27 +160,27 @@ Ingen partistandpunkter og ingen deler av algoritmen er endret for å få et bes
 
 | | p5 | median | p95 |
 |---|---:|---:|---:|
-| Alle partiscorer, tilfeldig bruker | 47,7 | 55,9 | 64,1 |
-| Beste parti, tilfeldig bruker | 58,2 | 62,9 | 68,4 |
-| Beste parti, ekte partiprofil med støy | 92,2 | 94,5 | 96,5 |
-| Avstand 1–2, tilfeldig bruker (poeng) | 0,2 | 2,0 | 6,7 |
+| Alle partiscorer, tilfeldig bruker | 47,8 | 56,0 | 64,4 |
+| Beste parti, tilfeldig bruker | 58,3 | 63,3 | 68,7 |
+| Beste parti, ekte partiprofil med støy | 92,1 | 94,5 | 96,5 |
+| Avstand 1–2, tilfeldig bruker (poeng) | 0,2 | 2,0 | 6,4 |
 
 Prosentene ligger altså i et smalere og høyere bånd enn intuisjonen tilsier: 55 % er støygulvet, ikke «litt enig». Dette er dokumentert for brukeren. Skalaen er **ikke** endret, fordi enhver omskalering ville være en kosmetisk justering uten ny informasjon. Rekkefølgen, avstanden og tilfeldighetsnivået er det som bærer informasjon.
 
 **Testperson H vs FrP vs V.** Brukeren vil ha lavere skatt og bilavgifter, strengere innvandring og straff, NATO og høyere forsvarsbudsjett, private helseleverandører, avkriminalisering og regulert cannabis, er moderat på klima, for kjernekraft og EØS, og usikker på EU. Testpersonen svarte på 23–24 spørsmål.
 
-- Resultat: **H 80 %**, FrP 75 %, Ap 73 %, V 72 %, KrF 71 % → «nær match» (5–6 poeng, H øverst i 86 % av bootstrap-trekkene), med merknaden om svak tilpasning (tilfeldighetsnivå 72 %).
+- Resultat: **H 80 %**, FrP 75 %, Ap 73 %, KrF 71 %, V 71 % → «nær match» (5–6 poeng, H øverst i 88 % av bootstrap-trekkene), med merknaden om svak tilpasning (tilfeldighetsnivå 72 %).
 - Det som avgjør:
   - **V taper** på innvandringsnivå (V −2 mot bruker +2★), strengere straffer (V −1), bompenger (V −2), oljeleting (V −3) og CO₂-avgift (V +3 mot bruker −1). V vinner stort på avkriminalisering og cannabis (V +3), men det er bare to av spørsmålene.
   - **H slår FrP** fordi H er moderat der brukeren er moderat: avkriminalisering (H +1 mot FrP −3, bruker +2) og CO₂-avgift (H 0 mot FrP −3, bruker −1). FrP vinner på bompenger og alternative straffer.
-  - **Ap på 3. plass** skyldes delvis unknowns: Ap har ikke kjent standpunkt på bompenger og drivstoff. Verst/best-spennet for Ap er 68–76 %.
+  - **Ap på 3. plass** skyldes delvis unknowns: Ap har ikke kjent standpunkt på bompenger og drivstoff. Verst/best-spennet for Ap er 69–75 %.
   - ★★ på ett enkelt spørsmål endrer ikke vinneren for denne personen (0 av 23).
 - Resultatet er forklarbart ut fra dataene, og vi har ikke endret noe for å påvirke det.
 
 **Kryss-politiske testpersoner.**
-- Testperson 1: venstre økonomi, streng innvandring og justis, liberal, EU, grønn. Resultat: MDG 71 % mot tilfeldighetsnivå 63 %, «nær match», med merknaden om svak tilpasning (8 poeng over tilfeldighetsnivået).
+- Testperson 1: venstre økonomi, streng innvandring og justis, liberal, EU, grønn. Resultat: MDG 69 % og V 67 % mot tilfeldighetsnivå 63 %, «usikkert mellom flere partier», med merknaden om svak tilpasning (6 poeng over tilfeldighetsnivået).
 - Testperson 2, «hjemløs»: marked, streng innvandring, grønn, liberal, EU-skeptisk, mot NATO. Resultat: V 68 % mot tilfeldighetsnivå 64 %, «klar match» relativt sett (12 poeng foran nr. 2), med merknaden om at treffet er mindre presist enn prosenten tilsier.
-- Systemet kan altså si fra når ingen passer godt. For helt tilfeldige svar sier det «ingen parti passer spesielt godt» i 451 av 500 tilfeller, og 48 av de 49 øvrige får merknaden om svak tilpasning.
+- Systemet kan altså si fra når ingen passer godt. For helt tilfeldige svar sier det «ingen parti passer spesielt godt» i 438 av 500 tilfeller, og alle de 62 øvrige får merknaden om svak tilpasning.
 
 ## POLITICAL QA
 
@@ -172,13 +188,13 @@ Tallene gjelder de **572 standpunktene som var kodet før gjennomgangen**:
 
 | | Antall |
 |---|---:|
-| **Beholdt** (verdi og confidence uendret) | **480** (466 helt uendret + 14 med bare side eller begrunnelse rettet) |
-| **Endret** (verdi) | **52** (herav 3 feil fortegn) |
-| **Satt til unknown** | **7** |
-| **Confidence opp** | **18** |
+| **Beholdt** (verdi og confidence uendret) | **480** (465 helt uendret + 15 med bare side, kilde eller begrunnelse rettet) |
+| **Endret** (verdi) | **54** (herav 3 feil fortegn) |
+| **Satt til unknown** | **5** |
+| **Confidence opp** | **19** |
 | **Confidence ned** | **34** |
 
-I tillegg ble **38 av 148 unknowns kodet**: 25 fra programmet, der noe var oversett, og 13 fra nyere offisielle kilder. 110 unknowns er beholdt.
+I tillegg ble **52 av 148 unknowns kodet**: 25 fra programmet, der noe var oversett, og 27 fra nyere offisielle kilder. 96 unknowns er beholdt.
 
 Første gjennomlesning vurderte 576 av 720 linjer (80 %) som OK. De fleste avvikene gjaldt confidence, sidetall og presisjon. De viktigste funnene var tre feil fortegn og for mange falske unknowns. Søkeverktøyet viste bare de 12 første treffene per parti, og det forklarer de fleste falske unknowns. Begge deler er rettet og dokumentert linje for linje i POLITICAL_QA.md.
 
@@ -186,8 +202,7 @@ Første gjennomlesning vurderte 576 av 720 linjer (80 %) som OK. De fleste avvik
 
 ## Klar for testing med ekte brukere?
 
-**Ja, for en lukket brukertest.** Det gjenstår tre ting før en offentlig lansering:
+**Ja, for en lukket brukertest.** Rødt-kilden og alle npm-sårbarhetene er nå løst. Det gjenstår to ting før en offentlig lansering:
 
-1. Rødts kilde bør verifiseres mot partiets egen PDF.
-2. En uavhengig person bør gjøre en andregangskoding av et utvalg, særlig de LOW og omstridte kodingene.
-3. Partiene bør få se sine egne kodinger.
+1. En uavhengig person bør gjøre en andregangskoding av et utvalg, særlig de LOW og omstridte kodingene.
+2. Partiene bør få se sine egne kodinger.

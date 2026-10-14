@@ -25,6 +25,6 @@ edu_national_tests|FrP|3|HIGH|68|FrP mener nasjonale prøver og internasjonale m
 edu_national_tests|Sp|-3|HIGH|125|Sp vil redusere testregimet, erstatte nasjonale prøver med et internt kartleggingsverktøy og avvikle deltakelse i PISA.
 edu_national_tests|SV|-1|LOW|26|SV mener målstyringen har gått for langt og at standardiserte prøver har gitt for mye pugging.
 edu_national_tests|R|-3|HIGH|26,28|Rødt vil stanse rangering gjennom obligatoriske, standardiserte tester og erstatte dem med utvalgsprøver.
-edu_national_tests|V|U|-|-|Programmet tar ikke stilling.
+edu_national_tests|V|3|MEDIUM|src:sting_innst_236s_2526|Venstre fremmet (med FrP og H) forslag om å «beholde og forbedre nasjonale prøver».
 edu_national_tests|KrF|-2|MEDIUM|src:sting_innst_236s_2526|I Innst. 236 S (2025–2026) er KrF med i flertallet som mener det er «på høy tid med endring» av dagens nasjonale prøver, og som gikk imot forslaget om å beholde dem.
 edu_national_tests|MDG|-2|HIGH|29|MDG vil redusere mengden prøver og avvikle nasjonale prøver i dagens form.

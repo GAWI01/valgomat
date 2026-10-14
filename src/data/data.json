@@ -417,14 +417,104 @@
    "note": "Ap-regjeringens lovforslag om utvidede skjulte overvåkingsmetoder for politiet."
   },
   {
-   "id": "ntb_kommunesammenslaing_2027",
+   "id": "sf_budsjett_2027",
    "party": "Ap",
-   "type": "sekundærkilde",
-   "title": "NTB/Adresseavisen: «Kommuner som slår seg sammen kan få belønning» (7. oktober 2026)",
-   "url": "https://www.adressa.no/nyheter/innenriks/i/lKw0pA/kommuner-som-slaar-seg-sammen-kan-faa-beloenning",
-   "adopted": "Statsbudsjettet 2027 (regjeringens forslag)",
+   "type": "offentlig etat",
+   "title": "Statsforvalteren i Innlandet: «Statsbudsjettet 2027» (7. oktober 2026)",
+   "url": "https://www.statsforvalteren.no/innlandet/nyheter/2026/10/statsbudsjettet-2027/",
+   "adopted": "Regjeringens forslag til statsbudsjett 2027 (Prop. 1 S (2026–2027))",
    "accessed": "2026-10-14",
-   "note": "Sekundærkilde som gjengir regjeringens budsjettforslag for 2027; regjeringen.no var utilgjengelig (HTTP 403) under researchen."
+   "note": "Statsforvalterens sammendrag av regjeringens budsjettforslag. Brukes fordi regjeringen.no og statsbudsjettet.no var utilgjengelige fra researchmiljøet (HTTP 403). Regjeringens egen pressemelding: https://www.regjeringen.no/no/aktuelt/nye-verkemiddel-for-frivillige-kommunesamanslaingar/id3173707/"
+  },
+  {
+   "id": "sting_innst_428s_2526",
+   "party": null,
+   "type": "stortingsdokument",
+   "title": "Innst. 428 S (2025–2026): representantforslag om seksuallovbruddsbestemmelsene (sexkjøp)",
+   "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-428s/",
+   "adopted": "28. mai 2026",
+   "accessed": "2026-10-14",
+   "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
+  },
+  {
+   "id": "sting_innst_232s_2526",
+   "party": null,
+   "type": "stortingsdokument",
+   "title": "Innst. 232 S (2025–2026): representantforslag om krav for statsborgerskap",
+   "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-232s/",
+   "adopted": "30. april 2026",
+   "accessed": "2026-10-14",
+   "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
+  },
+  {
+   "id": "sting_innst_408s_2526",
+   "party": null,
+   "type": "stortingsdokument",
+   "title": "Innst. 408 S (2025–2026): representantforslag om ACER og energimarkedet",
+   "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-408s/",
+   "adopted": "26. mai 2026",
+   "accessed": "2026-10-14",
+   "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
+  },
+  {
+   "id": "sting_innst_221s_2526",
+   "party": null,
+   "type": "stortingsdokument",
+   "title": "Innst. 221 S (2025–2026): representantforslag om integreringsforpliktelser",
+   "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-221s/",
+   "adopted": "28. april 2026",
+   "accessed": "2026-10-14",
+   "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
+  },
+  {
+   "id": "sting_innst_309l_2526",
+   "party": null,
+   "type": "stortingsdokument",
+   "title": "Innst. 309 L (2025–2026): endringer i integreringsloven",
+   "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-309l/",
+   "adopted": "19. mai 2026",
+   "accessed": "2026-10-14",
+   "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
+  },
+  {
+   "id": "sting_innst_457s_2526",
+   "party": null,
+   "type": "stortingsdokument",
+   "title": "Innst. 457 S (2025–2026): veibruksavgift og CO₂-avgift på drivstoff",
+   "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-457s/",
+   "adopted": "12. juni 2026",
+   "accessed": "2026-10-14",
+   "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
+  },
+  {
+   "id": "sting_refs_2026_03_26",
+   "party": null,
+   "type": "stortingsdokument",
+   "title": "Stortingets referat 26. mars 2026, sak 8 (midlertidig avgiftskutt på drivstoff)",
+   "url": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2025-2026/refs-202526-03-26/?pgid=sak8",
+   "adopted": "26. mars 2026",
+   "accessed": "2026-10-14",
+   "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
+  },
+  {
+   "id": "sting_innst_401s_2526",
+   "party": null,
+   "type": "stortingsdokument",
+   "title": "Innst. 401 S (2025–2026): representantforslag om havvind",
+   "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-401s/",
+   "adopted": "26. mai 2026",
+   "accessed": "2026-10-14",
+   "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
+  },
+  {
+   "id": "sting_innst_379s_2526",
+   "party": null,
+   "type": "stortingsdokument",
+   "title": "Innst. 379 S (2025–2026): finansmarkedsmeldingen m.m. (forslag om utlånsforskriften)",
+   "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-379s/",
+   "adopted": "2026",
+   "accessed": "2026-10-14",
+   "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
   }
  ],
  "questions": [
@@ -4441,13 +4531,13 @@
   {
    "question": "imm_residence",
    "party": "Ap",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Ap vil «gjennomgå regelverket for statsborgerskap», uten å angi retning.",
+   "position": -1,
+   "confidence": "LOW",
+   "reasoning": "Ap mener at «dagens vilkår for å få innvilget norsk statsborgerskap ligger på et riktig nivå» og stemte mot strengere krav. Permanent opphold er ikke omtalt.",
    "refs": [
     {
-     "source": "prog_ap",
-     "pages": "111"
+     "source": "sting_innst_232s_2526",
+     "pages": null
     }
    ]
   },
@@ -4545,12 +4635,12 @@
   {
    "question": "imm_residence",
    "party": "MDG",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling til kravene (kun til tilbakekall).",
+   "position": -2,
+   "confidence": "MEDIUM",
+   "reasoning": "MDG (med SV) mener ytterligere innstramminger i statsborgerskapsregelverket «vil kunne svekke integreringen og øke utenforskap».",
    "refs": [
     {
-     "source": "prog_mdg",
+     "source": "sting_innst_232s_2526",
      "pages": null
     }
    ]
@@ -4948,25 +5038,25 @@
   {
    "question": "imm_integration_req",
    "party": "Sp",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Sp vil at vilkårene for sosialhjelp skal fremme integrering, uten å nevne sanksjoner.",
+   "position": 1,
+   "confidence": "LOW",
+   "reasoning": "Sp fremmet (med Ap og H) forslag om å «vurdere konsekvenser ved manglende oppfyllelse av integreringsforpliktelser, inkludert økonomiske sanksjoner».",
    "refs": [
     {
-     "source": "prog_sp",
-     "pages": "65"
+     "source": "sting_innst_309l_2526",
+     "pages": null
     }
    ]
   },
   {
    "question": "imm_integration_req",
    "party": "SV",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": -2,
+   "confidence": "MEDIUM",
+   "reasoning": "SV (med R og MDG) «advarer mot å bruke sanksjoner og økonomisk utrygghet som integreringspolitiske virkemidler».",
    "refs": [
     {
-     "source": "prog_sv",
+     "source": "sting_innst_221s_2526",
      "pages": null
     }
    ]
@@ -4974,12 +5064,12 @@
   {
    "question": "imm_integration_req",
    "party": "R",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": -2,
+   "confidence": "MEDIUM",
+   "reasoning": "Rødt (med SV og MDG) «advarer mot å bruke sanksjoner og økonomisk utrygghet som integreringspolitiske virkemidler».",
    "refs": [
     {
-     "source": "prog_r",
+     "source": "sting_innst_221s_2526",
      "pages": null
     }
    ]
@@ -5000,12 +5090,12 @@
   {
    "question": "imm_integration_req",
    "party": "KrF",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": 1,
+   "confidence": "LOW",
+   "reasoning": "KrF stemte for å be regjeringen vurdere konsekvenser, inkludert økonomiske sanksjoner, ved manglende oppfyllelse av integreringsforpliktelser.",
    "refs": [
     {
-     "source": "prog_krf",
+     "source": "sting_innst_309l_2526",
      "pages": null
     }
    ]
@@ -5013,12 +5103,12 @@
   {
    "question": "imm_integration_req",
    "party": "MDG",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": -2,
+   "confidence": "MEDIUM",
+   "reasoning": "MDG (med SV og R) «advarer mot å bruke sanksjoner og økonomisk utrygghet som integreringspolitiske virkemidler».",
    "refs": [
     {
-     "source": "prog_mdg",
+     "source": "sting_innst_221s_2526",
      "pages": null
     }
    ]
@@ -6937,13 +7027,13 @@
   {
    "question": "energy_offshore_wind",
    "party": "Sp",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet sier nei til nye utenlandskabler i havvindprosjekter, men tar ikke stilling til støtte.",
+   "position": 2,
+   "confidence": "MEDIUM",
+   "reasoning": "Sp er med i flertallet som mener havvind er en næring som «bør satses videre på, også med midler fra statens side».",
    "refs": [
     {
-     "source": "prog_sp",
-     "pages": "43"
+     "source": "sting_innst_401s_2526",
+     "pages": null
     }
    ]
   },
@@ -7652,12 +7742,12 @@
   {
    "question": "transport_fuel_tax",
    "party": "SV",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": -1,
+   "confidence": "LOW",
+   "reasoning": "SV advarte i Stortinget «mot forhastede avgiftskutt» på drivstoff og stemte mot.",
    "refs": [
     {
-     "source": "prog_sv",
+     "source": "sting_refs_2026_03_26",
      "pages": null
     }
    ]
@@ -7678,13 +7768,13 @@
   {
    "question": "transport_fuel_tax",
    "party": "V",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Venstre vil trappe opp CO₂-avgiften kraftig, men tar ikke stilling til avgiftene på bensin og diesel som sådan.",
+   "position": -2,
+   "confidence": "MEDIUM",
+   "reasoning": "Venstre stemte mot å midlertidig fjerne veibruksavgiften og mener det var «både dårlig klimapolitikk og dårlig økonomisk politikk».",
    "refs": [
     {
-     "source": "prog_v",
-     "pages": "42"
+     "source": "sting_innst_457s_2526",
+     "pages": null
     }
    ]
   },
@@ -8380,12 +8470,12 @@
   {
    "question": "edu_national_tests",
    "party": "V",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": 3,
+   "confidence": "MEDIUM",
+   "reasoning": "Venstre fremmet (med FrP og H) forslag om å «beholde og forbedre nasjonale prøver».",
    "refs": [
     {
-     "source": "prog_v",
+     "source": "sting_innst_236s_2526",
      "pages": null
     }
    ]
@@ -9238,12 +9328,12 @@
   {
    "question": "val_sex_purchase",
    "party": "Ap",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": -3,
+   "confidence": "MEDIUM",
+   "reasoning": "Ap (med Sp) «deler departementets vurderinger og beslutning … om ikke å følge opp rådets forslag om å avkriminalisere kjøp av seksuelle tjenester».",
    "refs": [
     {
-     "source": "prog_ap",
+     "source": "sting_innst_428s_2526",
      "pages": null
     }
    ]
@@ -9474,10 +9564,10 @@
    "party": "Ap",
    "position": 2,
    "confidence": "MEDIUM",
-   "reasoning": "Ap-regjeringen foreslår i statsbudsjettet for 2027 nye økonomiske virkemidler for frivillige kommunesammenslåinger (gjengitt av NTB).",
+   "reasoning": "Ap-regjeringen foreslår i statsbudsjettet for 2027 «mer forutsigbare økonomiske virkemidler» for frivillige kommunesammenslåinger, blant annet et nytt oppstartstilskudd.",
    "refs": [
     {
-     "source": "ntb_kommunesammenslaing_2027",
+     "source": "sf_budsjett_2027",
      "pages": null
     }
    ]
@@ -9641,12 +9731,12 @@
   {
    "question": "dist_county",
    "party": "SV",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": -3,
+   "confidence": "MEDIUM",
+   "reasoning": "SV (med Sp og R) «er imot å legge ned fylkeskommunene».",
    "refs": [
     {
-     "source": "prog_sv",
+     "source": "sting_innst_196s_2526",
      "pages": null
     }
    ]
@@ -9693,13 +9783,13 @@
   {
    "question": "dist_county",
    "party": "MDG",
-   "position": null,
-   "confidence": null,
-   "reasoning": "MDG er mot tvangssammenslåing av fylker, men tar ikke stilling til å avvikle fylkeskommunen.",
+   "position": -3,
+   "confidence": "MEDIUM",
+   "reasoning": "MDG er med i flertallet som «ønsker derfor ikke å avvikle fylkeskommunen», og vil tilføre fylkeskommunen oppgaver.",
    "refs": [
     {
-     "source": "prog_mdg",
-     "pages": "75"
+     "source": "sting_innst_196s_2526",
+     "pages": null
     }
    ]
   },
@@ -10295,12 +10385,12 @@
   {
    "question": "eu_reservation",
    "party": "Ap",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": -2,
+   "confidence": "MEDIUM",
+   "reasoning": "Ap (med H, MDG, V): «Dette er ikke tiden for å sette EØS-avtalen i spill. Deltagelse i ACER gir oss informasjonstilgang og innflytelse.» Stemte mot utmelding av ACER.",
    "refs": [
     {
-     "source": "prog_ap",
+     "source": "sting_innst_408s_2526",
      "pages": null
     }
    ]
@@ -11322,13 +11412,17 @@
   {
    "question": "housing_equity",
    "party": "KrF",
-   "position": 1,
+   "position": 2,
    "confidence": "MEDIUM",
-   "reasoning": "KrF vil vurdere avvikling av utlånsforskriften.",
+   "reasoning": "KrF vil vurdere avvikling av utlånsforskriften (program) og fremmet i Stortinget forslag om å avvikle den «uten ugrunnet opphold».",
    "refs": [
     {
      "source": "prog_krf",
      "pages": "50"
+    },
+    {
+     "source": "sting_innst_379s_2526",
+     "pages": null
     }
    ]
   },

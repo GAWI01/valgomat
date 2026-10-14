@@ -141,7 +141,23 @@ edu_absence_limit	Ap	U - -	2 HIGH src:ap_web_fravar	Fra U.
 edu_national_tests	Ap	U - 53	-2 MEDIUM src:sting_innst_236s_2526	Fra U.
 edu_national_tests	KrF	U - -	-2 MEDIUM src:sting_innst_236s_2526	Fra U (samme kilde som Ap).
 fam_leave_quota	Ap	U - -	-3 HIGH src:ap_web_foreldrepermisjon	Fra U.
-dist_municipal_merge	Ap	U - -	2 MEDIUM src:ntb_kommunesammenslaing_2027	Fra U; sekundærkilde.
+dist_municipal_merge	Ap	U - -	2 MEDIUM src:sf_budsjett_2027	Fra U; regjeringens budsjettforslag gjengitt av Statsforvalteren.
 dist_county	Ap	U - -	-3 MEDIUM src:sting_innst_196s_2526	Fra U.
 for_israel_sanctions	Ap	U - -	1 MEDIUM src:ap_web_palestina	Fra U.
 energy_offshore_wind	R	U - -	-2 HIGH 53,60	Fra U. Gjeldende versjon av programmet sier eksplisitt nei til vindkraft til havs; speilversjonen hadde en skrivefeil («i fjæra til havs»).
+val_sex_purchase	Ap	U - -	-3 MEDIUM src:sting_innst_428s_2526	Fra U.
+imm_residence	Ap	U - 111	-1 LOW src:sting_innst_232s_2526	Fra U; gjelder bare statsborgerskap → LOW.
+imm_residence	MDG	U - -	-2 MEDIUM src:sting_innst_232s_2526	Fra U.
+eu_reservation	Ap	U - -	-2 MEDIUM src:sting_innst_408s_2526	Fra U.
+imm_integration_req	SV	U - -	-2 MEDIUM src:sting_innst_221s_2526	Fra U.
+imm_integration_req	R	U - -	-2 MEDIUM src:sting_innst_221s_2526	Fra U.
+imm_integration_req	MDG	U - -	-2 MEDIUM src:sting_innst_221s_2526	Fra U.
+imm_integration_req	Sp	U - 65	1 LOW src:sting_innst_309l_2526	Fra U; bare «vurdere» → LOW.
+imm_integration_req	KrF	U - -	1 LOW src:sting_innst_309l_2526	Fra U; bare votering → LOW.
+transport_fuel_tax	V	U - 42	-2 MEDIUM src:sting_innst_457s_2526	Fra U; direkte om drivstoffavgiftene.
+transport_fuel_tax	SV	U - -	-1 LOW src:sting_refs_2026_03_26	Fra U; debattinnlegg → LOW.
+dist_county	SV	U - -	-3 MEDIUM src:sting_innst_196s_2526	Fra U.
+dist_county	MDG	U - 75	-3 MEDIUM src:sting_innst_196s_2526	Fra U.
+edu_national_tests	V	U - -	3 MEDIUM src:sting_innst_236s_2526	Fra U.
+energy_offshore_wind	Sp	U - 43	2 MEDIUM src:sting_innst_401s_2526	Fra U.
+housing_equity	KrF	1 MEDIUM 50	2 MEDIUM 50;src:sting_innst_379s_2526	Var +1; Stortingsforslaget er tydeligere enn programmet.

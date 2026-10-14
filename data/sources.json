@@ -238,13 +238,103 @@
     "note": "Ap-regjeringens lovforslag om utvidede skjulte overvåkingsmetoder for politiet."
   },
   {
-    "id": "ntb_kommunesammenslaing_2027",
+    "id": "sf_budsjett_2027",
     "party": "Ap",
-    "type": "sekundærkilde",
-    "title": "NTB/Adresseavisen: «Kommuner som slår seg sammen kan få belønning» (7. oktober 2026)",
-    "url": "https://www.adressa.no/nyheter/innenriks/i/lKw0pA/kommuner-som-slaar-seg-sammen-kan-faa-beloenning",
-    "adopted": "Statsbudsjettet 2027 (regjeringens forslag)",
+    "type": "offentlig etat",
+    "title": "Statsforvalteren i Innlandet: «Statsbudsjettet 2027» (7. oktober 2026)",
+    "url": "https://www.statsforvalteren.no/innlandet/nyheter/2026/10/statsbudsjettet-2027/",
+    "adopted": "Regjeringens forslag til statsbudsjett 2027 (Prop. 1 S (2026–2027))",
     "accessed": "2026-10-14",
-    "note": "Sekundærkilde som gjengir regjeringens budsjettforslag for 2027; regjeringen.no var utilgjengelig (HTTP 403) under researchen."
+    "note": "Statsforvalterens sammendrag av regjeringens budsjettforslag. Brukes fordi regjeringen.no og statsbudsjettet.no var utilgjengelige fra researchmiljøet (HTTP 403). Regjeringens egen pressemelding: https://www.regjeringen.no/no/aktuelt/nye-verkemiddel-for-frivillige-kommunesamanslaingar/id3173707/"
+  },
+  {
+    "id": "sting_innst_428s_2526",
+    "party": null,
+    "type": "stortingsdokument",
+    "title": "Innst. 428 S (2025–2026): representantforslag om seksuallovbruddsbestemmelsene (sexkjøp)",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-428s/",
+    "adopted": "28. mai 2026",
+    "accessed": "2026-10-14",
+    "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
+  },
+  {
+    "id": "sting_innst_232s_2526",
+    "party": null,
+    "type": "stortingsdokument",
+    "title": "Innst. 232 S (2025–2026): representantforslag om krav for statsborgerskap",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-232s/",
+    "adopted": "30. april 2026",
+    "accessed": "2026-10-14",
+    "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
+  },
+  {
+    "id": "sting_innst_408s_2526",
+    "party": null,
+    "type": "stortingsdokument",
+    "title": "Innst. 408 S (2025–2026): representantforslag om ACER og energimarkedet",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-408s/",
+    "adopted": "26. mai 2026",
+    "accessed": "2026-10-14",
+    "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
+  },
+  {
+    "id": "sting_innst_221s_2526",
+    "party": null,
+    "type": "stortingsdokument",
+    "title": "Innst. 221 S (2025–2026): representantforslag om integreringsforpliktelser",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-221s/",
+    "adopted": "28. april 2026",
+    "accessed": "2026-10-14",
+    "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
+  },
+  {
+    "id": "sting_innst_309l_2526",
+    "party": null,
+    "type": "stortingsdokument",
+    "title": "Innst. 309 L (2025–2026): endringer i integreringsloven",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-309l/",
+    "adopted": "19. mai 2026",
+    "accessed": "2026-10-14",
+    "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
+  },
+  {
+    "id": "sting_innst_457s_2526",
+    "party": null,
+    "type": "stortingsdokument",
+    "title": "Innst. 457 S (2025–2026): veibruksavgift og CO₂-avgift på drivstoff",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-457s/",
+    "adopted": "12. juni 2026",
+    "accessed": "2026-10-14",
+    "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
+  },
+  {
+    "id": "sting_refs_2026_03_26",
+    "party": null,
+    "type": "stortingsdokument",
+    "title": "Stortingets referat 26. mars 2026, sak 8 (midlertidig avgiftskutt på drivstoff)",
+    "url": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2025-2026/refs-202526-03-26/?pgid=sak8",
+    "adopted": "26. mars 2026",
+    "accessed": "2026-10-14",
+    "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
+  },
+  {
+    "id": "sting_innst_401s_2526",
+    "party": null,
+    "type": "stortingsdokument",
+    "title": "Innst. 401 S (2025–2026): representantforslag om havvind",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-401s/",
+    "adopted": "26. mai 2026",
+    "accessed": "2026-10-14",
+    "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
+  },
+  {
+    "id": "sting_innst_379s_2526",
+    "party": null,
+    "type": "stortingsdokument",
+    "title": "Innst. 379 S (2025–2026): finansmarkedsmeldingen m.m. (forslag om utlånsforskriften)",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-379s/",
+    "adopted": "2026",
+    "accessed": "2026-10-14",
+    "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
   }
 ]

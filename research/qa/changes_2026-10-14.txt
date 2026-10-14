@@ -143,8 +143,25 @@ edu_absence_limit|Ap|2|HIGH|src:ap_web_fravar|«Dagens fraværsgrense består»,
 edu_national_tests|Ap|-2|MEDIUM|src:sting_innst_236s_2526|I Innst. 236 S (2025–2026) er Ap med i flertallet som mener det er «på høy tid med endring» av dagens nasjonale prøver, og som gikk imot forslaget om å beholde dem.|Fra U.
 edu_national_tests|KrF|-2|MEDIUM|src:sting_innst_236s_2526|I Innst. 236 S (2025–2026) er KrF med i flertallet som mener det er «på høy tid med endring» av dagens nasjonale prøver, og som gikk imot forslaget om å beholde dem.|Fra U (samme kilde som Ap).
 fam_leave_quota|Ap|-3|HIGH|src:ap_web_foreldrepermisjon|Ap vil «beholde dagens vellykkede fedrekvote og en tredelt foreldrepermisjon» (partiets nettside).|Fra U.
-dist_municipal_merge|Ap|2|MEDIUM|src:ntb_kommunesammenslaing_2027|Ap-regjeringen foreslår i statsbudsjettet for 2027 nye økonomiske virkemidler for frivillige kommunesammenslåinger (gjengitt av NTB).|Fra U; sekundærkilde.
+dist_municipal_merge|Ap|2|MEDIUM|src:sf_budsjett_2027|Ap-regjeringen foreslår i statsbudsjettet for 2027 «mer forutsigbare økonomiske virkemidler» for frivillige kommunesammenslåinger, blant annet et nytt oppstartstilskudd.|Fra U; regjeringens budsjettforslag gjengitt av Statsforvalteren.
 dist_county|Ap|-3|MEDIUM|src:sting_innst_196s_2526|Ap er med i stortingsflertallet som «ønsker derfor ikke å avvikle fylkeskommunen» (Innst. 196 S 2025–2026).|Fra U.
 for_israel_sanctions|Ap|1|MEDIUM|src:ap_web_palestina|Ap vil innføre handelsforbud med varer produsert i de folkerettsstridige israelske bosetningene, men ikke generelle sanksjoner mot Israel.|Fra U.
 # --- Rødt: byttet til gjeldende offisielle PDF (2. sept. 2025), se POLITICAL_QA.md §7
 energy_offshore_wind|R|-2|HIGH|53,60|Rødt sier nei til vindkraft «på land, i fjæra og til havs» (s.60) og nei til å elektrifisere sokkelen med havvind (s.58). Programmet stiller samtidig krav til hvordan konsesjoner for havvind tildeles (s.53).|Fra U. Gjeldende versjon av programmet sier eksplisitt nei til vindkraft til havs; speilversjonen hadde en skrivefeil («i fjæra til havs»).
+# --- Stortingets innstillinger og debatter 2025–2026 (nivå 4, høyst MEDIUM), se POLITICAL_QA.md §6b
+val_sex_purchase|Ap|-3|MEDIUM|src:sting_innst_428s_2526|Ap (med Sp) «deler departementets vurderinger og beslutning … om ikke å følge opp rådets forslag om å avkriminalisere kjøp av seksuelle tjenester».|Fra U.
+imm_residence|Ap|-1|LOW|src:sting_innst_232s_2526|Ap mener at «dagens vilkår for å få innvilget norsk statsborgerskap ligger på et riktig nivå» og stemte mot strengere krav. Permanent opphold er ikke omtalt.|Fra U; gjelder bare statsborgerskap → LOW.
+imm_residence|MDG|-2|MEDIUM|src:sting_innst_232s_2526|MDG (med SV) mener ytterligere innstramminger i statsborgerskapsregelverket «vil kunne svekke integreringen og øke utenforskap».|Fra U.
+eu_reservation|Ap|-2|MEDIUM|src:sting_innst_408s_2526|Ap (med H, MDG, V): «Dette er ikke tiden for å sette EØS-avtalen i spill. Deltagelse i ACER gir oss informasjonstilgang og innflytelse.» Stemte mot utmelding av ACER.|Fra U.
+imm_integration_req|SV|-2|MEDIUM|src:sting_innst_221s_2526|SV (med R og MDG) «advarer mot å bruke sanksjoner og økonomisk utrygghet som integreringspolitiske virkemidler».|Fra U.
+imm_integration_req|R|-2|MEDIUM|src:sting_innst_221s_2526|Rødt (med SV og MDG) «advarer mot å bruke sanksjoner og økonomisk utrygghet som integreringspolitiske virkemidler».|Fra U.
+imm_integration_req|MDG|-2|MEDIUM|src:sting_innst_221s_2526|MDG (med SV og R) «advarer mot å bruke sanksjoner og økonomisk utrygghet som integreringspolitiske virkemidler».|Fra U.
+imm_integration_req|Sp|1|LOW|src:sting_innst_309l_2526|Sp fremmet (med Ap og H) forslag om å «vurdere konsekvenser ved manglende oppfyllelse av integreringsforpliktelser, inkludert økonomiske sanksjoner».|Fra U; bare «vurdere» → LOW.
+imm_integration_req|KrF|1|LOW|src:sting_innst_309l_2526|KrF stemte for å be regjeringen vurdere konsekvenser, inkludert økonomiske sanksjoner, ved manglende oppfyllelse av integreringsforpliktelser.|Fra U; bare votering → LOW.
+transport_fuel_tax|V|-2|MEDIUM|src:sting_innst_457s_2526|Venstre stemte mot å midlertidig fjerne veibruksavgiften og mener det var «både dårlig klimapolitikk og dårlig økonomisk politikk».|Fra U; direkte om drivstoffavgiftene.
+transport_fuel_tax|SV|-1|LOW|src:sting_refs_2026_03_26|SV advarte i Stortinget «mot forhastede avgiftskutt» på drivstoff og stemte mot.|Fra U; debattinnlegg → LOW.
+dist_county|SV|-3|MEDIUM|src:sting_innst_196s_2526|SV (med Sp og R) «er imot å legge ned fylkeskommunene».|Fra U.
+dist_county|MDG|-3|MEDIUM|src:sting_innst_196s_2526|MDG er med i flertallet som «ønsker derfor ikke å avvikle fylkeskommunen», og vil tilføre fylkeskommunen oppgaver.|Fra U.
+edu_national_tests|V|3|MEDIUM|src:sting_innst_236s_2526|Venstre fremmet (med FrP og H) forslag om å «beholde og forbedre nasjonale prøver».|Fra U.
+energy_offshore_wind|Sp|2|MEDIUM|src:sting_innst_401s_2526|Sp er med i flertallet som mener havvind er en næring som «bør satses videre på, også med midler fra statens side».|Fra U.
+housing_equity|KrF|2|MEDIUM|50;src:sting_innst_379s_2526|KrF vil vurdere avvikling av utlånsforskriften (program) og fremmet i Stortinget forslag om å avvikle den «uten ugrunnet opphold».|Var +1; Stortingsforslaget er tydeligere enn programmet.

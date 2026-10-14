@@ -2702,14 +2702,14 @@
   {
     "questionId": "imm_residence",
     "party": "Ap",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Ap vil «gjennomgå regelverket for statsborgerskap», uten å angi retning.",
+    "position": -1,
+    "confidence": "LOW",
+    "reasoning": "Ap mener at «dagens vilkår for å få innvilget norsk statsborgerskap ligger på et riktig nivå» og stemte mot strengere krav. Permanent opphold er ikke omtalt.",
     "sources": [
       {
-        "title": "Arbeiderpartiets partiprogram 2025–2029",
-        "url": "https://www.dropbox.com/scl/fi/6zrd74f8beiart1af9c3m/Partiprogram_2025-2029_Trykk_Kuttekant.pdf?rlkey=occr7mv05p8wbe5jh0mt6dwm0&dl=1",
-        "pages": "111",
+        "title": "Innst. 232 S (2025–2026): representantforslag om krav for statsborgerskap",
+        "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-232s/",
+        "pages": null,
         "accessed": "2026-10-14"
       }
     ]
@@ -2822,13 +2822,13 @@
   {
     "questionId": "imm_residence",
     "party": "MDG",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Programmet tar ikke stilling til kravene (kun til tilbakekall).",
+    "position": -2,
+    "confidence": "MEDIUM",
+    "reasoning": "MDG (med SV) mener ytterligere innstramminger i statsborgerskapsregelverket «vil kunne svekke integreringen og øke utenforskap».",
     "sources": [
       {
-        "title": "MDGs arbeidsprogram 2025–2029 – Det er mulig",
-        "url": "https://mdg.no/_service/505809/download/id/1506077/name/MDGs+arbeidsprogram+2025-2029.pdf",
+        "title": "Innst. 232 S (2025–2026): representantforslag om krav for statsborgerskap",
+        "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-232s/",
         "pages": null,
         "accessed": "2026-10-14"
       }
@@ -3287,14 +3287,14 @@
   {
     "questionId": "imm_integration_req",
     "party": "Sp",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Sp vil at vilkårene for sosialhjelp skal fremme integrering, uten å nevne sanksjoner.",
+    "position": 1,
+    "confidence": "LOW",
+    "reasoning": "Sp fremmet (med Ap og H) forslag om å «vurdere konsekvenser ved manglende oppfyllelse av integreringsforpliktelser, inkludert økonomiske sanksjoner».",
     "sources": [
       {
-        "title": "Senterpartiets stortingsvalgprogram 2025–2029 (bokmål)",
-        "url": "https://www.senterpartiet.no/politikk/_/attachment/download/ea7e4063-1374-47bf-8b10-839bf68904c0:3c54bc9ec99b5e017f069f2312b3962bd934c78a/Senterpartiets%20stortingsvalgprogram%202025-2029%20bokm%C3%A5l%20i%20PDF.pdf",
-        "pages": "65",
+        "title": "Innst. 309 L (2025–2026): endringer i integreringsloven",
+        "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-309l/",
+        "pages": null,
         "accessed": "2026-10-14"
       }
     ]
@@ -3302,13 +3302,13 @@
   {
     "questionId": "imm_integration_req",
     "party": "SV",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Programmet tar ikke stilling.",
+    "position": -2,
+    "confidence": "MEDIUM",
+    "reasoning": "SV (med R og MDG) «advarer mot å bruke sanksjoner og økonomisk utrygghet som integreringspolitiske virkemidler».",
     "sources": [
       {
-        "title": "SVs arbeidsprogram 2025–2029 (interaktiv bokmålsversjon)",
-        "url": "https://www.sv.no/wp-content/uploads/2025/10/arbeidsprogram-2025-interaktiv-bokmal.pdf",
+        "title": "Innst. 221 S (2025–2026): representantforslag om integreringsforpliktelser",
+        "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-221s/",
         "pages": null,
         "accessed": "2026-10-14"
       }
@@ -3317,13 +3317,13 @@
   {
     "questionId": "imm_integration_req",
     "party": "R",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Programmet tar ikke stilling.",
+    "position": -2,
+    "confidence": "MEDIUM",
+    "reasoning": "Rødt (med SV og MDG) «advarer mot å bruke sanksjoner og økonomisk utrygghet som integreringspolitiske virkemidler».",
     "sources": [
       {
-        "title": "Rødts arbeidsprogram 2025–2029",
-        "url": "https://roedt.no/fil/7393ab981e025ec77c5c78797892dfc9f020fc17.pdf?dl=",
+        "title": "Innst. 221 S (2025–2026): representantforslag om integreringsforpliktelser",
+        "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-221s/",
         "pages": null,
         "accessed": "2026-10-14"
       }
@@ -3347,13 +3347,13 @@
   {
     "questionId": "imm_integration_req",
     "party": "KrF",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Programmet tar ikke stilling.",
+    "position": 1,
+    "confidence": "LOW",
+    "reasoning": "KrF stemte for å be regjeringen vurdere konsekvenser, inkludert økonomiske sanksjoner, ved manglende oppfyllelse av integreringsforpliktelser.",
     "sources": [
       {
-        "title": "KrFs stortingsprogram 2025–2029 – Trygghet for hverdagen",
-        "url": "https://krf.no/content/uploads/2020/09/Partiprogram-2025-2029.pdf",
+        "title": "Innst. 309 L (2025–2026): endringer i integreringsloven",
+        "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-309l/",
         "pages": null,
         "accessed": "2026-10-14"
       }
@@ -3362,13 +3362,13 @@
   {
     "questionId": "imm_integration_req",
     "party": "MDG",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Programmet tar ikke stilling.",
+    "position": -2,
+    "confidence": "MEDIUM",
+    "reasoning": "MDG (med SV og R) «advarer mot å bruke sanksjoner og økonomisk utrygghet som integreringspolitiske virkemidler».",
     "sources": [
       {
-        "title": "MDGs arbeidsprogram 2025–2029 – Det er mulig",
-        "url": "https://mdg.no/_service/505809/download/id/1506077/name/MDGs+arbeidsprogram+2025-2029.pdf",
+        "title": "Innst. 221 S (2025–2026): representantforslag om integreringsforpliktelser",
+        "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-221s/",
         "pages": null,
         "accessed": "2026-10-14"
       }
@@ -5582,14 +5582,14 @@
   {
     "questionId": "energy_offshore_wind",
     "party": "Sp",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Programmet sier nei til nye utenlandskabler i havvindprosjekter, men tar ikke stilling til støtte.",
+    "position": 2,
+    "confidence": "MEDIUM",
+    "reasoning": "Sp er med i flertallet som mener havvind er en næring som «bør satses videre på, også med midler fra statens side».",
     "sources": [
       {
-        "title": "Senterpartiets stortingsvalgprogram 2025–2029 (bokmål)",
-        "url": "https://www.senterpartiet.no/politikk/_/attachment/download/ea7e4063-1374-47bf-8b10-839bf68904c0:3c54bc9ec99b5e017f069f2312b3962bd934c78a/Senterpartiets%20stortingsvalgprogram%202025-2029%20bokm%C3%A5l%20i%20PDF.pdf",
-        "pages": "43",
+        "title": "Innst. 401 S (2025–2026): representantforslag om havvind",
+        "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-401s/",
+        "pages": null,
         "accessed": "2026-10-14"
       }
     ]
@@ -6407,13 +6407,13 @@
   {
     "questionId": "transport_fuel_tax",
     "party": "SV",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Programmet tar ikke stilling.",
+    "position": -1,
+    "confidence": "LOW",
+    "reasoning": "SV advarte i Stortinget «mot forhastede avgiftskutt» på drivstoff og stemte mot.",
     "sources": [
       {
-        "title": "SVs arbeidsprogram 2025–2029 (interaktiv bokmålsversjon)",
-        "url": "https://www.sv.no/wp-content/uploads/2025/10/arbeidsprogram-2025-interaktiv-bokmal.pdf",
+        "title": "Stortingets referat 26. mars 2026, sak 8 (midlertidig avgiftskutt på drivstoff)",
+        "url": "https://www.stortinget.no/no/saker-og-publikasjoner/publikasjoner/referater/stortinget/2025-2026/refs-202526-03-26/?pgid=sak8",
         "pages": null,
         "accessed": "2026-10-14"
       }
@@ -6437,14 +6437,14 @@
   {
     "questionId": "transport_fuel_tax",
     "party": "V",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Venstre vil trappe opp CO₂-avgiften kraftig, men tar ikke stilling til avgiftene på bensin og diesel som sådan.",
+    "position": -2,
+    "confidence": "MEDIUM",
+    "reasoning": "Venstre stemte mot å midlertidig fjerne veibruksavgiften og mener det var «både dårlig klimapolitikk og dårlig økonomisk politikk».",
     "sources": [
       {
-        "title": "Venstres stortingsvalgprogram 2025–2029",
-        "url": "https://www.venstre.no/assets/venstre-stortingsprogram-2025-2029.pdf",
-        "pages": "42",
+        "title": "Innst. 457 S (2025–2026): veibruksavgift og CO₂-avgift på drivstoff",
+        "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-457s/",
+        "pages": null,
         "accessed": "2026-10-14"
       }
     ]
@@ -7247,13 +7247,13 @@
   {
     "questionId": "edu_national_tests",
     "party": "V",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Programmet tar ikke stilling.",
+    "position": 3,
+    "confidence": "MEDIUM",
+    "reasoning": "Venstre fremmet (med FrP og H) forslag om å «beholde og forbedre nasjonale prøver».",
     "sources": [
       {
-        "title": "Venstres stortingsvalgprogram 2025–2029",
-        "url": "https://www.venstre.no/assets/venstre-stortingsprogram-2025-2029.pdf",
+        "title": "Innst. 236 S (2025–2026): representantforslag om å beholde og forbedre nasjonale prøver og kartleggingsprøver",
+        "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-236s/",
         "pages": null,
         "accessed": "2026-10-14"
       }
@@ -8237,13 +8237,13 @@
   {
     "questionId": "val_sex_purchase",
     "party": "Ap",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Programmet tar ikke stilling.",
+    "position": -3,
+    "confidence": "MEDIUM",
+    "reasoning": "Ap (med Sp) «deler departementets vurderinger og beslutning … om ikke å følge opp rådets forslag om å avkriminalisere kjøp av seksuelle tjenester».",
     "sources": [
       {
-        "title": "Arbeiderpartiets partiprogram 2025–2029",
-        "url": "https://www.dropbox.com/scl/fi/6zrd74f8beiart1af9c3m/Partiprogram_2025-2029_Trykk_Kuttekant.pdf?rlkey=occr7mv05p8wbe5jh0mt6dwm0&dl=1",
+        "title": "Innst. 428 S (2025–2026): representantforslag om seksuallovbruddsbestemmelsene (sexkjøp)",
+        "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-428s/",
         "pages": null,
         "accessed": "2026-10-14"
       }
@@ -8509,11 +8509,11 @@
     "party": "Ap",
     "position": 2,
     "confidence": "MEDIUM",
-    "reasoning": "Ap-regjeringen foreslår i statsbudsjettet for 2027 nye økonomiske virkemidler for frivillige kommunesammenslåinger (gjengitt av NTB).",
+    "reasoning": "Ap-regjeringen foreslår i statsbudsjettet for 2027 «mer forutsigbare økonomiske virkemidler» for frivillige kommunesammenslåinger, blant annet et nytt oppstartstilskudd.",
     "sources": [
       {
-        "title": "NTB/Adresseavisen: «Kommuner som slår seg sammen kan få belønning» (7. oktober 2026)",
-        "url": "https://www.adressa.no/nyheter/innenriks/i/lKw0pA/kommuner-som-slaar-seg-sammen-kan-faa-beloenning",
+        "title": "Statsforvalteren i Innlandet: «Statsbudsjettet 2027» (7. oktober 2026)",
+        "url": "https://www.statsforvalteren.no/innlandet/nyheter/2026/10/statsbudsjettet-2027/",
         "pages": null,
         "accessed": "2026-10-14"
       }
@@ -8702,13 +8702,13 @@
   {
     "questionId": "dist_county",
     "party": "SV",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Programmet tar ikke stilling.",
+    "position": -3,
+    "confidence": "MEDIUM",
+    "reasoning": "SV (med Sp og R) «er imot å legge ned fylkeskommunene».",
     "sources": [
       {
-        "title": "SVs arbeidsprogram 2025–2029 (interaktiv bokmålsversjon)",
-        "url": "https://www.sv.no/wp-content/uploads/2025/10/arbeidsprogram-2025-interaktiv-bokmal.pdf",
+        "title": "Innst. 196 S (2025–2026): representantforslag om å starte avviklingen av fylkeskommunen",
+        "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-196s/",
         "pages": null,
         "accessed": "2026-10-14"
       }
@@ -8762,14 +8762,14 @@
   {
     "questionId": "dist_county",
     "party": "MDG",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "MDG er mot tvangssammenslåing av fylker, men tar ikke stilling til å avvikle fylkeskommunen.",
+    "position": -3,
+    "confidence": "MEDIUM",
+    "reasoning": "MDG er med i flertallet som «ønsker derfor ikke å avvikle fylkeskommunen», og vil tilføre fylkeskommunen oppgaver.",
     "sources": [
       {
-        "title": "MDGs arbeidsprogram 2025–2029 – Det er mulig",
-        "url": "https://mdg.no/_service/505809/download/id/1506077/name/MDGs+arbeidsprogram+2025-2029.pdf",
-        "pages": "75",
+        "title": "Innst. 196 S (2025–2026): representantforslag om å starte avviklingen av fylkeskommunen",
+        "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-196s/",
+        "pages": null,
         "accessed": "2026-10-14"
       }
     ]
@@ -9458,13 +9458,13 @@
   {
     "questionId": "eu_reservation",
     "party": "Ap",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Programmet tar ikke stilling.",
+    "position": -2,
+    "confidence": "MEDIUM",
+    "reasoning": "Ap (med H, MDG, V): «Dette er ikke tiden for å sette EØS-avtalen i spill. Deltagelse i ACER gir oss informasjonstilgang og innflytelse.» Stemte mot utmelding av ACER.",
     "sources": [
       {
-        "title": "Arbeiderpartiets partiprogram 2025–2029",
-        "url": "https://www.dropbox.com/scl/fi/6zrd74f8beiart1af9c3m/Partiprogram_2025-2029_Trykk_Kuttekant.pdf?rlkey=occr7mv05p8wbe5jh0mt6dwm0&dl=1",
+        "title": "Innst. 408 S (2025–2026): representantforslag om ACER og energimarkedet",
+        "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-408s/",
         "pages": null,
         "accessed": "2026-10-14"
       }
@@ -10643,14 +10643,20 @@
   {
     "questionId": "housing_equity",
     "party": "KrF",
-    "position": 1,
+    "position": 2,
     "confidence": "MEDIUM",
-    "reasoning": "KrF vil vurdere avvikling av utlånsforskriften.",
+    "reasoning": "KrF vil vurdere avvikling av utlånsforskriften (program) og fremmet i Stortinget forslag om å avvikle den «uten ugrunnet opphold».",
     "sources": [
       {
         "title": "KrFs stortingsprogram 2025–2029 – Trygghet for hverdagen",
         "url": "https://krf.no/content/uploads/2020/09/Partiprogram-2025-2029.pdf",
         "pages": "50",
+        "accessed": "2026-10-14"
+      },
+      {
+        "title": "Innst. 379 S (2025–2026): finansmarkedsmeldingen m.m. (forslag om utlånsforskriften)",
+        "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2025-2026/inns-202526-379s/",
+        "pages": null,
         "accessed": "2026-10-14"
       }
     ]

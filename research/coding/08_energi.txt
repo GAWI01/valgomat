@@ -52,7 +52,7 @@ energy_onshore_wind|MDG|0|MEDIUM|5,16|MDG vil ha vindkraft på allerede nedbygde
 energy_offshore_wind|Ap|2|MEDIUM|117,119|Ap vil prioritere havvind, lyse ut 50 GW og ta en verdensledende posisjon innen flytende havvind.
 energy_offshore_wind|H|2|HIGH|41|Høyre vil videreføre differansekontrakter som virkemiddel for å realisere havvind.
 energy_offshore_wind|FrP|-3|HIGH|84|FrP vil fjerne alle direkte og indirekte subsidier til utbygging av vindkraft, også til havs.
-energy_offshore_wind|Sp|U|-|43|Programmet sier nei til nye utenlandskabler i havvindprosjekter, men tar ikke stilling til støtte.
+energy_offshore_wind|Sp|2|MEDIUM|src:sting_innst_401s_2526|Sp er med i flertallet som mener havvind er en næring som «bør satses videre på, også med midler fra statens side».
 energy_offshore_wind|SV|1|LOW|34|SV vil prioritere flytende havvind, men si nei til bunnfast havvind nær kysten.
 energy_offshore_wind|R|-2|HIGH|53,60|Rødt sier nei til vindkraft «på land, i fjæra og til havs» (s.60) og nei til å elektrifisere sokkelen med havvind (s.58). Programmet stiller samtidig krav til hvordan konsesjoner for havvind tildeles (s.53).
 energy_offshore_wind|V|2|HIGH|8-9|Venstre mener det kan være behov for offentlige midler i startfasen for havvind.

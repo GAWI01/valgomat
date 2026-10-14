@@ -40,7 +40,7 @@ Ap = Arbeiderpartiet · H = Høyre · FrP = Fremskrittspartiet · Sp = Senterpar
 | 3 | Det bør bli enklere for bedrifter å ansette midlertidig og leie inn arbeidskraft fra bemanningsbyråer. <br><sub>`work_temp_agency`</sub> | arbeidsliv | -3H | +3H | +3H | ? | -3H | -3H | +3H | -2M | +1L |
 | 4 | Minsteytelsene i velferden (som minstepensjon, minste uføretrygd og sosialhjelp) bør økes betydelig. <br><sub>`work_min_benefits`</sub> | ytelser | +1L | ? | +1M | +2M | +3H | +3H | +2M | +1L | +3H |
 | 5 | Kommersielle selskaper bør kunne drive offentlig finansierte velferdstjenester som barnehager, sykehjem og barnevern. <br><sub>`welfare_commercial`</sub> | velferdsprivat | -1L | +3H | +3H | -2H | -3H | -3H | +2H | +1M | ? |
-| 6 | Egenkapitalkravet for boliglån bør lempes eller fjernes, særlig for førstegangskjøpere. <br><sub>`housing_equity`</sub> | bolig | +1M | +2H | +3H | +1M | +1L | ? | +3H | +1M | ? |
+| 6 | Egenkapitalkravet for boliglån bør lempes eller fjernes, særlig for førstegangskjøpere. <br><sub>`housing_equity`</sub> | bolig | +1M | +2H | +3H | +1M | +1L | ? | +3H | +2M | ? |
 | 7 | Staten bør finansiere mange flere ikke-kommersielle utleieboliger med rimelig husleie. <br><sub>`housing_nonprofit`</sub> | bolig | +2M | ? | -1L | ? | +3H | +3H | -1L | ? | +2H |
 
 ## Helse (4)
@@ -60,11 +60,11 @@ Ap = Arbeiderpartiet · H = Høyre · FrP = Fremskrittspartiet · Sp = Senterpar
 | 2 | Norge bør ta imot minst så mange kvoteflyktninger som FN anbefaler. <br><sub>`imm_quota`</sub> | asylniva | +1M | -3H | -3H | +1M | +3H | +3M | +3H | +3H | +3H |
 | 3 | Asylsøkere som kommer til Norge, bør kunne sendes til et mottak i et trygt land utenfor Europa mens søknaden behandles. <br><sub>`imm_offshore`</sub> | asylsystem | ? | +1M | +3H | +1M | -3H | -3H | ? | -3H | -2H |
 | 4 | Reglene for familiegjenforening bør bli strengere. <br><sub>`imm_family`</sub> | familie | +1M | +3H | +3H | +3H | -3H | -2M | -1L | -1L | -3H |
-| 5 | Det bør stilles strengere krav for å få permanent opphold og norsk statsborgerskap, for eksempel om selvforsørgelse og norskkunnskaper. <br><sub>`imm_residence`</sub> | varig | ? | +3H | +3H | ? | -2M | -3H | -1L | -2M | ? |
+| 5 | Det bør stilles strengere krav for å få permanent opphold og norsk statsborgerskap, for eksempel om selvforsørgelse og norskkunnskaper. <br><sub>`imm_residence`</sub> | varig | -1L | +3H | +3H | ? | -2M | -3H | -1L | -2M | -2M |
 | 6 | Det bør bli enklere for folk fra land utenfor EU/EØS å få arbeidstillatelse i Norge. <br><sub>`imm_labour`</sub> | arbeidsinnvandring | +1L | +2H | +1M | ? | ? | 0L | +3H | ? | +2M |
 | 7 | Personer som har fått endelig avslag på asyl, men har bodd lenge i Norge, bør kunne få bli. <br><sub>`imm_amnesty`</sub> | asylsystem | -1M | -2M | -3H | -2M | +3H | +3H | -1M | +1L | +3H |
 | 8 | Flyktninger bør som hovedregel bare få midlertidig opphold og returnere når hjemlandet er trygt. <br><sub>`imm_temporary`</sub> | varig | ? | +3H | +3H | ? | -3H | -1L | ? | -1L | ? |
-| 9 | Innvandrere som ikke deltar i norskopplæring eller introduksjonsprogram, bør få redusert økonomisk støtte. <br><sub>`imm_integration_req`</sub> | integrering | +1M | +2H | +3H | ? | ? | ? | ? | ? | ? |
+| 9 | Innvandrere som ikke deltar i norskopplæring eller introduksjonsprogram, bør få redusert økonomisk støtte. <br><sub>`imm_integration_req`</sub> | integrering | +1M | +2H | +3H | +1L | -2M | -2M | ? | +1L | -2M |
 
 ## Justis og politi (4)
 
@@ -101,7 +101,7 @@ Ap = Arbeiderpartiet · H = Høyre · FrP = Fremskrittspartiet · Sp = Senterpar
 | 3 | Havområdene utenfor Lofoten, Vesterålen og Senja bør vernes permanent mot oljevirksomhet. <br><sub>`oil_lofoten`</sub> | oljeomrader | +2M | -2H | -3H | +3H | +3H | +3H | +3H | +3H | +3H |
 | 4 | Norge bør legge til rette for å bygge kjernekraftverk. <br><sub>`energy_nuclear`</sub> | kjernekraft | 0M | +2H | +3H | 0M | ? | 0M | +3H | +3H | +2M |
 | 5 | Det bør bygges mer vindkraft på land i Norge. <br><sub>`energy_onshore_wind`</sub> | vindkraft | +2M | +2M | -3H | 0M | -2H | -3H | +1M | 0M | 0M |
-| 6 | Staten bør gi økonomisk støtte for å få bygget ut havvind. <br><sub>`energy_offshore_wind`</sub> | vindkraft | +2M | +2H | -3H | ? | +1L | -2H | +2H | -3H | +2M |
+| 6 | Staten bør gi økonomisk støtte for å få bygget ut havvind. <br><sub>`energy_offshore_wind`</sub> | vindkraft | +2M | +2H | -3H | +2M | +1L | -2H | +2H | -3H | +2M |
 | 7 | Det bør åpnes for mer vannkraftutbygging, også i noen vassdrag som i dag er vernet. <br><sub>`energy_hydro`</sub> | vannkraft | +1L | +2M | +3H | +2H | -3H | -1L | -3H | +1L | -3H |
 | 8 | Norge bør ikke bygge flere strømkabler til utlandet. <br><sub>`energy_cables`</sub> | krafteksport | +3H | -1M | +2M | +3H | +3H | +3H | -2M | ? | -3H |
 | 9 | Staten bør styre strømprisen for husholdningene, for eksempel med fastpris eller makspris, i stedet for at markedet alene bestemmer. <br><sub>`energy_price_control`</sub> | strompris | +2H | -1M | +3H | +2M | +2H | +3H | -1L | 0M | 0M |
@@ -111,7 +111,7 @@ Ap = Arbeiderpartiet · H = Høyre · FrP = Fremskrittspartiet · Sp = Senterpar
 | # | Påstand | Klynge | Ap | H | FrP | Sp | SV | R | V | KrF | MDG |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 1 | Bompenger bør i stor grad fjernes, og veier bør heller finansieres over statsbudsjettet. <br><sub>`transport_toll`</sub> | bilkostnader | ? | +1L | +3H | +1M | ? | +2H | -2H | -1M | -2H |
-| 2 | Avgiftene på bensin og diesel bør settes ned. <br><sub>`transport_fuel_tax`</sub> | bilkostnader | ? | ? | +3H | +3H | ? | ? | ? | ? | -3H |
+| 2 | Avgiftene på bensin og diesel bør settes ned. <br><sub>`transport_fuel_tax`</sub> | bilkostnader | ? | ? | +3H | +3H | -1L | ? | -2M | ? | -3H |
 | 3 | Elbiler bør fortsatt ha store avgiftsfordeler sammenlignet med bensin- og dieselbiler. <br><sub>`transport_ev`</sub> | bilkostnader | -2H | ? | -1M | ? | +2M | ? | +2M | -2H | -2H |
 | 4 | Staten bør prioritere jernbane og kollektivtransport foran bygging av nye store motorveier. <br><sub>`transport_rail_vs_road`</sub> | infrastruktur | ? | -1M | -3H | -1L | +3H | +3H | +2H | -1L | +3H |
 | 5 | Persontrafikken på jernbanen bør konkurranseutsettes, slik at flere selskaper kan konkurrere om å kjøre togene. <br><sub>`transport_rail_tender`</sub> | jernbane | -3H | +3H | +3H | -3H | -3H | -3H | ? | ? | ? |
@@ -122,7 +122,7 @@ Ap = Arbeiderpartiet · H = Høyre · FrP = Fremskrittspartiet · Sp = Senterpar
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 1 | Det bør bli enklere å starte private skoler (friskoler) med offentlig støtte. <br><sub>`edu_private_schools`</sub> | friskoler | -2H | +2H | +3H | -1M | -2M | ? | +3H | +3H | 0M |
 | 2 | Fraværsgrensen i videregående skole bør beholdes. <br><sub>`edu_absence_limit`</sub> | fravaer | +2H | +3H | +3M | +1M | -3H | -3H | ? | +2H | ? |
-| 3 | Nasjonale prøver bør beholdes som et verktøy for å følge med på elevenes læring. <br><sub>`edu_national_tests`</sub> | prover | -2M | +3H | +3H | -3H | -1L | -3H | ? | -2M | -2H |
+| 3 | Nasjonale prøver bør beholdes som et verktøy for å følge med på elevenes læring. <br><sub>`edu_national_tests`</sub> | prover | -2M | +3H | +3H | -3H | -1L | -3H | +3M | -2M | -2H |
 
 ## Familie og abort (4)
 
@@ -140,14 +140,14 @@ Ap = Arbeiderpartiet · H = Høyre · FrP = Fremskrittspartiet · Sp = Senterpar
 | 1 | Aktiv dødshjelp bør bli tillatt for alvorlig syke voksne, under strenge vilkår. <br><sub>`val_assisted_dying`</sub> | dodshjelp | ? | ? | +3H | -3H | ? | ? | +1M | -3H | -1M |
 | 2 | Surrogati (at en kvinne bærer fram et barn for andre) bør bli tillatt i Norge under regulerte former. <br><sub>`val_surrogacy`</sub> | bioteknologi | ? | ? | +3H | ? | ? | -3H | +3H | -3H | ? |
 | 3 | Kommunene bør selv kunne tillate at butikker holder åpent på søndager. <br><sub>`val_sunday`</sub> | sondag | -2H | +3H | +3H | -2H | -3H | -3H | +3M | -2M | ? |
-| 4 | Forbudet mot å kjøpe sex (sexkjøpsloven) bør oppheves. <br><sub>`val_sex_purchase`</sub> | sexkjop | ? | ? | +3H | -3H | -3H | -3H | +3H | -3H | +1M |
+| 4 | Forbudet mot å kjøpe sex (sexkjøpsloven) bør oppheves. <br><sub>`val_sex_purchase`</sub> | sexkjop | -3M | ? | +3H | -3H | -3H | -3H | +3H | -3H | +1M |
 
 ## Distrikt og landbruk (5)
 
 | # | Påstand | Klynge | Ap | H | FrP | Sp | SV | R | V | KrF | MDG |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 1 | Staten bør gi sterkere insentiver til at kommuner slår seg sammen til større kommuner. <br><sub>`dist_municipal_merge`</sub> | kommunestruktur | +2M | +3H | ? | -3H | ? | -2L | +3H | +2H | +2M |
-| 2 | Fylkeskommunen bør legges ned, slik at vi får to forvaltningsnivåer: stat og kommune. <br><sub>`dist_county`</sub> | kommunestruktur | -3M | +3H | +3H | -3H | ? | -3H | ? | -3H | ? |
+| 2 | Fylkeskommunen bør legges ned, slik at vi får to forvaltningsnivåer: stat og kommune. <br><sub>`dist_county`</sub> | kommunestruktur | -3M | +3H | +3H | -3H | -3M | -3H | ? | -3H | -3M |
 | 3 | Tollvernet for norske landbruksvarer bør styrkes for å sikre norsk matproduksjon, selv om det kan gi høyere matpriser. <br><sub>`agri_tariffs`</sub> | landbruk | +1M | -1H | -3H | +3H | +2M | +3H | ? | +1M | +1M |
 | 4 | Staten bør bruke mer penger på landbruket for å tette inntektsgapet mellom bønder og andre grupper. <br><sub>`agri_income`</sub> | landbruk | +2H | -2M | -3H | +3H | +3H | +3H | ? | +3H | +2H |
 | 5 | Bestandene av ulv og andre store rovdyr i Norge bør få bli større enn i dag. <br><sub>`agri_predators`</sub> | rovdyr | -1M | 0M | -2M | -3H | +1M | +2M | +3H | 0M | +3H |
@@ -159,7 +159,7 @@ Ap = Arbeiderpartiet · H = Høyre · FrP = Fremskrittspartiet · Sp = Senterpar
 | 1 | Norge bør si nei til EUs fjerde energimarkedspakke. <br><sub>`eu_energy_package`</sub> | euregler | ? | ? | +3H | +3H | +3H | +3H | -3H | ? | ? |
 | 2 | Norge bør søke om medlemskap i EU. <br><sub>`eu_membership`</sub> | eumedlemskap | -1M | +3H | -3H | -3H | -3H | -3M | +3H | -2H | +3H |
 | 3 | Norge bør si opp EØS-avtalen og erstatte den med en handelsavtale. <br><sub>`eu_eea`</sub> | eos | -3H | -3H | -2H | +3H | +1M | +3H | -3H | -3H | -3H |
-| 4 | Norge bør oftere si nei til nye EU-regler gjennom EØS, særlig når de overfører makt til EU-organer. <br><sub>`eu_reservation`</sub> | euregler | ? | -2M | +3H | +3H | +3H | +3H | -3H | ? | -3H |
+| 4 | Norge bør oftere si nei til nye EU-regler gjennom EØS, særlig når de overfører makt til EU-organer. <br><sub>`eu_reservation`</sub> | euregler | -2M | -2M | +3H | +3H | +3H | +3H | -3H | ? | -3H |
 
 ## Forsvar og utenriks (7)
 
