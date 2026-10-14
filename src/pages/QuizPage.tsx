@@ -100,7 +100,7 @@ export function QuizPage({ index, answers, setAnswer, setImportance, clearAnswer
       </div>
 
       <div className="card p-4 sm:p-7">
-        <h1 id="question-text" tabIndex={-1} className="text-[1.35rem] font-bold leading-snug outline-none sm:text-2xl">
+        <h1 id="question-text" tabIndex={-1} className="text-[1.35rem] font-bold leading-snug outline-hidden sm:text-2xl sm:leading-8">
           {q.text}
         </h1>
 
@@ -168,10 +168,10 @@ export function QuizPage({ index, answers, setAnswer, setImportance, clearAnswer
         <fieldset className="mt-5 border-t border-sand-200 pt-4 dark:border-white/10" disabled={!a || a.value === null}>
           <legend className="sr-only">Hvor viktig er saken for deg?</legend>
           <div className="flex flex-wrap gap-2">
-            <button type="button" aria-pressed={a?.importance === 1} onClick={() => toggleImportance(1)} className={`btn-outline ${a?.importance === 1 ? '!border-amber-500 !bg-amber-100 dark:!bg-amber-500/25' : ''}`}>
+            <button type="button" aria-pressed={a?.importance === 1} onClick={() => toggleImportance(1)} className={`btn-outline ${a?.importance === 1 ? 'border-amber-500! bg-amber-100! dark:bg-amber-500/25!' : ''}`}>
               <span aria-hidden="true" className="text-amber-500">★</span> Viktig for meg
             </button>
-            <button type="button" aria-pressed={a?.importance === 2} onClick={() => toggleImportance(2)} className={`btn-outline ${a?.importance === 2 ? '!border-amber-500 !bg-amber-100 dark:!bg-amber-500/25' : ''}`}>
+            <button type="button" aria-pressed={a?.importance === 2} onClick={() => toggleImportance(2)} className={`btn-outline ${a?.importance === 2 ? 'border-amber-500! bg-amber-100! dark:bg-amber-500/25!' : ''}`}>
               <span aria-hidden="true" className="text-amber-500">★★</span> En av mine viktigste saker
             </button>
           </div>
@@ -254,7 +254,7 @@ function ScaleInput({ value, onChange, labelledBy }: { value: number | undefined
         <span className="text-rose-700 dark:text-rose-300">Helt uenig</span>
         <span className="text-emerald-700 dark:text-emerald-300">Helt enig</span>
       </div>
-      <p className="mt-2 min-h-[1.5rem] text-center text-base font-semibold" aria-live="polite">
+      <p className="mt-2 min-h-6 text-center text-base font-semibold" aria-live="polite">
         {value !== undefined ? SCALE_LABELS[value + 3] : <span className="muted font-normal">Velg hvor enig du er</span>}
       </p>
     </div>

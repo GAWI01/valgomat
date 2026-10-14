@@ -76,7 +76,7 @@ export default function App() {
       <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-3 focus:top-3 focus:z-50 focus:rounded-lg focus:bg-white focus:p-3">
         Hopp til innhold
       </a>
-      <header className="sticky top-0 z-30 border-b border-sand-200 bg-sand-50/90 backdrop-blur dark:border-white/10 dark:bg-[#0f1020]/90">
+      <header className="sticky top-0 z-30 border-b border-sand-200 bg-sand-50/90 backdrop-blur-sm dark:border-white/10 dark:bg-[#0f1020]/90">
         <div className="mx-auto flex max-w-5xl items-center gap-2 px-4 py-2">
           <a href={href({ name: 'home' })} className="mr-auto flex items-center gap-2 py-1 font-extrabold text-ink no-underline dark:text-slate-100">
             <span aria-hidden="true" className="flex h-8 w-8 items-center justify-center rounded-lg bg-brand-600 text-white">

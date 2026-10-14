@@ -28,8 +28,8 @@ Nettlesertest (mobil 320/375 px og desktop, inkl. horisontal scroll, autosave og
 ```bash
 npm run build && npx vite preview --port 4173 &
 node scripts/qa/smoke.mjs
-npx vite-node scripts/qa/stress.ts     # stresstest med 8000+ syntetiske profiler → STRESS_TEST.md
-npx vite-node scripts/qa/clusters.ts   # dobbelttellingsanalyse → test-results/clusters.md
+node scripts/qa/run-ts.mjs scripts/qa/stress.ts     # stresstest med 8000+ syntetiske profiler → STRESS_TEST.md
+node scripts/qa/run-ts.mjs scripts/qa/clusters.ts   # dobbelttellingsanalyse → test-results/clusters.md
 ```
 
 ## Struktur

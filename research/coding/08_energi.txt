@@ -54,7 +54,7 @@ energy_offshore_wind|H|2|HIGH|41|Høyre vil videreføre differansekontrakter som
 energy_offshore_wind|FrP|-3|HIGH|84|FrP vil fjerne alle direkte og indirekte subsidier til utbygging av vindkraft, også til havs.
 energy_offshore_wind|Sp|U|-|43|Programmet sier nei til nye utenlandskabler i havvindprosjekter, men tar ikke stilling til støtte.
 energy_offshore_wind|SV|1|LOW|34|SV vil prioritere flytende havvind, men si nei til bunnfast havvind nær kysten.
-energy_offshore_wind|R|U|-|-|Rødt sier nei til elektrifisering av sokkelen med havvind og til hybridkabler, men tar ikke stilling til statlig støtte.
+energy_offshore_wind|R|-2|HIGH|53,60|Rødt sier nei til vindkraft «på land, i fjæra og til havs» (s.60) og nei til å elektrifisere sokkelen med havvind (s.58). Programmet stiller samtidig krav til hvordan konsesjoner for havvind tildeles (s.53).
 energy_offshore_wind|V|2|HIGH|8-9|Venstre mener det kan være behov for offentlige midler i startfasen for havvind.
 energy_offshore_wind|KrF|-3|HIGH|49|KrF vil kutte subsidiene til havvind.
 energy_offshore_wind|MDG|2|MEDIUM|16|MDG vil satse stort på havvind på norsk sokkel, forutsatt forsvarlige naturkonsekvenser.

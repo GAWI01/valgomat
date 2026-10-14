@@ -146,3 +146,5 @@ fam_leave_quota|Ap|-3|HIGH|src:ap_web_foreldrepermisjon|Ap vil «beholde dagens 
 dist_municipal_merge|Ap|2|MEDIUM|src:ntb_kommunesammenslaing_2027|Ap-regjeringen foreslår i statsbudsjettet for 2027 nye økonomiske virkemidler for frivillige kommunesammenslåinger (gjengitt av NTB).|Fra U; sekundærkilde.
 dist_county|Ap|-3|MEDIUM|src:sting_innst_196s_2526|Ap er med i stortingsflertallet som «ønsker derfor ikke å avvikle fylkeskommunen» (Innst. 196 S 2025–2026).|Fra U.
 for_israel_sanctions|Ap|1|MEDIUM|src:ap_web_palestina|Ap vil innføre handelsforbud med varer produsert i de folkerettsstridige israelske bosetningene, men ikke generelle sanksjoner mot Israel.|Fra U.
+# --- Rødt: byttet til gjeldende offisielle PDF (2. sept. 2025), se POLITICAL_QA.md §7
+energy_offshore_wind|R|-2|HIGH|53,60|Rødt sier nei til vindkraft «på land, i fjæra og til havs» (s.60) og nei til å elektrifisere sokkelen med havvind (s.58). Programmet stiller samtidig krav til hvordan konsesjoner for havvind tildeles (s.53).|Fra U. Gjeldende versjon av programmet sier eksplisitt nei til vindkraft til havs; speilversjonen hadde en skrivefeil («i fjæra til havs»).

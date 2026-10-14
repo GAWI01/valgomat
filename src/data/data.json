@@ -248,14 +248,14 @@
    "party": "R",
    "type": "partiprogram",
    "title": "Rødts arbeidsprogram 2025–2029",
-   "url": "https://roedt.no/fil/a75af475e3d0afdb5e0a85cff8016ab7bf1de8a6.pdf?dl=",
+   "url": "https://roedt.no/fil/7393ab981e025ec77c5c78797892dfc9f020fc17.pdf?dl=",
    "landingPage": "https://roedt.no/arbeidsprogram",
    "adopted": "Vedtatt på Rødts landsmøte 28. februar–2. mars 2025.",
    "accessed": "2026-10-14",
    "pages": 106,
-   "sha256": "2a3d85020508f04c47fd90712b8cee7344fadd0ce481ff0ccdab4888dedf15c5",
-   "mirror": "https://www.idrettsforbundet.no/siteassets/viken/dokumenter/pdf-filer/partiprogrammer-2023-2027/stortingspartenes-programmer/rodt-endelig-program-2025-2029.pdf",
-   "note": "roedt.no avviste automatisk nedlasting under researchen (HTTP 429). Teksten ble hentet fra et speil hos Norges idrettsforbund; dokumentet bærer tittelen «Rødts arbeidsprogram 2025–2029» og teksten «vedtatt på Rødts landsmøte 28. februar til 2. mars 2025». Sidetall er PDF-sidetall i speilet. Bør kontrolleres mot roedt.no ved neste oppdatering."
+   "sha256": "b3aa1058ba0451d3708cd6731c3b13c58e0f86b09f4bd7fc5af141a4d64cafd0",
+   "mirror": "https://cdn.sanity.io/files/cvvjxa4t/production_new/7393ab981e025ec77c5c78797892dfc9f020fc17.pdf",
+   "note": "Gjeldende bokmålsversjon slik den er knyttet til roedt.no/arbeidsprogram (opplastet 2. september 2025). roedt.no avviser automatisk nedlasting (HTTP 429), så fila er hentet fra Rødts eget publiseringssystem (Sanity CDN); fil-ID-en er SHA-1 av innholdet og er kontrollert. Tidligere brukte vi et speil hos Norges idrettsforbund – det var byte-identisk med Rødts egen opplasting 6. juni 2025, men Rødt har siden rettet fire små tekststeder (s.26, 55, 60 og 98–99). Sidetall er PDF-sidetall og lik trykte sidetall."
   },
   {
    "id": "prog_v",
@@ -6963,13 +6963,13 @@
   {
    "question": "energy_offshore_wind",
    "party": "R",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Rødt sier nei til elektrifisering av sokkelen med havvind og til hybridkabler, men tar ikke stilling til statlig støtte.",
+   "position": -2,
+   "confidence": "HIGH",
+   "reasoning": "Rødt sier nei til vindkraft «på land, i fjæra og til havs» (s.60) og nei til å elektrifisere sokkelen med havvind (s.58). Programmet stiller samtidig krav til hvordan konsesjoner for havvind tildeles (s.53).",
    "refs": [
     {
      "source": "prog_r",
-     "pages": null
+     "pages": "53, 60"
     }
    ]
   },

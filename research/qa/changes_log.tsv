@@ -144,3 +144,4 @@ fam_leave_quota	Ap	U - -	-3 HIGH src:ap_web_foreldrepermisjon	Fra U.
 dist_municipal_merge	Ap	U - -	2 MEDIUM src:ntb_kommunesammenslaing_2027	Fra U; sekundærkilde.
 dist_county	Ap	U - -	-3 MEDIUM src:sting_innst_196s_2526	Fra U.
 for_israel_sanctions	Ap	U - -	1 MEDIUM src:ap_web_palestina	Fra U.
+energy_offshore_wind	R	U - -	-2 HIGH 53,60	Fra U. Gjeldende versjon av programmet sier eksplisitt nei til vindkraft til havs; speilversjonen hadde en skrivefeil («i fjæra til havs»).

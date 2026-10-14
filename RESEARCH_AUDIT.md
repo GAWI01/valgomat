@@ -11,11 +11,11 @@
 | Antall spørsmål | 80 |
 | Antall partier | 9 |
 | Mulige partiposisjoner (spørsmål × partier) | 720 |
-| Kodede partiposisjoner | 603 (84 %) |
-| – HIGH confidence | 376 |
+| Kodede partiposisjoner | 604 (84 %) |
+| – HIGH confidence | 377 |
 | – MEDIUM confidence | 175 |
 | – LOW confidence | 52 |
-| Unknown (programmet tar ikke stilling) | 117 |
+| Unknown (programmet tar ikke stilling) | 116 |
 | Kilder i kildebiblioteket | 22 (9 partiprogrammer, 13 sekundærkilde) |
 
 Alle 720 kombinasjoner av spørsmål og parti er gjennomgått manuelt mot partiets program. Standpunkter som ikke kunne dokumenteres, er satt til **unknown** – de er ikke gjettet. Byggeskriptet (`scripts/build-data.mjs`) avviser data der et kodet standpunkt mangler kilde, der en sidehenvisning ligger utenfor dokumentet, eller der et parti mangler koding.
@@ -41,7 +41,7 @@ Alle 720 kombinasjoner av spørsmål og parti er gjennomgått manuelt mot partie
 | Fremskrittspartiet | 57 | 16 | 3 | 4 | 95 % | 62 | 0 |
 | Senterpartiet | 37 | 24 | 5 | 14 | 83 % | 54 | 0 |
 | Sosialistisk Venstreparti | 44 | 17 | 4 | 15 | 81 % | 41 | 0 |
-| Rødt | 51 | 9 | 7 | 13 | 84 % | 47 | 0 |
+| Rødt | 52 | 9 | 7 | 12 | 85 % | 48 | 0 |
 | Venstre | 42 | 16 | 9 | 13 | 84 % | 46 | 0 |
 | Kristelig Folkeparti | 38 | 17 | 12 | 13 | 84 % | 40 | 1 |
 | Miljøpartiet De Grønne | 38 | 27 | 2 | 13 | 84 % | 45 | 0 |

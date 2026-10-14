@@ -101,7 +101,7 @@ Ap = Arbeiderpartiet · H = Høyre · FrP = Fremskrittspartiet · Sp = Senterpar
 | 3 | Havområdene utenfor Lofoten, Vesterålen og Senja bør vernes permanent mot oljevirksomhet. <br><sub>`oil_lofoten`</sub> | oljeomrader | +2M | -2H | -3H | +3H | +3H | +3H | +3H | +3H | +3H |
 | 4 | Norge bør legge til rette for å bygge kjernekraftverk. <br><sub>`energy_nuclear`</sub> | kjernekraft | 0M | +2H | +3H | 0M | ? | 0M | +3H | +3H | +2M |
 | 5 | Det bør bygges mer vindkraft på land i Norge. <br><sub>`energy_onshore_wind`</sub> | vindkraft | +2M | +2M | -3H | 0M | -2H | -3H | +1M | 0M | 0M |
-| 6 | Staten bør gi økonomisk støtte for å få bygget ut havvind. <br><sub>`energy_offshore_wind`</sub> | vindkraft | +2M | +2H | -3H | ? | +1L | ? | +2H | -3H | +2M |
+| 6 | Staten bør gi økonomisk støtte for å få bygget ut havvind. <br><sub>`energy_offshore_wind`</sub> | vindkraft | +2M | +2H | -3H | ? | +1L | -2H | +2H | -3H | +2M |
 | 7 | Det bør åpnes for mer vannkraftutbygging, også i noen vassdrag som i dag er vernet. <br><sub>`energy_hydro`</sub> | vannkraft | +1L | +2M | +3H | +2H | -3H | -1L | -3H | +1L | -3H |
 | 8 | Norge bør ikke bygge flere strømkabler til utlandet. <br><sub>`energy_cables`</sub> | krafteksport | +3H | -1M | +2M | +3H | +3H | +3H | -2M | ? | -3H |
 | 9 | Staten bør styre strømprisen for husholdningene, for eksempel med fastpris eller makspris, i stedet for at markedet alene bestemmer. <br><sub>`energy_price_control`</sub> | strompris | +2H | -1M | +3H | +2M | +2H | +3H | -1L | 0M | 0M |

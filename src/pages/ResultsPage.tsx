@@ -158,7 +158,7 @@ function RankRow({ r, rank, summary }: { r: PartyResult; rank: number; summary: 
           <div className="relative mt-1.5 h-3 rounded-full bg-sand-100 dark:bg-white/10" aria-hidden="true">
             <div className="absolute inset-y-0 left-0 rounded-full" style={{ width: `${(r.score ?? 0) * 100}%`, backgroundColor: p.color, opacity: 0.85 }} />
             {Number.isFinite(lo) && (
-              <div className="absolute top-1/2 h-[3px] -translate-y-1/2 rounded bg-ink/60 dark:bg-white/70" style={{ left: `${lo * 100}%`, width: `${Math.max(0.5, (hi - lo) * 100)}%` }} />
+              <div className="absolute top-1/2 h-[3px] -translate-y-1/2 rounded-sm bg-ink/60 dark:bg-white/70" style={{ left: `${lo * 100}%`, width: `${Math.max(0.5, (hi - lo) * 100)}%` }} />
             )}
           </div>
           <p className="muted mt-1.5 text-xs">
@@ -312,21 +312,21 @@ function Profile({ answers }: { answers: Answers }) {
               <p className="muted mt-2 text-sm">For få svar til å plassere deg på denne aksen (minst 3 trengs).</p>
             ) : (
               <>
-                <div className="relative mt-8 h-2 rounded-full bg-gradient-to-r from-sand-200 via-sand-100 to-sand-200 dark:from-white/10 dark:via-white/5 dark:to-white/10">
+                <div className="relative mt-8 h-2 rounded-full bg-linear-to-r from-sand-200 via-sand-100 to-sand-200 dark:from-white/10 dark:via-white/5 dark:to-white/10">
                   <span className="absolute left-1/2 top-1/2 h-4 w-px -translate-y-1/2 bg-ink/20 dark:bg-white/20" aria-hidden="true" />
                   {data.parties.map((p) => {
                     const v = partyDims[p.id][i].value;
                     if (v === null) return null;
                     return (
                       <span key={p.id} className="absolute -top-7 -translate-x-1/2" style={{ left: `${((v + 1) / 2) * 100}%` }} aria-hidden="true" title={`${p.name}`}>
-                        <span className="block rounded px-0.5 text-[9px] font-bold leading-4 text-white" style={{ backgroundColor: p.color }}>
+                        <span className="block rounded-sm px-0.5 text-[9px] font-bold leading-4 text-white" style={{ backgroundColor: p.color }}>
                           {p.short}
                         </span>
                       </span>
                     );
                   })}
                   <span
-                    className="absolute top-1/2 h-5 w-5 -translate-x-1/2 -translate-y-1/2 rounded-full border-[3px] border-white bg-ink shadow dark:border-[#17182e] dark:bg-white"
+                    className="absolute top-1/2 h-5 w-5 -translate-x-1/2 -translate-y-1/2 rounded-full border-[3px] border-white bg-ink shadow-sm dark:border-[#17182e] dark:bg-white"
                     style={{ left: `${((u.value + 1) / 2) * 100}%` }}
                     aria-hidden="true"
                   />

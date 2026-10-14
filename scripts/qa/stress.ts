@@ -1,7 +1,7 @@
 /**
  * Stresstest av scoringsmodellen med syntetiske brukerprofiler (RED-TEAM-QA).
  *
- *   npx vite-node scripts/qa/stress.ts            → skriver STRESS_TEST.md + test-results/stress.json
+ *   node scripts/qa/run-ts.mjs scripts/qa/stress.ts            → skriver STRESS_TEST.md + test-results/stress.json
  *
  * Skriptet endrer ingenting i data eller algoritme. Det kjører appens egen kode (src/lib/scoring.ts og
  * src/lib/insights.ts) på ekte data, med deterministisk tilfeldighet (fast seed), slik at rapporten kan

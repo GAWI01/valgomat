@@ -3,7 +3,7 @@
  * når en bruker svarer på alle spørsmål med normal viktighet, og hvilke spørsmålspar som er nesten
  * perfekt korrelert på tvers av partiene (|r| ≥ 0,9).
  *
- *   npx vite-node scripts/qa/clusters.ts   → skriver test-results/clusters.md
+ *   node scripts/qa/run-ts.mjs scripts/qa/clusters.ts   → skriver test-results/clusters.md
  */
 import { mkdirSync, writeFileSync } from 'node:fs';
 import raw from '../../src/data/data.json';

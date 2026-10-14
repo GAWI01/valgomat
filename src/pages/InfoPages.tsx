@@ -17,7 +17,7 @@ export function HomePage({ answers, onReset }: { answers: Answers; onReset: () =
     <div className="mx-auto max-w-3xl">
       <div className="animate-rise">
         <p className="text-sm font-semibold uppercase tracking-wide text-brand-700 dark:text-brand-200">Uavhengig · kildebasert · åpen metode</p>
-        <h1 className="mt-2 text-4xl font-extrabold leading-tight sm:text-5xl">Hvilke partier står nærmest deg – og hvorfor?</h1>
+        <h1 className="mt-2 text-4xl font-extrabold leading-tight sm:text-5xl sm:leading-none">Hvilke partier står nærmest deg – og hvorfor?</h1>
         <p className="mt-4 max-w-prose text-lg leading-relaxed">
           Valgomat 2027 sammenligner dine svar på {total} politiske spørsmål med de ni største partienes <strong>vedtatte programmer</strong>. Hvert
           partistandpunkt er knyttet til en kilde og merket med hvor sikker kodingen er. Du ser ikke bare hvem du matcher, men <em>hvorfor</em>.

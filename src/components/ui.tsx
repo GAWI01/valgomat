@@ -4,7 +4,7 @@ import { CONFIDENCE_HELP, CONFIDENCE_LABEL, party, refLabel, refUrl, valueLabel 
 
 export function PartySwatch({ id, size = 'md' }: { id: string; size?: 'sm' | 'md' | 'lg' }) {
   const p = party(id);
-  const cls = size === 'sm' ? 'h-6 min-w-6 text-[10px]' : size === 'lg' ? 'h-11 min-w-11 text-sm' : 'h-8 min-w-8 text-xs';
+  const cls = size === 'sm' ? 'h-6 min-w-6 text-[10px] leading-5' : size === 'lg' ? 'h-11 min-w-11 text-sm' : 'h-8 min-w-8 text-xs';
   return (
     <span
       aria-hidden="true"
@@ -106,7 +106,7 @@ export function PageTitle({ children, kicker }: { children: ReactNode; kicker?: 
   return (
     <header className="mb-6">
       {kicker && <p className="text-sm font-semibold uppercase tracking-wide text-brand-700 dark:text-brand-200">{kicker}</p>}
-      <h1 className="mt-1 text-3xl font-extrabold leading-tight sm:text-4xl">{children}</h1>
+      <h1 className="mt-1 text-3xl font-extrabold leading-tight sm:text-4xl sm:leading-10">{children}</h1>
     </header>
   );
 }
