@@ -1,0 +1,125 @@
+### imm_level
+tema: innvandring
+klynge: asylniva
+dim: immigration=+1
+kort: Færre asylsøkere og flyktninger
+tekst: Norge bør ta imot færre asylsøkere og flyktninger enn i dag.
+bakgrunn: Antallet som kommer varierer mye fra år til år. Siden 2022 har Norge tatt imot svært mange flyktninger fra Ukraina. Kommunenes kapasitet til å bosette og integrere er et sentralt tema i debatten.
+for: Et lavere antall gjør det lettere for kommunene å gi god norskopplæring, bolig og arbeid til dem som kommer.
+for: Høy innvandring over tid kan presse velferdsordninger, boligmarked og tillit i samfunnet.
+for: Hjelp i nærområdene kan nå flere mennesker per krone.
+mot: Norge er et rikt land som har et moralsk og folkerettslig ansvar for å hjelpe mennesker på flukt.
+mot: Flyktninger som integreres godt, bidrar i arbeidslivet i en tid med mangel på arbeidskraft.
+mot: Strengere politikk kan flytte ansvaret over på fattigere naboland til konfliktområder.
+
+### imm_quota
+tema: innvandring
+klynge: asylniva
+dim: immigration=-1
+kort: Kvoteflyktninger etter FNs anbefaling
+tekst: Norge bør ta imot minst så mange kvoteflyktninger som FN anbefaler.
+bakgrunn: Kvoteflyktninger (overføringsflyktninger) er flyktninger som FNs høykommissær for flyktninger (UNHCR) har plukket ut som særlig sårbare, og som Norge henter direkte fra flyktningleirer. Stortinget bestemmer antallet hvert år.
+for: Kvotesystemet hjelper de mest sårbare, ikke bare dem som har råd til å reise til Europa.
+for: Det er en trygg og ordnet vei som ikke gir penger til menneskesmuglere.
+for: Å følge FNs anbefaling viser solidaritet og styrker Norges troverdighet internasjonalt.
+mot: Antallet bør tilpasses hvor mange som allerede kommer som asylsøkere og kommunenes kapasitet.
+mot: Pengene kan hjelpe flere mennesker dersom de brukes i nærområdene.
+mot: Mange kvoteflyktninger har store behov som kan gjøre integreringen krevende og kostbar.
+
+### imm_offshore
+tema: innvandring
+klynge: asylsystem
+dim: immigration=+1
+kort: Asylbehandling utenfor Europa
+tekst: Asylsøkere som kommer til Norge, bør kunne sendes til et mottak i et trygt land utenfor Europa mens søknaden behandles.
+bakgrunn: Flere europeiske land diskuterer eller prøver ut ordninger der asylsøknader behandles i land utenfor EU, for eksempel Italias avtale med Albania. Slike ordninger er omstridte juridisk og politisk.
+for: Det kan fjerne insentivet til å betale menneskesmuglere for farlige reiser til Europa.
+for: Det gir staten bedre kontroll over hvem som kommer til landet.
+for: Ressursene kan brukes mer effektivt dersom flere får beskyttelse nærmere hjemlandet.
+mot: Det kan bryte med flyktningkonvensjonen og gi dårligere rettssikkerhet for asylsøkere.
+mot: Norge får mindre kontroll med forholdene i mottak i andre land.
+mot: Erfaringer fra andre land viser at slike ordninger kan bli svært dyre og vanskelige å gjennomføre.
+
+### imm_family
+tema: innvandring
+klynge: familie
+dim: immigration=+1
+kort: Strengere familiegjenforening
+tekst: Reglene for familiegjenforening bør bli strengere.
+bakgrunn: Familiegjenforening betyr at nær familie (ektefelle, barn) av personer som bor lovlig i Norge, kan få opphold. Det stilles i dag blant annet krav til inntekt og bolig, med noen unntak for flyktninger.
+for: Strengere krav til selvforsørgelse kan sikre at familien får et godt liv og ikke blir avhengig av offentlige ytelser.
+for: Det kan motvirke tvangsekteskap og henteekteskap.
+for: Familieinnvandring er en stor del av innvandringen, og strengere regler gir mer kontroll med totalnivået.
+mot: Retten til familieliv er en menneskerettighet, og det er vanskelig å integrere seg når familien er splittet.
+mot: Barn rammes hardt dersom de skilles fra foreldrene i lang tid.
+mot: Dagens regler er allerede strenge, og ventetiden er ofte lang.
+
+### imm_residence
+tema: innvandring
+klynge: varig
+dim: immigration=+1
+kort: Strengere krav for varig opphold og statsborgerskap
+tekst: Det bør stilles strengere krav for å få permanent opphold og norsk statsborgerskap, for eksempel om selvforsørgelse og norskkunnskaper.
+bakgrunn: I dag kreves blant annet botid, norskkunnskaper (muntlig B1 for statsborgerskap) og bestått samfunnskunnskapsprøve. Permanent opphold krever normalt tre til fem års botid avhengig av grunnlag.
+for: Krav om selvforsørgelse og norsk gir sterke insentiver til å komme i jobb og lære språket.
+for: Statsborgerskap er en tillitserklæring som bør henge sammen med god integrering.
+for: Strengere krav kan styrke befolkningens tillit til innvandringspolitikken.
+mot: Usikker oppholdsstatus kan gjøre det vanskeligere å etablere seg, få jobb og lære språket.
+mot: Krav om selvforsørgelse kan ramme syke, eldre og personer med lite utdanning urimelig hardt.
+mot: Statsborgerskap kan i seg selv bidra til tilhørighet og bedre integrering.
+
+### imm_labour
+tema: innvandring
+klynge: arbeidsinnvandring
+dim: immigration=-1
+kort: Enklere arbeidsinnvandring utenfor EØS
+tekst: Det bør bli enklere for folk fra land utenfor EU/EØS å få arbeidstillatelse i Norge.
+bakgrunn: Borgere fra EU/EØS kan fritt jobbe i Norge. Personer fra andre land må i hovedsak være faglærte eller høyt utdannede og ha et konkret jobbtilbud for å få arbeidstillatelse.
+for: Norge mangler arbeidskraft i mange bransjer, og flere eldre vil gjøre behovet større.
+for: Arbeidsinnvandrere bidrar med skatteinntekter og kompetanse.
+for: Raskere og enklere prosesser gjør det lettere for bedrifter å rekruttere spesialister.
+mot: Mer arbeidsinnvandring kan presse lønninger og arbeidsvilkår, særlig for lavtlønte.
+mot: Det er bedre å få flere av dem som allerede bor i Norge, i jobb.
+mot: Arbeidsinnvandring fører også til familieinnvandring og behov for offentlige tjenester.
+
+### imm_amnesty
+tema: innvandring
+klynge: asylsystem
+dim: immigration=-1
+kort: La lengeværende få bli
+tekst: Personer som har fått endelig avslag på asyl, men har bodd lenge i Norge, bør kunne få bli.
+bakgrunn: Noen som får endelig avslag, blir værende i Norge i mange år fordi de ikke kan eller vil returnere. Debatten handler særlig om barnefamilier og såkalt lengeværende.
+for: Etter mange år har folk, ikke minst barn, fått sitt liv og nettverk i Norge.
+for: Det er inhumant å la mennesker leve i årevis uten rettigheter og fremtid.
+for: Å la dem jobbe lovlig er bedre for samfunnet enn at de lever i skyggeøkonomien.
+mot: Det kan undergrave asylsystemet hvis man kan få opphold ved å trosse et endelig avslag.
+mot: Det kan gi insentiv til å unndra seg retur og skjule seg for myndighetene.
+mot: Det er urettferdig overfor dem som respekterer avslaget og reiser hjem.
+
+### imm_temporary
+tema: innvandring
+klynge: varig
+dim: immigration=+1
+kort: Midlertidig opphold for flyktninger
+tekst: Flyktninger bør som hovedregel bare få midlertidig opphold og returnere når hjemlandet er trygt.
+bakgrunn: Flyktningstatus gis i dag normalt med mulighet for permanent opphold etter noen år. Danmark og flere andre land har gått over til mer midlertidig beskyttelse.
+for: Beskyttelse handler om å gi trygghet mens det er farlig, ikke nødvendigvis om varig innvandring.
+for: Retur kan bidra til gjenoppbygging av hjemlandet.
+for: Det kan gjøre Norge mindre attraktivt for dem som ikke har reelt beskyttelsesbehov.
+mot: Usikkerhet om fremtiden gjør det vanskelig å lære norsk, få jobb og integreres.
+mot: Mange konflikter varer i tiår, og midlertidighet kan bli et liv i limbo.
+mot: Det kan være samfunnsøkonomisk sløsing å sende hjem folk som har blitt godt integrert.
+
+### imm_integration_req
+tema: innvandring
+klynge: integrering
+dim: immigration=+1
+kort: Kutt i støtte ved manglende deltakelse
+tekst: Innvandrere som ikke deltar i norskopplæring eller introduksjonsprogram, bør få redusert økonomisk støtte.
+bakgrunn: Flyktninger og familiegjenforente har rett og plikt til introduksjonsprogram med blant annet norskopplæring. Deltakerne får introduksjonsstønad. Fravær kan allerede i dag gi trekk.
+for: Tydelige krav og konsekvenser kan gi bedre oppmøte og raskere integrering.
+for: Det er rimelig at støtte følges av en forventning om å bidra.
+for: Norskkunnskaper er avgjørende for jobb, og derfor bør deltakelse prioriteres.
+mot: Økonomiske sanksjoner kan ramme barn i familien og øke fattigdommen.
+mot: Mange har gode grunner til fravær, som sykdom, traumer eller omsorgsansvar.
+mot: Bedre kvalitet på opplæringen gir mer effekt enn straffetiltak.

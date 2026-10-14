@@ -1,0 +1,111 @@
+### fam_cash_benefit
+tema: familie
+klynge: barnehage
+dim: social=-1
+kort: Beholde kontantstøtten
+tekst: Kontantstøtten (støtte til foreldre som ikke bruker barnehage) bør beholdes.
+bakgrunn: Kontantstøtte gis i dag for barn mellom 13 og 19 måneder som ikke har fulltids barnehageplass. Den er omstridt fordi den kan påvirke hvem som går i barnehage.
+for: Foreldre bør kunne velge å være mer hjemme med små barn uten å tape økonomisk.
+for: Det gir valgfrihet til familier som har andre ønsker eller behov enn barnehage.
+for: Små barn kan ha godt av mer tid hjemme med foreldrene.
+mot: Barnehage er viktig for språk og integrering, og kontantstøtten kan holde barn som trenger det mest, utenfor.
+mot: Ordningen kan holde kvinner utenfor arbeidslivet og svekke likestillingen.
+mot: Pengene kan heller brukes på billigere og bedre barnehager.
+
+### fam_leave_quota
+tema: familie
+klynge: permisjon
+dim: social=-1
+kort: Fri fordeling av foreldrepermisjon
+tekst: Foreldrene bør selv få bestemme hvordan hele foreldrepermisjonen fordeles, uten øremerkede kvoter til mor og far.
+bakgrunn: I dag er foreldrepermisjonen delt i tre: 15 uker til mor, 15 uker til far/medmor og 16 uker som foreldrene fordeler fritt (ved 100 prosent sats).
+for: Familier vet selv best hva som passer deres situasjon, jobb og barnets behov.
+for: Kvoter kan føre til at permisjon går tapt hvis den ene forelderen ikke kan ta den ut.
+for: Staten bør ikke detaljstyre familienes valg.
+mot: Fedrekvoten har ført til at langt flere fedre tar permisjon og får tett kontakt med barna.
+mot: Uten kvoter vil mødre ofte ta mesteparten, noe som svekker kvinners karriere og lønn.
+mot: Kvoten gir fedre et sterkere argument overfor arbeidsgiver for å ta ut permisjon.
+
+### fam_child_benefit_tax
+tema: familie
+klynge: barnetrygd
+dim: econ=-1
+kort: Høyere, skattepliktig barnetrygd
+tekst: Barnetrygden bør økes og gjøres skattepliktig, slik at familier med lave inntekter får mest igjen.
+bakgrunn: Barnetrygden er i dag en skattefri, universell ytelse som alle foreldre får uavhengig av inntekt. Å gjøre den skattepliktig betyr at familier med høy inntekt beholder mindre etter skatt.
+for: En høyere, skattepliktig barnetrygd treffer barnefattigdom bedre uten å miste den universelle ordningen.
+for: Familier med høy inntekt trenger mindre støtte enn familier med lav inntekt.
+for: Det gir mer effekt for hver krone staten bruker.
+mot: En skattefri og lik barnetrygd er enkel, forutsigbar og har bred oppslutning.
+mot: Skattlegging kan oppleves som et kutt for vanlige familier i middelklassen.
+mot: Andre tiltak, som billigere barnehage og SFO, kan være bedre mot fattigdom.
+
+### fam_abortion
+tema: familie
+klynge: abort
+dim: social=-1
+kort: Abortgrensen tilbake til 12 uker
+tekst: Grensen for selvbestemt abort bør settes tilbake fra 18 til 12 uker.
+bakgrunn: Stortinget vedtok i desember 2024 å utvide grensen for selvbestemt abort fra 12 til 18 uker. Etter 18 uker må en nemnd behandle søknaden.
+for: Fosteret er mer utviklet ved 18 uker, og hensynet til det ufødte livet bør veie tyngre.
+for: Utvidelsen kan øke sortering av fostre etter fosterdiagnostikk.
+for: Grensen på 12 uker var i tråd med mange andre europeiske land.
+mot: Kvinner bør selv bestemme over egen kropp og eget liv.
+mot: Abortnemndene oppleves av mange som belastende og umyndiggjørende.
+mot: Ved 12 uker har ikke alle fått tilstrekkelig informasjon, for eksempel fra ultralyd.
+
+### val_assisted_dying
+tema: frihet
+klynge: dodshjelp
+dim: social=+1
+kort: Tillate aktiv dødshjelp
+tekst: Aktiv dødshjelp bør bli tillatt for alvorlig syke voksne, under strenge vilkår.
+bakgrunn: Aktiv dødshjelp er forbudt i Norge. Land som Nederland, Belgia, Canada og Spania tillater det under bestemte vilkår.
+for: Mennesker med uhelbredelig sykdom og store lidelser bør selv kunne bestemme over sin egen død.
+for: Strenge regler og kontroll kan hindre misbruk.
+for: Mange nordmenn reiser i dag til utlandet for å få hjelp, noe som kan være belastende.
+mot: Svake grupper kan føle press om å avslutte livet for ikke å være en byrde.
+mot: Erfaringer fra andre land viser at kriteriene ofte utvides over tid.
+mot: Bedre lindrende behandling og omsorg er det riktige svaret på lidelse.
+
+### val_surrogacy
+tema: frihet
+klynge: bioteknologi
+dim: social=+1
+kort: Tillate regulert surrogati
+tekst: Surrogati (at en kvinne bærer fram et barn for andre) bør bli tillatt i Norge under regulerte former.
+bakgrunn: Surrogati er ikke lovlig i Norge, men noen nordmenn bruker surrogati i utlandet. Debatten handler om barnets rettigheter, kvinners rettigheter og hva som er etisk akseptabelt.
+for: Ufrivillig barnløse bør få en mulighet til å få barn.
+for: Regulert surrogati i Norge kan gi bedre vern enn kommersiell surrogati i utlandet.
+for: Voksne kvinner bør selv kunne velge å bære fram et barn for andre.
+mot: Surrogati kan gjøre kvinners kropper og barn til en vare.
+mot: Det er vanskelig å sikre at surrogatmoren handler helt frivillig.
+mot: Barnet kan få spørsmål om opphav og tilhørighet som er vanskelige å håndtere.
+
+### val_sunday
+tema: frihet
+klynge: sondag
+dim: social=+1
+kort: Søndagsåpne butikker
+tekst: Kommunene bør selv kunne tillate at butikker holder åpent på søndager.
+bakgrunn: Helligdagsfredloven begrenser i dag hvilke butikker som kan ha søndagsåpent. Unntak gjelder blant annet små butikker og turiststeder.
+for: Mange forbrukere ønsker å kunne handle når det passer dem.
+for: Lokale myndigheter vet best hva som passer i sin kommune.
+for: Netthandel er åpen hele uken, og fysiske butikker taper på strenge regler.
+mot: Søndagen som felles fridag er en verdi for familier og fellesskap.
+mot: Ansatte i handelen kan bli presset til å jobbe i helgene.
+mot: Små butikker og nærbutikker kan tape konkurransen mot store kjeder.
+
+### val_sex_purchase
+tema: frihet
+klynge: sexkjop
+dim: social=+1
+kort: Oppheve sexkjøpsloven
+tekst: Forbudet mot å kjøpe sex (sexkjøpsloven) bør oppheves.
+bakgrunn: Siden 2009 har det vært forbudt å kjøpe seksuelle tjenester i Norge, mens det å selge ikke er straffbart. Loven er inspirert av Sverige.
+for: Voksne bør kunne inngå frivillige avtaler uten at staten blander seg inn.
+for: Forbudet kan gjøre forholdene farligere for dem som selger sex, fordi det skjer mer i skjul.
+for: Organisasjoner for sexarbeidere mener loven gjør det vanskeligere å søke hjelp fra politiet.
+mot: Forbudet beskytter sårbare mennesker mot utnyttelse og menneskehandel.
+mot: Loven sender et signal om at kjøp av andres kropp ikke er akseptabelt.
+mot: Etterspørselen etter sex driver menneskehandel, og forbudet bidrar til å redusere den.

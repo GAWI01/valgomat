@@ -1,0 +1,209 @@
+### dist_municipal_merge
+tema: distrikt
+klynge: kommunestruktur
+dim: central=+1
+kort: Insentiver til kommunesammenslåing
+tekst: Staten bør gi sterkere insentiver til at kommuner slår seg sammen til større kommuner.
+bakgrunn: Kommunereformen (2014–2020) reduserte antall kommuner fra 428 til 356. Flere sammenslåinger er senere reversert, og det er i dag 357 kommuner.
+for: Større kommuner har sterkere fagmiljøer og kan gi bedre tjenester.
+for: Mange små kommuner sliter med å rekruttere og innfri lovkrav.
+for: Færre kommuner kan gi mindre administrasjon og mer penger til tjenester.
+mot: Små kommuner gir nærhet mellom innbyggerne og de folkevalgte.
+mot: Sammenslåinger kan føre til sentralisering av tjenester og arbeidsplasser.
+mot: Interkommunalt samarbeid kan løse mange av utfordringene uten sammenslåing.
+
+### dist_county
+tema: distrikt
+klynge: kommunestruktur
+dim: central=+1
+kort: Legge ned fylkeskommunen
+tekst: Fylkeskommunen bør legges ned, slik at vi får to forvaltningsnivåer: stat og kommune.
+bakgrunn: Fylkeskommunene har blant annet ansvar for videregående skole, fylkesveier, kollektivtransport og tannhelse. Regionreformen slo sammen fylker i 2020, og flere ble delt igjen i 2024.
+for: Tre forvaltningsnivåer gir mye byråkrati og uklar ansvarsfordeling.
+for: Oppgavene kan løses av staten eller større kommuner.
+for: Det kan spare penger som kan brukes på tjenester.
+mot: Fylkeskommunen sikrer folkevalgt styring av regionale oppgaver nær innbyggerne.
+mot: Å flytte oppgaver til staten kan gi mer sentralisering og mindre lokal kunnskap.
+mot: En ny stor reform kan koste mye og skape uro etter de siste årenes endringer.
+
+### agri_tariffs
+tema: distrikt
+klynge: landbruk
+dim: econ=-1
+kort: Sterkere tollvern for landbruk
+tekst: Tollvernet for norske landbruksvarer bør styrkes for å sikre norsk matproduksjon, selv om det kan gi høyere matpriser.
+bakgrunn: Norge har høy toll på mange importerte landbruksvarer, som kjøtt og meieriprodukter, for å beskytte norsk produksjon. Selvforsyningsgraden er lav sammenlignet med mange land.
+for: Norsk matproduksjon er viktig for beredskap og selvforsyning i en usikker verden.
+for: Tollvernet sikrer bosetting og arbeidsplasser i hele landet.
+for: Norsk mat har høy standard for dyrevelferd og lav antibiotikabruk.
+mot: Toll gir høyere matpriser som rammer forbrukerne, særlig dem med lav inntekt.
+mot: Mer konkurranse kan gi større utvalg og mer effektiv produksjon.
+mot: Toll gjør det vanskeligere for fattige land å eksportere mat.
+
+### agri_income
+tema: distrikt
+klynge: landbruk
+dim: econ=-1
+kort: Mer penger til landbruket
+tekst: Staten bør bruke mer penger på landbruket for å tette inntektsgapet mellom bønder og andre grupper.
+bakgrunn: Bøndenes inntekter forhandles årlig i jordbruksoppgjøret. Regjeringen og et flertall på Stortinget har et mål om å tette inntektsgapet mellom bønder og andre grupper innen 2027.
+for: Bønder må kunne leve av å produsere mat, ellers vil mange gårdsbruk legges ned.
+for: Norsk matproduksjon er viktig for beredskap og kulturlandskap.
+for: Inntektsgapet gjør det vanskelig å rekruttere unge bønder.
+mot: Landbruket mottar allerede store overføringer sammenlignet med andre næringer.
+mot: Mer markedsstyring kan gi mer effektive og lønnsomme gårdsbruk.
+mot: Pengene kan heller brukes på andre formål, for eksempel helse eller forsvar.
+
+### agri_predators
+tema: distrikt
+klynge: rovdyr
+dim: climate=+1
+kort: Større rovdyrbestander
+tekst: Bestandene av ulv og andre store rovdyr i Norge bør få bli større enn i dag.
+bakgrunn: Stortinget har vedtatt bestandsmål for ulv, bjørn, jerv, gaupe og kongeørn, og en todelt målsetting om både beitenæring og levedyktige rovdyrbestander. Ulvebestanden i Norge er liten og forvaltes innenfor en egen ulvesone.
+for: Rovdyrene er en naturlig del av norsk natur, og flere av artene er truet.
+for: Norge har internasjonale forpliktelser til å sikre levedyktige bestander.
+for: Det finnes forebyggende tiltak som kan redusere tap av beitedyr.
+mot: Rovdyr dreper mange sauer og rein og truer beitenæringen.
+mot: Folk i berørte bygder kan oppleve frykt og redusert livskvalitet.
+mot: Dagens bestandsmål er et kompromiss som bør respekteres.
+
+### eu_membership
+tema: eu
+klynge: eumedlemskap
+dim: intl=+1
+kort: Norsk EU-medlemskap
+tekst: Norge bør søke om medlemskap i EU.
+bakgrunn: Norge sa nei til EU-medlemskap i folkeavstemninger i 1972 og 1994, men er knyttet til EU gjennom EØS-avtalen, Schengen og en rekke andre avtaler.
+for: Som medlem får Norge være med og bestemme reglene vi uansett må følge gjennom EØS.
+for: Tettere samarbeid styrker Norges sikkerhet i en urolig verden.
+for: Medlemskap gir varig og sikrere tilgang til Europas marked.
+mot: Norge vil miste selvstendighet over viktige områder som fiskeri, landbruk og handel.
+mot: Norge klarer seg godt utenfor EU med dagens avtaler.
+mot: Folket har sagt nei to ganger, og EU kan utvikle seg i retning av mer overnasjonal styring.
+
+### eu_eea
+tema: eu
+klynge: eos
+dim: intl=-1
+kort: Erstatte EØS med handelsavtale
+tekst: Norge bør si opp EØS-avtalen og erstatte den med en handelsavtale.
+bakgrunn: EØS-avtalen fra 1994 gir Norge tilgang til EUs indre marked, men forplikter Norge til å innføre EU-regler på mange områder uten å være med på å vedta dem.
+for: Norge må i dag innføre EU-regler uten å ha stemmerett, noe som svekker folkestyret.
+for: En handelsavtale kan gi markedsadgang uten å måtte følge hele EUs regelverk.
+for: EØS har gitt utfordringer som sosial dumping og regler som passer dårlig for Norge.
+mot: EØS sikrer norske bedrifter lik tilgang til vårt viktigste marked.
+mot: Det er usikkert om Norge vil få en like god handelsavtale.
+mot: EØS gir også deltakelse i samarbeid om forskning, utdanning og forbrukerrettigheter.
+
+### eu_reservation
+tema: eu
+klynge: euregler
+dim: intl=-1
+kort: Oftere nei til nye EU-regler
+tekst: Norge bør oftere si nei til nye EU-regler gjennom EØS, særlig når de overfører makt til EU-organer.
+bakgrunn: EØS-avtalen gir Norge en formell rett til å reservere seg mot nye EU-regler (reservasjonsretten), men den har nesten aldri blitt brukt fullt ut.
+for: Reservasjonsretten er en del av avtalen og bør brukes når norske interesser står på spill.
+for: Overføring av myndighet til EU-organer svekker norsk folkestyre.
+for: Norge bør tilpasse regelverket bedre til norske forhold.
+mot: Hyppig bruk av reservasjonsretten kan føre til mottiltak fra EU og svekke EØS-avtalen.
+mot: Felles regler er nødvendig for at norske bedrifter skal ha like vilkår i markedet.
+mot: Mange EU-regler styrker miljø, forbrukerrettigheter og arbeidstakeres rettigheter.
+
+### def_budget
+tema: forsvar
+klynge: forsvarsbudsjett
+dim: 
+kort: Raskere økning i forsvarsbudsjettet
+tekst: Norge bør øke forsvarsbudsjettet raskere og mer enn dagens langtidsplan legger opp til.
+bakgrunn: Stortinget vedtok i 2024 en langtidsplan for Forsvaret med en kraftig økning i bevilgningene fram mot 2036. NATO-landene ble i 2025 enige om et nytt mål om at forsvar og forsvarsrelaterte utgifter skal utgjøre 5 prosent av BNP innen 2035.
+for: Sikkerhetssituasjonen i Europa er den mest alvorlige siden andre verdenskrig.
+for: Forsvaret har mangler innen blant annet luftvern, personell og ammunisjon som haster.
+for: Norge har økonomi til å ta en større del av byrden i NATO.
+mot: Langtidsplanen er allerede en historisk stor satsing, og Forsvaret kan ikke ta imot mer penger effektivt.
+mot: Pengene trengs også til velferd, sivil beredskap og klima.
+mot: Sikkerhet handler også om diplomati og nedrustning, ikke bare om våpen.
+
+### def_nato_exit
+tema: forsvar
+klynge: nato
+dim: intl=-1
+kort: Melde Norge ut av NATO
+tekst: Norge bør melde seg ut av NATO.
+bakgrunn: Norge har vært medlem av forsvarsalliansen NATO siden 1949. Sverige og Finland ble medlemmer i 2023–2024.
+for: NATO er en atomvåpenallianse som har vært involvert i kriger Norge ikke burde vært en del av.
+for: Utmelding kan gi Norge større selvstendighet i utenrikspolitikken.
+for: Et nordisk forsvarssamarbeid kan være et alternativ.
+mot: NATO er Norges viktigste sikkerhetsgaranti, og ingen andre kan gi samme beskyttelse.
+mot: Utmelding i dagens sikkerhetssituasjon vil gjøre Norge mer sårbart overfor Russland.
+mot: Alle våre nordiske naboer er nå medlemmer, og samarbeidet skjer innenfor NATO.
+
+### def_allied_bases
+tema: forsvar
+klynge: allierte
+dim: intl=+1
+kort: Faste allierte baser i Norge
+tekst: Norge bør åpne for at allierte land kan ha faste militærbaser i Norge.
+bakgrunn: Norges basepolitikk siden 1949 har vært at det ikke skal være utenlandske baser i Norge i fredstid. Avtalen med USA fra 2021 (SDCA) gir likevel amerikanske styrker tilgang til enkelte områder.
+for: Allierte styrker i Norge kan avskrekke angrep og sikre raskere hjelp i krise.
+for: Sikkerhetssituasjonen har endret seg siden basepolitikken ble utformet.
+for: Det kan styrke samarbeidet med nære allierte som USA og Storbritannia.
+mot: Basepolitikken har bidratt til lav spenning i nord og forutsigbarhet overfor Russland.
+mot: Faste utenlandske baser kan svekke norsk suverenitet og kontroll.
+mot: Det kan trekke Norge inn i stormaktskonflikter.
+
+### def_ukraine
+tema: forsvar
+klynge: ukraina
+dim: 
+kort: Økt støtte til Ukraina
+tekst: Norge bør øke den militære og sivile støtten til Ukraina betydelig.
+bakgrunn: Gjennom Nansen-programmet har Norge gitt et flerårig støtteprogram til Ukraina med både militær og sivil støtte. Norge har hatt store ekstrainntekter fra gass som følge av krigen.
+for: Ukrainas kamp handler også om Europas og Norges sikkerhet.
+for: Norge har tjent mye på høye gasspriser etter invasjonen og har økonomisk evne til å gi mer.
+for: Rask og stor støtte kan forkorte krigen og redusere lidelsene.
+mot: Norge gir allerede mye, og pengene trengs også til eget forsvar og velferd.
+mot: Mer våpenstøtte kan forlenge krigen og øke risikoen for opptrapping.
+mot: Det er viktig å satse mer på diplomati og fredsforhandlinger.
+
+### for_aid
+tema: forsvar
+klynge: bistand
+dim: intl=+1
+kort: Bistand på minst 1 prosent
+tekst: Norge bør bruke minst 1 prosent av nasjonalinntekten (BNI) på bistand.
+bakgrunn: Norge har i mange år brukt rundt 1 prosent av bruttonasjonalinntekten på bistand, noe som er blant de høyeste andelene i verden. FN har et mål om 0,7 prosent.
+for: Norge er et av verdens rikeste land og har et ansvar for å bekjempe fattigdom.
+for: Bistand bidrar til helse, utdanning og stabilitet som også er i Norges interesse.
+for: Behovene er større enn noensinne med kriger, klimaendringer og sult.
+mot: Bistand er ikke alltid effektivt, og noe går tapt i korrupsjon og byråkrati.
+mot: Pengene kan brukes på velferd, forsvar eller skattelette i Norge.
+mot: Handel og investeringer kan være viktigere for utvikling enn bistand.
+
+### for_nuclear_ban
+tema: forsvar
+klynge: nedrustning
+dim: 
+kort: Signere atomvåpenforbudet
+tekst: Norge bør signere FNs atomvåpenforbud.
+bakgrunn: FNs traktat om forbud mot atomvåpen trådte i kraft i 2021. Ingen NATO-land har signert. NATOs strategi bygger på kjernefysisk avskrekking.
+for: Atomvåpen er umoralske og kan utslette menneskeheten.
+for: Norge kan være en pådriver for nedrustning slik vi har vært for forbud mot landminer og klasevåpen.
+for: Avtalen øker presset på atomvåpenmaktene.
+mot: Det er vanskelig å forene med NATO-medlemskapet og alliansens strategi.
+mot: Ingen atomvåpenmakter har sluttet seg til avtalen, så den gir lite reell nedrustning.
+mot: Det kan svekke tilliten hos Norges allierte i en alvorlig sikkerhetssituasjon.
+
+### for_israel_sanctions
+tema: forsvar
+klynge: midtosten
+dim: 
+kort: Sanksjoner mot Israel
+tekst: Norge bør innføre økonomiske sanksjoner eller boikott mot Israel på grunn av okkupasjonen av palestinske områder.
+bakgrunn: Israel har okkupert Vestbredden og Øst-Jerusalem siden 1967. Etter krigen i Gaza som startet i oktober 2023, har debatten om sanksjoner, boikott og investeringer fra oljefondet økt i Norge.
+for: Økonomisk press kan være nødvendig for å få slutt på okkupasjon og brudd på folkeretten.
+for: Norge bør ikke tjene penger på eller bidra økonomisk til ulovlig okkupasjon.
+for: Sanksjoner har vært brukt mot andre land som bryter folkeretten, for eksempel Russland.
+mot: Dialog og diplomati gir Norge større mulighet til å bidra til fred.
+mot: Boikott kan ramme vanlige mennesker og samarbeid som fremmer forsoning.
+mot: Ensidige sanksjoner mot Israel kan oppleves som urettferdig i en konflikt med flere parter.

@@ -1,0 +1,30 @@
+# --- eu_membership: «Norge bør søke om medlemskap i EU.»
+eu_membership|Ap|-1|MEDIUM|src:altinget_ap_eu_2025|Ifølge Altinget vedtok landsmøtet i april 2025 en uttalelse om at «det ikke er tiden for en medlemskapsprosess nå», samtidig som programmet ikke tar stilling til medlemskap. Kodet svakt negativt fordi Ap ikke vil søke nå.
+eu_membership|H|3|HIGH|5|Høyre vil arbeide for norsk EU-medlemskap.
+eu_membership|FrP|-3|HIGH|14|FrP vil arbeide for et fortsatt nei til norsk EU-medlemskap.
+eu_membership|Sp|-3|HIGH|138|Sp vil være garantist mot norsk EU-medlemskap og gå mot alle forsøk på å fremme en søknad.
+eu_membership|SV|-3|HIGH|43,45|SV sier nei til norsk EU-medlemskap.
+eu_membership|R|-3|MEDIUM|90|Rødt omtaler folkeavstemningenes nei og vil erstatte EØS med en handelsavtale; medlemskap avvises implisitt.
+eu_membership|V|3|HIGH|63|Venstre vil at Norge skal bli med i EU, avgjort ved folkeavstemning.
+eu_membership|KrF|-2|HIGH|76|KrF mener dagens tilknytningsformer (EØS m.m.) er den beste løsningen for Norges forhold til EU.
+eu_membership|MDG|3|HIGH|46,107|MDG vil gå inn for nye forhandlinger med sikte på EU-medlemskap, godkjent ved folkeavstemning.
+# --- eu_eea: «Norge bør si opp EØS-avtalen og erstatte den med en handelsavtale.»
+eu_eea|Ap|-3|HIGH|13,32|Ap mener EØS-avtalen er vår viktigste handelsavtale og at den «ligger fast».
+eu_eea|H|-3|HIGH|5|Høyre vil forsvare EØS-avtalen.
+eu_eea|FrP|-2|HIGH|14|FrP vil at handelen med EU skal styres gjennom EØS-avtalen, men at deler av den reforhandles.
+eu_eea|Sp|3|HIGH|138|Sp vil erstatte EØS-avtalen med handels- og samarbeidsavtaler med EU etter reforhandlinger.
+eu_eea|SV|1|MEDIUM|43|SV vil på sikt ha en samarbeidsform som ikke avgir suverenitet slik EØS gjør, men mener det er uhensiktsmessig å starte forhandlinger de neste fire årene.
+eu_eea|R|3|HIGH|11,90|Rødt vil si opp EØS-avtalen og erstatte den med en handelsavtale.
+eu_eea|V|-3|HIGH|64|Venstre vil delta i et så bredt og dypt samarbeid med EU som mulig, blant annet gjennom EØS.
+eu_eea|KrF|-3|HIGH|76|KrF mener EØS-avtalen er avgjørende for Norge.
+eu_eea|MDG|-3|HIGH|46,107|MDG vil bevare EØS-avtalen frem til et eventuelt medlemskap.
+# --- eu_reservation: «Norge bør oftere si nei til nye EU-regler gjennom EØS, særlig når de overfører makt til EU-organer.»
+eu_reservation|Ap|U|-|-|Programmet tar ikke stilling.
+eu_reservation|H|-2|MEDIUM|5|Høyre vil føre en effektiv europapolitikk og forsvare EØS-avtalen.
+eu_reservation|FrP|3|HIGH|14|FrP vil benytte reservasjonsretten for å hindre direktiver som svekker Norges interesser.
+eu_reservation|Sp|3|HIGH|138|Sp vil si nei til nye avtaler som gir for stor myndighetsoverføring og avvise regelverk som ikke er EØS-relevant.
+eu_reservation|SV|3|HIGH|43|SV vil bruke reservasjonsretten og si nei til ny EU-lovgivning som avgir ytterligere suverenitet.
+eu_reservation|R|3|HIGH|90|Rødt vil aktivt bruke reservasjonsretten i EØS.
+eu_reservation|V|-3|HIGH|6,64|Venstre vil delta så dypt som mulig i EU-samarbeidet og slutte Norge til blant annet fjerde energimarkedspakke.
+eu_reservation|KrF|-1|LOW|76|KrF er fornøyd med dagens tilknytning til EU, men tar ikke eksplisitt stilling til reservasjonsretten.
+eu_reservation|MDG|-3|HIGH|46,107|MDG vil ta igjen etterslepet på gjennomføring av EØS-relevante regler og være tettere koblet på EU.

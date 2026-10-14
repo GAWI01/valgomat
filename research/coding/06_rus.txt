@@ -1,0 +1,30 @@
+# --- drug_decrim: «Bruk og besittelse av små mengder narkotika til eget bruk bør ikke straffes.»
+drug_decrim|Ap|0|MEDIUM|80|Ap vil at personer med rusproblemer skal møtes med helsehjelp fremfor straff, men vil ikke endre forholdsmessighetsvurderingene for besittelse. Blandet posisjon.
+drug_decrim|H|1|MEDIUM|52-53|Høyre vil at bruk og besittelse fortsatt skal være forbudt, men at de som tas henvises til obligatorisk hjelp «i stedet for straff», med gebyr ved manglende oppmøte.
+drug_decrim|FrP|-3|HIGH|33|FrP vil gjeninnføre straff for besittelse, bruk og omsetning av ulovlige rusmidler.
+drug_decrim|Sp|-3|HIGH|84-85|Sp vil at bruk og besittelse skal være forbudt og bøtelegges etter inntekt; ingen stoffer skal avkriminaliseres.
+drug_decrim|SV|3|HIGH|17|SV vil gjennomføre en rusreform der bruk og besittelse avkriminaliseres.
+drug_decrim|R|3|HIGH|18|Rødt vil avkriminalisere bruk og besittelse av rusmidler til eget bruk.
+drug_decrim|V|3|HIGH|32|Venstre vil avkriminalisere bruk og besittelse av mindre mengder narkotika til eget bruk.
+drug_decrim|KrF|-2|HIGH|24|KrF vil at all bruk og besittelse skal være forbudt og ønsker en restriktiv ruspolitikk, men personer med tunge rusutfordringer skal ikke møtes med straff.
+drug_decrim|MDG|3|HIGH|35,40|MDG vil fjerne straff for bruk og besittelse av brukerdoser i tråd med Rusreformutvalget.
+# --- drug_cannabis: «Det bør innføres lovlig, strengt regulert salg av cannabis til voksne.»
+drug_cannabis|Ap|U|-|-|Programmet tar ikke stilling til legalisering av cannabis.
+drug_cannabis|H|-3|HIGH|52|Høyre vil ikke legalisere bruk eller besittelse av narkotika.
+drug_cannabis|FrP|-3|MEDIUM|33,61|FrP vil gjeninnføre straff for bruk og omsetning av ulovlige rusmidler; åpner kun for medisinsk cannabis på resept.
+drug_cannabis|Sp|-3|HIGH|84|Sp vil at ingen narkotiske stoffer skal legaliseres.
+drug_cannabis|SV|U|-|17|SV vil avkriminalisere bruk, men programmet tar ikke stilling til lovlig salg.
+drug_cannabis|R|3|HIGH|18|Rødt vil legalisere og regulere omsetningen av cannabis i et system likt Vinmonopolet.
+drug_cannabis|V|3|HIGH|32|Venstre vil tillate strengt regulert omsetning av cannabis og andre mildere rusmidler.
+drug_cannabis|KrF|-3|HIGH|24|KrF mener legalisering vil øke rusmisbruket og prioriterer forebygging fremfor legalisering.
+drug_cannabis|MDG|3|HIGH|40|MDG vil legalisere og strengt regulere salg av cannabis til eget bruk.
+# --- drug_alcohol: «Alkoholpolitikken bør bli mindre streng, for eksempel ved at sterkøl og vin kan selges i vanlige butikker.»
+drug_alcohol|Ap|-2|HIGH|73|Ap vil føre en restriktiv alkoholpolitikk og opprettholde Vinmonopolets samfunnsrolle (men åpne for salg fra småprodusenter, s. 45).
+drug_alcohol|H|2|MEDIUM|69|Høyre vil utvide åpningstidene for alkoholsalg i butikk og på Vinmonopolet.
+drug_alcohol|FrP|3|MEDIUM|56|FrP mener dagens høye avgifter og reguleringer fører til smugling, vil la serveringssteder fastsette egne tider og tillate salg av sterkøl og vin fra lokale produsenter i butikk.
+drug_alcohol|Sp|-2|HIGH|59|Sp vil føre en ansvarlig alkoholpolitikk og opprettholde Vinmonopolordningen.
+drug_alcohol|SV|-2|MEDIUM|18|SV vil føre en ansvarlig alkoholpolitikk med mål om å redusere forbruket.
+drug_alcohol|R|-3|HIGH|16|Rødt vil føre en restriktiv alkoholpolitikk, si nei til liberalisering av skjenketider og opprettholde salgsmonopolet.
+drug_alcohol|V|3|HIGH|32-33|Venstre vil åpne for salg av sterkøl i butikk, gi kommunene frihet over salgstider og oppheve forbudet mot alkohol i det offentlige rom.
+drug_alcohol|KrF|-3|HIGH|24,29|KrF vil at alkoholpolitikken skal ligge fast og vil redusere skjenketiden fra 03.00 til 02.00.
+drug_alcohol|MDG|-1|MEDIUM|41|MDG vil videreføre en restriktiv omsetningspolitikk og beholde Vinmonopolet, men åpne for alkoholkonsum i enkelte parker.

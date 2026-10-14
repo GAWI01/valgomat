@@ -1,0 +1,97 @@
+### work_sickpay
+tema: arbeid
+klynge: sykelonn
+dim: econ=+1
+kort: Lavere sykelønn ved lange fravær
+tekst: Sykelønnen bør reduseres noe ved lange sykemeldinger (for eksempel fra 100 til 80 prosent etter seks måneder) for å få ned sykefraværet.
+bakgrunn: I dag får arbeidstakere normalt full lønn (opp til 6G) i inntil ett år ved sykdom. Norge har et av de høyeste sykefraværene i OECD. Sysselsettingsutvalgets ekspertgruppe foreslo blant annet redusert kompensasjon etter en tid.
+for: En liten reduksjon etter lang tid kan gi sterkere insentiver til gradert sykmelding og raskere tilbakekomst.
+for: Høyt sykefravær koster samfunnet mye og kan true finansieringen av velferdsordningene.
+for: De fleste land i Europa har lavere kompensasjon enn Norge uten dårligere folkehelse.
+mot: Kutt rammer folk som faktisk er syke, ofte i fysisk krevende yrker uten mulighet for tilrettelegging.
+mot: Det er usikkert hvor mye sykefraværet går ned, og noen kan skyves over på andre ytelser.
+mot: Full lønn under sykdom er en del av tryggheten i den norske arbeidslivsmodellen.
+
+### work_activity_duty
+tema: arbeid
+klynge: aktivitet
+dim: econ=+1
+kort: Aktivitetsplikt for sosialhjelp
+tekst: Alle sosialhjelpsmottakere i arbeidsfør alder bør ha plikt til å delta i aktivitet for å få utbetalt støtte.
+bakgrunn: I dag har kommunene plikt til å stille vilkår om aktivitet for sosialhjelpsmottakere under 30 år. Aktiviteten kan for eksempel være jobbsøking, arbeidstrening eller opplæring.
+for: Aktivitet gir struktur, nettverk og ferdigheter som kan føre til jobb.
+for: Det er rimelig at de som mottar støtte og kan bidra, også gjør noe tilbake.
+for: Plikten kan hindre at folk blir passive mottakere over lang tid.
+mot: Mange sosialhjelpsmottakere har helseproblemer eller livssituasjoner som gjør pålagt aktivitet lite meningsfull.
+mot: Tvang kan skape mer byråkrati og frustrasjon uten å gi flere jobber.
+mot: Kommunene har ofte ikke gode nok aktivitetstilbud, slik at plikten blir symbolsk.
+
+### work_temp_agency
+tema: arbeid
+klynge: arbeidsliv
+dim: econ=+1
+kort: Mer midlertidighet og innleie
+tekst: Det bør bli enklere for bedrifter å ansette midlertidig og leie inn arbeidskraft fra bemanningsbyråer.
+bakgrunn: Regjeringen strammet i 2022–2023 inn reglene for midlertidige ansettelser og innleie, blant annet med forbud mot innleie i byggebransjen på Østlandet.
+for: Fleksibilitet gjør det lettere for bedrifter å håndtere svingninger og å gi folk en sjanse.
+for: Midlertidige jobber kan være en vei inn i arbeidslivet for unge og innvandrere.
+for: Strenge regler kan føre til at oppdrag ikke blir utført eller at bedrifter flytter arbeid ut av landet.
+mot: Faste, hele stillinger gir trygghet for arbeidstakere og bedre arbeidsmiljø.
+mot: Utstrakt innleie kan svekke fagforeningene og presse lønns- og arbeidsvilkår.
+mot: Innstrammingene var et svar på useriøsitet og sosial dumping i enkelte bransjer.
+
+### work_min_benefits
+tema: arbeid
+klynge: ytelser
+dim: econ=-1
+kort: Høyere minsteytelser
+tekst: Minsteytelsene i velferden (som minstepensjon, minste uføretrygd og sosialhjelp) bør økes betydelig.
+bakgrunn: Minsteytelser er de laveste beløpene man kan få fra folketrygden eller kommunen. Mange som lever på slike ytelser, har inntekt under EUs fattigdomsgrense.
+for: Ingen bør leve i fattigdom i et så rikt land som Norge.
+for: Høyere minsteytelser bedrer levekårene for barn i lavinntektsfamilier og for eldre uten tjenestepensjon.
+for: Det kan redusere behovet for byråkratisk behovsprøvd sosialhjelp.
+mot: Det koster mye penger som kunne vært brukt på andre tjenester.
+mot: Hvis forskjellen mellom ytelser og lønn blir liten, kan det bli mindre lønnsomt å jobbe.
+mot: Målrettede tiltak, for eksempel for barnefamilier, kan være mer treffsikre enn generelle økninger.
+
+### welfare_commercial
+tema: arbeid
+klynge: velferdsprivat
+dim: econ=+1
+kort: Kommersielle i velferden
+tekst: Kommersielle selskaper bør kunne drive offentlig finansierte velferdstjenester som barnehager, sykehjem og barnevern.
+bakgrunn: I dag drives mange barnehager og noen sykehjem og barnevernsinstitusjoner av private, både ideelle (uten profittformål) og kommersielle selskaper. Det offentlige betaler.
+for: Private aktører kan bidra med kapasitet, mangfold og valgfrihet for brukerne.
+for: Konkurranse kan presse fram bedre kvalitet og mer effektiv drift.
+for: Det viktigste for brukerne er kvaliteten på tilbudet, ikke hvem som eier det.
+mot: Offentlige penger bør gå til tjenesten, ikke til utbytte for eiere.
+mot: Kommersielle aktører kan spare penger på bemanning, lønn og pensjoner.
+mot: Det kan være vanskelig for det offentlige å kontrollere kvalitet og pengestrømmer i komplekse selskapsstrukturer.
+
+### housing_equity
+tema: arbeid
+klynge: bolig
+dim: econ=+1
+kort: Lempe egenkapitalkravet
+tekst: Egenkapitalkravet for boliglån bør lempes eller fjernes, særlig for førstegangskjøpere.
+bakgrunn: Utlånsforskriften krever i dag at man normalt har minst 10 prosent egenkapital ved kjøp av bolig. Kravet skal hindre at husholdninger tar opp for store lån.
+for: Kravet stenger mange unge med god og stabil inntekt ute fra boligmarkedet.
+for: Det favoriserer dem som har foreldre som kan hjelpe med egenkapital.
+for: Bankene kan selv vurdere om den enkelte kan betjene lånet.
+mot: Kravet beskytter folk mot å ta opp lån de ikke tåler hvis renten øker eller boligprisene faller.
+mot: Lettere tilgang på lån kan presse boligprisene ytterligere opp.
+mot: Høy gjeld i husholdningene er en risiko for hele økonomien.
+
+### housing_nonprofit
+tema: arbeid
+klynge: bolig
+dim: econ=-1
+kort: Flere ikke-kommersielle utleieboliger
+tekst: Staten bør finansiere mange flere ikke-kommersielle utleieboliger med rimelig husleie.
+bakgrunn: Ikke-kommersielle boliger eies av kommuner, stiftelser, boligbyggelag eller lignende, og leies ut uten profittformål. Flere land, som Østerrike og Danmark, har en stor slik sektor.
+for: Det kan gi rimelige og trygge boliger for folk som ikke har råd til å kjøpe.
+for: En større ikke-kommersiell sektor kan dempe husleieøkningen i byene.
+for: Det gir mer stabile bomiljøer enn et kortsiktig privat leiemarked.
+mot: Det koster offentlige penger og kan fortrenge privat boligbygging.
+mot: Det er bedre å bygge flere boliger generelt og la flere få eie sin egen bolig.
+mot: Regulerte husleier kan gi lange ventelister og lite effektiv bruk av boligmassen.

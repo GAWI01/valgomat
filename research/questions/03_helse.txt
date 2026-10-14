@@ -1,0 +1,55 @@
+### health_free_choice
+tema: helse
+klynge: privathelse
+dim: econ=+1
+kort: Fritt behandlingsvalg
+tekst: Pasienter bør kunne velge behandling hos private klinikker, betalt av det offentlige (fritt behandlingsvalg).
+bakgrunn: Ordningen fritt behandlingsvalg ble innført i 2015 og avviklet av regjeringen i 2023. Den lot pasienter velge godkjente private behandlingssteder på det offentliges regning for enkelte behandlinger.
+for: Det kan korte ned helsekøene ved å ta i bruk ledig kapasitet hos private.
+for: Pasientene får større valgfrihet.
+for: Konkurranse kan presse offentlige sykehus til å bli mer effektive.
+mot: Private kan plukke de lønnsomme og enkle pasientene, mens de kompliserte blir igjen i det offentlige.
+mot: Ordningen kan trekke helsepersonell bort fra offentlige sykehus.
+mot: Det kan bli dyrere for fellesskapet og vanskeligere å styre helsetjenesten helhetlig.
+
+### health_trusts
+tema: helse
+klynge: sykehusstyring
+dim: central=-1
+kort: Avvikle helseforetakene
+tekst: Helseforetaksmodellen bør avvikles, slik at sykehusene styres mer direkte av folkevalgte.
+bakgrunn: Siden 2002 har sykehusene vært organisert i statlige regionale og lokale helseforetak med egne styrer. Kritikere mener dette gir for lite demokratisk kontroll, tilhengere at det gir profesjonell og helhetlig styring.
+for: Viktige beslutninger, som nedleggelse av fødeavdelinger, bør tas av folkevalgte som kan stilles til ansvar.
+for: Modellen har gitt mye byråkrati, mange ledernivåer og avstand til de ansatte.
+for: Kravet om overskudd for å finansiere bygg kan gå på bekostning av pasientbehandling.
+mot: Faglig og profesjonell styring kan gi bedre prioriteringer enn politiske hestehandler.
+mot: En stor omorganisering kan koste mye og ta oppmerksomhet bort fra pasientene.
+mot: Problemene kan løses ved å forbedre dagens modell i stedet for å bygge noe nytt.
+
+### health_dental
+tema: helse
+klynge: tannhelse
+dim: econ=-1
+kort: Tannhelse som annen helse
+tekst: Tannbehandling for voksne bør dekkes av det offentlige på samme måte som annen helsehjelp, med egenandeler og frikort.
+bakgrunn: I dag må de fleste voksne betale tannbehandling selv. Barn og unge har gratis eller rimelig tannhelse, og noen grupper får støtte.
+for: Tennene er en del av kroppen, og dårlig tannhelse kan gi andre helseproblemer.
+for: I dag avgjør lommeboka om folk går til tannlegen, noe som gir store sosiale forskjeller.
+for: Forebygging kan spare samfunnet for kostnader senere.
+mot: En full reform vil koste mange milliarder kroner årlig.
+mot: Det er bedre å målrette støtten mot dem som trenger det mest.
+mot: Økt etterspørsel kan gi mangel på tannleger og lengre ventetid.
+
+### health_copay
+tema: helse
+klynge: egenandel
+dim: econ=-1
+kort: Lavere egenandeler
+tekst: Egenandelene i helsetjenesten bør reduseres kraftig eller fjernes.
+bakgrunn: Egenandeler er det pasienten selv betaler, for eksempel hos fastlegen eller for medisiner på blå resept. Det finnes et tak (frikort) for hvor mye man må betale per år.
+for: Egenandeler kan hindre folk med dårlig råd i å oppsøke helsehjelp i tide.
+for: Det er urettferdig at syke må betale mer enn friske.
+for: Tidlig behandling kan være billigere for samfunnet enn å vente.
+mot: Egenandelene gir inntekter som brukes i helsevesenet.
+mot: En liten egenandel kan motvirke unødvendig bruk av tjenestene.
+mot: Frikortordningen beskytter allerede de som trenger mye helsehjelp.

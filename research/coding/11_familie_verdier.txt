@@ -1,0 +1,90 @@
+# --- fam_cash_benefit: «Kontantstøtten (støtte til foreldre som ikke bruker barnehage) bør beholdes.»
+fam_cash_benefit|Ap|U|-|-|Programmet tar ikke stilling.
+fam_cash_benefit|H|-3|HIGH|66|Høyre vil fjerne kontantstøtten og innføre en ventestøtte for dem som venter på barnehageplass.
+fam_cash_benefit|FrP|1|MEDIUM|115-116|FrP mener kontantstøtten gir valgfrihet, men vil stramme den inn og knytte den til tidligere arbeidsinntekt.
+fam_cash_benefit|Sp|2|HIGH|33|Sp vil videreføre kontantstøtten for barn mellom 13 og 19 måneder.
+fam_cash_benefit|SV|U|-|-|Programmet tar ikke stilling.
+fam_cash_benefit|R|U|-|35|Rødt vil innføre ventestøtte, men tar ikke stilling til kontantstøtten.
+fam_cash_benefit|V|-3|HIGH|55-56|Venstre vil avvikle kontantstøtten og prioritere full barnehagedekning.
+fam_cash_benefit|KrF|3|HIGH|6|KrF vil utvide kontantstøtten til barnet fyller to år, og øke den.
+fam_cash_benefit|MDG|3|HIGH|26|MDG vil bevare kontantstøtten og utvide den til barnet er to år.
+# --- fam_leave_quota: «Foreldrene bør selv få bestemme hvordan hele foreldrepermisjonen fordeles, uten øremerkede kvoter til mor og far.»
+fam_leave_quota|Ap|U|-|-|Programmet tar ikke stilling.
+fam_leave_quota|H|1|HIGH|66|Høyre vil øke familienes frihet ved å redusere fedre- og mødrekvoten til ti uker, men beholde kvoter.
+fam_leave_quota|FrP|3|HIGH|115|FrP vil avvikle mødrekvoten og fedrekvoten; foreldrene skal bestemme selv.
+fam_leave_quota|Sp|-2|HIGH|33|Sp vil minst opprettholde kvoter på 15 uker til hver forelder.
+fam_leave_quota|SV|-2|MEDIUM|21|SV fremhever fedrekvoten som viktig for at fedre skal være mer med barna.
+fam_leave_quota|R|-2|MEDIUM|35|Rødt vil sikre mor 20 uker og den andre forelderen egne uker; resten kan deles.
+fam_leave_quota|V|-3|HIGH|55|Venstre vil videreføre dagens tredeling med 15 uker til hver og 16 uker til fri fordeling.
+fam_leave_quota|KrF|3|HIGH|5|KrF vil fjerne tredelingen og ha fri fordeling av foreldrepermisjonen.
+fam_leave_quota|MDG|-2|HIGH|26|MDG vil bevare dagens foreldrekvoter på 15 uker hver.
+# --- fam_child_benefit_tax: «Barnetrygden bør økes og gjøres skattepliktig, slik at familier med lave inntekter får mest igjen.»
+fam_child_benefit_tax|Ap|U|-|-|Programmet tar ikke stilling.
+fam_child_benefit_tax|H|-3|HIGH|66|Høyre vil øke barnetrygden, men beholde den som en skattefri, universell ytelse.
+fam_child_benefit_tax|FrP|-1|MEDIUM|115-116|FrP vil videreføre barnetrygden som universell ordning, begrenset til fem barn.
+fam_child_benefit_tax|Sp|U|-|33|Sp vil holde barnetrygden utenfor ved beregning av sosialhjelp, men tar ikke stilling til skatt.
+fam_child_benefit_tax|SV|U|-|20|SV vil trappe opp barnetrygden til 30 000 kroner per barn som universell ordning, uten å nevne skatt.
+fam_child_benefit_tax|R|-3|HIGH|35|Rødt vil øke barnetrygda og bevare den som en universell, skattefri overføring.
+fam_child_benefit_tax|V|3|HIGH|55-56|Venstre vil kraftig øke barnetrygden og skattlegge den.
+fam_child_benefit_tax|KrF|U|-|8|KrF vil øke barnetrygden, men tar ikke stilling til skatt.
+fam_child_benefit_tax|MDG|3|HIGH|20|MDG vil doble og skattlegge barnetrygden.
+# --- fam_abortion: «Grensen for selvbestemt abort bør settes tilbake fra 18 til 12 uker.»
+fam_abortion|Ap|-3|HIGH|84|Ap vil forsvare utvidelsen av selvbestemmelsen i abortloven.
+fam_abortion|H|0|HIGH|53|Høyre behandler abortgrensen som samvittighetsspørsmål og vil ikke ta initiativ til å endre den i perioden 2025–2029.
+fam_abortion|FrP|U|-|-|Programmet tar ikke stilling.
+fam_abortion|Sp|U|-|-|Programmet tar ikke stilling til abortgrensen i Norge.
+fam_abortion|SV|-3|HIGH|19|SV vil avskaffe abortnemndene og sikre kvinners rett til å bestemme over egen kropp.
+fam_abortion|R|-3|HIGH|70|Rødt vil at abort skal være selvbestemt så lenge den kan gjennomføres, og fjerne nemndbehandling.
+fam_abortion|V|-3|HIGH|30|Venstre vil opprettholde selvbestemt abort fram til uke 18.
+fam_abortion|KrF|3|HIGH|15|KrF vil reversere utvidelsen av grensen for selvbestemt abort vedtatt i desember 2024.
+fam_abortion|MDG|-3|HIGH|62|MDG vil erstatte abortnemnda med et frivillig rådgivende tilbud og utrede å grunnlovsfeste reproduktiv selvbestemmelse.
+# --- val_assisted_dying: «Aktiv dødshjelp bør bli tillatt for alvorlig syke voksne, under strenge vilkår.»
+val_assisted_dying|Ap|U|-|-|Programmet tar ikke stilling.
+val_assisted_dying|H|U|-|51|Programmet omtaler palliativ omsorg, men tar ikke stilling til dødshjelp.
+val_assisted_dying|FrP|3|HIGH|5|FrP vil i noen situasjoner tillate aktiv dødshjelp regulert av et strengt lovverk.
+val_assisted_dying|Sp|-3|HIGH|60|Sp vil ikke åpne for aktiv dødshjelp.
+val_assisted_dying|SV|U|-|-|Programmet tar ikke stilling.
+val_assisted_dying|R|U|-|-|Programmet tar ikke stilling.
+val_assisted_dying|V|1|MEDIUM|36|Venstre vil utrede selvbestemt assistert livsavslutning gjennom en offentlig utredning.
+val_assisted_dying|KrF|-3|HIGH|16|KrF sier nei til både eutanasi og legeassistert selvmord.
+val_assisted_dying|MDG|-1|MEDIUM|38|MDG vil vente med å utrede aktiv dødshjelp til en livshjelps- og palliasjonsreform er på plass.
+# --- val_surrogacy: «Surrogati (at en kvinne bærer fram et barn for andre) bør bli tillatt i Norge under regulerte former.»
+val_surrogacy|Ap|U|-|-|Programmet tar ikke stilling.
+val_surrogacy|H|U|-|66|Høyre vil sikre rettighetene til barn født ved surrogati i utlandet, men tar ikke stilling til å tillate det i Norge.
+val_surrogacy|FrP|3|HIGH|66|FrP vil tillate surrogati i Norge.
+val_surrogacy|Sp|U|-|-|Programmet tar ikke stilling.
+val_surrogacy|SV|U|-|-|Programmet tar ikke stilling.
+val_surrogacy|R|-3|HIGH|69|Rødt vil ha fortsatt forbud mot alle former for surrogati og forby nordmenn å bruke surrogati i utlandet.
+val_surrogacy|V|3|HIGH|36|Venstre vil tillate regulert, ikke-kommersiell surrogati i Norge.
+val_surrogacy|KrF|-3|HIGH|16|KrF vil at surrogati fortsatt skal være forbudt.
+val_surrogacy|MDG|U|-|-|Programmet tar ikke stilling.
+# --- val_sunday: «Kommunene bør selv kunne tillate at butikker holder åpent på søndager.»
+val_sunday|Ap|-2|HIGH|43|Ap vil ikke utvide adgangen til søndagsåpne butikker.
+val_sunday|H|3|HIGH|84|Høyre vil la kommunen selv bestemme om søndagsåpne butikker skal tillates.
+val_sunday|FrP|3|HIGH|56|FrP vil at butikker skal kunne holde åpent på søndag, og at kommunene avgjør i mellomtiden.
+val_sunday|Sp|-3|HIGH|100|Sp vil ikke utvide ordningen med søndagsåpne butikker.
+val_sunday|SV|-3|HIGH|13|SV vil opprettholde reguleringen og stramme inn unntaket for turistkommuner.
+val_sunday|R|-3|HIGH|12,61|Rødt støtter kampen mot søndagsåpne butikker.
+val_sunday|V|3|HIGH|52|Venstre vil oppheve loven om helligdagsfred.
+val_sunday|KrF|-3|MEDIUM|56|KrF vil opprettholde søndagen som en «annerledesdag».
+val_sunday|MDG|U|-|-|Programmet tar ikke stilling.
+# --- val_sex_purchase: «Forbudet mot å kjøpe sex (sexkjøpsloven) bør oppheves.»
+val_sex_purchase|Ap|U|-|-|Programmet tar ikke stilling.
+val_sex_purchase|H|U|-|-|Programmet tar ikke stilling.
+val_sex_purchase|FrP|3|HIGH|37|FrP vil oppheve sexkjøpsloven og hallikparagrafen.
+val_sex_purchase|Sp|-3|HIGH|83|Sp vil opprettholde sexkjøpsloven.
+val_sex_purchase|SV|-3|HIGH|51|SV vil håndheve sexkjøpsloven.
+val_sex_purchase|R|-3|HIGH|69|Rødt vil håndheve og styrke sexkjøpsloven.
+val_sex_purchase|V|3|HIGH|46|Venstre vil oppheve sexkjøpsloven.
+val_sex_purchase|KrF|-3|HIGH|21|KrF vil opprettholde forbudet mot kjøp av seksuelle tjenester.
+val_sex_purchase|MDG|1|MEDIUM|62|MDG vil gå gjennom sexkjøpsloven og hallikparagrafen for å bedre sexarbeideres rettigheter og trygghet, uten å si at den skal oppheves.
+# --- econ_nrk: «NRK bør få mindre offentlig finansiering enn i dag.»
+econ_nrk|Ap|-2|HIGH|141|Ap vil sikre NRKs rolle som bred allmennkringkaster med sterk tilstedeværelse i hele landet.
+econ_nrk|H|1|MEDIUM|72|Høyre vil beholde et offentlig finansiert NRK, men mener NRK har en dominerende rolle og ikke må svekke kommersielle medier.
+econ_nrk|FrP|3|HIGH|123-124|FrP vil omgjøre NRK til aksjeselskap, selge statens aksjer og redusere offentlig finansiering mest mulig.
+econ_nrk|Sp|-2|HIGH|92-93|Sp vil styrke NRKs distriktskontorer og allmennkringkastingsoppdrag.
+econ_nrk|SV|U|-|-|Programmet tar ikke stilling.
+econ_nrk|R|U|-|-|Programmet tar ikke stilling.
+econ_nrk|V|-1|MEDIUM|50|Venstre vil videreføre allmennkringkastingsmodellen med NRK.
+econ_nrk|KrF|-2|HIGH|85|KrF vil beholde NRK som et ikke-kommersielt allmennkringkastingstilbud av høy kvalitet.
+econ_nrk|MDG|-2|MEDIUM|68|MDG vil gi redaktørstyrte medier, inkludert NRK, gode og forutsigbare rammevilkår.

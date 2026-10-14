@@ -1,0 +1,195 @@
+### cli_target
+tema: klima
+klynge: klimamal
+dim: climate=+1
+kort: Strengere klimamål for 2035
+tekst: Norge bør ha et strengere klimamål for 2035 enn dagens mål om 70–75 prosent kutt (sammenlignet med 1990).
+bakgrunn: Norge har meldt inn til FN et mål om å kutte utslippene med 70–75 prosent innen 2035 sammenlignet med 1990, i samarbeid med EU. Norges utslipp har så langt gått ned med rundt 10 prosent siden 1990.
+for: Klimaforskningen sier at verden må kutte raskt for å begrense oppvarmingen til 1,5 grader.
+for: Et rikt land med store fossile inntekter har et særlig ansvar for å gå foran.
+for: Tydelige mål gir forutsigbarhet for næringslivet og fart på grønn omstilling.
+mot: Dagens mål er allerede svært krevende og kan bli dyrt å nå.
+mot: Strengere mål kan føre til at industri og arbeidsplasser flytter til land med svakere krav.
+mot: Norge står for en liten andel av globale utslipp, og pengene kan gi mer klimaeffekt andre steder.
+
+### cli_domestic
+tema: klima
+klynge: klimamal
+dim: climate=+1
+kort: Klimakutt hjemme heller enn kvoter
+tekst: Norge bør ta klimakuttene hjemme i Norge, heller enn å betale for kutt i andre land (for eksempel gjennom klimakvoter).
+bakgrunn: Norge samarbeider med EU om klimamålene og er med i EUs kvotesystem. Det gir mulighet til å kjøpe kvoter eller finansiere kutt i andre land i stedet for å kutte alt nasjonalt.
+for: Kutt hjemme bidrar til teknologiutvikling og omstilling som Norge uansett må gjennom.
+for: Rike land bør ta sitt eget ansvar i stedet for å kjøpe seg fri.
+for: Kvotekjøp kan være usikre og vanskelige å kontrollere.
+mot: Det gir mer klimaeffekt per krone å kutte der det er billigst.
+mot: Fordi Norge allerede har nesten utslippsfri strøm, er mange gjenværende kutt svært dyre.
+mot: Felles europeisk kvotesystem sikrer like konkurransevilkår for norsk industri.
+
+### cli_co2_tax
+tema: klima
+klynge: klimaavgift
+dim: climate=+1
+kort: Raskere økning av CO₂-avgiften
+tekst: CO₂-avgiften bør økes raskere enn dagens plan om rundt 2000 kroner per tonn i 2030.
+bakgrunn: CO₂-avgiften gjør det dyrere å slippe ut klimagasser, for eksempel ved bruk av bensin, diesel og gass. Gjeldende plan er å trappe den opp til om lag 2000 kroner per tonn (i 2020-kroner) innen 2030.
+for: En høyere pris på utslipp er et kostnadseffektivt virkemiddel som lar folk og bedrifter selv velge hvordan de kutter.
+for: Inntektene kan gis tilbake til folk eller brukes til lavere skatt på arbeid.
+for: Uten høyere pris er det vanskelig å nå klimamålene.
+mot: Høyere avgifter rammer folk i distriktene og med lav inntekt som er avhengige av bil.
+mot: Norske bedrifter kan tape konkurranse mot utenlandske som ikke har like høye avgifter.
+mot: Det er urimelig å øke avgiftene før gode alternativer finnes, for eksempel i tungtransport.
+
+### nature_protect
+tema: klima
+klynge: natur
+dim: climate=+1
+kort: Mer naturvern
+tekst: Mer natur bør vernes, selv om det begrenser utbygging av for eksempel hytter, veier og næringsområder.
+bakgrunn: Gjennom FNs naturavtale (2022) har Norge sluttet seg til et globalt mål om å bevare 30 prosent av natur på land og i hav innen 2030. Hvordan målet skal følges opp nasjonalt, er omstridt.
+for: Tap av natur er en av vår tids største miljøtrusler, og nedbygget natur kommer sjelden tilbake.
+for: Natur lagrer karbon, gir friluftsliv og beskytter mot flom og skred.
+for: Vi har et ansvar for å ta vare på artsmangfoldet for kommende generasjoner.
+mot: Strengere vern kan begrense næringsutvikling, arbeidsplasser og boligbygging, særlig i distriktene.
+mot: Lokale myndigheter og grunneiere vet ofte best hvordan arealene bør brukes.
+mot: Norge har allerede mye vernet natur og et omfattende regelverk.
+
+### oil_explore
+tema: energi
+klynge: olje
+dim: climate=+1
+kort: Stans i oljeleting
+tekst: Norge bør slutte å lete etter ny olje og gass.
+bakgrunn: Norske myndigheter tildeler hvert år nye leteområder på sokkelen. Olje og gass er Norges største eksportnæring og en viktig kilde til statens inntekter.
+for: Verden har allerede funnet mer fossil energi enn klimaet tåler at vi brenner.
+for: Å stanse leting gir en forutsigbar nedtrapping og frigjør kompetanse til nye næringer.
+for: Det reduserer den økonomiske risikoen ved investeringer som kan bli ulønnsomme.
+mot: Europa trenger norsk gass for energisikkerhet, ikke minst etter Russlands invasjon av Ukraina.
+mot: Uten leting faller produksjonen raskt, med tap av arbeidsplasser og inntekter.
+mot: Hvis Norge produserer mindre, kan annen og mer forurensende produksjon ta over.
+
+### oil_end_date
+tema: energi
+klynge: olje
+dim: climate=+1
+kort: Sluttdato for olje og gass
+tekst: Norge bør vedta en sluttdato for olje- og gassproduksjonen.
+bakgrunn: Det finnes ingen vedtatt sluttdato for norsk petroleumsproduksjon. Noen partier vil ha en plan med et årstall, andre vil la markedet og etterspørselen avgjøre.
+for: En sluttdato gir forutsigbarhet for arbeidstakere, lokalsamfunn og investorer.
+for: Det viser at Norge tar klimamålene på alvor og kan styrke vår internasjonale troverdighet.
+for: Det tvinger fram en planlagt omstilling i stedet for en brå krasjlanding senere.
+mot: Det er umulig å vite i dag hva verden vil trenge av energi om 15–20 år.
+mot: En sluttdato kan gi tidlig tap av investeringer, kompetanse og arbeidsplasser.
+mot: Utslippene avhenger av forbruket globalt, ikke av hvor oljen produseres.
+
+### oil_lofoten
+tema: energi
+klynge: oljeomrader
+dim: climate=+1
+kort: Varig vern av Lofoten, Vesterålen og Senja
+tekst: Havområdene utenfor Lofoten, Vesterålen og Senja bør vernes permanent mot oljevirksomhet.
+bakgrunn: Havområdene utenfor Lofoten, Vesterålen og Senja er viktige gyteområder for fisk og har vært holdt utenfor petroleumsvirksomhet gjennom politiske avtaler, men er ikke varig vernet.
+for: Områdene er blant verdens viktigste gyteområder og har stor verdi for fiskeri og reiseliv.
+for: Et oljeutslipp her kan få svært alvorlige konsekvenser.
+for: Varig vern gir forutsigbarhet og avslutter en langvarig strid.
+mot: Områdene kan inneholde store ressurser som kan gi arbeidsplasser og inntekter i Nord-Norge.
+mot: Man bør i det minste kartlegge og konsekvensutrede før man stenger døren for alltid.
+mot: Moderne teknologi gjør det mulig å drive sikkert også i sårbare områder.
+
+### energy_nuclear
+tema: energi
+klynge: kjernekraft
+dim: 
+kort: Kjernekraft i Norge
+tekst: Norge bør legge til rette for å bygge kjernekraftverk.
+bakgrunn: Norge har ingen kjernekraftverk for strømproduksjon. Et offentlig utvalg har utredet kjernekraft, og flere kommuner har vist interesse for små modulære reaktorer.
+for: Kjernekraft gir stabil, utslippsfri kraft som tar lite areal sammenlignet med vindkraft.
+for: Økende strømbehov kan dekkes uten store naturinngrep.
+for: Flere naboland satser på kjernekraft, og ny teknologi kan bli rimeligere.
+mot: Kjernekraft er dyrt og tar lang tid å bygge, og kommer neppe før etter 2035.
+mot: Radioaktivt avfall må lagres trygt i tusenvis av år.
+mot: Norge har allerede rikelig fornybar kraft og kan heller bygge ut og oppgradere den.
+
+### energy_onshore_wind
+tema: energi
+klynge: vindkraft
+dim: 
+kort: Mer vindkraft på land
+tekst: Det bør bygges mer vindkraft på land i Norge.
+bakgrunn: Vindkraft på land har økt kraftig de siste ti årene, men har møtt sterk lokal motstand på grunn av naturinngrep, støy og konflikter med reindrift.
+for: Vindkraft på land er blant de billigste måtene å produsere ny fornybar kraft på.
+for: Mer kraft trengs for elektrifisering, industri og lavere strømpriser.
+for: Kommuner som sier ja, kan få inntekter og arbeidsplasser.
+mot: Vindkraftverk bygger ned urørt natur og endrer landskapet varig.
+mot: Utbygging kan komme i konflikt med reindrift og samiske rettigheter.
+mot: Kraftbehovet kan dekkes på andre måter, som oppgradering av vannkraft og energisparing.
+
+### energy_offshore_wind
+tema: energi
+klynge: vindkraft
+dim: climate=+1
+kort: Statlig støtte til havvind
+tekst: Staten bør gi økonomisk støtte for å få bygget ut havvind.
+bakgrunn: Havvind er foreløpig dyrere enn mange andre kraftkilder, og prosjekter i Norge har fått eller søkt om statlig støtte, for eksempel gjennom konkurranser om støtte til Utsira Nord og Sørlige Nordsjø II.
+for: Norge har gode vindressurser og havkompetanse som kan gi en ny industri.
+for: Havvind gir mye kraft uten å bygge ned natur på land.
+for: Tidlig støtte kan gjøre teknologien billigere over tid.
+mot: Støtten koster milliarder som kunne vært brukt på andre formål.
+mot: Teknologien bør klare seg på markedsvilkår før den bygges ut i stor skala.
+mot: Havvind kan komme i konflikt med fiskeri og sjøfugl.
+
+### energy_hydro
+tema: energi
+klynge: vannkraft
+dim: climate=-1
+kort: Vannkraft i vernede vassdrag
+tekst: Det bør åpnes for mer vannkraftutbygging, også i noen vassdrag som i dag er vernet.
+bakgrunn: Rundt 390 vassdrag er vernet mot kraftutbygging gjennom Verneplan for vassdrag. Oppgradering av eksisterende kraftverk er mindre omstridt enn utbygging av nye.
+for: Vannkraft er fornybar, regulerbar og Norges viktigste energikilde.
+for: Mer kraft trengs, og vannkraft kan gi mer kraft med mindre inngrep enn vind.
+for: Noen vernede vassdrag kan bygges ut skånsomt og samtidig gi flomvern.
+mot: Vernede vassdrag er noen av de siste urørte elvene i Norge.
+mot: Utbygging kan skade villaks og annet dyreliv.
+mot: Å åpne for vernede vassdrag kan undergrave tilliten til vern generelt.
+
+### energy_cables
+tema: energi
+klynge: krafteksport
+dim: intl=-1
+kort: Ingen nye utenlandskabler
+tekst: Norge bør ikke bygge flere strømkabler til utlandet.
+bakgrunn: Norge har strømkabler til blant annet Danmark, Nederland, Tyskland og Storbritannia. De gjør det mulig å eksportere og importere strøm. Mange mener kablene har bidratt til høyere og mer svingende priser i Sør-Norge.
+for: Færre kabler kan gi lavere og mer stabile strømpriser i Norge.
+for: Norsk vannkraft bør i første rekke komme norsk industri og husholdninger til gode.
+for: Det gir større nasjonal kontroll over kraftsystemet.
+mot: Kabler gir forsyningssikkerhet ved tørrår og lar Norge importere strøm når det trengs.
+mot: Eksport gir store inntekter til kraftselskaper som i stor grad eies av staten og kommunene.
+mot: Utvekslingen bidrar til Europas grønne omstilling og til at havvind kan bli lønnsomt.
+
+### energy_price_control
+tema: energi
+klynge: strompris
+dim: econ=-1
+kort: Statlig styrt strømpris
+tekst: Staten bør styre strømprisen for husholdningene, for eksempel med fastpris eller makspris, i stedet for at markedet alene bestemmer.
+bakgrunn: Fra høsten 2025 har husholdninger kunnet velge «Norgespris», en fast strømpris garantert av staten, som alternativ til strømstøtteordningen. Tidligere ble prisen i hovedsak satt i markedet, med strømstøtte ved høye priser.
+for: Strøm er en nødvendighet, og folk trenger forutsigbare utgifter.
+for: Norge har billig vannkraft som bør gi lave priser til innbyggerne.
+for: Høye strømpriser rammer særlig dem med lav inntekt og dårlig isolerte boliger.
+mot: Faste priser svekker insentivet til å spare strøm når kraften er knapp.
+mot: Det kan bli svært dyrt for staten i perioder med høye priser.
+mot: Markedspriser gir riktige signaler om hvor og når det lønner seg å bygge ny kraft.
+
+### eu_energy_package
+tema: eu
+klynge: euregler
+dim: intl=-1
+kort: Nei til EUs fjerde energimarkedspakke
+tekst: Norge bør si nei til EUs fjerde energimarkedspakke.
+bakgrunn: EUs fjerde energimarkedspakke er et sett regler for det europeiske strømmarkedet. Spørsmålet om Norge skal innlemme den gjennom EØS-avtalen, har skapt stor debatt, blant annet om hvor mye makt som overføres til EUs energibyrå ACER.
+for: Norge bør ha full nasjonal kontroll over kraften og kraftmarkedet.
+for: Regelverket kan gjøre det vanskeligere å skjerme norske forbrukere mot høye europeiske priser.
+for: Overføring av myndighet til EU-organer svekker folkestyret.
+mot: Regelverket er viktig for at norsk næringsliv skal ha like vilkår i det europeiske markedet.
+mot: Å si nei kan skape usikkerhet om EØS-samarbeidet og gi mottiltak fra EU.
+mot: Mye av innholdet handler om forbrukerrettigheter og fornybar energi som også gagner Norge.

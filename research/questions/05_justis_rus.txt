@@ -1,0 +1,97 @@
+### just_sentences
+tema: justis
+klynge: straff
+dim: justice=+1
+kort: Strengere straffer
+tekst: Straffene for alvorlig kriminalitet bør generelt bli strengere enn i dag.
+bakgrunn: Norge har et relativt mildt straffenivå sammenlignet med mange land, og legger stor vekt på rehabilitering. Samtidig har bekymringen for gjengkriminalitet og vold økt.
+for: Strengere straffer kan avskrekke og holde farlige personer borte fra samfunnet lenger.
+for: Straffen bør stå i forhold til alvoret i forbrytelsen og ofrenes opplevelse av rettferdighet.
+for: Mange opplever at dagens straffenivå ikke samsvarer med folks rettsfølelse.
+mot: Forskning tyder på at sannsynligheten for å bli tatt avskrekker mer enn straffens lengde.
+mot: Lengre fengselsopphold kan gjøre det vanskeligere å komme tilbake til et lovlydig liv.
+mot: Norge har lav tilbakefallsrate, og det kan henge sammen med vekten på rehabilitering.
+
+### just_police_arms
+tema: justis
+klynge: politi
+dim: justice=+1
+kort: Generell bevæpning av politiet
+tekst: Politiet bør være generelt bevæpnet.
+bakgrunn: Norsk politi har i dag våpen tilgjengelig i patruljebilene, men bærer dem ikke fast. Ved særskilte trusler kan det gis midlertidig bevæpning.
+for: Det kan gi politiet raskere respons i farlige situasjoner, som skyting eller terror.
+for: Det kan øke tryggheten for politibetjentene selv.
+for: Trusselbildet med gjengkriminalitet og våpen har endret seg.
+mot: Et ubevæpnet politi bidrar til høy tillit og lav terskel for kontakt med befolkningen.
+mot: Flere våpen i hverdagen kan øke risikoen for vådeskudd og opptrapping av konflikter.
+mot: Dagens ordning med våpen i bilen og mulighet for midlertidig bevæpning er tilstrekkelig.
+
+### just_surveillance
+tema: justis
+klynge: overvaking
+dim: social=-1, justice=+1
+kort: Mer overvåking for å bekjempe kriminalitet
+tekst: Politiet bør få flere digitale verktøy, som utvidet overvåking og ansiktsgjenkjenning, for å bekjempe alvorlig kriminalitet.
+bakgrunn: Kriminelle nettverk bruker krypterte tjenester og ny teknologi. Politiet ønsker ofte flere hjemler, mens personvernorganisasjoner advarer mot økt overvåking av vanlige borgere.
+for: Politiet må kunne holde tritt med kriminelle som bruker avansert teknologi.
+for: Bedre verktøy kan avdekke og forhindre alvorlige forbrytelser og terror.
+for: Med domstolskontroll kan verktøyene brukes målrettet og forholdsmessig.
+mot: Overvåking kan ramme uskyldige og svekke personvernet for alle.
+mot: Verktøy som innføres for alvorlig kriminalitet, kan senere bli brukt mer bredt.
+mot: Ansiktsgjenkjenning kan gi feil identifisering og diskriminering.
+
+### just_alt_sentences
+tema: justis
+klynge: straff
+dim: justice=-1
+kort: Mer fotlenke og samfunnsstraff
+tekst: Flere lovbrytere bør sone med fotlenke eller samfunnsstraff i stedet for i fengsel.
+bakgrunn: I dag kan noen domfelte sone med elektronisk kontroll (fotlenke) eller få samfunnsstraff i stedet for ubetinget fengsel, særlig ved kortere straffer.
+for: Soning i samfunnet gjør det lettere å beholde jobb, bolig og familie, og kan redusere tilbakefall.
+for: Det er billigere enn fengsel og frigjør plasser til de farligste.
+for: Fengsel kan føre unge lovbrytere inn i kriminelle miljøer.
+mot: Fotlenke kan oppleves som en for mild reaksjon, også av ofrene.
+mot: Samfunnsvernet svekkes hvis personer som utgjør en fare, soner hjemme.
+mot: Kontrollen kan være svakere, og noen begår nye lovbrudd under soningen.
+
+### drug_decrim
+tema: rus
+klynge: rusbruk
+dim: social=+1
+kort: Ikke straff for egen bruk
+tekst: Bruk og besittelse av små mengder narkotika til eget bruk bør ikke straffes.
+bakgrunn: Stortinget stemte i 2021 ned regjeringen Solbergs rusreform, som ville fjerne straff for bruk og besittelse av små mengder. Etter dommer i Høyesterett og nye retningslinjer fra riksadvokaten blir personer med rusavhengighet i dag i liten grad straffet for bruk og besittelse av små mengder.
+for: Rusavhengighet er en helseutfordring, og straff kan gjøre det vanskeligere å søke hjelp.
+for: Straff kan gi rulleblad som ødelegger jobb- og utdanningsmuligheter for unge.
+for: Erfaringer fra land som Portugal tyder på at avkriminalisering ikke nødvendigvis øker bruken.
+mot: Straff gir et tydelig signal om at narkotika er skadelig og kan virke forebyggende, særlig for unge.
+mot: Politiet kan miste et viktig verktøy for å avdekke rusbruk hos ungdom tidlig.
+mot: Avkriminalisering kan normalisere bruk og øke etterspørselen som finansierer kriminelle nettverk.
+
+### drug_cannabis
+tema: rus
+klynge: legalisering
+dim: social=+1
+kort: Lovlig salg av cannabis
+tekst: Det bør innføres lovlig, strengt regulert salg av cannabis til voksne.
+bakgrunn: Cannabis er ulovlig i Norge. Enkelte land og delstater, som Canada, Uruguay og flere amerikanske delstater, har innført lovlig regulert salg. Tyskland har åpnet for begrenset lovlig bruk.
+for: Regulert salg kan ta markedet fra kriminelle og gi kontroll med kvalitet og aldersgrenser.
+for: Voksne bør selv kunne bestemme over eget liv så lenge de ikke skader andre.
+for: Staten kan få avgiftsinntekter som kan brukes på forebygging og behandling.
+mot: Økt tilgjengelighet kan føre til mer bruk og flere skader, særlig blant unge.
+mot: Cannabis kan gi psykiske lidelser og avhengighet.
+mot: Erfaringer fra andre land er blandede, og det illegale markedet forsvinner ikke helt.
+
+### drug_alcohol
+tema: rus
+klynge: alkohol
+dim: social=+1
+kort: Mindre streng alkoholpolitikk
+tekst: Alkoholpolitikken bør bli mindre streng, for eksempel ved at sterkøl og vin kan selges i vanlige butikker.
+bakgrunn: I dag kan bare drikke med inntil 4,7 prosent alkohol selges i dagligvarebutikker. Sterkere drikke selges gjennom Vinmonopolet. Norge har også høye alkoholavgifter.
+for: Voksne mennesker bør selv få bestemme hvor de kjøper lovlige varer.
+for: Strenge regler og høye avgifter gir grensehandel og smugling.
+for: Lokale bryggerier og produsenter kan få bedre muligheter.
+mot: Økt tilgjengelighet gir økt forbruk og flere alkoholskader, ifølge mye forskning.
+mot: Vinmonopolet sikrer god kontroll med aldersgrenser og et bredt utvalg i hele landet.
+mot: Alkohol rammer også pårørende og barn, ikke bare dem som drikker.

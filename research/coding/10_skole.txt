@@ -1,0 +1,30 @@
+# --- edu_private_schools: «Det bør bli enklere å starte private skoler (friskoler) med offentlig støtte.»
+edu_private_schools|Ap|-2|HIGH|52-53|Ap vil ivareta dagens mangfold uten å øke innslaget av private skoler, og si nei til nye kommersielle privatskoler.
+edu_private_schools|H|2|HIGH|22|Høyre vil ha forutsigbar finansiering av friskoler og legge til rette for flere profilskoler, for eksempel yrkesfaglige friskoler.
+edu_private_schools|FrP|3|HIGH|68,72|FrP vil ha fri etableringsrett for private skoler som oppfyller kvalitetskrav og liberalisere privatskoleloven.
+edu_private_schools|Sp|-1|MEDIUM|125-126|Sp vil ikke endre dagens godkjenningsgrunnlag, men sørge for at privatskoler ikke svekker det offentlige skoletilbudet.
+edu_private_schools|SV|U|-|26|SV vektlegger en inkluderende fellesskole, men tar ikke eksplisitt stilling til friskoler.
+edu_private_schools|R|U|-|-|Programmet tar ikke eksplisitt stilling.
+edu_private_schools|V|3|HIGH|16|Venstre mener det skal være rom for flere friskoler i Norge.
+edu_private_schools|KrF|3|HIGH|13|KrF vil ha en formålsstyrt friskolelov som legger til rette for skoler med spesiell egenart, og øke tilskuddet til 90 prosent.
+edu_private_schools|MDG|0|MEDIUM|30|MDG vil beholde adgangen til ikke-kommersielle private skoler med annen pedagogisk eller religiøs profil, uten å utvide den.
+# --- edu_absence_limit: «Fraværsgrensen i videregående skole bør beholdes.»
+edu_absence_limit|Ap|U|-|-|Programmet tar ikke stilling.
+edu_absence_limit|H|3|HIGH|23|Høyre vil beholde en nasjonal fraværsgrense.
+edu_absence_limit|FrP|3|HIGH|69|FrP vil også innføre fraværsgrense på ungdomsskolen.
+edu_absence_limit|Sp|1|MEDIUM|126|Sp vil at fraværsreglementet praktiseres fleksibelt, uten å avvikle det.
+edu_absence_limit|SV|-3|HIGH|27|SV vil fjerne dagens fraværsgrense.
+edu_absence_limit|R|-3|HIGH|28|Rødt vil jobbe mot fraværsgrensa.
+edu_absence_limit|V|U|-|-|Programmet tar ikke stilling.
+edu_absence_limit|KrF|2|HIGH|12|KrF vil beholde fraværsgrensen, men øke grensen fra 10 til 15 prosent i fag med få timer.
+edu_absence_limit|MDG|U|-|-|Programmet tar ikke stilling.
+# --- edu_national_tests: «Nasjonale prøver bør beholdes som et verktøy for å følge med på elevenes læring.»
+edu_national_tests|Ap|U|-|53|Ap vil «sikre fortsatt kunnskap om elevenes faglige utvikling over tid», uten å nevne nasjonale prøver.
+edu_national_tests|H|3|HIGH|25-26|Høyre mener nasjonale prøver og kartleggingsprøver er viktige og vil vurdere behovet for flere.
+edu_national_tests|FrP|3|HIGH|68|FrP mener nasjonale prøver og internasjonale målinger er viktige verktøy.
+edu_national_tests|Sp|-3|HIGH|125|Sp vil redusere testregimet, erstatte nasjonale prøver med et internt kartleggingsverktøy og avvikle deltakelse i PISA.
+edu_national_tests|SV|U|-|-|Programmet tar ikke stilling.
+edu_national_tests|R|-2|MEDIUM|26|Rødt kritiserer at nasjonale prøver har blitt gjenstand for prestisjejag og ført til mer undervisning rettet mot prøveresultater.
+edu_national_tests|V|U|-|-|Programmet tar ikke stilling.
+edu_national_tests|KrF|U|-|-|Programmet tar ikke stilling.
+edu_national_tests|MDG|-2|HIGH|29|MDG vil redusere mengden prøver og avvikle nasjonale prøver i dagens form.

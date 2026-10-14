@@ -1,0 +1,40 @@
+# --- work_sickpay: «Sykelønnen bør reduseres noe ved lange sykemeldinger (for eksempel fra 100 til 80 prosent etter seks måneder) for å få ned sykefraværet.»
+work_sickpay|Ap|-3|HIGH|18-19|Ap vil «garantere for at sykelønnen ikke kuttes» og at ansatte fortsatt skal ha full lønn under sykdom.
+work_sickpay|H|1|LOW|57-58|Høyre vil endre finansieringen (mer arbeidsgiveransvar ved langtidsfravær) og evaluere ordningen med partene, men sier ikke eksplisitt at kompensasjonen skal kuttes.
+work_sickpay|FrP|-2|MEDIUM|105-106|FrP vil ha en sykelønnsordning som «i likhet med dagens ordning» sikrer trygg inntekt, men foreslår en tidskontoordning.
+work_sickpay|Sp|-3|HIGH|28|Sp vil videreføre sykelønnsordningen på nivået den har i dag.
+work_sickpay|SV|-3|HIGH|13|SV vil bevare og styrke sykelønnsordningen.
+work_sickpay|R|-3|HIGH|10|Rødt vil forsvare sykelønnsordninga med full lønn under sykdom.
+work_sickpay|V|3|HIGH|24|Venstre vil reformere ordningen etter Sysselsettingsutvalgets ekspertgruppe: 100 % de første seks månedene, deretter 80 % ved full sykmelding.
+work_sickpay|KrF|1|LOW|51|KrF vil følge opp Sysselsettingsutvalgets anbefalinger om omlegging av sykepengeordningen, med vekt på arbeidsgivers insentiver og gradert sykmelding. Uklart om kompensasjonsgraden skal ned.
+work_sickpay|MDG|-2|MEDIUM|23|MDG vil forsvare sykelønnsordninga for alle, men flytte mer økonomisk ansvar for langtidsfravær til arbeidsgiver.
+# --- work_activity_duty: «Alle sosialhjelpsmottakere i arbeidsfør alder bør ha plikt til å delta i aktivitet for å få utbetalt støtte.»
+work_activity_duty|Ap|U|-|15|Ap vil innføre en aktivitetsreform for unge, men programmet tar ikke stilling til aktivitetsplikt for alle sosialhjelpsmottakere.
+work_activity_duty|H|3|HIGH|57|Høyre vil utvide aktivitetsplikten for sosialhjelpsmottakere til å omfatte alle, i første omgang opp til 40 år.
+work_activity_duty|FrP|3|HIGH|109-110|FrP vil innføre aktivitetsplikt for alle sosialhjelpsmottakere i arbeidsfør alder.
+work_activity_duty|Sp|1|MEDIUM|29|Sp vil videreføre aktivitetsplikt under 30 år kombinert med aktivitetsrett, og prøve den ut for eldre aldersgrupper.
+work_activity_duty|SV|U|-|-|Programmet tar ikke stilling.
+work_activity_duty|R|U|-|-|Programmet tar ikke stilling.
+work_activity_duty|V|U|-|-|Programmet tar ikke stilling.
+work_activity_duty|KrF|U|-|-|Programmet tar ikke stilling.
+work_activity_duty|MDG|-2|MEDIUM|23|MDG vil jobbe for en forsøksordning der aktivitetskrav for blant annet sosialstønad fjernes, og heller gi aktivitetsrett.
+# --- work_temp_agency: «Det bør bli enklere for bedrifter å ansette midlertidig og leie inn arbeidskraft fra bemanningsbyråer.»
+work_temp_agency|Ap|-3|HIGH|21,165|Ap vil opprettholde og styrke dagens regelverk for bemanningsbyrå og innleie og stanse utviklingen mot mer innleie og midlertidighet.
+work_temp_agency|H|3|HIGH|56|Høyre vil at næringslivet kan leie inn arbeidskraft ved behov i tråd med reglene fra 2019.
+work_temp_agency|FrP|3|HIGH|105,108|FrP vil gjeninnføre innleie ved arbeid av midlertidig karakter og en generell adgang til midlertidig ansettelse i 12 måneder.
+work_temp_agency|Sp|U|-|91|Programmet nevner kun utvidet adgang til midlertidige ansettelser i frivilligheten.
+work_temp_agency|SV|-3|HIGH|13|SV vil avvikle bemanningsbransjen og gjøre arbeidsformidling til et offentlig ansvar.
+work_temp_agency|R|-3|HIGH|10|Rødt vil forby bemanningsselskaper.
+work_temp_agency|V|3|HIGH|23|Venstre vil gjeninnføre innleie ved midlertidig arbeid, generell adgang til midlertidig ansettelse og oppheve det geografiske innleieforbudet i byggebransjen.
+work_temp_agency|KrF|U|-|-|Programmet tar ikke stilling.
+work_temp_agency|MDG|U|-|-|Programmet tar ikke stilling.
+# --- work_min_benefits: «Minsteytelsene i velferden (som minstepensjon, minste uføretrygd og sosialhjelp) bør økes betydelig.»
+work_min_benefits|Ap|1|MEDIUM|25|Ap vil at minstenivåene for pensjon skal følge utviklingen i samfunnet og ikke henge etter.
+work_min_benefits|H|U|-|-|Programmet tar ikke stilling til nivået på minsteytelsene.
+work_min_benefits|FrP|1|MEDIUM|112-113|FrP vil sikre minstepensjonister en anstendig pensjon og en minsteytelse i uførestønaden det går an å leve av, men vil avvikle supplerende stønad.
+work_min_benefits|Sp|2|MEDIUM|29|Sp vil øke minstepensjonen med et kronetillegg.
+work_min_benefits|SV|3|HIGH|4,14|SV vil øke minsteytelsene i folketrygden og lovfeste at sosialhjelp og trygd løftes til SIFO-nivå.
+work_min_benefits|R|3|HIGH|32,37|Rødt vil at ingen Nav-ytelser skal ligge under EUs fattigdomsgrense, og gjeninnføre minstepensjon.
+work_min_benefits|V|1|MEDIUM|24|Venstre vil ha høyere minstesatser i statlige ytelser for å redusere behovet for supplerende sosialhjelp.
+work_min_benefits|KrF|1|LOW|51|KrF vil at de som har minst skal prioriteres ved økninger i pensjoner.
+work_min_benefits|MDG|2|MEDIUM|21|MDG mener sosialhjelpssatsene bør dekke grunnleggende behov etter SIFOs referansebudsjett.
