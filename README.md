@@ -2,7 +2,7 @@
 
 En åpen og kildebasert norsk valgomat. Du svarer på **80 politiske påstander**. Valgomaten sammenligner svarene dine med de ni stortingspartienes **vedtatte programmer for 2025–2029** og viser *hvorfor* partiene passer eller ikke passer: per spørsmål, per tema, med kilde og sikkerhet for hvert partistandpunkt.
 
-**Sist oppdatert: 15. oktober 2026** · Partier: Ap, H, FrP, Sp, SV, Rødt, Venstre, KrF og MDG
+**Sist oppdatert: 14. oktober 2026** · Partier: Ap, H, FrP, Sp, SV, Rødt, Venstre, KrF og MDG
 
 ## Hovedtrekk
 
@@ -24,7 +24,7 @@ En åpen og kildebasert norsk valgomat. Du svarer på **80 politiske påstander*
   - politisk profil på sju akser;
   - kilde for hvert standpunkt.
 - **Personvern:** svarene lagres bare i nettleseren din. Den bygde siden har en Content-Security-Policy som forbyr alle nettverkskall, og det finnes ingen analyseverktøy.
-- **Tilgjengelighet:** utformet for mobil først, med mørk og lys modus, tastaturnavigasjon og automatisk lagring.
+- **Tilgjengelighet:** utformet for mobil først, med mørk og lys modus, en nøytral grafittfarge i grensesnittet (partifargene brukes bare til å skille partiene), WCAG AA-kontrast sjekket med axe-core, tastaturnavigasjon og automatisk lagring.
 
 ## Kom i gang
 
@@ -43,6 +43,7 @@ npm run audit      # regenererer RESEARCH_AUDIT.md, QUESTION_BANK.md og data/*.j
 ```bash
 npm run build && npx vite preview --port 4173 &
 BASE=http://localhost:4173/ npm run qa:smoke   # nettlesertest: 320/375 px og desktop, mørk modus, autosave, nullstilling
+BASE=http://localhost:4173/ npm run qa:review  # skjermbilder av alle sider (mobil/desktop, lys/mørk) + axe-core → test-results/review/
 npm run qa:stress                               # 8000+ syntetiske profiler → STRESS_TEST.md
 npm run qa:clusters                             # dobbelttellingsanalyse → test-results/clusters.md
 npm run qa:watch                                # Stortingssaker som kan avklare ukjente standpunkter

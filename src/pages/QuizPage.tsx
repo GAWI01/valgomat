@@ -100,7 +100,7 @@ export function QuizPage({ index, answers, setAnswer, setImportance, clearAnswer
       </div>
 
       <div className="card p-4 sm:p-7">
-        <h1 id="question-text" tabIndex={-1} className="text-[1.35rem] font-bold leading-snug outline-hidden sm:text-2xl sm:leading-8">
+        <h1 id="question-text" tabIndex={-1} className="text-[1.35rem] font-bold leading-snug outline-hidden focus-visible:ring-0 focus-visible:ring-offset-0 sm:text-2xl sm:leading-8">
           {q.text}
         </h1>
 
@@ -111,9 +111,9 @@ export function QuizPage({ index, answers, setAnswer, setImportance, clearAnswer
           aria-controls={panelId}
           onClick={() => setOpen((o) => !o)}
         >
-          <span aria-hidden="true" className={`inline-block transition-transform ${open ? 'rotate-90' : ''}`}>
-            ▸
-          </span>
+          <svg aria-hidden="true" viewBox="0 0 20 20" className={`h-4 w-4 shrink-0 fill-current transition-transform ${open ? 'rotate-90' : ''}`}>
+            <path d="M7 4l7 6-7 6V4z" />
+          </svg>
           <span>
             Hva handler dette om?
             <span className="muted block text-sm font-normal">Bakgrunn og argumenter for og mot</span>
@@ -180,14 +180,15 @@ export function QuizPage({ index, answers, setAnswer, setImportance, clearAnswer
       </div>
 
       <nav className="mt-5 flex items-center justify-between gap-2" aria-label="Navigasjon mellom spørsmål">
-        <button type="button" className="btn-outline" onClick={() => go(i - 1)} disabled={i === 0}>
-          <span aria-hidden="true">←</span> Forrige
+        <button type="button" className="btn-outline whitespace-nowrap max-sm:px-3" onClick={() => go(i - 1)} disabled={i === 0}>
+          <span aria-hidden="true" className="max-[400px]:hidden">←</span> Forrige
         </button>
-        <a className="btn-ghost text-sm" href={href({ name: 'overview' })}>
-          Alle spørsmål
+        <a className="btn-ghost whitespace-nowrap text-sm max-sm:px-2" href={href({ name: 'overview' })}>
+          <span className="sm:hidden">Oversikt</span>
+          <span className="max-sm:hidden">Alle spørsmål</span>
         </a>
-        <button type="button" className="btn-primary" onClick={() => go(i + 1)}>
-          {i === total - 1 ? 'Se resultat' : a ? 'Neste' : 'Hopp over'} <span aria-hidden="true">→</span>
+        <button type="button" className="btn-primary whitespace-nowrap max-sm:px-3" onClick={() => go(i + 1)}>
+          {i === total - 1 ? 'Se resultat' : a ? 'Neste' : 'Hopp over'} <span aria-hidden="true" className="max-[400px]:hidden">→</span>
         </button>
       </nav>
 

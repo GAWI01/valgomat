@@ -16,7 +16,8 @@
     "qa:clusters": "node scripts/qa/run-ts.mjs scripts/qa/clusters.ts",
     "qa:smoke": "node scripts/qa/smoke.mjs",
     "qa:watch": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 node scripts/qa/watch-storting.mjs",
-    "party-review": "node scripts/party-review.mjs"
+    "party-review": "node scripts/party-review.mjs",
+    "qa:review": "node scripts/qa/review.mjs"
   },
   "dependencies": {
     "react": "^19.3.0",
@@ -28,6 +29,7 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^5.2.0",
+    "axe-core": "^4.10.3",
     "jsdom": "^26.1.0",
     "playwright-core": "^1.64.1",
     "postcss": "^8.5.30",

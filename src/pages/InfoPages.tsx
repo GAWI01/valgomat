@@ -53,7 +53,7 @@ export function HomePage({ answers, onReset }: { answers: Answers; onReset: () =
         <ul className="mt-3 flex flex-wrap gap-2">
           {data.parties.map((p) => (
             <li key={p.id} className="flex items-center gap-2 rounded-lg bg-sand-100 px-2 py-1 text-sm dark:bg-white/5">
-              <PartySwatch id={p.id} size="sm" /> {p.name}
+              <PartySwatch id={p.id} size="sm" /> <span className="max-sm:sr-only">{p.name}</span>
             </li>
           ))}
         </ul>
@@ -353,16 +353,19 @@ export function SourcesPage() {
       </p>
 
       <h2>Kodingen i tall</h2>
-      <div className="not-prose overflow-x-auto">
-        <table className="w-full min-w-[520px] text-sm">
+      <div className="not-prose overflow-x-auto" tabIndex={0} role="region" aria-label="Dekning per parti (rull sidelengs)">
+        <table className="w-full text-sm">
           <thead>
             <tr className="border-b border-sand-200 text-left dark:border-white/10">
-              <th className="p-2">Parti</th>
+              <th className="p-2 text-left">Parti</th>
               <th className="p-2 text-right">Høy</th>
               <th className="p-2 text-right">Middels</th>
               <th className="p-2 text-right">Lav</th>
               <th className="p-2 text-right">Ukjent</th>
-              <th className="p-2 text-right">Andel kodet</th>
+              <th className="p-2 text-right">
+                <span className="sm:hidden">Kodet</span>
+                <span className="max-sm:hidden">Andel kodet</span>
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -370,7 +373,7 @@ export function SourcesPage() {
               <tr key={p.id} className="border-b border-sand-100 dark:border-white/5">
                 <td className="p-2">
                   <span className="inline-flex items-center gap-2">
-                    <PartySwatch id={p.id} size="sm" /> {p.name}
+                    <PartySwatch id={p.id} size="sm" /> <span className="max-sm:sr-only">{p.name}</span>
                   </span>
                 </td>
                 <td className="p-2 text-right tabular-nums">{high}</td>
@@ -396,7 +399,7 @@ export function SourcesPage() {
       <h2>Kildebibliotek</h2>
       <ul className="not-prose space-y-3">
         {data.sources.map((s) => (
-          <li key={s.id} className="card p-4 text-sm">
+          <li key={s.id} className="card p-4 text-sm [overflow-wrap:anywhere]">
             <p className="font-semibold">
               <a href={s.url} target="_blank" rel="noopener noreferrer">
                 {s.title}

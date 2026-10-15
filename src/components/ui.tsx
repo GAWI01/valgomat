@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import type { Confidence, SourceRef } from '../lib/types';
-import { CONFIDENCE_HELP, CONFIDENCE_LABEL, party, refLabel, refUrl, valueLabel } from '../lib/data';
+import { CONFIDENCE_HELP, CONFIDENCE_LABEL, party, refLabel, refUrl, textOn, valueLabel } from '../lib/data';
 
 export function PartySwatch({ id, size = 'md' }: { id: string; size?: 'sm' | 'md' | 'lg' }) {
   const p = party(id);
@@ -8,8 +8,8 @@ export function PartySwatch({ id, size = 'md' }: { id: string; size?: 'sm' | 'md
   return (
     <span
       aria-hidden="true"
-      className={`inline-flex shrink-0 items-center justify-center rounded-lg px-1 font-bold text-white ${cls}`}
-      style={{ backgroundColor: p.color }}
+      className={`inline-flex shrink-0 items-center justify-center rounded-lg px-1 font-bold ${cls}`}
+      style={{ backgroundColor: p.color, color: textOn(p.color) }}
     >
       {p.short}
     </span>
@@ -49,8 +49,8 @@ export function ScaleDots({ value, label, color }: { value: number | null; label
         {[-3, -2, -1, 0, 1, 2, 3].map((v) => (
           <span
             key={v}
-            className={`h-2.5 w-2.5 rounded-full ${v === value ? '' : 'bg-sand-200 dark:bg-white/15'}`}
-            style={v === value ? { backgroundColor: color ?? '#5847c9' } : undefined}
+            className={`h-2.5 w-2.5 rounded-full ${v !== value ? 'bg-sand-200 dark:bg-white/15' : color ? '' : 'bg-ink dark:bg-white'}`}
+            style={v === value && color ? { backgroundColor: color } : undefined}
           />
         ))}
       </span>

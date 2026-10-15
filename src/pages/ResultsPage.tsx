@@ -1,6 +1,7 @@
+import type { CSSProperties } from 'react';
 import { useMemo } from 'react';
 import type { Answers } from '../lib/types';
-import { data, orderedQuestions, party, pct, question, themeLabel, valueLabel } from '../lib/data';
+import { data, orderedQuestions, party, pct, question, textOn, themeLabel, valueLabel } from '../lib/data';
 import { computeResults, isModestFit, partyDimensions, userDimensions, MIN_ANSWERS_FOR_RESULT, type PartyResult, type ResultSummary } from '../lib/scoring';
 import { buildInsights, type Insight } from '../lib/insights';
 import { href } from '../lib/router';
@@ -156,7 +157,7 @@ function RankRow({ r, rank, summary }: { r: PartyResult; rank: number; summary: 
             <span className="shrink-0 whitespace-nowrap text-xl font-extrabold tabular-nums">{pct(r.score)}</span>
           </div>
           <div className="relative mt-1.5 h-3 rounded-full bg-sand-100 dark:bg-white/10" aria-hidden="true">
-            <div className="absolute inset-y-0 left-0 rounded-full" style={{ width: `${(r.score ?? 0) * 100}%`, backgroundColor: p.color, opacity: 0.85 }} />
+            <div className="absolute inset-y-0 left-0 rounded-full dark:ring-1 dark:ring-inset dark:ring-white/40" style={{ width: `${(r.score ?? 0) * 100}%`, backgroundColor: p.color, opacity: 0.85 }} />
             {Number.isFinite(lo) && (
               <div className="absolute top-1/2 h-[3px] -translate-y-1/2 rounded-sm bg-ink/60 dark:bg-white/70" style={{ left: `${lo * 100}%`, width: `${Math.max(0.5, (hi - lo) * 100)}%` }} />
             )}
@@ -232,11 +233,12 @@ function InsightText({ ins }: { ins: Insight }) {
   }
 }
 
-function heat(score: number | null): string {
-  if (score === null) return 'transparent';
-  // 0.3 → lys, 1 → mettet. Fargen er nøytral (ikke rød/grønn) for å fungere ved fargeblindhet.
+/** Intensitet for temaoversikten: nøytral grafitt (ikke rød/grønn, ikke en partifarge), lysere tone i mørk modus. */
+function heat(score: number | null): CSSProperties {
+  if (score === null) return {};
   const t = Math.max(0, Math.min(1, (score - 0.3) / 0.7));
-  return `rgba(88, 71, 201, ${0.08 + t * 0.55})`;
+  const a = 0.08 + t * 0.55;
+  return { '--heat': a, '--heat-dark': a * 0.6 } as CSSProperties;
 }
 
 function ThemeTable({ summary }: { summary: ResultSummary }) {
@@ -244,12 +246,12 @@ function ThemeTable({ summary }: { summary: ResultSummary }) {
   const themes = summary.ranking[0].themes;
   return (
     <div className="card overflow-hidden">
-      <div className="overflow-x-auto">
+      <div className="overflow-x-auto" tabIndex={0} role="region" aria-label="Match per tema (rull sidelengs)">
         <table className="w-full min-w-[640px] border-collapse text-sm">
           <caption className="sr-only">Matchscore per tema og parti</caption>
           <thead>
             <tr className="border-b border-sand-200 dark:border-white/10">
-              <th scope="col" className="sticky left-0 z-10 bg-white p-2 text-left font-semibold dark:bg-[#17182e]">
+              <th scope="col" className="sticky left-0 z-10 bg-white p-2 text-left font-semibold dark:bg-[#1a1d23]">
                 Tema
               </th>
               <th scope="col" className="p-2 text-right font-semibold">
@@ -267,7 +269,7 @@ function ThemeTable({ summary }: { summary: ResultSummary }) {
           <tbody>
             {themes.map((t) => (
               <tr key={t.theme} className="border-b border-sand-100 last:border-0 dark:border-white/5">
-                <th scope="row" className="sticky left-0 z-10 bg-white p-2 text-left font-medium dark:bg-[#17182e]">
+                <th scope="row" className="sticky left-0 z-10 bg-white p-2 text-left font-medium dark:bg-[#1a1d23]">
                   {themeLabel(t.theme)}
                   <span className="muted block text-xs font-normal">{t.answered} svar</span>
                 </th>
@@ -276,7 +278,7 @@ function ThemeTable({ summary }: { summary: ResultSummary }) {
                   const ts = summary.ranking.find((r) => r.party === p)!.themes.find((x) => x.theme === t.theme)!;
                   return (
                     <td key={p} className="p-1 text-center tabular-nums">
-                      <span className="block rounded-md px-1 py-1.5" style={{ backgroundColor: heat(ts.score) }} title={ts.known < ts.answered ? `${party(p).short}: kjent standpunkt på ${ts.known} av ${ts.answered} spørsmål` : undefined}>
+                      <span className="block rounded-md bg-[rgb(71_85_105/var(--heat,0))] px-1 py-1.5 dark:bg-[rgb(203_213_225/var(--heat-dark,0))]" style={heat(ts.score)} title={ts.known < ts.answered ? `${party(p).short}: kjent standpunkt på ${ts.known} av ${ts.answered} spørsmål` : undefined}>
                         {ts.score === null ? <span className="muted">–</span> : Math.round(ts.score * 100)}
                         {ts.score !== null && ts.known < ts.answered && <sup className="muted">*</sup>}
                       </span>
@@ -312,25 +314,7 @@ function Profile({ answers }: { answers: Answers }) {
               <p className="muted mt-2 text-sm">For få svar til å plassere deg på denne aksen (minst 3 trengs).</p>
             ) : (
               <>
-                <div className="relative mt-8 h-2 rounded-full bg-linear-to-r from-sand-200 via-sand-100 to-sand-200 dark:from-white/10 dark:via-white/5 dark:to-white/10">
-                  <span className="absolute left-1/2 top-1/2 h-4 w-px -translate-y-1/2 bg-ink/20 dark:bg-white/20" aria-hidden="true" />
-                  {data.parties.map((p) => {
-                    const v = partyDims[p.id][i].value;
-                    if (v === null) return null;
-                    return (
-                      <span key={p.id} className="absolute -top-7 -translate-x-1/2" style={{ left: `${((v + 1) / 2) * 100}%` }} aria-hidden="true" title={`${p.name}`}>
-                        <span className="block rounded-sm px-0.5 text-[9px] font-bold leading-4 text-white" style={{ backgroundColor: p.color }}>
-                          {p.short}
-                        </span>
-                      </span>
-                    );
-                  })}
-                  <span
-                    className="absolute top-1/2 h-5 w-5 -translate-x-1/2 -translate-y-1/2 rounded-full border-[3px] border-white bg-ink shadow-sm dark:border-[#17182e] dark:bg-white"
-                    style={{ left: `${((u.value + 1) / 2) * 100}%` }}
-                    aria-hidden="true"
-                  />
-                </div>
+                <AxisTrack dimIndex={i} partyDims={partyDims} userValue={u.value} />
                 <div className="mt-2 flex justify-between gap-4 text-xs">
                   <span className="muted max-w-[45%]">{d.left}</span>
                   <span className="muted max-w-[45%] text-right">{d.right}</span>
@@ -351,3 +335,42 @@ function Profile({ answers }: { answers: Answers }) {
   );
 }
 
+type PartyDims = Record<string, ReturnType<typeof partyDimensions>>;
+
+/** Én akse i profilen. Partimerker som ligger nær hverandre, legges i hver sin rad så de ikke overlapper. */
+function AxisTrack({ dimIndex, partyDims, userValue }: { dimIndex: number; partyDims: PartyDims; userValue: number }) {
+  const MIN_GAP = 11; // prosent av bredden mellom merker i samme rad
+  const laneEnd: number[] = [];
+  const markers = data.parties
+    .flatMap((p) => {
+      const v = partyDims[p.id][dimIndex].value;
+      return v === null ? [] : [{ p, pos: ((v + 1) / 2) * 100 }];
+    })
+    .sort((a, b) => a.pos - b.pos)
+    .map((m) => {
+      let lane = laneEnd.findIndex((end) => m.pos - end >= MIN_GAP);
+      if (lane === -1) lane = laneEnd.length;
+      laneEnd[lane] = m.pos;
+      return { ...m, lane };
+    });
+  return (
+    <div
+      className="relative h-2 rounded-full bg-linear-to-r from-sand-200 via-sand-100 to-sand-200 dark:from-white/10 dark:via-white/5 dark:to-white/10"
+      style={{ marginTop: `${32 + 18 * Math.max(0, laneEnd.length - 1)}px` }}
+    >
+      <span className="absolute left-1/2 top-1/2 h-4 w-px -translate-y-1/2 bg-ink/20 dark:bg-white/20" aria-hidden="true" />
+      {markers.map(({ p, pos, lane }) => (
+        <span key={p.id} className="absolute -translate-x-1/2" style={{ left: `${pos}%`, top: `${-28 - 18 * lane}px` }} aria-hidden="true" title={p.name}>
+          <span className="block rounded-sm px-0.5 text-[9px] font-bold leading-4" style={{ backgroundColor: p.color, color: textOn(p.color) }}>
+            {p.short}
+          </span>
+        </span>
+      ))}
+      <span
+        className="absolute top-1/2 h-5 w-5 -translate-x-1/2 -translate-y-1/2 rounded-full border-[3px] border-white bg-ink shadow-sm dark:border-[#1a1d23] dark:bg-white"
+        style={{ left: `${((userValue + 1) / 2) * 100}%` }}
+        aria-hidden="true"
+      />
+    </div>
+  );
+}

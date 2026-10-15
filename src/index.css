@@ -3,18 +3,19 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --color-ink: #14162b;
-  --color-ink-soft: #3a3d5c;
+  /* Nøytral grafitt/skifer: ingen partifarge, slik at grensesnittet ikke kan assosieres med et parti. */
+  --color-ink: #111827;
+  --color-ink-soft: #4b5563;
 
-  --color-brand-50: #f1f0fd;
-  --color-brand-100: #e4e1fb;
-  --color-brand-200: #c9c3f6;
-  --color-brand-400: #8c7fe8;
-  --color-brand-500: #6c5ce0;
-  --color-brand-600: #5847c9;
-  --color-brand-700: #4636a8;
-  --color-brand-800: #382c85;
-  --color-brand-900: #241c57;
+  --color-brand-50: #f4f6f8;
+  --color-brand-100: #e7ebef;
+  --color-brand-200: #cdd4dc;
+  --color-brand-400: #8794a3;
+  --color-brand-500: #5f6b7a;
+  --color-brand-600: #3f4a57;
+  --color-brand-700: #2f3842;
+  --color-brand-800: #222932;
+  --color-brand-900: #161b21;
 
   --color-sand-50: #fbfaf7;
   --color-sand-100: #f4f2ec;
@@ -118,7 +119,7 @@
 }
 
 @utility card {
-  @apply rounded-2xl border border-sand-200 bg-white shadow-xs dark:border-white/10 dark:bg-[#17182e];
+  @apply rounded-2xl border border-sand-200 bg-white shadow-xs dark:border-white/10 dark:bg-[#1a1d23];
 }
 
 @utility btn {
@@ -126,7 +127,7 @@
 }
 
 @utility btn-primary {
-  @apply btn bg-brand-600 text-white hover:bg-brand-700 dark:bg-brand-500 dark:hover:bg-brand-400 dark:text-white;
+  @apply btn bg-brand-600 text-white hover:bg-brand-700 dark:bg-brand-100 dark:text-brand-900 dark:hover:bg-white;
 }
 
 @utility btn-ghost {
@@ -175,8 +176,8 @@
 
 @layer base {
   html { -webkit-text-size-adjust: 100%; }
-  body { @apply bg-sand-50 text-ink antialiased dark:bg-[#0f1020] dark:text-slate-100; }
-  :focus-visible { @apply outline-hidden ring-2 ring-brand-500 ring-offset-2 ring-offset-sand-50 dark:ring-brand-400 dark:ring-offset-[#0f1020]; }
+  body { @apply bg-sand-50 text-ink antialiased dark:bg-[#0f1115] dark:text-slate-100; }
+  :focus-visible { @apply outline-hidden ring-2 ring-brand-500 ring-offset-2 ring-offset-sand-50 dark:ring-brand-400 dark:ring-offset-[#0f1115]; }
   a { @apply text-brand-700 underline decoration-brand-200 underline-offset-2 hover:decoration-brand-600 dark:text-brand-200 dark:decoration-brand-700; }
   h1, h2, h3 { @apply tracking-tight; }
 }
