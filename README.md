@@ -4,7 +4,10 @@
 
 ![Tester](https://img.shields.io/badge/tester-41%20best%C3%A5tt-2f3842) ![Sårbarheter](https://img.shields.io/badge/npm%20audit-0%20s%C3%A5rbarheter-2f3842) ![Tilgjengelighet](https://img.shields.io/badge/axe--core-0%20brudd-2f3842) ![Personvern](https://img.shields.io/badge/sporing-ingen-2f3842) ![Åpne data](https://img.shields.io/badge/data-%C3%A5pne-2f3842)
 
-![Valgomat 2027 på mobil: forside i lys og mørk modus, et spørsmål og resultatet](docs/screenshots.webp)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/img/hjem-dark.webp">
+  <img src="docs/img/hjem-light.webp" alt="Forsiden til Valgomat 2027 med glassdesign">
+</picture>
 
 En åpen og kildebasert norsk valgomat. Du svarer på **80 politiske påstander**. Valgomaten sammenligner svarene dine med de ni stortingspartienes **vedtatte programmer for 2025–2029** og viser *hvorfor* partiene passer eller ikke passer: per spørsmål, per tema, med kilde og sikkerhet for hvert partistandpunkt.
 
@@ -31,6 +34,70 @@ En åpen og kildebasert norsk valgomat. Du svarer på **80 politiske påstander*
   - kilde for hvert standpunkt.
 - **Personvern:** svarene lagres bare i nettleseren din. Den bygde siden har en Content-Security-Policy som forbyr alle nettverkskall, og det finnes ingen analyseverktøy.
 - **Tilgjengelighet:** utformet for mobil først, med mørk og lys modus, en glassdesign i Apple-stil (gjennomskinnelige flater med uskarp bakgrunn, respekterer «redusert gjennomsiktighet») i nøytral grafitt (partifargene brukes bare til å skille partiene), WCAG AA-kontrast sjekket med axe-core, tastaturnavigasjon og automatisk lagring.
+
+## Slik ser det ut
+
+Bildene følger GitHub-temaet ditt: lys modus i lyst tema og mørk modus i mørkt. Svarene i eksemplene er en nøytral sentrumsprofil.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Ærlig rangering.** Prosent, usikkerhetsintervall og datagrunnlag for hvert parti. Når partiene ligger nær hverandre, sier valgomaten det.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/img/rangering-dark.webp">
+  <img src="docs/img/rangering-light.webp" alt="Resultatsiden med vurderingen «Nær match» og rangerte partier">
+</picture>
+
+</td>
+<td width="50%" valign="top">
+
+**Match per tema.** Viser hvorfor et parti kan ligge nær deg på noen områder og langt unna på andre.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/img/tema-dark.webp">
+  <img src="docs/img/tema-light.webp" alt="Tabell med match per politikkområde for alle ni partier">
+</picture>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Politisk profil.** Sju akser beregnet fra svarene dine, med partienes plassering.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/img/profil-dark.webp">
+  <img src="docs/img/profil-light.webp" alt="Politisk profil på sju akser med deg og partiene">
+</picture>
+
+</td>
+<td valign="top">
+
+**Hvert standpunkt har kilde.** Partienes koding, sikkerhet, begrunnelse og lenke til riktig side i programmet.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/img/sak-dark.webp">
+  <img src="docs/img/sak-light.webp" alt="Sakssiden med partienes standpunkter, sikkerhet og kilde">
+</picture>
+
+<br><br>
+
+**Hvorfor dette partiet?** Hva du er mest enig og mest uenig med hvert parti i.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/img/parti-dark.webp">
+  <img src="docs/img/parti-light.webp" alt="Partisiden med det du er mest enig med partiet i">
+</picture>
+
+</td>
+</tr>
+</table>
+
+**På mobil** – forside i lys og mørk modus, et spørsmål og resultatet:
+
+<img src="docs/img/mobil.webp" alt="Valgomat 2027 på mobil: forside i lys og mørk modus, et spørsmål og resultatet">
 
 ## Kom i gang
 
@@ -86,6 +153,7 @@ Dekningen per parti (andel av vekten med kjent standpunkt når alle spørsmål e
 | `src/pages/` | Forside, spørsmålsflyt, resultat, parti, sak, metode, «Hvorfor ulikt?», kilder |
 | `tests/` | Vitest-tester for scoring, dataintegritet og sikkerhet |
 | `party-review/` | Gjennomgangspakker til partiene (md og csv), følgebrev og rutine |
+| `docs/img/` | Skjermbilder til README-en, i lys og mørk modus |
 
 ## Dokumentasjon
 
