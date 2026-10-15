@@ -2,7 +2,7 @@
 
 **[▶ Prøv valgomaten: valgomat-2027.vercel.app](https://valgomat-2027.vercel.app)**
 
-![Tester](https://img.shields.io/badge/tester-41%20best%C3%A5tt-2f3842) ![Sårbarheter](https://img.shields.io/badge/npm%20audit-0%20s%C3%A5rbarheter-2f3842) ![Tilgjengelighet](https://img.shields.io/badge/axe--core-0%20brudd-2f3842) ![Personvern](https://img.shields.io/badge/sporing-ingen-2f3842) ![Åpne data](https://img.shields.io/badge/data-%C3%A5pne-2f3842)
+![Tester](https://img.shields.io/badge/tester-41%20best%C3%A5tt-2f3842) ![Sårbarheter](https://img.shields.io/badge/npm%20audit-0%20s%C3%A5rbarheter-2f3842) ![Tilgjengelighet](https://img.shields.io/badge/axe--core-0%20brudd-2f3842) ![Personvern](https://img.shields.io/badge/sporing-ingen-2f3842) ![Åpne data](https://img.shields.io/badge/data-%C3%A5pne-2f3842) ![Lisens](https://img.shields.io/badge/lisens-MIT%20%2B%20CC%20BY%204.0-2f3842)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/img/hjem-dark.webp">
@@ -167,6 +167,10 @@ Dekningen per parti (andel av vekten med kjent standpunkt når alle spørsmål e
 ## Teknologi
 
 Vite 7, React 19, TypeScript, Tailwind CSS 4 og Vitest 5. Valgomaten trenger ingen server. Alt beregnes i nettleseren, svarene forlater aldri brukerens maskin, og et statisk bygg er enkelt å drifte. Diagrammene er ren SVG/HTML, for full kontroll over tilgjengelighet og mobilvisning. `npm audit` viser 0 sårbarheter.
+
+## Lisens
+
+Koden er lisensiert under MIT (se LICENSE). Dataene – spørsmål, partikodinger, begrunnelser og kildehenvisninger i data/, research/ og src/data/data.json – er lisensiert under CC BY 4.0 (se LICENSE-DATA). Gjenbruk er velkommen med kreditering: «Valgomat 2027 (github.com/GAWI01/valgomat)». Partiprogrammene selv tilhører partiene og er ikke en del av repoet.
 
 ## Forbehold
 
