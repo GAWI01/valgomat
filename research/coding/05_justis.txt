@@ -1,0 +1,40 @@
+# --- just_sentences: «Straffene for alvorlig kriminalitet bør generelt bli strengere enn i dag.»
+just_sentences|Ap|1|MEDIUM|101|Ap vil innføre strengere straffer mot gjengvold og gjengenes våpenbruk, men tar ikke til orde for et generelt høyere straffenivå.
+just_sentences|H|2|HIGH|1,13|Høyre vil gi «strengere straffer» og heve flere strafferammer (våpen, bruk av mindreårige, æresrelatert kriminalitet).
+just_sentences|FrP|3|HIGH|36|FrP vil skjerpe straffenivået generelt og øke maksstraffen til 50 år.
+just_sentences|Sp|1|LOW|83,85,88|Sp vil gjøre æresvold straffeskjerpende og utvide adgangen til forvaring, men mener straffenivå må vurderes jevnlig.
+just_sentences|SV|-3|HIGH|51|SV vil gjennomgå det totale straffenivået med mål om å senke det.
+just_sentences|R|0|LOW|97-98|Rødt vil skjerpe straffene for blant annet seksuelt misbruk av barn, voldtekt og partnervold, men holde fast ved lave fengselsrater.
+just_sentences|V|-1|MEDIUM|45-46|Venstre mener straffenivået skal settes ut fra preventive hensyn, ikke hevn, og vil redusere bruken av minstestraffer.
+just_sentences|KrF|-1|HIGH|21|KrF vil «beholde det generelle straffenivået», men vurdere straffenivået for seksuallovbrudd.
+just_sentences|MDG|U|-|70|Programmet vil øke strafferammene for miljøkriminalitet, men tar ikke stilling til det generelle nivået.
+# --- just_police_arms: «Politiet bør være generelt bevæpnet.»
+just_police_arms|Ap|3|HIGH|src:ap_lm2025_bevapning|Landsmøtet 2025 vedtok at det bør innføres generell bevæpning av politiet, med en tydelig innramming.
+just_police_arms|H|3|HIGH|11|Høyre vil innføre generell bevæpning av politiet.
+just_police_arms|FrP|3|HIGH|33-34|FrP vil innføre generell bevæpning av norsk politi.
+just_police_arms|Sp|3|HIGH|82|Sp går inn for generell bevæpning av politiet.
+just_police_arms|SV|-3|HIGH|50|SV vil ha et ubevæpnet politi med punktsikring og framskutt lagring.
+just_police_arms|R|-3|HIGH|99|Rødt går imot generell bevæpning av politiet.
+just_police_arms|V|-3|HIGH|44-45|Venstre vil ikke åpne for generell bevæpning, men ha våpen tilgjengelig i bilene.
+just_police_arms|KrF|3|HIGH|21|KrF vil innføre generell bevæpning.
+just_police_arms|MDG|-3|HIGH|69|MDG går mot generell bevæpning av politiet.
+# --- just_surveillance: «Politiet bør få flere digitale verktøy, som utvidet overvåking og ansiktsgjenkjenning, for å bekjempe alvorlig kriminalitet.»
+just_surveillance|Ap|1|MEDIUM|src:sting_innst_368l_2526|Ap-regjeringen har foreslått og Ap støttet utvidet adgang til skjult kameraovervåking med mobilt kamera og droner (Prop. 59 L, Innst. 368 L 2025–2026). Ansiktsgjenkjenning er ikke omtalt.
+just_surveillance|H|2|MEDIUM|11-12|Høyre vil oppdatere politiets og domstolenes «verktøykasse» og gi flere verktøy for å etterforske kriminelle nettverk.
+just_surveillance|FrP|2|MEDIUM|33-34|FrP vil begrense overvåking generelt, men mener politiet mangler effektive metoder mot alvorlig kriminalitet og vil pålegge datalagring og tillate rom- og telefonavlytting og bevisprovokasjon.
+just_surveillance|Sp|-1|MEDIUM|81|Sp er motstander av ny lovgivning som gir økt overvåking av lovlydige borgere, men godtar domstolsgodkjent overvåking ved alvorlig kriminalitet og terror.
+just_surveillance|SV|U|-|-|Programmet tar ikke stilling til politiets metoder.
+just_surveillance|R|-2|MEDIUM|76,85|Rødt vil hindre masseovervåking, ha strengere lover for datalagring og forby kommersiell ansiktsgjenkjenning i offentlige rom.
+just_surveillance|V|-2|MEDIUM|45,61|Venstre sier nei til all digital masseovervåking og vil ha høy terskel for politiets skjulte tvangsmidler.
+just_surveillance|KrF|-1|LOW|39,85|KrF vil forby kommersiell ansiktsgjenkjenning og at nye overvåkingsmetoder skal vurderes av domstolene.
+just_surveillance|MDG|-2|MEDIUM|66|MDG vil styrke personvernet og forby automatisk bruk av ansiktsgjenkjenning.
+# --- just_alt_sentences: «Flere lovbrytere bør sone med fotlenke eller samfunnsstraff i stedet for i fengsel.»
+just_alt_sentences|Ap|1|LOW|107|Ap vil sikre at domfelte på elektronisk kontroll får et rehabiliterende tilbud, men tar ikke eksplisitt til orde for økt bruk.
+just_alt_sentences|H|1|MEDIUM|14|Høyre vil utvide bruken av fotlenke som straff for unge lovbrytere.
+just_alt_sentences|FrP|-2|HIGH|37|FrP vil begrense elektronisk kontroll til mindre forseelser og overgangen fra ordinær soning.
+just_alt_sentences|Sp|2|HIGH|85-86|Sp vil utvide bruken av fotlenke, øke bruken av samfunnsstraff og satse på alternative straffereaksjoner.
+just_alt_sentences|SV|3|HIGH|51|SV vil styrke alternative soningsmåter og utvide bruken av elektronisk kontroll.
+just_alt_sentences|R|2|HIGH|97-98|Rødt vil utvikle og forsterke alternativer til fengsel og mener fengsel bør forbeholdes dem som er til skade for andre eller har begått betydelig kriminalitet.
+just_alt_sentences|V|3|HIGH|46|Venstre vil øke bruken av soning med fotlenke og videreutvikle samfunnsstraff.
+just_alt_sentences|KrF|U|-|-|Programmet tar ikke stilling.
+just_alt_sentences|MDG|3|HIGH|70|MDG vil prioritere alternative straffereaksjoner til fengsel, inkludert samfunnsstraff og fotlenke.

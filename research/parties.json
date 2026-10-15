@@ -1,0 +1,11 @@
+[
+  { "id": "Ap",  "name": "Arbeiderpartiet",            "short": "Ap",  "color": "#d62828", "programSource": "prog_ap" },
+  { "id": "H",   "name": "Høyre",                       "short": "H",   "color": "#1d4ed8", "programSource": "prog_h" },
+  { "id": "FrP", "name": "Fremskrittspartiet",          "short": "FrP", "color": "#0b3c7a", "programSource": "prog_frp" },
+  { "id": "Sp",  "name": "Senterpartiet",               "short": "Sp",  "color": "#15803d", "programSource": "prog_sp" },
+  { "id": "SV",  "name": "Sosialistisk Venstreparti",   "short": "SV",  "color": "#c2185b", "programSource": "prog_sv" },
+  { "id": "R",   "name": "Rødt",                        "short": "R",   "color": "#8b1a1a", "programSource": "prog_r" },
+  { "id": "V",   "name": "Venstre",                     "short": "V",   "color": "#0f766e", "programSource": "prog_v" },
+  { "id": "KrF", "name": "Kristelig Folkeparti",        "short": "KrF", "color": "#b8860b", "programSource": "prog_krf" },
+  { "id": "MDG", "name": "Miljøpartiet De Grønne",      "short": "MDG", "color": "#4d7c0f", "programSource": "prog_mdg" }
+]

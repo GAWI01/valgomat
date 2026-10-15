@@ -1,0 +1,186 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+  --color-ink: #14162b;
+  --color-ink-soft: #3a3d5c;
+
+  --color-brand-50: #f1f0fd;
+  --color-brand-100: #e4e1fb;
+  --color-brand-200: #c9c3f6;
+  --color-brand-400: #8c7fe8;
+  --color-brand-500: #6c5ce0;
+  --color-brand-600: #5847c9;
+  --color-brand-700: #4636a8;
+  --color-brand-800: #382c85;
+  --color-brand-900: #241c57;
+
+  --color-sand-50: #fbfaf7;
+  --color-sand-100: #f4f2ec;
+  --color-sand-200: #e8e4d9;
+
+  /* Tailwind v3-paletten (hex) for standardfargene appen bruker, slik at utseendet er uendret etter oppgradering til v4. */
+  --color-slate-50: #f8fafc;
+  --color-slate-100: #f1f5f9;
+  --color-slate-200: #e2e8f0;
+  --color-slate-300: #cbd5e1;
+  --color-slate-400: #94a3b8;
+  --color-slate-500: #64748b;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-800: #1e293b;
+  --color-slate-900: #0f172a;
+  --color-gray-200: #e5e7eb;
+  --color-amber-50: #fffbeb;
+  --color-amber-100: #fef3c7;
+  --color-amber-200: #fde68a;
+  --color-amber-300: #fcd34d;
+  --color-amber-400: #fbbf24;
+  --color-amber-500: #f59e0b;
+  --color-amber-600: #d97706;
+  --color-amber-700: #b45309;
+  --color-amber-800: #92400e;
+  --color-amber-900: #78350f;
+  --color-emerald-50: #ecfdf5;
+  --color-emerald-100: #d1fae5;
+  --color-emerald-200: #a7f3d0;
+  --color-emerald-300: #6ee7b7;
+  --color-emerald-400: #34d399;
+  --color-emerald-500: #10b981;
+  --color-emerald-600: #059669;
+  --color-emerald-700: #047857;
+  --color-emerald-800: #065f46;
+  --color-emerald-900: #064e3b;
+  --color-rose-50: #fff1f2;
+  --color-rose-100: #ffe4e6;
+  --color-rose-200: #fecdd3;
+  --color-rose-300: #fda4af;
+  --color-rose-400: #fb7185;
+  --color-rose-500: #f43f5e;
+  --color-rose-600: #e11d48;
+  --color-rose-700: #be123c;
+  --color-rose-800: #9f1239;
+  --color-rose-900: #881337;
+  --color-sky-50: #f0f9ff;
+  --color-sky-100: #e0f2fe;
+  --color-sky-200: #bae6fd;
+  --color-sky-300: #7dd3fc;
+  --color-sky-400: #38bdf8;
+  --color-sky-500: #0ea5e9;
+  --color-sky-600: #0284c7;
+  --color-sky-700: #0369a1;
+  --color-sky-800: #075985;
+  --color-sky-900: #0c4a6e;
+
+  --font-sans:
+    system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial,
+    sans-serif;
+
+  --animate-rise: rise 220ms ease-out both;
+
+  @keyframes rise {
+    0% {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+/* Tailwind v4 bruker standard markør på knapper; behold hånd-pekeren fra v3. */
+@layer base {
+  button:not(:disabled),
+  [role='button']:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+@utility card {
+  @apply rounded-2xl border border-sand-200 bg-white shadow-xs dark:border-white/10 dark:bg-[#17182e];
+}
+
+@utility btn {
+  @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-xl px-4 py-2 text-base font-semibold no-underline transition-colors disabled:cursor-not-allowed disabled:opacity-40;
+}
+
+@utility btn-primary {
+  @apply btn bg-brand-600 text-white hover:bg-brand-700 dark:bg-brand-500 dark:hover:bg-brand-400 dark:text-white;
+}
+
+@utility btn-ghost {
+  @apply btn text-ink hover:bg-sand-100 dark:text-slate-100 dark:hover:bg-white/10;
+}
+
+@utility btn-outline {
+  @apply btn border border-sand-200 bg-white text-ink hover:bg-sand-100 dark:border-white/15 dark:bg-transparent dark:text-slate-100 dark:hover:bg-white/10;
+}
+
+@utility muted {
+  @apply text-ink-soft dark:text-slate-400;
+}
+
+@utility chip {
+  @apply inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-semibold;
+}
+
+@utility prose-v {
+  & p {
+    @apply my-3 leading-relaxed;
+  }
+  & h2 {
+    @apply mt-8 mb-2 text-xl font-bold;
+  }
+  & h3 {
+    @apply mt-6 mb-1 text-lg font-semibold;
+  }
+  & ul {
+    @apply my-3 list-disc pl-6;
+  }
+  & ol {
+    @apply my-3 list-decimal pl-6;
+  }
+  /* Som i v3: listeavstanden i løpende tekst (0,25rem) vinner over space-y-* på selve lista. */
+  & :is(ul, ol) > li {
+    margin-block-end: 0;
+  }
+  & :is(ul, ol) > li + li {
+    margin-top: 0.25rem;
+  }
+  & code {
+    @apply rounded-sm bg-sand-100 px-1 py-0.5 text-[0.9em] dark:bg-white/10;
+  }
+}
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; }
+  body { @apply bg-sand-50 text-ink antialiased dark:bg-[#0f1020] dark:text-slate-100; }
+  :focus-visible { @apply outline-hidden ring-2 ring-brand-500 ring-offset-2 ring-offset-sand-50 dark:ring-brand-400 dark:ring-offset-[#0f1020]; }
+  a { @apply text-brand-700 underline decoration-brand-200 underline-offset-2 hover:decoration-brand-600 dark:text-brand-200 dark:decoration-brand-700; }
+  h1, h2, h3 { @apply tracking-tight; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

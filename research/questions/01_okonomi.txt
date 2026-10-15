@@ -1,0 +1,114 @@
+# Format: «### id» starter et spørsmål. Felter: tema, klynge, dim, kort, tekst, bakgrunn, for (gjentas), mot (gjentas).
+# dim: akse=retning. +1 betyr at «enig» trekker mot den positive polen på aksen (se scripts/build-data.mjs).
+
+### econ_tax_level
+tema: okonomi
+klynge: skattenivaa
+dim: econ=+1
+kort: Lavere samlet skattenivå
+tekst: Det samlede skatte- og avgiftsnivået i Norge bør reduseres.
+bakgrunn: Skatter og avgifter finansierer offentlige tjenester som skole, helse og trygder. Norge har et høyt skattenivå sammenlignet med mange land, men også store inntekter fra oljefondet. Spørsmålet handler om totalnivået, ikke om hvem som skal betale.
+for: Lavere skatter lar folk og bedrifter beholde mer av det de tjener, og kan gjøre det mer lønnsomt å jobbe, investere og starte bedrift.
+for: Et lavere skattenivå kan tvinge fram mer effektiv bruk av fellesskapets penger.
+for: Høye skatter kan svekke norsk konkurransekraft og få kapital og gründere til å flytte ut.
+mot: Lavere skatter gir mindre penger til velferd i en tid med flere eldre og høyere forsvarsutgifter.
+mot: Skattekutt kommer ofte dem med høyest inntekt og formue mest til gode og kan øke forskjellene.
+mot: Norges høye skattenivå henger sammen med høy tillit, høy sysselsetting og et godt sikkerhetsnett.
+
+### econ_wealth_working
+tema: okonomi
+klynge: formue
+dim: econ=+1
+kort: Formuesskatt på bedriftseierskap
+tekst: Formuesskatten på eierskap i bedrifter (såkalt arbeidende kapital) bør fjernes.
+bakgrunn: Formuesskatt betales av nettoformue over et bunnfradrag. «Arbeidende kapital» er formue som er bundet i bedrifter, for eksempel aksjer og driftsmidler. Slike eiendeler verdsettes i dag med en rabatt i formuesskatten, og skatten betales uavhengig av om bedriften går med overskudd.
+for: Skatten må betales selv i år uten overskudd, og kan tvinge eiere til å ta ut utbytte eller selge seg ned for å betale den.
+for: Utenlandske eiere betaler ikke norsk formuesskatt, noe som kan gi norske eiere en ulempe.
+for: Familieeide bedrifter, ofte viktige lokale arbeidsgivere, rammes særlig.
+mot: Formuesskatten er en av få skatter som treffer de aller rikeste, og fjerning vil i stor grad gi skattelette til dem.
+mot: Å skille ut «arbeidende kapital» kan åpne for skattetilpasning der formue flyttes inn i selskaper.
+mot: Inntektene trengs til fellesskapet, og forskningen er uenig om hvor mye skatten faktisk svekker investeringer.
+
+### econ_top_tax
+tema: okonomi
+klynge: inntektsskatt
+dim: econ=-1
+kort: Mer skatt på høye inntekter
+tekst: Personer med høye inntekter bør betale mer i skatt enn i dag.
+bakgrunn: Norge har en progressiv inntektsskatt med trinnskatt, slik at man betaler en høyere prosentsats av den delen av inntekten som ligger over visse grenser.
+for: De som tjener mest, har best evne til å bidra til fellesskapet.
+for: Økte forskjeller kan svekke tillit og samhold, og skatt er et viktig verktøy for omfordeling.
+for: Inntektene kan brukes til lavere skatt for vanlige inntekter eller bedre tjenester.
+mot: Høyere marginalskatt kan gjøre det mindre lønnsomt å jobbe ekstra, ta utdanning eller ta ansvar.
+mot: Høytlønte kompetansepersoner kan velge andre land, og bedrifter kan få vanskeligere for å rekruttere.
+mot: Norge har allerede en relativt høy skatt på arbeidsinntekt sammenlignet med mange land.
+
+### econ_inheritance
+tema: okonomi
+klynge: formue
+dim: econ=-1
+kort: Skatt på store arv
+tekst: Norge bør innføre skatt på store arv.
+bakgrunn: Norge fjernet arveavgiften fra 2014. Forslag om ny arveskatt har ofte et høyt bunnfradrag slik at bare store arv beskattes.
+for: Arv er inntekt man ikke har jobbet for, og det er rimelig at store arv bidrar til fellesskapet.
+for: Uten arveskatt kan formuesforskjeller forsterkes fra generasjon til generasjon.
+for: Mange økonomer mener arveskatt er mindre skadelig for arbeidsinnsats enn skatt på arbeid.
+mot: Pengene er allerede skattlagt da de ble tjent, og arveskatt kan oppleves som dobbeltbeskatning.
+mot: Arveskatt kan gjøre generasjonsskifte i familiebedrifter og gårdsbruk vanskelig.
+mot: Den gamle arveavgiften ble kritisert for å være lett å planlegge seg bort fra og for å treffe middelklassen.
+
+### econ_property_tax
+tema: okonomi
+klynge: eiendom
+dim: econ=-1
+kort: Kommunal eiendomsskatt på bolig
+tekst: Kommunene bør fortsatt kunne kreve eiendomsskatt på boliger.
+bakgrunn: I dag bestemmer hver kommune selv om den vil ha eiendomsskatt. Mange kommuner bruker inntektene til lokale tjenester, mens andre ikke har slik skatt.
+for: Eiendomsskatt gir kommunene en stabil inntekt de selv styrer, noe som styrker lokaldemokratiet.
+for: Skatt på eiendom er vanskelig å unngå og gir mindre skadevirkninger for arbeid enn skatt på lønn.
+for: Inntektene går direkte til lokale tjenester som skole og eldreomsorg.
+mot: Skatten må betales uavhengig av inntekt og kan ramme pensjonister og andre med lav inntekt men verdifull bolig.
+mot: Det kan virke urettferdig at skattenivået varierer mye etter hvilken kommune man bor i.
+mot: Bolig er allerede beskattet gjennom formuesskatt og avgifter ved kjøp.
+
+### econ_oil_money
+tema: okonomi
+klynge: oljepenger
+dim: econ=0
+kort: Bruke mer oljepenger
+tekst: Norge bør kunne bruke mer av oljefondet enn handlingsregelen tillater i dag.
+bakgrunn: Handlingsregelen sier at bruken av oljepenger over tid skal tilsvare forventet avkastning av fondet (om lag 3 prosent). Hensikten er at fondet skal vare for fremtidige generasjoner og at økonomien ikke skal overopphetes.
+for: Fondet er svært stort, og mer kan investeres i infrastruktur, forsvar eller klimatiltak som gir avkastning for fremtiden.
+for: Det kan være riktig å bruke mer midlertidig i kriser eller til tiltak som bare kan gjøres nå.
+for: Penger som står ubrukt i utlandet, hjelper ikke folk som trenger tjenester i dag.
+mot: Mer bruk av oljepenger kan gi høyere renter og prisvekst og presse konkurranseutsatt næringsliv.
+mot: Handlingsregelen sikrer at også fremtidige generasjoner får nytte av oljeformuen.
+mot: Hvis regelen først brytes, kan det bli vanskelig å sette grenser for nye krav om pengebruk.
+
+### econ_state_owner
+tema: okonomi
+klynge: eierskap
+dim: econ=+1
+kort: Mindre statlig eierskap
+tekst: Staten bør eie mindre i norsk næringsliv enn i dag.
+bakgrunn: Staten eier store andeler i blant annet Equinor, Telenor, Hydro, DNB, Statkraft og Vy. Norge har en uvanlig stor statlig eierandel på børsen.
+for: Spredt privat eierskap kan gi mer konkurranse, innovasjon og mindre makt samlet hos staten.
+for: Staten kan få inntekter ved salg og frigjøre kapital til andre formål.
+for: Det kan være uheldig at staten både er regulator og eier i samme marked.
+mot: Statlig eierskap sikrer at hovedkontorer, kompetanse og naturressurser forblir under norsk kontroll.
+mot: De statlige eierandelene gir store utbytter til fellesskapet.
+mot: Strategisk viktige selskaper kan bli kjøpt opp av utenlandske aktører dersom staten selger seg ned.
+
+### econ_nrk
+tema: okonomi
+klynge: nrk
+dim: econ=+1
+kort: Mindre offentlig penger til NRK
+tekst: NRK bør få mindre offentlig finansiering enn i dag.
+bakgrunn: NRK finansieres over statsbudsjettet (tidligere gjennom lisens) og har et lovfestet samfunnsoppdrag som allmennkringkaster, blant annet med nyheter og distriktskontorer i hele landet.
+for: Et stort, statsfinansiert NRK kan konkurrere ut kommersielle og lokale medier.
+for: Pengene kan brukes på andre offentlige formål eller gis tilbake som lavere skatt.
+for: I et rikt medietilbud er det mindre behov for at staten driver en så omfattende mediebedrift.
+mot: NRK sikrer uavhengig journalistikk, beredskapsinformasjon og et tilbud i hele landet som markedet ikke alene ville levert.
+mot: Allmennkringkasting er viktig for demokratiet i en tid med falske nyheter og globale plattformer.
+mot: Kutt kan ramme distriktssendinger, samisk innhold og smale programmer først.

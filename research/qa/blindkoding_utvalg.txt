@@ -1,0 +1,146 @@
+# id|qid|parti|påstand
+B001|econ_top_tax|V|Personer med høye inntekter bør betale mer i skatt enn i dag.
+B002|econ_property_tax|Sp|Kommunene bør fortsatt kunne kreve eiendomsskatt på boliger.
+B003|cli_co2_tax|MDG|CO₂-avgiften bør økes raskere enn dagens plan om rundt 2000 kroner per tonn i 2030.
+B004|econ_top_tax|Sp|Personer med høye inntekter bør betale mer i skatt enn i dag.
+B005|oil_lofoten|R|Havområdene utenfor Lofoten, Vesterålen og Senja bør vernes permanent mot oljevirksomhet.
+B006|just_alt_sentences|FrP|Flere lovbrytere bør sone med fotlenke eller samfunnsstraff i stedet for i fengsel.
+B007|econ_tax_level|Sp|Det samlede skatte- og avgiftsnivået i Norge bør reduseres.
+B008|for_nuclear_ban|Sp|Norge bør signere FNs atomvåpenforbud.
+B009|drug_decrim|MDG|Bruk og besittelse av små mengder narkotika til eget bruk bør ikke straffes.
+B010|housing_equity|H|Egenkapitalkravet for boliglån bør lempes eller fjernes, særlig for førstegangskjøpere.
+B011|cli_target|H|Norge bør ha et strengere klimamål for 2035 enn dagens mål om 70–75 prosent kutt (sammenlignet med 1990).
+B012|fam_child_benefit_tax|SV|Barnetrygden bør gjøres skattepliktig og samtidig økes, slik at familier med lave inntekter får mest igjen.
+B013|oil_lofoten|H|Havområdene utenfor Lofoten, Vesterålen og Senja bør vernes permanent mot oljevirksomhet.
+B014|def_budget|V|Norge bør øke forsvarsbudsjettet raskere og mer enn dagens langtidsplan legger opp til.
+B015|transport_ev|H|Elbiler bør fortsatt ha store avgiftsfordeler sammenlignet med bensin- og dieselbiler.
+B016|imm_labour|R|Det bør bli enklere for folk fra land utenfor EU/EØS å få arbeidstillatelse i Norge.
+B017|energy_onshore_wind|R|Det bør bygges mer vindkraft på land i Norge.
+B018|work_temp_agency|R|Det bør bli enklere for bedrifter å ansette midlertidig og leie inn arbeidskraft fra bemanningsbyråer.
+B019|just_alt_sentences|Ap|Flere lovbrytere bør sone med fotlenke eller samfunnsstraff i stedet for i fengsel.
+B020|imm_family|V|Reglene for familiegjenforening bør bli strengere.
+B021|just_surveillance|KrF|Politiet bør få flere digitale verktøy, som utvidet overvåking og ansiktsgjenkjenning, for å bekjempe alvorlig kriminalitet.
+B022|housing_equity|SV|Egenkapitalkravet for boliglån bør lempes eller fjernes, særlig for førstegangskjøpere.
+B023|work_min_benefits|R|Minsteytelsene i velferden (som minstepensjon, minste uføretrygd og sosialhjelp) bør økes betydelig.
+B024|nature_protect|H|Mer natur bør vernes, selv om det begrenser utbygging av for eksempel hytter, veier og næringsområder.
+B025|imm_level|FrP|Norge bør ta imot færre asylsøkere og flyktninger enn i dag.
+B026|def_nato_exit|KrF|Norge bør melde seg ut av NATO.
+B027|energy_cables|Ap|Norge bør ikke bygge flere strømkabler til utlandet.
+B028|eu_membership|Ap|Norge bør søke om medlemskap i EU.
+B029|agri_tariffs|FrP|Tollvernet for norske landbruksvarer bør styrkes for å sikre norsk matproduksjon, selv om det kan gi høyere matpriser.
+B030|dist_municipal_merge|R|Staten bør gi sterkere insentiver til at kommuner slår seg sammen til større kommuner.
+B031|imm_level|Ap|Norge bør ta imot færre asylsøkere og flyktninger enn i dag.
+B032|cli_co2_tax|R|CO₂-avgiften bør økes raskere enn dagens plan om rundt 2000 kroner per tonn i 2030.
+B033|housing_nonprofit|V|Staten bør finansiere mange flere ikke-kommersielle utleieboliger med rimelig husleie.
+B034|val_assisted_dying|Ap|Aktiv dødshjelp bør bli tillatt for alvorlig syke voksne, under strenge vilkår.
+B035|transport_rail_vs_road|V|Staten bør prioritere jernbane og kollektivtransport foran bygging av nye store motorveier.
+B036|imm_temporary|KrF|Flyktninger bør som hovedregel bare få midlertidig opphold og returnere når hjemlandet er trygt.
+B037|work_min_benefits|H|Minsteytelsene i velferden (som minstepensjon, minste uføretrygd og sosialhjelp) bør økes betydelig.
+B038|oil_end_date|KrF|Norge bør vedta en sluttdato for olje- og gassproduksjonen.
+B039|work_temp_agency|MDG|Det bør bli enklere for bedrifter å ansette midlertidig og leie inn arbeidskraft fra bemanningsbyråer.
+B040|health_dental|KrF|Tannbehandling for voksne bør dekkes av det offentlige på samme måte som annen helsehjelp, med egenandeler og frikort.
+B041|def_budget|Ap|Norge bør øke forsvarsbudsjettet raskere og mer enn dagens langtidsplan legger opp til.
+B042|imm_offshore|Sp|Asylsøkere som kommer til Norge, bør kunne sendes til et mottak i et trygt land utenfor Europa mens søknaden behandles.
+B043|cli_target|Sp|Norge bør ha et strengere klimamål for 2035 enn dagens mål om 70–75 prosent kutt (sammenlignet med 1990).
+B044|fam_cash_benefit|Ap|Kontantstøtten (støtte til foreldre som ikke bruker barnehage) bør beholdes.
+B045|imm_amnesty|KrF|Personer som har fått endelig avslag på asyl, men har bodd lenge i Norge, bør kunne få bli.
+B046|for_israel_sanctions|SV|Norge bør innføre økonomiske sanksjoner eller boikott mot Israel på grunn av okkupasjonen av palestinske områder.
+B047|cli_domestic|SV|Norge bør ta klimakuttene hjemme i Norge, heller enn å betale for kutt i andre land (for eksempel gjennom klimakvoter).
+B048|oil_explore|KrF|Norge bør fortsette å lete etter ny olje og gass.
+B049|transport_rail_vs_road|KrF|Staten bør prioritere jernbane og kollektivtransport foran bygging av nye store motorveier.
+B050|def_budget|MDG|Norge bør øke forsvarsbudsjettet raskere og mer enn dagens langtidsplan legger opp til.
+B051|work_temp_agency|V|Det bør bli enklere for bedrifter å ansette midlertidig og leie inn arbeidskraft fra bemanningsbyråer.
+B052|for_aid|Ap|Norge bør bruke minst 1 prosent av nasjonalinntekten (BNI) på bistand.
+B053|health_trusts|MDG|Helseforetaksmodellen bør avvikles, slik at sykehusene styres mer direkte av folkevalgte.
+B054|imm_integration_req|H|Innvandrere som ikke deltar i norskopplæring eller introduksjonsprogram, bør få redusert økonomisk støtte.
+B055|welfare_commercial|Ap|Kommersielle selskaper bør kunne drive offentlig finansierte velferdstjenester som barnehager, sykehjem og barnevern.
+B056|drug_decrim|H|Bruk og besittelse av små mengder narkotika til eget bruk bør ikke straffes.
+B057|transport_rail_vs_road|FrP|Staten bør prioritere jernbane og kollektivtransport foran bygging av nye store motorveier.
+B058|def_budget|R|Norge bør øke forsvarsbudsjettet raskere og mer enn dagens langtidsplan legger opp til.
+B059|imm_family|KrF|Reglene for familiegjenforening bør bli strengere.
+B060|housing_equity|Ap|Egenkapitalkravet for boliglån bør lempes eller fjernes, særlig for førstegangskjøpere.
+B061|cli_target|V|Norge bør ha et strengere klimamål for 2035 enn dagens mål om 70–75 prosent kutt (sammenlignet med 1990).
+B062|energy_nuclear|Ap|Norge bør legge til rette for å bygge kjernekraftverk.
+B063|for_nuclear_ban|V|Norge bør signere FNs atomvåpenforbud.
+B064|work_activity_duty|MDG|Alle sosialhjelpsmottakere i arbeidsfør alder bør ha plikt til å delta i aktivitet for å få utbetalt støtte.
+B065|energy_cables|KrF|Norge bør ikke bygge flere strømkabler til utlandet.
+B066|for_nuclear_ban|Ap|Norge bør signere FNs atomvåpenforbud.
+B067|imm_temporary|Ap|Flyktninger bør som hovedregel bare få midlertidig opphold og returnere når hjemlandet er trygt.
+B068|econ_nrk|MDG|NRK bør få mindre offentlig finansiering enn i dag.
+B069|imm_residence|V|Det bør stilles strengere krav for å få permanent opphold og norsk statsborgerskap, for eksempel om selvforsørgelse og norskkunnskaper.
+B070|work_temp_agency|Sp|Det bør bli enklere for bedrifter å ansette midlertidig og leie inn arbeidskraft fra bemanningsbyråer.
+B071|energy_price_control|V|Staten bør styre strømprisen for husholdningene, for eksempel med fastpris eller makspris, i stedet for at markedet alene bestemmer.
+B072|fam_child_benefit_tax|FrP|Barnetrygden bør gjøres skattepliktig og samtidig økes, slik at familier med lave inntekter får mest igjen.
+B073|econ_wealth_working|KrF|Formuesskatten på eierskap i bedrifter (såkalt arbeidende kapital) bør fjernes.
+B074|val_sex_purchase|V|Forbudet mot å kjøpe sex (sexkjøpsloven) bør oppheves.
+B075|edu_private_schools|SV|Det bør bli enklere å starte private skoler (friskoler) med offentlig støtte.
+B076|energy_offshore_wind|Ap|Staten bør gi økonomisk støtte for å få bygget ut havvind.
+B077|energy_offshore_wind|SV|Staten bør gi økonomisk støtte for å få bygget ut havvind.
+B078|econ_top_tax|Ap|Personer med høye inntekter bør betale mer i skatt enn i dag.
+B079|health_trusts|Ap|Helseforetaksmodellen bør avvikles, slik at sykehusene styres mer direkte av folkevalgte.
+B080|def_budget|Sp|Norge bør øke forsvarsbudsjettet raskere og mer enn dagens langtidsplan legger opp til.
+B081|energy_hydro|R|Det bør åpnes for mer vannkraftutbygging, også i noen vassdrag som i dag er vernet.
+B082|housing_nonprofit|FrP|Staten bør finansiere mange flere ikke-kommersielle utleieboliger med rimelig husleie.
+B083|edu_national_tests|SV|Nasjonale prøver bør beholdes som et verktøy for å følge med på elevenes læring.
+B084|imm_labour|Ap|Det bør bli enklere for folk fra land utenfor EU/EØS å få arbeidstillatelse i Norge.
+B085|fam_abortion|R|Grensen for selvbestemt abort bør settes tilbake fra 18 til 12 uker.
+B086|fam_abortion|Sp|Grensen for selvbestemt abort bør settes tilbake fra 18 til 12 uker.
+B087|def_budget|SV|Norge bør øke forsvarsbudsjettet raskere og mer enn dagens langtidsplan legger opp til.
+B088|econ_property_tax|R|Kommunene bør fortsatt kunne kreve eiendomsskatt på boliger.
+B089|just_alt_sentences|V|Flere lovbrytere bør sone med fotlenke eller samfunnsstraff i stedet for i fengsel.
+B090|econ_oil_money|KrF|Norge bør kunne bruke mer av oljefondet enn handlingsregelen tillater i dag.
+B091|val_assisted_dying|MDG|Aktiv dødshjelp bør bli tillatt for alvorlig syke voksne, under strenge vilkår.
+B092|dist_county|V|Fylkeskommunen bør legges ned, slik at vi får to forvaltningsnivåer: stat og kommune.
+B093|energy_hydro|MDG|Det bør åpnes for mer vannkraftutbygging, også i noen vassdrag som i dag er vernet.
+B094|energy_nuclear|Sp|Norge bør legge til rette for å bygge kjernekraftverk.
+B095|just_alt_sentences|Sp|Flere lovbrytere bør sone med fotlenke eller samfunnsstraff i stedet for i fengsel.
+B096|eu_energy_package|FrP|Norge bør si nei til EUs fjerde energimarkedspakke.
+B097|edu_absence_limit|H|Fraværsgrensen i videregående skole bør beholdes.
+B098|energy_price_control|MDG|Staten bør styre strømprisen for husholdningene, for eksempel med fastpris eller makspris, i stedet for at markedet alene bestemmer.
+B099|econ_state_owner|KrF|Staten bør eie mindre i norsk næringsliv enn i dag.
+B100|val_sunday|Ap|Kommunene bør selv kunne tillate at butikker holder åpent på søndager.
+B101|work_min_benefits|Ap|Minsteytelsene i velferden (som minstepensjon, minste uføretrygd og sosialhjelp) bør økes betydelig.
+B102|econ_nrk|H|NRK bør få mindre offentlig finansiering enn i dag.
+B103|cli_domestic|V|Norge bør ta klimakuttene hjemme i Norge, heller enn å betale for kutt i andre land (for eksempel gjennom klimakvoter).
+B104|just_sentences|Sp|Straffene for alvorlig kriminalitet bør generelt bli strengere enn i dag.
+B105|econ_inheritance|V|Norge bør innføre skatt på store arv.
+B106|edu_national_tests|FrP|Nasjonale prøver bør beholdes som et verktøy for å følge med på elevenes læring.
+B107|just_sentences|R|Straffene for alvorlig kriminalitet bør generelt bli strengere enn i dag.
+B108|energy_hydro|Ap|Det bør åpnes for mer vannkraftutbygging, også i noen vassdrag som i dag er vernet.
+B109|for_israel_sanctions|V|Norge bør innføre økonomiske sanksjoner eller boikott mot Israel på grunn av okkupasjonen av palestinske områder.
+B110|cli_target|R|Norge bør ha et strengere klimamål for 2035 enn dagens mål om 70–75 prosent kutt (sammenlignet med 1990).
+B111|health_free_choice|SV|Pasienter bør kunne velge behandling hos private klinikker, betalt av det offentlige (fritt behandlingsvalg).
+B112|edu_absence_limit|KrF|Fraværsgrensen i videregående skole bør beholdes.
+B113|work_min_benefits|KrF|Minsteytelsene i velferden (som minstepensjon, minste uføretrygd og sosialhjelp) bør økes betydelig.
+B114|econ_tax_level|MDG|Det samlede skatte- og avgiftsnivået i Norge bør reduseres.
+B115|imm_quota|FrP|Norge bør ta imot minst så mange kvoteflyktninger som FN anbefaler.
+B116|transport_toll|H|Bompenger bør i stor grad fjernes, og veier bør heller finansieres over statsbudsjettet.
+B117|agri_income|H|Staten bør bruke mer penger på landbruket for å tette inntektsgapet mellom bønder og andre grupper.
+B118|energy_onshore_wind|V|Det bør bygges mer vindkraft på land i Norge.
+B119|just_surveillance|MDG|Politiet bør få flere digitale verktøy, som utvidet overvåking og ansiktsgjenkjenning, for å bekjempe alvorlig kriminalitet.
+B120|eu_eea|R|Norge bør si opp EØS-avtalen og erstatte den med en handelsavtale.
+B121|work_activity_duty|Sp|Alle sosialhjelpsmottakere i arbeidsfør alder bør ha plikt til å delta i aktivitet for å få utbetalt støtte.
+B122|agri_income|V|Staten bør bruke mer penger på landbruket for å tette inntektsgapet mellom bønder og andre grupper.
+B123|imm_temporary|R|Flyktninger bør som hovedregel bare få midlertidig opphold og returnere når hjemlandet er trygt.
+B124|health_trusts|KrF|Helseforetaksmodellen bør avvikles, slik at sykehusene styres mer direkte av folkevalgte.
+B125|oil_lofoten|FrP|Havområdene utenfor Lofoten, Vesterålen og Senja bør vernes permanent mot oljevirksomhet.
+B126|dist_county|R|Fylkeskommunen bør legges ned, slik at vi får to forvaltningsnivåer: stat og kommune.
+B127|transport_fuel_tax|Ap|Avgiftene på bensin og diesel bør settes ned.
+B128|transport_toll|SV|Bompenger bør i stor grad fjernes, og veier bør heller finansieres over statsbudsjettet.
+B129|agri_tariffs|V|Tollvernet for norske landbruksvarer bør styrkes for å sikre norsk matproduksjon, selv om det kan gi høyere matpriser.
+B130|val_sunday|MDG|Kommunene bør selv kunne tillate at butikker holder åpent på søndager.
+B131|dist_municipal_merge|FrP|Staten bør gi sterkere insentiver til at kommuner slår seg sammen til større kommuner.
+B132|econ_oil_money|FrP|Norge bør kunne bruke mer av oljefondet enn handlingsregelen tillater i dag.
+B133|imm_level|KrF|Norge bør ta imot færre asylsøkere og flyktninger enn i dag.
+B134|fam_cash_benefit|R|Kontantstøtten (støtte til foreldre som ikke bruker barnehage) bør beholdes.
+B135|energy_hydro|KrF|Det bør åpnes for mer vannkraftutbygging, også i noen vassdrag som i dag er vernet.
+B136|health_free_choice|H|Pasienter bør kunne velge behandling hos private klinikker, betalt av det offentlige (fritt behandlingsvalg).
+B137|val_sex_purchase|KrF|Forbudet mot å kjøpe sex (sexkjøpsloven) bør oppheves.
+B138|transport_rail_vs_road|Sp|Staten bør prioritere jernbane og kollektivtransport foran bygging av nye store motorveier.
+B139|energy_price_control|Ap|Staten bør styre strømprisen for husholdningene, for eksempel med fastpris eller makspris, i stedet for at markedet alene bestemmer.
+B140|just_sentences|KrF|Straffene for alvorlig kriminalitet bør generelt bli strengere enn i dag.
+B141|work_sickpay|KrF|Sykelønnen bør reduseres noe ved lange sykemeldinger, for eksempel fra 100 til 80 prosent etter seks måneder.
+B142|transport_fuel_tax|Sp|Avgiftene på bensin og diesel bør settes ned.
+B143|cli_co2_tax|KrF|CO₂-avgiften bør økes raskere enn dagens plan om rundt 2000 kroner per tonn i 2030.
+B144|health_free_choice|Sp|Pasienter bør kunne velge behandling hos private klinikker, betalt av det offentlige (fritt behandlingsvalg).
+B145|transport_ev|R|Elbiler bør fortsatt ha store avgiftsfordeler sammenlignet med bensin- og dieselbiler.

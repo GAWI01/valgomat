@@ -1,0 +1,40 @@
+# --- health_free_choice: «Pasienter bør kunne velge behandling hos private klinikker, betalt av det offentlige (fritt behandlingsvalg).»
+health_free_choice|Ap|-1|MEDIUM|70|Ap vil videreføre fritt sykehusvalg mellom offentlige sykehus og private sykehus med avtale, men vil styre og avgrense bruken av kommersielle aktører. Programmet nevner ikke fritt behandlingsvalg.
+health_free_choice|H|3|HIGH|47-48|Høyre vil innføre/gjenopprette Fritt behandlingsvalg og gi pasienter rett til behandling hos private med avtale.
+health_free_choice|FrP|3|HIGH|59-60|FrP vil at tjenestene finansieres av det offentlige uansett om de utføres av offentlige, ideelle eller private, og at pasienten selv skal velge.
+health_free_choice|Sp|-2|MEDIUM|60|Sp vil bygge opp det offentlige helsetilbudet; bruk av private skal skje gjennom langsiktige avtaler styrt av det offentlige.
+health_free_choice|SV|-3|MEDIUM|15,17|SV vil motvirke privatiseringen og hindre at private tilbud utarmer den offentlige helsetjenesten.
+health_free_choice|R|-3|HIGH|13-14|Rødt vil ikke la kommersielle aktører drive offentlig finansierte grunnleggende velferdstjenester; fritt valg skal bare gjelde offentlige eller ideelle sykehus.
+health_free_choice|V|3|HIGH|35|Venstre vil innføre fritt behandlingsvalg.
+health_free_choice|KrF|3|HIGH|31|KrF vil gjeninnføre fritt behandlingsvalg.
+health_free_choice|MDG|1|MEDIUM|41|MDG vil gjeninnføre fritt behandlingsvalg i rusomsorgen, og er åpne for private aktører i psykisk helsevern (s. 39), men vil ha et sterkt offentlig helsevesen.
+# --- health_trusts: «Helseforetaksmodellen bør avvikles, slik at sykehusene styres mer direkte av folkevalgte.»
+health_trusts|Ap|1|LOW|76|Ap mener det etter 25 år er behov for en ny helsereform som gir mer sammenhengende demokratisk styring, men sier ikke at modellen skal avvikles.
+health_trusts|H|U|-|-|Programmet tar ikke stilling til helseforetaksmodellen.
+health_trusts|FrP|1|MEDIUM|59|FrP vil avskaffe de regionale helseforetakene og erstatte dem med en nasjonal styringsenhet og selvstendige lokale helseforetak – foretaksmodellen beholdes lokalt, uten mer folkevalgt styring.
+health_trusts|Sp|3|HIGH|61|Sp vil avvikle helseforetaksmodellen og ta sykehusene tilbake til folkevalgt styring.
+health_trusts|SV|3|HIGH|17|SV vil avvikle helseforetaksmodellen og erstatte den med en demokratisk styringsmodell.
+health_trusts|R|3|HIGH|14|Rødt vil avvikle helseforetaksmodellen og organisere sykehusene som offentlig forvaltning.
+health_trusts|V|-1|MEDIUM|34|Venstre vil forbedre (ikke avvikle) helseforetaksmodellen for å sikre større demokratisk styring.
+health_trusts|KrF|1|MEDIUM|31-32|KrF vil utrede alternativer til helseforetaksmodellen og styrke den demokratiske styringen.
+health_trusts|MDG|3|HIGH|39|MDG vil erstatte helseforetaksmodellen med en forvaltningsbasert modell.
+# --- health_dental: «Tannbehandling for voksne bør dekkes av det offentlige på samme måte som annen helsehjelp, med egenandeler og frikort.»
+health_dental|Ap|2|HIGH|86|Ap vil innføre universell tilgang til nødvendig tannhelsehjelp trinnvis og gradvis utvide det offentlige ansvaret.
+health_dental|H|-1|MEDIUM|48|Høyre vil at de som trenger det mest får nødvendig behandling i den offentlige tannhelsetjenesten (målrettet, ikke universelt).
+health_dental|FrP|1|MEDIUM|63-64|FrP vil integrere tannleger i helsesektoren og bedre refusjonene for sykdomsrelatert tannbehandling, men bare vurdere utvidede rettigheter for pensjonister med dårlig økonomi.
+health_dental|Sp|2|MEDIUM|53|Sp vil utrede hvordan frikortordningen kan utvides til nødvendige tannhelsetjenester.
+health_dental|SV|3|HIGH|6|SV vil fortsette tannhelsereformen: ingen skal betale mer for tannlegen enn for legen.
+health_dental|R|3|HIGH|16|Rødt vil likestille tannhelse med andre helsetjenester, for eksempel gjennom en egenandelsordning.
+health_dental|V|-1|MEDIUM|33|Venstre vil prioritere sårbare grupper og de som trenger det mest, ikke en universell ordning.
+health_dental|KrF|2|MEDIUM|32|KrF vil innføre en årlig frikortgrense for tannhelsetjenester.
+health_dental|MDG|2|MEDIUM|38|MDG vil at tannhelse på sikt skal inn i refusjonsordningen slik som andre helsetjenester.
+# --- health_copay: «Egenandelene i helsetjenesten bør reduseres kraftig eller fjernes.»
+health_copay|Ap|1|MEDIUM|79|Ap vil fortsette å redusere egenandeler for unge og grupper med store hjelpebehov.
+health_copay|H|U|-|-|Programmet tar ikke stilling.
+health_copay|FrP|0|MEDIUM|60,62|FrP vil holde egenandelene på et moderat nivå og innføre strengere regler for ikke-møtt-gebyr.
+health_copay|Sp|1|MEDIUM|50|Sp vil ha et sterkt offentlig helsevesen med lave egenandeler.
+health_copay|SV|2|HIGH|15|SV vil redusere egenandelene og gjennomgå egenandelsordningene.
+health_copay|R|3|HIGH|16|Rødt vil at egenandeler i helse skal reduseres og fjernes så raskt som mulig.
+health_copay|V|U|-|-|Programmet tar ikke stilling.
+health_copay|KrF|1|MEDIUM|31|KrF vil fjerne egenandeler for barn opp til 18 år.
+health_copay|MDG|1|MEDIUM|38,41|MDG vil skjerme utsatte grupper mot egenandeler.

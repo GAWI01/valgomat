@@ -1,0 +1,111 @@
+### transport_toll
+tema: transport
+klynge: bilkostnader
+dim: econ=+1, climate=-1
+kort: Fjerne bompenger
+tekst: Bompenger bør i stor grad fjernes, og veier bør heller finansieres over statsbudsjettet.
+bakgrunn: Mange vei- og kollektivprosjekter finansieres delvis med bompenger. I byene brukes bompenger også til å begrense biltrafikken og finansiere kollektivtransport.
+for: Bompenger er en usosial skatt som rammer alle bilister likt uavhengig av inntekt.
+for: Folk i distriktene og pendlere uten gode alternativer betaler mye.
+for: Staten har råd til å finansiere veiene selv.
+mot: Bompenger reduserer kø og forurensning i byene og finansierer bedre kollektivtilbud.
+mot: Den som bruker veien, bør være med på å betale for den.
+mot: Uten bompenger må pengene tas fra andre offentlige formål eller gi høyere skatt.
+
+### transport_fuel_tax
+tema: transport
+klynge: bilkostnader
+dim: econ=+1, climate=-1
+kort: Lavere bensin- og dieselavgifter
+tekst: Avgiftene på bensin og diesel bør settes ned.
+bakgrunn: Drivstoff ilegges veibruksavgift og CO₂-avgift i tillegg til moms. Avgiftene utgjør en stor del av prisen ved pumpa.
+for: Mange, særlig i distriktene, er avhengige av bil i hverdagen og har ikke alternativer.
+for: Høye avgifter rammer folk med lav inntekt og næringer som transport og landbruk.
+for: Lavere avgifter kan redusere grensehandel med drivstoff.
+mot: Avgiftene er et viktig virkemiddel for å kutte utslipp fra transport.
+mot: Lavere avgifter gir mindre penger til velferd eller krever andre skatteøkninger.
+mot: Overgangen til elbiler gjør at stadig færre er avhengige av fossilt drivstoff.
+
+### transport_ev
+tema: transport
+klynge: bilkostnader
+dim: climate=+1
+kort: Fortsatte elbilfordeler
+tekst: Elbiler bør fortsatt ha store avgiftsfordeler sammenlignet med bensin- og dieselbiler.
+bakgrunn: Elbiler har lenge vært fritatt for blant annet engangsavgift og deler av momsen. De siste årene er fordelene gradvis bygget ned, og over 90 prosent av nye personbiler som selges, er nå elbiler.
+for: Fordelene har gjort Norge verdensledende på elbil og bidratt til store utslippskutt.
+for: Brukte fossilbiler må fortsatt byttes ut, og fordelene gjør elbil tilgjengelig for flere.
+for: Å fjerne fordelene for tidlig kan bremse overgangen i varebil- og tungtransport.
+mot: Når nesten alle nye biler er elektriske, trengs ikke lenger avgiftsfordelene.
+mot: Fordelene koster staten mange milliarder i tapte inntekter.
+mot: Elbilfordeler kommer i stor grad dem med høy inntekt som kjøper nye biler til gode.
+
+### transport_rail_vs_road
+tema: transport
+klynge: infrastruktur
+dim: climate=+1
+kort: Tog og kollektiv foran motorvei
+tekst: Staten bør prioritere jernbane og kollektivtransport foran bygging av nye store motorveier.
+bakgrunn: Nasjonal transportplan fordeler hundrevis av milliarder kroner til vei, bane, sjø og luftfart. Store motorveiprosjekter er ofte omstridt på grunn av kostnader og naturinngrep.
+for: Tog og kollektiv gir lavere utslipp og mindre arealbruk enn bil.
+for: Bedre jernbane mellom byene kan gi raskere og mer pålitelige reiser.
+for: Motorveier skaper mer trafikk over tid.
+mot: Store deler av landet har ikke realistiske kollektivalternativer, og trygge veier redder liv.
+mot: Godstransport og næringsliv er avhengige av et godt veinett.
+mot: Med elbiler blir veitrafikken stadig mer utslippsfri.
+
+### transport_rail_tender
+tema: transport
+klynge: jernbane
+dim: econ=+1
+kort: Konkurranse på jernbanen
+tekst: Persontrafikken på jernbanen bør konkurranseutsettes, slik at flere selskaper kan konkurrere om å kjøre togene.
+bakgrunn: Jernbanereformen fra 2015 åpnet for at togstrekninger ble lyst ut på anbud. Regjeringen stanset nye anbudskonkurranser fra 2021–2022, og flere strekninger er tildelt Vy direkte.
+for: Konkurranse kan gi bedre tilbud og lavere kostnader for staten.
+for: Nye operatører kan gi flere avganger, bedre kundeservice og nye ideer.
+for: Det reduserer avhengigheten av ett statlig monopolselskap.
+mot: Oppsplitting av jernbanen gir mer byråkrati og uklart ansvar når noe går galt.
+mot: Anbud kan presse lønns- og arbeidsvilkår for de ansatte.
+mot: En samlet statlig jernbane gir bedre helhetlig planlegging.
+
+### edu_private_schools
+tema: skole
+klynge: friskoler
+dim: econ=+1
+kort: Enklere å starte friskoler
+tekst: Det bør bli enklere å starte private skoler (friskoler) med offentlig støtte.
+bakgrunn: Private skoler må godkjennes etter friskoleloven, for eksempel på grunnlag av livssyn eller alternativ pedagogikk, og de kan ikke ta ut utbytte. Om lag fire prosent av grunnskoleelevene går i private skoler.
+for: Foreldre og elever bør kunne velge en skole som passer dem.
+for: Friskoler kan gi mangfold og nye ideer som også inspirerer den offentlige skolen.
+for: Profilskoler kan gi tilbud innen for eksempel realfag eller yrkesfag som ikke finnes lokalt.
+mot: Fellesskolen der alle barn møtes, er viktig for samhold og like muligheter.
+mot: Nye privatskoler kan tappe små kommuner for elever og penger og true den offentlige skolen.
+mot: Det kan bidra til sosial sortering av elever.
+
+### edu_absence_limit
+tema: skole
+klynge: fravaer
+dim: social=-1
+kort: Beholde fraværsgrensen
+tekst: Fraværsgrensen i videregående skole bør beholdes.
+bakgrunn: Siden 2016 har elever i videregående som har mer enn 10 prosent udokumentert fravær i et fag, som hovedregel ikke fått karakter i faget.
+for: Grensen har ført til betydelig lavere fravær.
+for: Tilstedeværelse er viktig for læring og forberedelse til arbeidslivet.
+for: Tydelige regler gir lik behandling og forutsigbarhet.
+mot: Grensen kan presse syke elever til å møte og øker behovet for legeattester.
+mot: Elever med psykiske plager eller vanskelige hjemmeforhold kan falle ut av skolen.
+mot: Lærere bør heller få faglig skjønn til å følge opp den enkelte elev.
+
+### edu_national_tests
+tema: skole
+klynge: prover
+dim: 
+kort: Beholde nasjonale prøver
+tekst: Nasjonale prøver bør beholdes som et verktøy for å følge med på elevenes læring.
+bakgrunn: Nasjonale prøver i lesing, regning og engelsk gjennomføres på 5., 8. og 9. trinn. Resultatene brukes av skoler, kommuner og staten til å vurdere læringsutbyttet.
+for: Prøvene gir kunnskap om hvilke elever og skoler som trenger mer hjelp.
+for: De gjør det mulig å sammenligne over tid og lære av skoler som lykkes.
+for: Uten felles måling er det vanskelig å vite om skolepolitikken virker.
+mot: Prøvene kan føre til at undervisningen innrettes mot testing heller enn bred læring.
+mot: De kan skape stress hos elever og brukes til rangering av skoler.
+mot: Lærere kan kartlegge elevene bedre med egne verktøy tilpasset klassen.

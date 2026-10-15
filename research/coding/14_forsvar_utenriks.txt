@@ -1,0 +1,70 @@
+# --- def_budget: «Norge bør øke forsvarsbudsjettet raskere og mer enn dagens langtidsplan legger opp til.»
+def_budget|Ap|0|MEDIUM|176|Ap vil være garantisten for at forsvarsløftet i langtidsplanen gjennomføres, og at Norge oppfyller NATOs toprosentmål.
+def_budget|H|3|HIGH|7|Høyre mener ambisjonene i langtidsplanen må fremskyndes og utvides.
+def_budget|FrP|3|HIGH|19-20|FrP vil øke Forsvarets årlige budsjett for å forsterke og forsere langtidsplanen, og styrke luftvernet utover planen.
+def_budget|Sp|1|MEDIUM|48|Sp vil styrke forsvarsbevilgningene til minimum 3 % av BNP, men også øke dem «i tråd med Langtidsplanen».
+def_budget|SV|-1|LOW|49|SV vil sikre at økning i forsvarsbudsjettet ikke skjer på bekostning av sivil beredskap.
+def_budget|R|0|LOW|87-88|Rødt har sluttet seg til forsvarsforliket og vil styrke den nasjonale forsvarsevnen, men prioriterer også nedrustning.
+def_budget|V|1|LOW|66|Venstre vil kraftig ruste opp Forsvarets operative evne og vurdere toprosentmålet i takt med situasjonen.
+def_budget|KrF|3|HIGH|75|KrF vil øke forsvarsutgiftene til 3 prosent av BNP i 2027.
+def_budget|MDG|1|MEDIUM|105|MDG støtter langtidsplanen og vil prioritere luftvern, langtrekkende presisjonsild og droner ved en eventuell styrking.
+# --- def_nato_exit: «Norge bør melde seg ut av NATO.»
+def_nato_exit|Ap|-3|HIGH|176|Ap kaller NATO en hjørnestein for norsk sikkerhet.
+def_nato_exit|H|-3|HIGH|5|Høyre vil styrke Norges evne til å bidra i det kollektive forsvaret av NATO.
+def_nato_exit|FrP|-3|HIGH|18|FrP mener NATO blir stadig viktigere for Norges sikkerhet.
+def_nato_exit|Sp|-3|HIGH|45|Sp mener NATO er vår sikkerhetsgaranti og rammeverket for forsvaret av Norge.
+def_nato_exit|SV|-1|MEDIUM|47-48|SV vil at NATO skal være en ren forsvarsallianse og ha nordisk samarbeid «både i og utenfor NATO», men krever ikke utmelding.
+def_nato_exit|R|3|HIGH|86|Rødt vil melde Norge ut av NATO.
+def_nato_exit|V|-3|HIGH|65|Venstre mener NATO er Norges klart viktigste sikkerhetsgaranti.
+def_nato_exit|KrF|-3|HIGH|75|KrF vil sikre fortsatt norsk medlemskap i NATO.
+def_nato_exit|MDG|-3|HIGH|100|MDG støtter norsk NATO-medlemskap.
+# --- def_allied_bases: «Norge bør åpne for at allierte land kan ha faste militærbaser i Norge.»
+def_allied_bases|Ap|U|-|177|Ap vil legge til rette for alliert trening og øving, men tar ikke stilling til faste baser.
+def_allied_bases|H|U|-|8|Høyre vil ha mer alliert trening og øving i nord, men tar ikke stilling til faste baser.
+def_allied_bases|FrP|3|HIGH|19|FrP vil legge til rette for etablering av faste baser i Norge for allierte.
+def_allied_bases|Sp|-3|HIGH|48|Sp vil sikre at NATO-soldater i Norge forblir rotasjonsbasert uten permanent tilstedeværelse.
+def_allied_bases|SV|-3|HIGH|47|SV vil ha full nasjonal råderett på norsk jord og avvikle utenlandske baser.
+def_allied_bases|R|-3|HIGH|88|Rødt vil ikke ha utenlandske militærbaser på norsk jord og vil oppheve avtalen med USA om «omforente områder».
+def_allied_bases|V|2|MEDIUM|66|Venstre vil oppdatere basepolitikken for å åpne for større nærvær av allierte styrker og fast samarbeid.
+def_allied_bases|KrF|3|HIGH|75|KrF vil åpne for allierte baser på norsk jord.
+def_allied_bases|MDG|1|MEDIUM|105|MDG vil samarbeide om omforente områder for utstasjonering av allierte tropper, med utvetydig rett til oppsigelse.
+# --- def_ukraine: «Norge bør øke den militære og sivile støtten til Ukraina betydelig.»
+def_ukraine|Ap|1|MEDIUM|167|Ap vil følge opp Nansen-programmet og støtte Ukraina så lenge det er behov, uten å love økning.
+def_ukraine|H|3|HIGH|6|Høyre vil øke den økonomiske støtten betydelig og gi betydelig våpenstøtte.
+def_ukraine|FrP|U|-|18|Programmet omtaler Russlands krig, men tar ikke stilling til omfanget av støtten.
+def_ukraine|Sp|U|-|-|Programmet tar ikke stilling til omfanget av støtten.
+def_ukraine|SV|1|MEDIUM|45|SV vil fortsette den militære og humanitære støtten til Ukraina.
+def_ukraine|R|U|-|87,94|Rødt støtter ukrainernes motstandskamp og gjenoppbygging, men programmet tar ikke eksplisitt stilling til omfanget av militær støtte.
+def_ukraine|V|3|HIGH|65|Venstre vil videreføre og betydelig øke støtten til Ukraina.
+def_ukraine|KrF|3|HIGH|76|KrF vil betydelig trappe opp den militære og sivile støtten til Ukraina.
+def_ukraine|MDG|2|MEDIUM|110|MDG vil styrke Nansenprogrammet med ekstrainntektene fra krigen for å støtte Ukrainas forsvar og gjenoppbygging.
+# --- for_aid: «Norge bør bruke minst 1 prosent av nasjonalinntekten (BNI) på bistand.»
+for_aid|Ap|3|HIGH|173|Ap vil bruke én prosent av BNI på bistand.
+for_aid|H|U|-|9-10|Høyre vil øke den humanitære bistanden, men angir ikke et nivå.
+for_aid|FrP|-3|HIGH|12,15|FrP vil redusere bistandsbudsjettet kraftig og begrense det til maksimalt 0,7 % av BNI.
+for_aid|Sp|3|HIGH|137|Sp vil bevilge minst 1 prosent av BNI til utviklingshjelp.
+for_aid|SV|3|HIGH|10,46|SV vil at minst 1 prosent av BNI går til bistand.
+for_aid|R|3|HIGH|93|Rødt vil at minst 1 prosent av BNI brukes til samfunnsutvikling i fattige land.
+for_aid|V|3|HIGH|67|Venstre vil fastholde målet om minst 1 % av BNI til bistand.
+for_aid|KrF|3|HIGH|80|KrF vil at minst 1 prosent av BNI skal gå til fattigdomsreduserende bistand.
+for_aid|MDG|3|HIGH|110|MDG vil at minst én prosent av BNI skal gå til humanitær bistand og fattigdomsreduksjon.
+# --- for_nuclear_ban: «Norge bør signere FNs atomvåpenforbud.»
+for_nuclear_ban|Ap|-1|MEDIUM|171|Ap mener det i dagens situasjon «ikke er mulig for NATO-land som Norge å undertegne», men at det bør være et mål på sikt.
+for_nuclear_ban|H|U|-|6|Høyre vil arbeide for kjernefysisk nedrustning, men tar ikke stilling til forbudsavtalen.
+for_nuclear_ban|FrP|U|-|-|Programmet tar ikke stilling.
+for_nuclear_ban|Sp|-1|MEDIUM|134|Sp mener det er et mål på sikt å signere, men at det forutsetter gjensidige og verifiserbare nedrustningsavtaler.
+for_nuclear_ban|SV|3|HIGH|45|SV vil at Norge signerer og ratifiserer atomvåpenforbudet.
+for_nuclear_ban|R|3|HIGH|86|Rødt vil at Norge umiddelbart ratifiserer avtalen om forbud mot atomvåpen.
+for_nuclear_ban|V|-1|LOW|65|Venstre vil prioritere avtaler der atomvåpenstatene er parter, med en forbudsavtale som omfatter alle atommaktene som mål på sikt.
+for_nuclear_ban|KrF|3|HIGH|78|KrF vil jobbe for at Norge signerer atomvåpenforbudet.
+for_nuclear_ban|MDG|U|-|100|MDG vil arbeide for kjernefysisk nedrustning, men nevner ikke forbudsavtalen.
+# --- for_israel_sanctions: «Norge bør innføre økonomiske sanksjoner eller boikott mot Israel på grunn av okkupasjonen av palestinske områder.»
+for_israel_sanctions|Ap|1|MEDIUM|src:ap_web_palestina|Ap vil innføre handelsforbud med varer produsert i de folkerettsstridige israelske bosetningene, men ikke generelle sanksjoner mot Israel.
+for_israel_sanctions|H|U|-|6|Høyre legger en tostatsløsning til grunn, men tar ikke stilling til sanksjoner.
+for_israel_sanctions|FrP|-3|HIGH|12|FrP vil jobbe for økt samarbeid og samhandel med Israel.
+for_israel_sanctions|Sp|U|-|-|Programmet tar ikke stilling.
+for_israel_sanctions|SV|2|HIGH|45|SV vil trekke oljefondet ut av selskaper på FNs svarteliste og forby økonomisk virksomhet knyttet til okkuperte områder.
+for_israel_sanctions|R|3|HIGH|7,93|Rødt vil jobbe for sanksjoner og økonomisk, akademisk og kulturell boikott av Israel.
+for_israel_sanctions|V|1|LOW|64-65|Venstre vil at oljefondet ikke skal investeres i selskaper som bidrar til ulovlig okkupasjon.
+for_israel_sanctions|KrF|-3|HIGH|78|KrF sier nei til boikott av Israel.
+for_israel_sanctions|MDG|2|MEDIUM|103|MDG mener norsk handel med parter fra okkupasjonsmakten i ulovlig okkuperte områder må regnes som lovstridig.

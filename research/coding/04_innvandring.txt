@@ -1,0 +1,90 @@
+# --- imm_level: «Norge bør ta imot færre asylsøkere og flyktninger enn i dag.»
+imm_level|Ap|1|LOW|110|Ap vil ha en «kontrollert, rettferdig og bærekraftig» innvandringspolitikk og advarer mot å ta imot flere enn vi klarer å integrere, men tar ikke til orde for et lavere nivå.
+imm_level|H|3|HIGH|76|Høyre vil holde innvandringen på et lavt nivå og stramme inn for å redusere ankomstene.
+imm_level|FrP|3|HIGH|21-23|FrP vil ha store innstramminger i asylinnvandringen og gi beskyttelse primært i nærområdene.
+imm_level|Sp|1|MEDIUM|63-64|Sp mener Norge ikke over tid kan ha en asylpraksis som skiller seg vesentlig fra nabolandene, og vil ha en streng og rettferdig innvandringspolitikk.
+imm_level|SV|-3|HIGH|24|SV vil føre en «solidarisk, rettferdig og raus» flyktningpolitikk og mener Norge må ta sin del av ansvaret.
+imm_level|R|-3|MEDIUM|95|Rødt mener asylpolitikken er blant de strengeste i Europa, vil styrke kvoteordningen og sikre at retten til å søke asyl ikke hindres.
+imm_level|V|-2|MEDIUM|47|Venstre vil føre en liberal og human asylpolitikk og mener Norge har gode forutsetninger for å ta en større del av ansvaret.
+imm_level|KrF|-1|LOW|36-37|KrF vektlegger retten til asyl og flere kvoteflyktninger, men tar ikke eksplisitt stilling til samlet nivå.
+imm_level|MDG|-2|MEDIUM|103-104|MDG vil ta imot flere kvoteflyktninger enn i dag og grunnlovsfeste retten til å søke asyl.
+# --- imm_quota: «Norge bør ta imot minst så mange kvoteflyktninger som FN anbefaler.»
+imm_quota|Ap|1|MEDIUM|110-111|Ap vil prioritere kvoteflyktninger og la UNHCRs anbefalinger veie tungt i perioder med lave asylankomster, men se kvoten i sammenheng med øvrige ankomster.
+imm_quota|H|-3|HIGH|76|Høyre vil holde antallet kvoteflyktninger lavt i årene fremover.
+imm_quota|FrP|-3|HIGH|22-23|FrP vil stanse mottak av kvoteflyktninger inntil integreringen er under kontroll.
+imm_quota|Sp|1|MEDIUM|63,65|Sp vil prioritere kvoteflyktninger og hjelp i nærområdene, uten å angi antall.
+imm_quota|SV|3|HIGH|10,24|SV vil ta imot 5000 overføringsflyktninger årlig, slik FN anbefaler.
+imm_quota|R|3|MEDIUM|95|Rødt vil styrke kvoteflyktningordningen og følge anbefalingene til FNs høykommissær for flyktninger.
+imm_quota|V|3|HIGH|48|Venstre vil at Norge tar imot minst så mange kvoteflyktninger som FN ber om.
+imm_quota|KrF|3|HIGH|37|KrF vil ta imot antall kvoteflyktninger i samsvar med anbefalingene fra FNs høykommissær.
+imm_quota|MDG|3|HIGH|103|MDG vil ta imot flere kvoteflyktninger enn i dag, som et minimum i tråd med FNs anbefalinger.
+# --- imm_offshore: «Asylsøkere som kommer til Norge, bør kunne sendes til et mottak i et trygt land utenfor Europa mens søknaden behandles.»
+imm_offshore|Ap|U|-|111|Programmet vil styrke europeisk migrasjonssamarbeid, men tar ikke stilling til behandling i tredjeland.
+imm_offshore|H|1|MEDIUM|76-77|Høyre vil returnere asylsøkere som har oppholdt seg i trygge land, og utrede et system der Norge betaler for omplassering til trygge land nærmere hjemlandet – ikke mottak i tredjeland mens søknaden behandles.
+imm_offshore|FrP|3|HIGH|22|FrP vil opprette asylsenter utenfor Europa der alle asylsøkere som kommer til Norge sendes for behandling.
+imm_offshore|Sp|1|MEDIUM|65|Sp vil bruke handlingsrommet til å henvise asylsøkere til trygge land utenfor Europa dersom de har reist via disse landene.
+imm_offshore|SV|-3|HIGH|24|SV går imot flyktningmottak utenfor Norge; asylsøknader skal behandles i Norge.
+imm_offshore|R|-3|HIGH|96|Rødt vil motarbeide alle forslag om asylmottak i tredjeland.
+imm_offshore|V|U|-|-|Programmet tar ikke stilling.
+imm_offshore|KrF|-3|HIGH|37|KrF vil motsette seg at asylsøkere sendes til tredjeland i påvente av behandling.
+imm_offshore|MDG|-2|HIGH|103|MDG vil ikke sende asylsøkere til såkalte trygge tredjeland uten garantert rettssikkerhet og trygg asylprosedyre.
+# --- imm_family: «Reglene for familiegjenforening bør bli strengere.»
+imm_family|Ap|1|MEDIUM|111|Ap vil skjerpe tilknytningskravet ved familiegjenforening for flyktninger og innføre integreringskontrakt, men også redusere ventetiden.
+imm_family|H|3|HIGH|76|Høyre vil stramme inn regelverket for familieinnvandring, blant annet ved å vurdere forsørgerkrav for flyktninger.
+imm_family|FrP|3|HIGH|23-25|FrP vil kreve fem års arbeid eller utdanning, øke underholdskravet og stanse familiegjenforening for enslige mindreårige.
+imm_family|Sp|3|HIGH|65|Sp vil stramme inn vilkårene for familieinnvandring.
+imm_family|SV|-3|HIGH|24|SV vil gjøre familiegjenforening enklere og rimeligere og utvide den til flere familiemedlemmer.
+imm_family|R|-2|MEDIUM|69|Rødt vil fjerne femårsregelen ved familiegjenforening og avskaffe gebyrene for å søke selvstendig oppholdstillatelse.
+imm_family|V|-1|LOW|27,48|Venstre vil korte ned saksbehandlingstiden for familiegjenforening kraftig og innføre kjærestevisum.
+imm_family|KrF|-1|LOW|36|KrF vil redusere saksbehandlingstiden for familiegjenforening; skjerping kun for voldsdømte.
+imm_family|MDG|-3|HIGH|104|MDG vil redusere inntektskravet for familiegjenforening og fjerne urimelige hindringer.
+# --- imm_residence: «Det bør stilles strengere krav for å få permanent opphold og norsk statsborgerskap, for eksempel om selvforsørgelse og norskkunnskaper.»
+imm_residence|Ap|-1|LOW|src:sting_innst_232s_2526|Ap mener at «dagens vilkår for å få innvilget norsk statsborgerskap ligger på et riktig nivå» og stemte mot strengere krav. Permanent opphold er ikke omtalt.
+imm_residence|H|3|HIGH|77|Høyre vil kreve fire års selvforsørgelse for permanent opphold, ingen gjeld til det offentlige, og vurdere å øke språkkravet til B2.
+imm_residence|FrP|3|HIGH|24,29|FrP vil kreve åtte år for permanent opphold og ti års botid, B2-norsk og selvforsørgelse for statsborgerskap.
+imm_residence|Sp|U|-|-|Programmet tar ikke stilling.
+imm_residence|SV|-2|MEDIUM|25|SV vil reversere botidskravet for permanent opphold for flyktninger fra fem til tre år.
+imm_residence|R|-3|HIGH|96|Rødt vil gi rett til statsborgerskap etter fem år og fjerne krav om norsk-/samfunnskunnskapstest og selvforsørgelse.
+imm_residence|V|-1|LOW|27|Venstre vil redusere kravet til oppholdstid før statsborgerskap for personer gift med norske statsborgere.
+imm_residence|KrF|-2|MEDIUM|36,38|KrF vil senke botidskravet til tre år for permanent opphold for borgere utenfor EØS.
+imm_residence|MDG|-2|MEDIUM|src:sting_innst_232s_2526|MDG (med SV) mener ytterligere innstramminger i statsborgerskapsregelverket «vil kunne svekke integreringen og øke utenforskap».
+# --- imm_labour: «Det bør bli enklere for folk fra land utenfor EU/EØS å få arbeidstillatelse i Norge.»
+imm_labour|Ap|1|LOW|36|Ap vil korte ned godkjenningsprosessen for arbeidstillatelser til tre dager for å gi bedrifter rask tilgang til utenlandsk kompetanse.
+imm_labour|H|2|HIGH|60|Høyre vil ha raskere arbeidstillatelser og en «fast track»-ordning for høykompetent arbeidskraft.
+imm_labour|FrP|1|MEDIUM|21|FrP vil gjøre det enklere å rekruttere nødvendig spisskompetanse fra utlandet hvis den ikke finnes i Norge/EØS, innenfor kontrollert arbeidsinnvandring.
+imm_labour|Sp|U|-|-|Programmet tar ikke stilling til arbeidsinnvandring fra land utenfor EØS.
+imm_labour|SV|U|-|-|Programmet tar ikke stilling.
+imm_labour|R|0|LOW|11,96|Rødt vil at arbeidsinnvandrere må ha tariffbetingelser for å få opphold, men at asylsøkere med avslag skal kunne søke som arbeidssøkere – trekker i begge retninger.
+imm_labour|V|3|HIGH|26|Venstre vil utvide adgangen for statsborgere fra land utenfor EU/EØS til det norske arbeidsmarkedet.
+imm_labour|KrF|U|-|-|Programmet tar ikke stilling (kun arbeidstillatelse for asylsøkere).
+imm_labour|MDG|2|MEDIUM|23|MDG vil ha et enkelt regelverk for arbeidsinnvandring og utrede om personer utenfor EU kan få samme vilkår for midlertidig arbeidstillatelse som EU-borgere.
+# --- imm_amnesty: «Personer som har fått endelig avslag på asyl, men har bodd lenge i Norge, bør kunne få bli.»
+imm_amnesty|Ap|-1|MEDIUM|111|Ap vil opprettholde tilliten til asylordningen gjennom effektivt returarbeid.
+imm_amnesty|H|-2|MEDIUM|76-77|Høyre vil sørge for at returer gjennomføres hurtig og styrke returarbeidet.
+imm_amnesty|FrP|-3|HIGH|23-24|FrP vil at personer med avslag skal være i lukket mottak frem til utsendelse.
+imm_amnesty|Sp|-2|MEDIUM|64|Sp vil ha rask retur av dem som har fått endelig avslag, men gjennomgå situasjonen for ureturnerbare.
+imm_amnesty|SV|3|HIGH|25|SV vil innføre amnesti for dem som har vært i Norge i over fem år og ikke kan returneres, og gi varig opphold senest ti år etter registrering.
+imm_amnesty|R|3|HIGH|96,98|Rødt vil jobbe for en amnestiregel for ureturnerbare som har vært i Norge over en viss periode.
+imm_amnesty|V|-1|MEDIUM|47|Venstre vil at de uten beskyttelsesbehov raskt skal returneres, men vektlegge barns beste.
+imm_amnesty|KrF|1|LOW|36-38|KrF vil at etablerte/integrerte flyktninger med beskyttelsesbehov og barn ikke skal sendes ut, men sier ikke noe generelt om lengeværende med avslag.
+imm_amnesty|MDG|3|HIGH|103|MDG vil gi amnesti til papirløse voksne etter syv år (kortere for barn).
+# --- imm_temporary: «Flyktninger bør som hovedregel bare få midlertidig opphold og returnere når hjemlandet er trygt.»
+imm_temporary|Ap|U|-|-|Programmet tar ikke stilling.
+imm_temporary|H|3|HIGH|76|Høyre vil som hovedregel bare gi midlertidig opphold og forvente tilbakeføring når det blir trygt.
+imm_temporary|FrP|3|HIGH|23|FrP mener asylsøkere og flyktninger som hovedregel bare skal få midlertidig opphold.
+imm_temporary|Sp|U|-|-|Programmet tar ikke stilling.
+imm_temporary|SV|-3|HIGH|24|SV vil begrense bruken av midlertidig opphold; varig opphold skal være hovedregelen.
+imm_temporary|R|-1|LOW|96|Rødt vil avvikle praksisen med begrensede oppholdstillatelser og styrke flyktningers rettigheter.
+imm_temporary|V|U|-|-|Programmet tar ikke stilling.
+imm_temporary|KrF|-1|LOW|36-37|KrF vil at etablerte flyktninger med beskyttelsesbehov ikke skal sendes ut.
+imm_temporary|MDG|U|-|-|Programmet tar ikke stilling.
+# --- imm_integration_req: «Innvandrere som ikke deltar i norskopplæring eller introduksjonsprogram, bør få redusert økonomisk støtte.»
+imm_integration_req|Ap|1|MEDIUM|111|Ap vil vurdere nye sanksjonsmuligheter dersom personer med familieinnvandringstillatelse ikke gjennomfører opplæringstilbud.
+imm_integration_req|H|2|HIGH|78|Høyre vil knytte deltakelse i norskopplæring til gratis kjernetid og vurdere aktivitetsplikt og norskopplæring for flere ikke-universelle ytelser.
+imm_integration_req|FrP|3|HIGH|26|FrP vil at fravær fra introduksjonsprogrammet gir bortfall av stønad og brudd på aktivitetsplikt gir avkortning.
+imm_integration_req|Sp|1|LOW|src:sting_innst_309l_2526|Sp fremmet (med Ap og H) forslag om å «vurdere konsekvenser ved manglende oppfyllelse av integreringsforpliktelser, inkludert økonomiske sanksjoner».
+imm_integration_req|SV|-2|MEDIUM|src:sting_innst_221s_2526|SV (med R og MDG) «advarer mot å bruke sanksjoner og økonomisk utrygghet som integreringspolitiske virkemidler».
+imm_integration_req|R|-2|MEDIUM|src:sting_innst_221s_2526|Rødt (med SV og MDG) «advarer mot å bruke sanksjoner og økonomisk utrygghet som integreringspolitiske virkemidler».
+imm_integration_req|V|U|-|-|Venstre vil stille krav om å respektere norsk lov og gi flere tilbud om norskopplæring, men tar ikke stilling til trekk i støtte.
+imm_integration_req|KrF|1|LOW|src:sting_innst_309l_2526|KrF stemte for å be regjeringen vurdere konsekvenser, inkludert økonomiske sanksjoner, ved manglende oppfyllelse av integreringsforpliktelser.
+imm_integration_req|MDG|-2|MEDIUM|src:sting_innst_221s_2526|MDG (med SV og R) «advarer mot å bruke sanksjoner og økonomisk utrygghet som integreringspolitiske virkemidler».

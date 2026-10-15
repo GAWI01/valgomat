@@ -1,0 +1,145 @@
+B001|-1|MEDIUM|42|«Vri dagens skattegrunnlag ved å senke skattene på inntekt, særlig de laveste inntektene»; ønsker lavere samlet skattetrykk.
+B002|1|LOW|109|«Gjøre det mulig for kommuner å sette eiendomsskatt på kun fritidsboliger og differensiere» – forutsetter kommunal eiendomsskatt, vil skjerme primærboliger.
+B003|2|MEDIUM|7,45,49|«Øke klimaavgiftene gradvis, slik at utslippene går ned i tråd med våre klimamål»; petroleum: «oppjustering også etter 2030».
+B004|0|MEDIUM|106-107|«Gjøre skattesystemet mer progressivt gjennom å redusere skatten på lave og vanlige inntekter» – ikke økt skatt på høye.
+B005|3|HIGH|57|«Ha varig vern og petroleumsfrie områder utenfor Lofoten, Vesterålen og Senja».
+B006|-3|HIGH|36-37|«Elektronisk kontroll bør begrenses til bruk overfor dem med mindre forseelser»; «all ilagt fengselsstraff skal sones i sin helhet».
+B007|1|MEDIUM|106-107|«Senterpartiet vil redusere avgiftene i Norge»; samtidig progressiv skatt som finansiering av velferd.
+B008|-1|MEDIUM|134|«Det er et mål på sikt at Norge skal signere ... forutsetter ... gjensidige og verifiserbare avtaler om nedrustning».
+B009|3|HIGH|35,40|«Fjerne straff for bruk og besittelse av brukerdoser av rusmidler i tråd med Rusreformutvalgets anbefaling».
+B010|2|HIGH|87|«at utlånsforskriften skal gi fleksibilitet for førstegangskjøpere og dem som har betjeningsevne, men ikke nok egenkapital».
+B011|U|-|40,42|Vil «videreføre samarbeidet om energi- og klimapolitikken med EU»; ingen skjerping av 2035-målet omtalt.
+B012|-1|LOW|20|«trappe opp barnetrygden per barn til 30 000 kroner ... og ellers være en universell ordning» – skatteplikt ikke foreslått.
+B013|-3|HIGH|41|«konsekvensutrede med sikte på gjenåpning av Nordland VI»; «konsekvensutrede Nordland VII og Troms II».
+B014|1|MEDIUM|3,66|«opprusting av Forsvaret ... har overordnet prioritet»; to prosent minst, «åpne for at dette målet vil måtte vurderes».
+B015|2|MEDIUM|43|«mål om at alle nye personbiler skal være utslippsfrie, og ha et avgiftssystem ... som bygger opp under dette».
+B016|0|LOW|9,11,96|Ønsker arbeidsinnvandrere velkommen, men EUs åpning for tredjeland «skaper et arbeidsmarked der kapitaleierne tjener»; arbeidstillatelse til asylsøkere.
+B017|-3|HIGH|60|«Si nei til vindkraft på land, i fjæra og til havs».
+B018|-3|HIGH|10-11|«bemanningsselskaper må forbys»; «regionale og bransjevise forbud mot innleie».
+B019|U|-|107|Kriminalomsorg omtales («styrke friomsorgen»), men ingen standpunkt om flere på fotlenke/samfunnsstraff i stedet for fengsel.
+B020|-2|MEDIUM|27,48|«Redusere saksbehandlingstiden for familiegjenforening kraftig»; likekjønnede samme mulighet – liberalisering, ikke innstramming.
+B021|0|LOW|21,39,85|«politiet må sikres mulighet til å forfølge nye former for kriminalitet», men «vurderinger av nye overvåkningsmetoder må tas av domstolene».
+B022|2|MEDIUM|30|«regulere bankenes kredittgivning, slik at førstegangskjøpere lettere får tilgang til kreditt»; sameieordning for dem som «mangler egenkapital».
+B023|3|HIGH|32,34,37|«Økte velferdsstatens minsteytelser»; «Ingen pensjoner skal ligge under EUs fattigdomsgrense».
+B024|1|LOW|45-46|«prioritere representativt vern ... i tråd med Norges forpliktelser», men lokalt selvstyre og balansering av inngrep.
+B025|3|HIGH|21-23|«stanse mottak av kvoteflyktninger inntil vi har kontroll på integreringen»; «Beskyttelse skal primært gis i nærområdene».
+B026|-3|HIGH|75|«Sikre fortsatt norsk medlemskap i NATO»; «NATO er vår viktigste sikkerhetsgaranti».
+B027|2|HIGH|116-117|«ikke erstatte SK1 og SK2 til Danmark og ikke legge til rette for nye utenlandskabler» – gjelder kommende stortingsperiode.
+B028|0|MEDIUM|169|«anbefalt å si ja til norsk medlemskap. Samtidig er det rom for ulike syn»; medlemskap må ny landsmøtebehandling; EØS ligger fast.
+B029|-3|HIGH|42,44,51|«tollsatser bør reduseres med sikte på friere handel»; «at produksjon og priser skal styres av markedet».
+B030|-2|MEDIUM|73|«At ingen kommuner eller fylker slås sammen med tvang eller uten ... folkeavstemning»; mot sentralisering.
+B031|1|LOW|110|«Dersom vi over tid tar imot flere enn vi klarer å integrere, kan det gå ut over tillit» – kontrollert innvandring, ikke eksplisitt færre.
+B032|1|MEDIUM|38-39|«Øke CO2-avgiften gradvis for å nå klimamålene, og betale tilbake gjennom en omfordelende ordning».
+B033|1|LOW|25-26|«Øke låne- og tilskuddsrammene til Husbanken»; ingen eksplisitt satsing på ikke-kommersielle utleieboliger.
+B034|U|-|-|Ingen omtale av aktiv dødshjelp funnet.
+B035|2|HIGH|12-13|«bygge ut bedre veistandard med gul midtstripe ... fremfor kostbare flerfelts motorveier»; «Nye veiprosjekter må skaleres ned».
+B036|-2|MEDIUM|36-37|«At etablerte/integrerte flyktninger med dokumentert beskyttelsesbehov ikke skal sendes ut»; «Avskaffe tidsbegrenset oppholdstillatelse» for enslige mindreårige.
+B037|U|-|-|Ingen omtale av å øke minsteytelsene.
+B038|-1|LOW|48|Ingen sluttdato; vil videreføre kompetanse og at «Fremtidige lisenstildelinger må begrenses til utvidelser ... av allerede eksisterende produksjon».
+B039|1|MEDIUM|23|«Tilpasse regelen mot innleie ... slik at virksomheter har mulighet til å leie inn ekspertise ... til klart avgrensede prosjekter».
+B040|-1|LOW|32|Vil «Sikre den offentlige tannhelsetjenesten tilstrekkelig finansiering» og prioritere vanskeligstilte – ikke universell dekning.
+B041|-1|MEDIUM|176|«Arbeiderpartiet er garantisten for at forsvarsløftet gjennomføres» – støtter langtidsplanen/forliket, ikke raskere opptrapping.
+B042|1|LOW|65|«henvise asylsøkere til trygge land utenfor Europa ... dersom de har kommet til Norge via dette landet» – ikke behandling i mottak utenfor.
+B043|-1|LOW|22|«Innta skog i klimamålet for 2035, dersom dette gjør det enklere å nå klimamålet» – ingen skjerping av målet.
+B044|U|-|-|Kontantstøtte ikke omtalt.
+B045|1|LOW|36-38|«Gi langtidsværende og ureturnerbare asylsøkere rett til arbeid, skolegang og ordinær helsehjelp» – ikke eksplisitt rett til opphold.
+B046|2|HIGH|45|«innføre forbud mot økonomisk virksomhet og investeringer som bidrar til brudd på folkeretten ... på okkuperte områder»; trekke oljefondet ut.
+B047|3|HIGH|4,32|«Vi skal ikke benytte oss av fleksible mekanismer for å oppfylle våre nasjonale klimamål, men heller gjennomføre en nasjonal omstilling».
+B048|-2|HIGH|48|«Fremtidige lisenstildelinger må begrenses til utvidelser eller forlengelse av allerede eksisterende produksjon i modne områder».
+B049|0|MEDIUM|62-63|«Mer av godset må fraktes på bane og sjø, mindre på vei», men også «Videreføre finansieringen og porteføljen til Nye Veier AS».
+B050|0|MEDIUM|105|«Støtte hovedprinsippene i langtidsplanen for forsvaret»; prioriteringer «for en eventuell styrking av langtidsplanen».
+B051|3|HIGH|23|«Gjeninnføre adgang til innleie ved arbeid av midlertidig karakter»; «Innføre en generell adgang til midlertidig ansettelse».
+B052|3|HIGH|173|«bruke én prosent av brutto nasjonalinntekt på bistand».
+B053|3|HIGH|39|«Erstatte helseforetaksmodellen med en forvaltningsbasert modell slik man har gjort i f.eks. Skottland».
+B054|2|MEDIUM|78,57|«vurdere å knytte aktivitetsplikt og videre norskopplæring til flere ikke-universelle ytelser»; integreringskontrakt.
+B055|-1|MEDIUM|95,70|«styrke det offentlige og ideelle tilbud i barnevernet ... redusere bruken av anbud»; private barnehager skal ha forutsigbarhet.
+B056|1|MEDIUM|52-53|«henvises til hjelp, behandling og oppfølging i stedet for straff», men «Bruk og besittelse av narkotika skal være forbudt»; gebyr ved manglende oppmøte.
+B057|-2|HIGH|96-97|«På riksveinettet skal det i større grad satses på motorveier»; vil også bygge dobbeltspor rundt byene.
+B058|0|LOW|88|«Rødt vil styrke Norges nasjonale forsvarsevne», men kritisk til kostbart materiell; budsjettnivå ikke angitt.
+B059|-1|MEDIUM|36|«Redusere saksbehandlingstiden for familiegjenforening»; kun innstramming for de dømt for vold mot ektefelle.
+B060|1|LOW|28|«åpne Husbankens startlån for unge uten oppspart egenkapital» – via Husbanken, ikke generelt egenkapitalkrav.
+B061|U|-|6|Mål om «55 % innen 2030 og 95 % innen 2050»; ingen 2035-mål angitt.
+B062|0|MEDIUM|117|«utrede fremtidig produksjon av kjernekraft i Norge» – åpent/utredning.
+B063|-1|MEDIUM|65|«Målet på sikt bør være en forpliktende forbudsavtale som inkluderer alle dagens atommakter» – prioriterer eksisterende avtaler.
+B064|-2|HIGH|23|«Jobbe for forsøksordning om å fjerne aktivitetskrav ... for de som mottar ... sosialstønad»; tillitsbasert borgerlønn.
+B065|U|-|-|Utenlandskabler ikke omtalt.
+B066|-2|HIGH|171|«I dagens sikkerhetspolitiske situasjon er det ikke mulig for NATO-land som Norge å undertegne»; mål på sikt.
+B067|U|-|-|Ingen omtale av midlertidig opphold som hovedregel.
+B068|-1|MEDIUM|68|«Gi redaktørstyrte medier gode og forutsigbare rammevilkår, inkludert NRK som allmennkringkaster».
+B069|-1|MEDIUM|27|«Redusere kravene til oppholdstid for å oppnå statsborgerskap for personer som er gift ... med norsk statsborger».
+B070|U|-|-|Innleie/bemanningsbyrå/midlertidige ansettelser i arbeidslivet generelt ikke omtalt.
+B071|0|LOW|8-9|Markedsorientert («markedet fungerer bedre»), men vil «Forbedre strømstøtteordningen» – ingen fastpris/makspris.
+B072|U|-|115-116|«barnetrygden videreføres som en universell ordning, begrenset oppad til fem barn» – skatteplikt ikke omtalt.
+B073|3|HIGH|50,67|«Fjerne formueskatten på arbeidende kapital».
+B074|3|HIGH|46|«Oppheve sexkjøpsloven og endre hallikparagrafen».
+B075|-2|MEDIUM|27|«demokratisk styring av både det offentlige og det private barnehage- og skoletilbudet ... antall private plasser reduseres».
+B076|1|LOW|33,117|«gjøre det mer attraktivt å investere i grønne næringer som havvind»; utlysning 50 GW, ikke eksplisitt statsstøtte.
+B077|1|MEDIUM|5,37|«bygge strategiske industrisatsinger på flytende havvind», men «oljeselskapene bidrar mer til finansieringen av hele havvindutbyggingen».
+B078|1|LOW|7,12|«fremfor store skattekutt til de som har mest fra før»; progressivt skattesystem, ikke eksplisitt økning.
+B079|1|MEDIUM|76|«behov for en ny helsereform for å sikre at ansvaret ... og den demokratiske styringen ... blir mer sammenhengende» – ikke eksplisitt avvikling.
+B080|-1|MEDIUM|48|«Øke bevilgningene til Forsvaret i tråd med Langtidsplanen for Forsvaret 2025-2036».
+B081|-2|MEDIUM|59-60|«løsningen [kan ikke] være å bytte til fornybar energi som produseres med store naturinngrep»; vil oppgradere eksisterende vannkraftverk.
+B082|U|-|-|Ikke-kommersielle utleieboliger ikke omtalt.
+B083|-1|LOW|26|«Standardiserte prøver og teoretisering har resultert i for mye pugging» – nasjonale prøver ikke nevnt eksplisitt.
+B084|1|MEDIUM|36|«redusere tiden for godkjenningsprosessen av arbeidstillatelser til tre dager».
+B085|-3|HIGH|70|«Abort skal være lovlig og selvbestemt. Så lenge abort kan gjennomføres skal det være kvinnens ... eget valg».
+B086|U|-|60|Kun «Styrke det abortforebyggende arbeidet»; abortgrensen ikke omtalt.
+B087|-1|MEDIUM|49|«sikre at økning i forsvarsbudsjettet ikke skjer på bekostning av den sivile beredskapen»; folk foran materiell.
+B088|3|HIGH|7|«Gi kommunene større handlingsrom til å utforme en lokal eiendomsskatt med sosial profil ... og høyere makssats».
+B089|2|HIGH|46|«samfunnsstraff og straffegjennomføring med elektronisk kontroll må videreutvikles. Ofte er samfunnet en bedre arena».
+B090|-2|HIGH|49|«Følge handlingsregelen og tilpasse pengebruken og nye satsinger til situasjonen i økonomien».
+B091|-1|MEDIUM|38|«Avvente å utrede aktiv dødshjelp til Norge har fått en livshjelps- og palliasjonsreform».
+B092|0|LOW|59|«Som en del av en slik reform bør også organiseringen på fylkes-/regionnivå vurderes» – ingen klar nedleggelse.
+B093|-3|HIGH|16|«Si nei til utbygging av vannkraft i vernede vassdrag».
+B094|1|MEDIUM|42,44|«tilrettelegge for å raskt følge opp den offentlige utredningen om kjernekraft som aktuell kraftkilde».
+B095|2|HIGH|85|«Fortsatte å utvide ordningen med bruk av elektronisk kontroll (fotlenke)» og «Øke bruken av samfunnsstraff»; men også økt fengselskapasitet.
+B096|3|HIGH|85|«Norge skal si nei til avtaler som eksempelvis EUs fjerde energimarkedspakke».
+B097|3|HIGH|23|«beholde en nasjonal fraværsgrense».
+B098|-1|MEDIUM|6,15|«Strømprisen vil variere mer»; vil ha «flat strømstøtte ... som utbetales uavhengig av forbruk» – ikke fastpris/makspris.
+B099|1|MEDIUM|49|«Styrke det private eierskapet»; «Sikre statlig eierskap der dette er nødvendig» – ikke eksplisitt mindre statlig eierskap.
+B100|-2|HIGH|43|«ikke utvide adgangen til å holde butikker åpne på søndager».
+B101|1|MEDIUM|24-25|«sikre at minstepensjonene ikke blir hengende etter»; ytelser som sikrer «anstendige liv» – ikke betydelig økning.
+B102|0|LOW|72|«beholde et offentlig finansiert, reklamefritt ... NRK», men NRK «har en dominerende rolle i medielandskapet».
+B103|2|MEDIUM|6|«klimaplan ... der det planlegges for at målene nås gjennom nasjonale tiltak»; samtidig forlenge klimaavtalen med EU.
+B104|1|LOW|85,83|«Ulike soningsformer og straffenivå må jevnlig vurderes»; «Gjøre æresvold straffeskjerpende» – ingen generell skjerping.
+B105|U|-|-|Arveavgift ikke omtalt.
+B106|2|HIGH|68|«Nasjonale prøver og internasjonale målinger som PISA og PIRLS er viktige verktøy for å måle elevenes utvikling».
+B107|-2|MEDIUM|97|«At den norske og nordiske tradisjonen om lave fengselsrater skal fastholdes».
+B108|1|LOW|117|«legge til rette for utbygging av vannkraft» – sier ikke noe om vernede vassdrag.
+B109|U|-|65|Krever at okkupasjonen «må opphøre», men ingen sanksjoner/boikott nevnt.
+B110|U|-|38|«Kutte minst 55 prosent av norske utslipp innen 2030»; 2035-mål ikke angitt.
+B111|-2|MEDIUM|15,17|«motvirke den økende privatiseringen og reversere todelingen av helsetjenesten»; etableringskontroll med private helsetjenester.
+B112|2|HIGH|12|«Beholde fraværsgrensen, men bytte ut 10 prosentgrensen med 15 prosent i 2- og 3-timers fag».
+B113|1|MEDIUM|51|«At ved økninger i pensjoner skal de som har minst prioriteres» – ikke betydelig økning.
+B114|U|-|43|«Brede og rettferdige skatter skal finansiere velferdsstaten» – grønn skatteomlegging, ikke samlet nivå.
+B115|-3|HIGH|22-23|«stanse mottak av kvoteflyktninger inntil vi har kontroll på integreringen».
+B116|-1|LOW|62|Kun «åpne for lengre nedbetalingstid på bompengeprosjekter for å redusere bompengebelastningen på enkelte prosjekter».
+B117|-2|MEDIUM|38|«overføringene til landbruket har økt kraftig, uten at det har bidratt til nevneverdige endringer i lønnsomheten»; tilpasses markedet.
+B118|1|LOW|8|«Vindkraft er en viktig fornybar energikilde» men «tydelige rammer for bygging av landbasert vindkraft».
+B119|-2|HIGH|66|«reversere vedtak om storskala overvåking ... uten konkret mistanke»; «forby automatisk bruk av ansiktsgjenkjenning i det offentlige rom».
+B120|3|HIGH|11|«At EØS-avtalen sies opp og erstattes med en handelsavtale».
+B121|2|HIGH|29|«Videreføre aktivitetsplikten for sosialhjelpsmottakere under 30 år» og «Prøve ut aktivitetsplikt også for ... over 30 år».
+B122|U|-|40-41|Vil dreie støtten mot miljø; inntektsgap/mer penger ikke omtalt.
+B123|-2|MEDIUM|96|«Avvikle praksisen med begrensede oppholdstillatelser»; ingen tvangsretur dit sikkerhet ikke kan garanteres.
+B124|1|MEDIUM|31-32|«Utrede alternativer til dagens styringsform, helseforetaksmodellen»; styrke demokratisk styring.
+B125|-3|HIGH|80|«åpnes for konsekvensutredning av Nordland VI, VII og Troms II ... med den hensikt å åpne for petroleumsvirksomhet».
+B126|-1|MEDIUM|7,73,76|«Øke kommunenes og fylkeskommunenes demokratiske handlingsrom ved å styrke deres økonomi» – forutsetter fylkeskommunen.
+B127|U|-|-|Avgifter på bensin/diesel ikke omtalt.
+B128|U|-|-|Bompenger ikke omtalt.
+B129|-2|MEDIUM|41|«Dreie landbrukspolitikken til å bli mindre basert på støtte gjennom høye priser og markedsreguleringer».
+B130|U|-|-|Søndagsåpne butikker ikke omtalt.
+B131|-2|MEDIUM|10|«Det er kommunene selv som må ta initiativ til tettere samarbeid eller sammenslåing med nabokommunene».
+B132|U|-|-|Handlingsregelen/oljefondsbruk ikke omtalt.
+B133|-1|MEDIUM|35,37|«Verne om asylinstituttet»; kvoteflyktninger «i samsvar med anbefalingene fra FNs høykommissær».
+B134|U|-|-|Kontantstøtte ikke omtalt.
+B135|1|LOW|46|«utbygging av ny vannkraft og småkraftverk der dette kan forsvares ut fra naturhensyn» – vernede vassdrag ikke nevnt.
+B136|3|HIGH|47-48|«innføre Fritt behandlingsvalg for å øke pasienters valgfrihet».
+B137|-3|HIGH|21|«Opprettholde forbudet mot kjøp av seksuelle tjenester».
+B138|-1|LOW|113-114|Vekt på veier: «Videreføre Nye Veier og sikre finansiering», fylkesveiløft; ingen prioritering av bane foran vei.
+B139|3|HIGH|114|«innføre ordningen med Norgespris for å gi strømkunder forutsigbar strømpris».
+B140|-2|HIGH|21|«Beholde det generelle straffenivået, men vurdere ... straffenivået for seksuallovbrudd».
+B141|U|-|-|Sykelønn ikke omtalt.
+B142|3|HIGH|107|«Redusere avgifter som rammer folk flest, som elavgift og drivstoffavgifter».
+B143|1|MEDIUM|41,50|«Heve CO2-avgiften gjennom en forutsigbar og økende prisbane»; «gradvis økning» – ikke eksplisitt raskere enn plan.
+B144|-2|MEDIUM|50,60|«Bruk av private, ideelle aktører skal basere seg på langsiktige avtaler, styrt og prioritert av det offentlige»; mot marked for private helsetjenester.
+B145|U|-|-|Avgiftsfordeler for elbil ikke omtalt.
