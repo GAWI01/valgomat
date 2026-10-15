@@ -14,6 +14,10 @@ describe('URL-parametre', () => {
     expect(parseHash('#/sporsmal/1e9')).toEqual({ name: 'quiz', index: 0 });
     expect(parseHash('#/sporsmal/3')).toEqual({ name: 'quiz', index: 2 });
   });
+  it('dyplenke til en del av kildesiden', () => {
+    expect(parseHash('#/kilder/andre-partier')).toEqual({ name: 'sources', section: 'andre-partier' });
+    expect(parseHash('#/kilder')).toEqual({ name: 'sources', section: undefined });
+  });
   it('ukjente ruter gir forsiden', () => {
     expect(parseHash('#/<script>alert(1)</script>')).toEqual({ name: 'home' });
   });

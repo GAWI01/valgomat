@@ -38,6 +38,7 @@ const SCENARIOS = [
   { name: 'method', hash: '#/metode', answers: {} },
   { name: 'why', hash: '#/hvorfor-ulikt', answers: {} },
   { name: 'sources', hash: '#/kilder', answers: {} },
+  { name: 'sources-other', hash: '#/kilder/andre-partier', answers: {} },
 ];
 const VIEWS = [
   { name: 'm', viewport: { width: 375, height: 812 }, dpr: 2 },

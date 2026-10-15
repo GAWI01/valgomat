@@ -25,6 +25,15 @@ export default function App() {
       sources: 'Kilder – Valgomat 2027',
     };
     document.title = titles[route.name];
+    if (route.name === 'sources' && route.section) {
+      // Dyplenke til en del av kildesiden: rull dit og flytt fokus, så skjermlesere også havner riktig.
+      const el = document.getElementById(route.section);
+      if (el) {
+        el.scrollIntoView();
+        el.focus({ preventScroll: true });
+        return;
+      }
+    }
     if (route.name !== 'quiz') window.scrollTo({ top: 0 });
   }, [route]);
 

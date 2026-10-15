@@ -46,6 +46,7 @@ export function ResultsPage({ answers }: { answers: Answers }) {
           <>
             Prosenten er en <strong>matchscore</strong>: hvor nær partienes vedtatte standpunkter ligger dine svar, på en skala der 100 % betyr identiske svar
             og 0 % maksimal uenighet. Det er <strong>ikke</strong> sannsynligheten for at du bør stemme på partiet. <a href={href({ name: 'method' })}>Slik beregnes den</a>.
+            {' '}Bare de ni stortingspartiene er med; <a href={href({ name: 'sources', section: 'andre-partier' })}>andre partier er ikke kodet</a>.
           </>
         }
       >

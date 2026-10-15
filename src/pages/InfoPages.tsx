@@ -50,6 +50,7 @@ export function HomePage({ answers, onReset }: { answers: Answers; onReset: () =
 
       <div className="card mt-8 p-5">
         <h2 className="font-bold">Partiene som er med</h2>
+        <p className="muted mt-1 text-sm">De ni partiene som sitter på Stortinget i perioden 2025–2029.</p>
         <ul className="mt-3 flex flex-wrap gap-2">
           {data.parties.map((p) => (
             <li key={p.id} className="flex items-center gap-2 rounded-lg bg-sand-100 px-2 py-1 text-sm dark:bg-white/5">
@@ -60,6 +61,10 @@ export function HomePage({ answers, onReset }: { answers: Answers; onReset: () =
         <p className="muted mt-4 text-sm">
           Standpunktene bygger på programmene for stortingsperioden 2025–2029, som er de nyeste vedtatte programmene. Sist oppdatert: <strong>{lastUpdated}</strong>.
           Programmer for valget i 2029 er ennå ikke vedtatt. <a href={href({ name: 'sources' })}>Om kildene</a>
+        </p>
+        <p className="mt-3 rounded-2xl bg-sand-100 p-3 text-sm dark:bg-white/5">
+          <strong>Det stiller langt flere partier og lister til valg.</strong> De er ikke med i valgomaten, og resultatet sier derfor ingenting om hvor godt de passer
+          deg. <a href={href({ name: 'sources', section: 'andre-partier' })}>Hvorfor bare ni?</a>
         </p>
       </div>
 
@@ -272,6 +277,10 @@ export function MethodPage() {
         <li>Kodingen av partistandpunkter krever skjønn. Alle begrunnelser og kilder er åpne slik at du kan vurdere dem selv.</li>
         <li>Programmer er ikke alltid det samme som det partiene gjør i praksis i Stortinget eller i regjering.</li>
         <li>Noen partier har mer detaljerte programmer enn andre. Det gir flere ukjente standpunkter for noen partier, særlig Arbeiderpartiet.</li>
+        <li>
+          Bare de ni stortingspartiene er med. Langt flere partier og lister stiller til valg, men de er ikke kodet – se{' '}
+          <a href={href({ name: 'sources', section: 'andre-partier' })}>partier som ikke er med</a>.
+        </li>
         <li>Spørsmålsutvalget er et valg. Andre valg kan gi andre resultater – se <a href={href({ name: 'why' })}>hvorfor resultatene kan variere</a>.</li>
       </ul>
     </article>
@@ -386,6 +395,23 @@ export function SourcesPage() {
           </tbody>
         </table>
       </div>
+
+      <h2 id="andre-partier" tabIndex={-1} className="scroll-mt-24 outline-hidden">Partier som ikke er med</h2>
+      <p>
+        Det finnes langt flere partier enn de ni i valgomaten. Ved stortingsvalget 2025 fikk partier utenfor Stortinget til sammen rundt 4,4 prosent av stemmene
+        (<a href="https://snl.no/Stortingsvalget_2025" rel="noopener noreferrer" target="_blank">Store norske leksikon</a>). Blant dem var Pensjonistpartiet,
+        Norgesdemokratene, Generasjonspartiet, Industri- og Næringspartiet, Konservativt, Pasientfokus og Partiet Sentrum. Ved lokalvalg kommer i tillegg mange
+        lokale lister.
+      </p>
+      <p>
+        <strong>Dekningen for disse partiene er null:</strong> ingen av dem er kodet. Det betyr ikke at de passer dårligere enn partiene som er med – valgomaten kan
+        bare ikke si noe om dem. Vi har avgrenset til partiene som er representert på Stortinget fordi hvert parti krever 80 kildebelagte kodinger, og fordi mange
+        små partier har korte programmer som ikke tar stilling til mange av spørsmålene. Et parti blir tatt med dersom det kommer inn på Stortinget, eller dersom
+        det har et vedtatt program som gir tilstrekkelig grunnlag for kodingen.
+      </p>
+      <p>
+        Vurderer du et parti som ikke er med, kan du lese partiets eget program og sammenligne med svarene dine under <a href={href({ name: 'overview' })}>Alle spørsmål</a>.
+      </p>
 
       <h2>Spørsmål med svakest datagrunnlag</h2>
       <ul>

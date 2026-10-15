@@ -96,4 +96,4 @@ Vite 7, React 19, TypeScript, Tailwind CSS 4 og Vitest 5. Valgomaten trenger ing
 
 ## Forbehold
 
-Å kode partistandpunkter krever skjønn. Derfor er alle begrunnelser og kilder åpne, så de kan etterprøves. Prosenten er ikke en sannsynlighet og ikke en anbefaling. Resultatet er et analyseverktøy, ikke en fasit på hvilket parti noen «er». Har du funnet en feil? Rett den i `research/`, kjør `npm test` og send et forslag.
+Bare de ni stortingspartiene er med. Langt flere partier og lister stiller til valg (partier utenfor Stortinget fikk rundt 4,4 prosent av stemmene i 2025), men de er ikke kodet, og valgomaten sier ingenting om dem. Dette står tydelig på forsiden, på resultatsiden og på kildesiden. Å kode partistandpunkter krever skjønn. Derfor er alle begrunnelser og kilder åpne, så de kan etterprøves. Prosenten er ikke en sannsynlighet og ikke en anbefaling. Resultatet er et analyseverktøy, ikke en fasit på hvilket parti noen «er». Har du funnet en feil? Rett den i `research/`, kjør `npm test` og send et forslag.

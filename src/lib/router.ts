@@ -8,7 +8,7 @@ export type Route =
   | { name: 'question'; id: string }
   | { name: 'method' }
   | { name: 'why' }
-  | { name: 'sources' };
+  | { name: 'sources'; section?: string };
 
 /** Ugyldig prosentkoding (f.eks. «%E0%A4») skal ikke krasje appen. */
 function safeDecode(s: string): string {
@@ -31,7 +31,7 @@ export function parseHash(hash: string): Route {
     case 'sak': return { name: 'question', id: parts[1] ?? '' };
     case 'metode': return { name: 'method' };
     case 'hvorfor-ulikt': return { name: 'why' };
-    case 'kilder': return { name: 'sources' };
+    case 'kilder': return { name: 'sources', section: parts[1] };
     default: return { name: 'home' };
   }
 }
@@ -45,7 +45,7 @@ export function href(r: Route): string {
     case 'question': return `#/sak/${r.id}`;
     case 'method': return '#/metode';
     case 'why': return '#/hvorfor-ulikt';
-    case 'sources': return '#/kilder';
+    case 'sources': return r.section ? `#/kilder/${r.section}` : '#/kilder';
   }
 }
 
