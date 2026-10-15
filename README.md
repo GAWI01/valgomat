@@ -24,7 +24,7 @@ En åpen og kildebasert norsk valgomat. Du svarer på **80 politiske påstander*
   - politisk profil på sju akser;
   - kilde for hvert standpunkt.
 - **Personvern:** svarene lagres bare i nettleseren din. Den bygde siden har en Content-Security-Policy som forbyr alle nettverkskall, og det finnes ingen analyseverktøy.
-- **Tilgjengelighet:** utformet for mobil først, med mørk og lys modus, en nøytral grafittfarge i grensesnittet (partifargene brukes bare til å skille partiene), WCAG AA-kontrast sjekket med axe-core, tastaturnavigasjon og automatisk lagring.
+- **Tilgjengelighet:** utformet for mobil først, med mørk og lys modus, en glassdesign i Apple-stil (gjennomskinnelige flater med uskarp bakgrunn, respekterer «redusert gjennomsiktighet») i nøytral grafitt (partifargene brukes bare til å skille partiene), WCAG AA-kontrast sjekket med axe-core, tastaturnavigasjon og automatisk lagring.
 
 ## Kom i gang
 

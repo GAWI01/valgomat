@@ -120,7 +120,7 @@ export function QuizPage({ index, answers, setAnswer, setImportance, clearAnswer
           </span>
         </button>
         {open && (
-          <div id={panelId} className="mt-3 animate-rise rounded-xl bg-sand-100 p-4 text-[0.97rem] dark:bg-white/5">
+          <div id={panelId} className="mt-3 animate-rise rounded-2xl bg-sand-100 p-4 text-[0.97rem] dark:bg-white/5">
             <h2 className="text-sm font-bold uppercase tracking-wide">Bakgrunn</h2>
             <p className="mt-1 leading-relaxed">{q.background}</p>
             <div className="mt-4 grid gap-4 sm:grid-cols-2">
@@ -244,7 +244,7 @@ function ScaleInput({ value, onChange, labelledBy }: { value: number | undefined
               onClick={() => onChange(v)}
               className="group flex min-h-[56px] items-center justify-center rounded-xl"
             >
-              <span className={`flex items-center justify-center rounded-full border-2 transition-all ${size} ${tone} ${checked ? `${fill} scale-105 shadow-md` : 'bg-white group-hover:scale-105 dark:bg-transparent'}`}>
+              <span className={`flex items-center justify-center rounded-full border-2 transition-all ${size} ${tone} ${checked ? `${fill} scale-105 shadow-md` : 'bg-white/70 group-hover:scale-105 dark:bg-white/5'}`}>
                 {checked && <span aria-hidden="true" className="text-sm font-bold text-white sm:text-lg">✓</span>}
               </span>
             </button>

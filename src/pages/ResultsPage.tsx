@@ -109,11 +109,11 @@ function Verdict({ summary }: { summary: ResultSummary }) {
     clear: { label: 'Klar match', cls: 'border-emerald-300 bg-emerald-50 dark:border-emerald-500/40 dark:bg-emerald-500/10', text: <>{party(a.party).name} ligger tydelig nærmest dine svar i denne testen, og er øverst i {pct(summary.uncertainty.topShare[a.party])} av simuleringene der spørsmålsutvalget varieres.</> },
     close: { label: 'Nær match', cls: 'border-amber-300 bg-amber-50 dark:border-amber-500/40 dark:bg-amber-500/10', text: <>{party(a.party).name} ligger øverst, men {party(b.party).name} er ikke langt unna ({Math.round(summary.gap ?? 0)} prosentpoeng). Små endringer i hvilke spørsmål som er med, kan endre rekkefølgen.</> },
     uncertain: { label: 'Usikkert mellom flere partier', cls: 'border-sky-300 bg-sky-50 dark:border-sky-500/40 dark:bg-sky-500/10', text: <>{names(summary.contenders)} ligger i praksis svært nær hverandre i denne testen. Ingen av dem bør regnes som en klar vinner.</> },
-    weak: { label: 'Ingen parti passer spesielt godt', cls: 'border-slate-300 bg-slate-50 dark:border-white/20 dark:bg-white/5', text: <>{party(a.party).name} ligger øverst med {pct(a.score)}, men det er ikke høyere enn det beste partiet typisk får når de samme svarene dine stokkes tilfeldig mellom spørsmålene ({pct(summary.baseline)}). Svarene dine går på tvers av partiene – se temaoversikten for hvor hvert parti passer deg.</> },
-    insufficient: { label: 'For få svar', cls: 'border-sand-200 bg-white dark:border-white/10', text: <>Svar på flere spørsmål for å få et mer pålitelig resultat.</> },
+    weak: { label: 'Ingen parti passer spesielt godt', cls: 'glass border-slate-300! dark:border-white/20!', text: <>{party(a.party).name} ligger øverst med {pct(a.score)}, men det er ikke høyere enn det beste partiet typisk får når de samme svarene dine stokkes tilfeldig mellom spørsmålene ({pct(summary.baseline)}). Svarene dine går på tvers av partiene – se temaoversikten for hvor hvert parti passer deg.</> },
+    insufficient: { label: 'For få svar', cls: 'glass', text: <>Svar på flere spørsmål for å få et mer pålitelig resultat.</> },
   }[summary.verdict];
   return (
-    <div className={`rounded-2xl border-2 p-5 ${conf.cls}`} role="status">
+    <div className={`rounded-3xl border-2 p-5 ${conf.cls}`} role="status">
       <p className="text-sm font-bold uppercase tracking-wide">{conf.label}</p>
       <p className="mt-1 text-lg leading-snug">{conf.text}</p>
       {isModestFit(summary) && (
@@ -251,7 +251,7 @@ function ThemeTable({ summary }: { summary: ResultSummary }) {
           <caption className="sr-only">Matchscore per tema og parti</caption>
           <thead>
             <tr className="border-b border-sand-200 dark:border-white/10">
-              <th scope="col" className="sticky left-0 z-10 bg-white p-2 text-left font-semibold dark:bg-[#1a1d23]">
+              <th scope="col" className="sticky left-0 z-10 bg-white/85 p-2 backdrop-blur-md text-left font-semibold dark:bg-[#1e222a]/90">
                 Tema
               </th>
               <th scope="col" className="p-2 text-right font-semibold">
@@ -269,7 +269,7 @@ function ThemeTable({ summary }: { summary: ResultSummary }) {
           <tbody>
             {themes.map((t) => (
               <tr key={t.theme} className="border-b border-sand-100 last:border-0 dark:border-white/5">
-                <th scope="row" className="sticky left-0 z-10 bg-white p-2 text-left font-medium dark:bg-[#1a1d23]">
+                <th scope="row" className="sticky left-0 z-10 bg-white/85 p-2 backdrop-blur-md text-left font-medium dark:bg-[#1e222a]/90">
                   {themeLabel(t.theme)}
                   <span className="muted block text-xs font-normal">{t.answered} svar</span>
                 </th>
@@ -367,7 +367,7 @@ function AxisTrack({ dimIndex, partyDims, userValue }: { dimIndex: number; party
         </span>
       ))}
       <span
-        className="absolute top-1/2 h-5 w-5 -translate-x-1/2 -translate-y-1/2 rounded-full border-[3px] border-white bg-ink shadow-sm dark:border-[#1a1d23] dark:bg-white"
+        className="absolute top-1/2 h-5 w-5 -translate-x-1/2 -translate-y-1/2 rounded-full border-[3px] border-white bg-ink shadow-sm dark:border-[#1e222a] dark:bg-white"
         style={{ left: `${((userValue + 1) / 2) * 100}%` }}
         aria-hidden="true"
       />

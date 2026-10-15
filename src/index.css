@@ -17,9 +17,10 @@
   --color-brand-800: #222932;
   --color-brand-900: #161b21;
 
-  --color-sand-50: #fbfaf7;
-  --color-sand-100: #f4f2ec;
-  --color-sand-200: #e8e4d9;
+  /* «Sand» er nå gjennomskinnelige toner, så innfelte flater og streker blander seg med glasset under. */
+  --color-sand-50: #f3f5f8;
+  --color-sand-100: rgb(15 23 42 / 0.05);
+  --color-sand-200: rgb(15 23 42 / 0.1);
 
   /* Tailwind v3-paletten (hex) for standardfargene appen bruker, slik at utseendet er uendret etter oppgradering til v4. */
   --color-slate-50: #f8fafc;
@@ -75,8 +76,8 @@
   --color-sky-900: #0c4a6e;
 
   --font-sans:
-    system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial,
-    sans-serif;
+    -apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
 
   --animate-rise: rise 220ms ease-out both;
 
@@ -118,24 +119,57 @@
   }
 }
 
+/*
+  Glass: gjennomskinnelig flate med uskarp bakgrunn, tynn lys kant og et høylys i overkanten.
+  Fargene settes som variabler slik at mørk modus og «redusert gjennomsiktighet» kan overstyre dem samlet.
+*/
+:root {
+  --glass-bg: rgb(255 255 255 / 0.58);
+  --glass-bg-strong: rgb(255 255 255 / 0.82);
+  --glass-border: rgb(255 255 255 / 0.75);
+  --glass-edge: rgb(15 23 42 / 0.07);
+  --glass-hl: rgb(255 255 255 / 0.9);
+  --glass-shadow: 0 10px 34px -14px rgb(15 23 42 / 0.22), 0 1px 3px rgb(15 23 42 / 0.06);
+}
+.dark {
+  --glass-bg: rgb(30 34 42 / 0.55);
+  --glass-bg-strong: rgb(30 34 42 / 0.86);
+  --glass-border: rgb(255 255 255 / 0.12);
+  --glass-edge: rgb(0 0 0 / 0.4);
+  --glass-hl: rgb(255 255 255 / 0.1);
+  --glass-shadow: 0 12px 40px -12px rgb(0 0 0 / 0.6), 0 1px 3px rgb(0 0 0 / 0.3);
+}
+@media (prefers-reduced-transparency: reduce) {
+  :root { --glass-bg: #fbfcfd; --glass-bg-strong: #fff; }
+  .dark { --glass-bg: #1c2027; --glass-bg-strong: #1c2027; }
+}
+
+@utility glass {
+  background-color: var(--glass-bg);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  box-shadow: inset 0 1px 0 var(--glass-hl), 0 0 0 0.5px var(--glass-edge), var(--glass-shadow);
+}
+
 @utility card {
-  @apply rounded-2xl border border-sand-200 bg-white shadow-xs dark:border-white/10 dark:bg-[#1a1d23];
+  @apply glass rounded-3xl;
 }
 
 @utility btn {
-  @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-xl px-4 py-2 text-base font-semibold no-underline transition-colors disabled:cursor-not-allowed disabled:opacity-40;
+  @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-full px-5 py-2 text-base font-semibold no-underline transition-[background-color,box-shadow,transform] duration-200 active:scale-[0.97] disabled:cursor-not-allowed disabled:opacity-40 disabled:active:scale-100;
 }
 
 @utility btn-primary {
-  @apply btn bg-brand-600 text-white hover:bg-brand-700 dark:bg-brand-100 dark:text-brand-900 dark:hover:bg-white;
+  @apply btn bg-linear-to-b from-brand-600 to-brand-800 text-white shadow-[inset_0_1px_0_rgb(255_255_255/0.22),0_6px_18px_-6px_rgb(15_23_42/0.55)] hover:from-brand-500 hover:to-brand-700 dark:from-white dark:to-brand-100 dark:text-brand-900 dark:shadow-[inset_0_1px_0_rgb(255_255_255/0.9),0_6px_20px_-6px_rgb(0_0_0/0.7)] dark:hover:from-white dark:hover:to-white;
 }
 
 @utility btn-ghost {
-  @apply btn text-ink hover:bg-sand-100 dark:text-slate-100 dark:hover:bg-white/10;
+  @apply btn text-ink hover:bg-white/60 dark:text-slate-100 dark:hover:bg-white/10;
 }
 
 @utility btn-outline {
-  @apply btn border border-sand-200 bg-white text-ink hover:bg-sand-100 dark:border-white/15 dark:bg-transparent dark:text-slate-100 dark:hover:bg-white/10;
+  @apply btn glass text-ink hover:bg-white/80 dark:text-slate-100 dark:hover:bg-white/15;
 }
 
 @utility muted {
@@ -176,8 +210,28 @@
 
 @layer base {
   html { -webkit-text-size-adjust: 100%; }
-  body { @apply bg-sand-50 text-ink antialiased dark:bg-[#0f1115] dark:text-slate-100; }
-  :focus-visible { @apply outline-hidden ring-2 ring-brand-500 ring-offset-2 ring-offset-sand-50 dark:ring-brand-400 dark:ring-offset-[#0f1115]; }
+  body { @apply bg-sand-50 text-ink antialiased dark:bg-[#0b0d11] dark:text-slate-100; }
+  /* Rolig, nøytral «bakgrunnsbilde» bak glasset: kjølig grå, stein og blågrått – ingen partifarger. */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background:
+      radial-gradient(42rem 32rem at 8% -6%, rgb(196 214 232 / 0.85), transparent 62%),
+      radial-gradient(38rem 30rem at 102% 18%, rgb(232 224 212 / 0.9), transparent 60%),
+      radial-gradient(46rem 34rem at 40% 108%, rgb(210 220 228 / 0.9), transparent 62%),
+      linear-gradient(180deg, #f6f7f9, #eceff3);
+  }
+  .dark body::before {
+    background:
+      radial-gradient(42rem 32rem at 8% -6%, rgb(46 62 82 / 0.75), transparent 62%),
+      radial-gradient(38rem 30rem at 102% 18%, rgb(58 50 42 / 0.6), transparent 60%),
+      radial-gradient(46rem 34rem at 40% 108%, rgb(34 46 58 / 0.8), transparent 62%),
+      linear-gradient(180deg, #0d1014, #0a0c10);
+  }
+  :focus-visible { @apply outline-hidden ring-2 ring-brand-500 ring-offset-2 ring-offset-sand-50 dark:ring-brand-400 dark:ring-offset-[#0b0d11]; }
   a { @apply text-brand-700 underline decoration-brand-200 underline-offset-2 hover:decoration-brand-600 dark:text-brand-200 dark:decoration-brand-700; }
   h1, h2, h3 { @apply tracking-tight; }
 }
