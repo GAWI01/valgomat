@@ -55,3 +55,16 @@ export function formatDate(iso: string): string {
 }
 
 export const pct = (x: number | null | undefined): string => (x === null || x === undefined ? '–' : `${Math.round(x * 100)} %`);
+
+/** Velger svart eller hvit tekst på en partifarge, etter hva som gir best kontrast (WCAG). */
+export function textOn(hex: string): string {
+  const c = hex.replace('#', '');
+  const [r, g, b] = [0, 2, 4].map((i) => {
+    const v = parseInt(c.slice(i, i + 2), 16) / 255;
+    return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4;
+  });
+  const L = 0.2126 * r + 0.7152 * g + 0.0722 * b;
+  const contrastWhite = 1.05 / (L + 0.05);
+  const contrastDark = (L + 0.05) / (0.0094 + 0.05); // #111827
+  return contrastDark > contrastWhite ? '#111827' : '#ffffff';
+}

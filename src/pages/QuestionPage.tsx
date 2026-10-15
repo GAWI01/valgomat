@@ -6,7 +6,15 @@ import { ConfidenceBadge, PageTitle, PartySwatch, ScaleDots, SourceLinks, Stars 
 /** Ett spørsmål med brukerens svar og alle partiers standpunkt, begrunnelse og kilde. */
 export function QuestionPage({ id, answers }: { id: string; answers: Answers }) {
   const q = question(id);
-  if (!q) return <p>Fant ikke spørsmålet.</p>;
+  if (!q)
+    return (
+      <div>
+        <h1 className="text-2xl font-bold">Fant ikke saken</h1>
+        <p className="mt-2">
+          Lenken peker til et spørsmål som ikke finnes. <a href={href({ name: 'overview' })}>Se alle spørsmål</a>
+        </p>
+      </div>
+    );
   const a = answers[id];
   const idx = orderedQuestions.findIndex((x) => x.id === id);
   const sorted = [...data.parties].sort((x, y) => (position(id, y.id)?.position ?? -99) - (position(id, x.id)?.position ?? -99));
@@ -113,9 +121,8 @@ export function AllQuestionsPage({ answers }: { answers: Answers }) {
                           const v = position(q.id, p.id)?.position ?? null;
                           return (
                             <span key={p.id} className="inline-flex items-center gap-1" title={`${p.name}: ${valueLabel(v)}`}>
-                              <span className="font-bold" style={{ color: p.color }}>
-                                {p.short}
-                              </span>
+                              <span aria-hidden="true" className="h-2 w-2 shrink-0 rounded-full" style={{ backgroundColor: p.color }} />
+                              <span className="font-bold">{p.short}</span>
                               <span className="tabular-nums">{v === null ? '?' : v > 0 ? `+${v}` : v}</span>
                             </span>
                           );

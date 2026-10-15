@@ -9,7 +9,15 @@ export function PartyPage({ partyId, answers }: { partyId: string; answers: Answ
   const { summary } = useResults(answers);
   const r = summary.ranking.find((x) => x.party === partyId);
   const p = party(partyId);
-  if (!r || !p) return <p>Fant ikke partiet.</p>;
+  if (!r || !p)
+    return (
+      <div>
+        <h1 className="text-2xl font-bold">Fant ikke partiet</h1>
+        <p className="mt-2">
+          Lenken peker til et parti som ikke finnes i valgomaten. <a href={href({ name: 'results' })}>Tilbake til resultatet</a>
+        </p>
+      </div>
+    );
   const rank = summary.ranking.indexOf(r) + 1;
   const agree = topAgreements(r, 8);
   const disagree = topDisagreements(r, 8);
@@ -33,7 +41,7 @@ export function PartyPage({ partyId, answers }: { partyId: string; answers: Answ
         <Stat label="Datagrunnlag" value={pct(r.coverage)} />
       </div>
       <p className="muted mt-2 text-sm">
-        Datagrunnlag viser hvor stor andel av vekten bak dine svar vi har et kjent, kildebelagt standpunkt for {p.short} på. {unknown.length > 0 && <>På {unknown.length} av dine svar er partiets standpunkt ukjent; de teller verken for eller mot.</>}
+        Datagrunnlag viser hvor stor andel av vekten bak dine svar vi har et kjent, kildebelagt standpunkt for {p.name} på. {unknown.length > 0 && <>På {unknown.length} av dine svar er partiets standpunkt ukjent; de teller verken for eller mot.</>}
       </p>
 
       <Section title="Dere er mest enige om" id="enige">
@@ -54,7 +62,7 @@ export function PartyPage({ partyId, answers }: { partyId: string; answers: Answ
             <li key={t.theme} className="flex items-center gap-3 p-3">
               <span className="w-40 shrink-0 text-sm sm:w-56">{themeLabel(t.theme)}</span>
               <span className="relative h-2.5 flex-1 rounded-full bg-sand-100 dark:bg-white/10" aria-hidden="true">
-                {t.score !== null && <span className="absolute inset-y-0 left-0 rounded-full" style={{ width: `${t.score * 100}%`, backgroundColor: p.color }} />}
+                {t.score !== null && <span className="absolute inset-y-0 left-0 rounded-full dark:ring-1 dark:ring-inset dark:ring-white/40" style={{ width: `${t.score * 100}%`, backgroundColor: p.color }} />}
               </span>
               <span className="w-12 text-right text-sm font-semibold tabular-nums">{t.score === null ? '–' : pct(t.score)}</span>
             </li>
