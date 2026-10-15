@@ -4,9 +4,9 @@ just_sentences|H|2|HIGH|1,13|Høyre vil gi «strengere straffer» og heve flere 
 just_sentences|FrP|3|HIGH|36|FrP vil skjerpe straffenivået generelt og øke maksstraffen til 50 år.
 just_sentences|Sp|1|LOW|83,85,88|Sp vil gjøre æresvold straffeskjerpende og utvide adgangen til forvaring, men mener straffenivå må vurderes jevnlig.
 just_sentences|SV|-3|HIGH|51|SV vil gjennomgå det totale straffenivået med mål om å senke det.
-just_sentences|R|U|-|11,98|Rødt vil skjerpe straffene for arbeidslivs- og økonomisk kriminalitet, men tar ikke stilling til det generelle straffenivået.
+just_sentences|R|0|LOW|97-98|Rødt vil skjerpe straffene for blant annet seksuelt misbruk av barn, voldtekt og partnervold, men holde fast ved lave fengselsrater.
 just_sentences|V|-1|MEDIUM|45-46|Venstre mener straffenivået skal settes ut fra preventive hensyn, ikke hevn, og vil redusere bruken av minstestraffer.
-just_sentences|KrF|0|HIGH|21|KrF vil beholde det generelle straffenivået (men vurdere skjerpelser for seksuallovbrudd mot barn).
+just_sentences|KrF|-1|HIGH|21|KrF vil «beholde det generelle straffenivået», men vurdere straffenivået for seksuallovbrudd.
 just_sentences|MDG|U|-|70|Programmet vil øke strafferammene for miljøkriminalitet, men tar ikke stilling til det generelle nivået.
 # --- just_police_arms: «Politiet bør være generelt bevæpnet.»
 just_police_arms|Ap|3|HIGH|src:ap_lm2025_bevapning|Landsmøtet 2025 vedtok at det bør innføres generell bevæpning av politiet, med en tydelig innramming.

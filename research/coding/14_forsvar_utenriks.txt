@@ -2,7 +2,7 @@
 def_budget|Ap|0|MEDIUM|176|Ap vil være garantisten for at forsvarsløftet i langtidsplanen gjennomføres, og at Norge oppfyller NATOs toprosentmål.
 def_budget|H|3|HIGH|7|Høyre mener ambisjonene i langtidsplanen må fremskyndes og utvides.
 def_budget|FrP|3|HIGH|19-20|FrP vil øke Forsvarets årlige budsjett for å forsterke og forsere langtidsplanen, og styrke luftvernet utover planen.
-def_budget|Sp|2|MEDIUM|43,48|Sp vil ha forsvarsbudsjett på minimum 3 prosent av BNP, men øke bevilgningene i tråd med langtidsplanen og uten tidsangivelse.
+def_budget|Sp|1|MEDIUM|48|Sp vil styrke forsvarsbevilgningene til minimum 3 % av BNP, men også øke dem «i tråd med Langtidsplanen».
 def_budget|SV|-1|LOW|49|SV vil sikre at økning i forsvarsbudsjettet ikke skjer på bekostning av sivil beredskap.
 def_budget|R|0|LOW|87-88|Rødt har sluttet seg til forsvarsforliket og vil styrke den nasjonale forsvarsevnen, men prioriterer også nedrustning.
 def_budget|V|1|LOW|66|Venstre vil kraftig ruste opp Forsvarets operative evne og vurdere toprosentmålet i takt med situasjonen.
@@ -49,10 +49,10 @@ for_aid|V|3|HIGH|67|Venstre vil fastholde målet om minst 1 % av BNI til bistand
 for_aid|KrF|3|HIGH|80|KrF vil at minst 1 prosent av BNI skal gå til fattigdomsreduserende bistand.
 for_aid|MDG|3|HIGH|110|MDG vil at minst én prosent av BNI skal gå til humanitær bistand og fattigdomsreduksjon.
 # --- for_nuclear_ban: «Norge bør signere FNs atomvåpenforbud.»
-for_nuclear_ban|Ap|0|MEDIUM|171|Ap mener det i dagens situasjon ikke er mulig for NATO-land som Norge å undertegne, men at det bør være et mål.
+for_nuclear_ban|Ap|-1|MEDIUM|171|Ap mener det i dagens situasjon «ikke er mulig for NATO-land som Norge å undertegne», men at det bør være et mål på sikt.
 for_nuclear_ban|H|U|-|6|Høyre vil arbeide for kjernefysisk nedrustning, men tar ikke stilling til forbudsavtalen.
 for_nuclear_ban|FrP|U|-|-|Programmet tar ikke stilling.
-for_nuclear_ban|Sp|0|MEDIUM|134|Sp mener det er et mål på sikt å signere, men at det forutsetter gjensidige og verifiserbare nedrustningsavtaler.
+for_nuclear_ban|Sp|-1|MEDIUM|134|Sp mener det er et mål på sikt å signere, men at det forutsetter gjensidige og verifiserbare nedrustningsavtaler.
 for_nuclear_ban|SV|3|HIGH|45|SV vil at Norge signerer og ratifiserer atomvåpenforbudet.
 for_nuclear_ban|R|3|HIGH|86|Rødt vil at Norge umiddelbart ratifiserer avtalen om forbud mot atomvåpen.
 for_nuclear_ban|V|-1|LOW|65|Venstre vil prioritere avtaler der atomvåpenstatene er parter, med en forbudsavtale som omfatter alle atommaktene som mål på sikt.

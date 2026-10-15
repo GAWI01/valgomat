@@ -161,3 +161,24 @@ dist_county	MDG	U - 75	-3 MEDIUM src:sting_innst_196s_2526	Fra U.
 edu_national_tests	V	U - -	3 MEDIUM src:sting_innst_236s_2526	Fra U.
 energy_offshore_wind	Sp	U - 43	2 MEDIUM src:sting_innst_401s_2526	Fra U.
 housing_equity	KrF	1 MEDIUM 50	2 MEDIUM 50;src:sting_innst_379s_2526	Var +1; Stortingsforslaget er tydeligere enn programmet.
+cli_target	H	-1 LOW 42	U - 42	Blind koder: U. Belegget var indirekte → U.
+cli_target	V	1 LOW 6	U - 6	Blind koder: U. 55 % i 2030 og 95 % i 2050 gir ikke grunnlag for å si at 2035-målet bør skjerpes.
+cli_target	R	1 LOW 38	U - 39	Blind koder: U. 55 % i 2030 er dagens mål.
+econ_oil_money	FrP	1 LOW 42-43	U - 42-43	Blind koder: U.
+econ_tax_level	MDG	-1 LOW 49	U - -	Blind koder: U.
+fam_child_benefit_tax	FrP	-1 LOW 115-116	U - 115-116	Blind koder: U.
+housing_nonprofit	V	-1 LOW 25	0 LOW 25	Blind koder +1 LOW, vi −1 LOW → dokumentert mellomposisjon.
+housing_nonprofit	FrP	-1 LOW 57	U - 57	Blind koder: U.
+transport_toll	H	1 LOW 62	0 LOW 62	Blind koder −1 LOW, vi +1 LOW → mellomposisjon.
+work_sickpay	KrF	1 LOW 51	U - 51	Blind koder: U.
+agri_tariffs	V	U - -	-2 MEDIUM 41	Fra U. Blind koder −2 MEDIUM; formuleringen går direkte mot påstandens «selv om det kan gi høyere matpriser».
+def_budget	Sp	2 MEDIUM 43,48	1 MEDIUM 48	Vi +2, blind koder −1 → +1 (fortsatt omstridt).
+for_nuclear_ban	Ap	0 MEDIUM 171	-1 MEDIUM 171	Vi 0, blind koder −2. Påstanden gjelder å signere nå; samme logikk som eu_membership (−1).
+for_nuclear_ban	Sp	0 MEDIUM 134	-1 MEDIUM 134	Konsistent med Ap.
+just_sentences	R	U - 11,98	0 LOW 97-98	Fra U. Blind koder −2; programmet peker i begge retninger → dokumentert mellomposisjon.
+just_sentences	KrF	0 HIGH 21	-1 HIGH 21	Vi 0, blind koder −2. Påstanden gjelder generelt strengere straffer, som KrF sier nei til.
+dist_municipal_merge	FrP	U - 10	-1 LOW 10	Fra U. Blind koder −2 MEDIUM; indirekte → −1 LOW.
+econ_tax_level	Sp	U - 109	1 LOW 108	Fra U. Blind koder +1 MEDIUM; gjelder bare avgiftene → LOW.
+transport_ev	H	U - -	1 MEDIUM 43	Fra U. Blind koder +2 MEDIUM; sier ikke «store fordeler» → +1.
+transport_fuel_tax	Ap	U - 12,121	-1 MEDIUM src:sting_refs_2026_10_07	Fra U; direkte om drivstoffavgiftene (ikke CO₂-avgiften alene).
+econ_property_tax	Ap	U - -	1 LOW src:sting_refs_2026_10_05	Fra U; debattinnlegg → LOW.

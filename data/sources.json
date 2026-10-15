@@ -336,5 +336,35 @@
     "adopted": "2026",
     "accessed": "2026-10-14",
     "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
+  },
+  {
+    "id": "sting_refs_2026_10_07",
+    "party": null,
+    "type": "stortingsdokument",
+    "title": "Stortingets referat 7. oktober 2026: finansministerens redegjørelse for statsbudsjettet 2027 (Prop. 1 S og Prop. 1 LS)",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2026-2027/refs-202627-10-07/",
+    "adopted": "7. oktober 2026",
+    "accessed": "2026-10-14",
+    "note": "Regjeringens budsjettforslag slik finansministeren la det fram for Stortinget. Brukes fordi selve proposisjonene ligger på regjeringen.no, som stenger ute automatiske nedlastinger (Cloudflare). Regjeringens forslag gir høyst MEDIUM confidence for Ap."
+  },
+  {
+    "id": "sting_refs_2026_10_05",
+    "party": null,
+    "type": "stortingsdokument",
+    "title": "Stortingets referat 5. oktober 2026: trontaledebatten",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2026-2027/refs-202627-10-05/",
+    "adopted": "5. oktober 2026",
+    "accessed": "2026-10-14",
+    "note": "Innlegg fra partienes representanter. Debattinnlegg gir høyst LOW–MEDIUM confidence."
+  },
+  {
+    "id": "sting_refs_2026_10_06",
+    "party": null,
+    "type": "stortingsdokument",
+    "title": "Stortingets referat 6. oktober 2026: trontaledebatten med voteringer",
+    "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2026-2027/refs-202627-10-06/",
+    "adopted": "6. oktober 2026",
+    "accessed": "2026-10-14",
+    "note": "Voteringer over partienes forslag."
   }
 ]

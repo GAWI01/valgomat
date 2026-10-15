@@ -11,10 +11,10 @@ housing_equity|MDG|U|-|-|Programmet tar ikke stilling.
 # --- housing_nonprofit: «Staten bør finansiere mange flere ikke-kommersielle utleieboliger med rimelig husleie.»
 housing_nonprofit|Ap|2|MEDIUM|29|Ap vil, i samarbeid med kommuner, næringsliv, ideelle og boligbyggelag, ha en kraftfull satsing på flere rimelige leieboliger og en tredje boligsektor.
 housing_nonprofit|H|U|-|-|Programmet tar ikke stilling.
-housing_nonprofit|FrP|-1|LOW|57|FrP vil øke boligtilbudet gjennom færre krav og mindre regulering, ikke offentlige utleieboliger.
+housing_nonprofit|FrP|U|-|57|FrP vil øke boligtilbudet med færre krav og mindre regulering, men omtaler ikke ikke-kommersielle utleieboliger.
 housing_nonprofit|Sp|U|-|-|Programmet tar ikke stilling.
 housing_nonprofit|SV|3|HIGH|7|SV mener Norge trenger flere ikke-kommersielle utleieboliger.
 housing_nonprofit|R|3|HIGH|71|Rødt vil bygge ut en ikke-kommersiell boligsektor og gjøre finansiering av den til en hovedoppgave for Husbanken.
-housing_nonprofit|V|-1|LOW|25|Venstre mener det viktigste er at det ordinære boligmarkedet fungerer best mulig og at det bygges flere boliger.
+housing_nonprofit|V|0|LOW|25|Venstre vil øke Husbankens låne- og tilskuddsrammer, men mener det viktigste er at det ordinære boligmarkedet fungerer.
 housing_nonprofit|KrF|U|-|-|Programmet tar ikke stilling.
 housing_nonprofit|MDG|2|HIGH|24|MDG vil legge til rette for allmennboliger og ikke-kommersielle utleieselskaper, og la kommunene kreve en andel slike boliger.

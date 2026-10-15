@@ -515,6 +515,36 @@
    "adopted": "2026",
    "accessed": "2026-10-14",
    "note": "Partienes merknader og forslag i en stortingsinnstilling (nivå 4). Gir høyst MEDIUM confidence."
+  },
+  {
+   "id": "sting_refs_2026_10_07",
+   "party": null,
+   "type": "stortingsdokument",
+   "title": "Stortingets referat 7. oktober 2026: finansministerens redegjørelse for statsbudsjettet 2027 (Prop. 1 S og Prop. 1 LS)",
+   "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2026-2027/refs-202627-10-07/",
+   "adopted": "7. oktober 2026",
+   "accessed": "2026-10-14",
+   "note": "Regjeringens budsjettforslag slik finansministeren la det fram for Stortinget. Brukes fordi selve proposisjonene ligger på regjeringen.no, som stenger ute automatiske nedlastinger (Cloudflare). Regjeringens forslag gir høyst MEDIUM confidence for Ap."
+  },
+  {
+   "id": "sting_refs_2026_10_05",
+   "party": null,
+   "type": "stortingsdokument",
+   "title": "Stortingets referat 5. oktober 2026: trontaledebatten",
+   "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2026-2027/refs-202627-10-05/",
+   "adopted": "5. oktober 2026",
+   "accessed": "2026-10-14",
+   "note": "Innlegg fra partienes representanter. Debattinnlegg gir høyst LOW–MEDIUM confidence."
+  },
+  {
+   "id": "sting_refs_2026_10_06",
+   "party": null,
+   "type": "stortingsdokument",
+   "title": "Stortingets referat 6. oktober 2026: trontaledebatten med voteringer",
+   "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2026-2027/refs-202627-10-06/",
+   "adopted": "6. oktober 2026",
+   "accessed": "2026-10-14",
+   "note": "Voteringer over partienes forslag."
   }
  ],
  "questions": [
@@ -2230,13 +2260,13 @@
   {
    "question": "econ_tax_level",
    "party": "Sp",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet vil redusere skatt på lave/vanlige inntekter og avgifter som elavgift, men tar ikke stilling til det samlede nivået.",
+   "position": 1,
+   "confidence": "LOW",
+   "reasoning": "Sp vil redusere avgiftene, men bruke progressiv skatt til å finansiere velferden.",
    "refs": [
     {
      "source": "prog_sp",
-     "pages": "109"
+     "pages": "108"
     }
    ]
   },
@@ -2295,13 +2325,13 @@
   {
    "question": "econ_tax_level",
    "party": "MDG",
-   "position": -1,
-   "confidence": "LOW",
-   "reasoning": "MDG vil innføre arveavgift, eiendomsskatt på næringseiendom og øke klimaavgifter, men også senke skatten for lave inntekter. Netto retning er ikke eksplisitt; kodet svakt negativt.",
+   "position": null,
+   "confidence": null,
+   "reasoning": "MDG vil ha en grønn skatteomlegging, men tar ikke stilling til det samlede skattenivået.",
    "refs": [
     {
      "source": "prog_mdg",
-     "pages": "49"
+     "pages": null
     }
    ]
   },
@@ -2659,12 +2689,12 @@
   {
    "question": "econ_property_tax",
    "party": "Ap",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": 1,
+   "confidence": "LOW",
+   "reasoning": "Ap kritiserer lettelser i eiendomsskatten for de dyreste boligene i Oslo (Tonje Brenna i trontaledebatten 2026).",
    "refs": [
     {
-     "source": "prog_ap",
+     "source": "sting_refs_2026_10_05",
      "pages": null
     }
    ]
@@ -2802,9 +2832,9 @@
   {
    "question": "econ_oil_money",
    "party": "FrP",
-   "position": 1,
-   "confidence": "LOW",
-   "reasoning": "FrP vil skille mellom drift og investeringer i statsbudsjettet, og at oljeverdier også investeres i lønnsom norsk infrastruktur. Ikke eksplisitt om å bryte handlingsregelen.",
+   "position": null,
+   "confidence": null,
+   "reasoning": "FrP vil bruke handlingsrommet til investeringer, men omtaler ikke handlingsregelen eller økt bruk av oljefondet.",
    "refs": [
     {
      "source": "prog_frp",
@@ -3218,9 +3248,9 @@
   {
    "question": "work_sickpay",
    "party": "KrF",
-   "position": 1,
-   "confidence": "LOW",
-   "reasoning": "KrF vil følge opp Sysselsettingsutvalgets anbefalinger om omlegging av sykepengeordningen, med vekt på arbeidsgivers insentiver og gradert sykmelding. Uklart om kompensasjonsgraden skal ned.",
+   "position": null,
+   "confidence": null,
+   "reasoning": "KrF vil følge opp Sysselsettingsutvalget om sykepengeordningen, men tar ikke stilling til kompensasjonsnivået.",
    "refs": [
     {
      "source": "prog_krf",
@@ -5181,13 +5211,13 @@
   {
    "question": "just_sentences",
    "party": "R",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Rødt vil skjerpe straffene for arbeidslivs- og økonomisk kriminalitet, men tar ikke stilling til det generelle straffenivået.",
+   "position": 0,
+   "confidence": "LOW",
+   "reasoning": "Rødt vil skjerpe straffene for blant annet seksuelt misbruk av barn, voldtekt og partnervold, men holde fast ved lave fengselsrater.",
    "refs": [
     {
      "source": "prog_r",
-     "pages": "11, 98"
+     "pages": "97-98"
     }
    ]
   },
@@ -5207,9 +5237,9 @@
   {
    "question": "just_sentences",
    "party": "KrF",
-   "position": 0,
+   "position": -1,
    "confidence": "HIGH",
-   "reasoning": "KrF vil beholde det generelle straffenivået (men vurdere skjerpelser for seksuallovbrudd mot barn).",
+   "reasoning": "KrF vil «beholde det generelle straffenivået», men vurdere straffenivået for seksuallovbrudd.",
    "refs": [
     {
      "source": "prog_krf",
@@ -5948,9 +5978,9 @@
   {
    "question": "cli_target",
    "party": "H",
-   "position": -1,
-   "confidence": "LOW",
-   "reasoning": "Høyre vil oppnå «betydelige utslippsreduksjoner» i samarbeid med EU, uten å angi et strengere 2035-mål.",
+   "position": null,
+   "confidence": null,
+   "reasoning": "Høyre vil ha betydelige utslippskutt innen 2030 i samarbeid med EU, men tar ikke stilling til 2035-målet.",
    "refs": [
     {
      "source": "prog_h",
@@ -6000,22 +6030,22 @@
   {
    "question": "cli_target",
    "party": "R",
-   "position": 1,
-   "confidence": "LOW",
-   "reasoning": "Rødt vil kutte minst 55 prosent innen 2030 og gradvis forsterke forpliktelsene, uten et tallfestet 2035-mål.",
+   "position": null,
+   "confidence": null,
+   "reasoning": "Rødt vil kutte minst 55 prosent innen 2030, men tar ikke stilling til 2035-målet.",
    "refs": [
     {
      "source": "prog_r",
-     "pages": "38"
+     "pages": "39"
     }
    ]
   },
   {
    "question": "cli_target",
    "party": "V",
-   "position": 1,
-   "confidence": "LOW",
-   "reasoning": "Venstre vil kutte 55 % innen 2030 og 95 % innen 2050 gjennom nasjonale tiltak, men angir ikke et eget 2035-mål.",
+   "position": null,
+   "confidence": null,
+   "reasoning": "Venstre har mål for 2030 og 2050, men ikke for 2035.",
    "refs": [
     {
      "source": "prog_v",
@@ -7586,9 +7616,9 @@
   {
    "question": "transport_toll",
    "party": "H",
-   "position": 1,
+   "position": 0,
    "confidence": "LOW",
-   "reasoning": "Høyre vil åpne for lengre nedbetalingstid for å redusere bompengebelastningen, men ikke fjerne bompenger.",
+   "reasoning": "Høyre godtar bompenger som finansiering, men vil redusere belastningen med lengre nedbetalingstid.",
    "refs": [
     {
      "source": "prog_h",
@@ -7690,13 +7720,13 @@
   {
    "question": "transport_fuel_tax",
    "party": "Ap",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Ap vil trappe opp CO₂-avgiften og balansere klimaavgifter med andre avgiftsreduksjoner, men tar ikke stilling til drivstoffavgiftene spesifikt.",
+   "position": -1,
+   "confidence": "MEDIUM",
+   "reasoning": "Ap-regjeringen holder pumpeprisen uendret og prioriterer lettelser i inntektsskatten, som den mener har «en bedre innretning enn kutt i drivstoffavgiftene». Ap stemte mot å fjerne veibruksavgiften.",
    "refs": [
     {
-     "source": "prog_ap",
-     "pages": "12, 121"
+     "source": "sting_refs_2026_10_07",
+     "pages": null
     }
    ]
   },
@@ -7820,13 +7850,13 @@
   {
    "question": "transport_ev",
    "party": "H",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling.",
+   "position": 1,
+   "confidence": "MEDIUM",
+   "reasoning": "Høyre vil ha et avgiftssystem som bygger opp under målet om at alle nye personbiler skal være utslippsfrie.",
    "refs": [
     {
      "source": "prog_h",
-     "pages": null
+     "pages": "43"
     }
    ]
   },
@@ -8769,9 +8799,9 @@
   {
    "question": "fam_child_benefit_tax",
    "party": "FrP",
-   "position": -1,
-   "confidence": "LOW",
-   "reasoning": "FrP vil videreføre barnetrygden som universell ordning, begrenset til fem barn.",
+   "position": null,
+   "confidence": null,
+   "reasoning": "FrP vil videreføre barnetrygden som universell ordning, men tar ikke stilling til økning eller skatteplikt.",
    "refs": [
     {
      "source": "prog_frp",
@@ -9588,9 +9618,9 @@
   {
    "question": "dist_municipal_merge",
    "party": "FrP",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet vil styrke kommunenes handlingsrom, men tar ikke stilling til sammenslåing.",
+   "position": -1,
+   "confidence": "LOW",
+   "reasoning": "FrP mener det er kommunene selv som må ta initiativ til samarbeid eller sammenslåing.",
    "refs": [
     {
      "source": "prog_frp",
@@ -9874,13 +9904,13 @@
   {
    "question": "agri_tariffs",
    "party": "V",
-   "position": null,
-   "confidence": null,
-   "reasoning": "Programmet tar ikke stilling til tollvern for landbruk.",
+   "position": -2,
+   "confidence": "MEDIUM",
+   "reasoning": "Venstre vil at landbrukspolitikken skal bli «mindre basert på støtte gjennom høye priser og markedsreguleringer».",
    "refs": [
     {
      "source": "prog_v",
-     "pages": null
+     "pages": "41"
     }
    ]
   },
@@ -10541,13 +10571,13 @@
   {
    "question": "def_budget",
    "party": "Sp",
-   "position": 2,
+   "position": 1,
    "confidence": "MEDIUM",
-   "reasoning": "Sp vil ha forsvarsbudsjett på minimum 3 prosent av BNP, men øke bevilgningene i tråd med langtidsplanen og uten tidsangivelse.",
+   "reasoning": "Sp vil styrke forsvarsbevilgningene til minimum 3 % av BNP, men også øke dem «i tråd med Langtidsplanen».",
    "refs": [
     {
      "source": "prog_sp",
-     "pages": "43, 48"
+     "pages": "48"
     }
    ]
   },
@@ -11087,9 +11117,9 @@
   {
    "question": "for_nuclear_ban",
    "party": "Ap",
-   "position": 0,
+   "position": -1,
    "confidence": "MEDIUM",
-   "reasoning": "Ap mener det i dagens situasjon ikke er mulig for NATO-land som Norge å undertegne, men at det bør være et mål.",
+   "reasoning": "Ap mener det i dagens situasjon «ikke er mulig for NATO-land som Norge å undertegne», men at det bør være et mål på sikt.",
    "refs": [
     {
      "source": "prog_ap",
@@ -11126,7 +11156,7 @@
   {
    "question": "for_nuclear_ban",
    "party": "Sp",
-   "position": 0,
+   "position": -1,
    "confidence": "MEDIUM",
    "reasoning": "Sp mener det er et mål på sikt å signere, men at det forutsetter gjensidige og verifiserbare nedrustningsavtaler.",
    "refs": [
@@ -11468,9 +11498,9 @@
   {
    "question": "housing_nonprofit",
    "party": "FrP",
-   "position": -1,
-   "confidence": "LOW",
-   "reasoning": "FrP vil øke boligtilbudet gjennom færre krav og mindre regulering, ikke offentlige utleieboliger.",
+   "position": null,
+   "confidence": null,
+   "reasoning": "FrP vil øke boligtilbudet med færre krav og mindre regulering, men omtaler ikke ikke-kommersielle utleieboliger.",
    "refs": [
     {
      "source": "prog_frp",
@@ -11520,9 +11550,9 @@
   {
    "question": "housing_nonprofit",
    "party": "V",
-   "position": -1,
+   "position": 0,
    "confidence": "LOW",
-   "reasoning": "Venstre mener det viktigste er at det ordinære boligmarkedet fungerer best mulig og at det bygges flere boliger.",
+   "reasoning": "Venstre vil øke Husbankens låne- og tilskuddsrammer, men mener det viktigste er at det ordinære boligmarkedet fungerer.",
    "refs": [
     {
      "source": "prog_v",

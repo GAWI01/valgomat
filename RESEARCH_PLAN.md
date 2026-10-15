@@ -19,7 +19,7 @@ Vi presenterer ikke eldre standpunkter (f.eks. fra 2021-programmene eller avisar
 5. Uttalelser fra partiledelse/fagpolitikere når programmet ikke avklarer saken
 6. Seriøse sekundærkilder – bare som supplement, og bare når innholdet er verifisert
 
-Etter red-team-gjennomgangen (se POLITICAL_QA.md) bygger 591 av 619 kodede standpunkter på nivå 1. 28 bygger utelukkende på andre kilder: 8 på nivå 2 (Aps nettsider og landsmøtevedtak), 1 på nivå 3 (regjeringens budsjettforslag for 2027, gjengitt av Statsforvalteren fordi regjeringen.no var utilgjengelig) og 19 på nivå 4 (partienes egne merknader og forslag i Stortingets innstillinger og debatter 2025–2026). Aps EU-standpunkt bygger på programmet sammen med en sekundærkilde (Altinget om landsmøtevedtaket). Kilder på nivå 2–6 gir høyst MEDIUM confidence, unntatt partiets egne nettsider og landsmøtevedtak når de svarer direkte på påstanden.
+Etter red-team-gjennomgangen (se POLITICAL_QA.md) bygger 588 av 618 kodede standpunkter på nivå 1. 30 bygger utelukkende på andre kilder: 8 på nivå 2 (Aps nettsider og landsmøtevedtak), 1 på nivå 3 (regjeringens budsjettforslag gjengitt av Statsforvalteren) og 21 på nivå 4 (partienes egne merknader, forslag og innlegg i Stortinget 2025–2026, blant annet finansministerens redegjørelse for statsbudsjettet 2027). Aps EU-standpunkt bygger på programmet sammen med en sekundærkilde (Altinget). Kilder på nivå 2–6 gir høyst MEDIUM confidence, unntatt partiets egne nettsider og landsmøtevedtak når de svarer direkte på påstanden. En blind andregangskoding av 145 standpunkter ga vektet kappa 0,92 (POLITICAL_QA.md §6d).
 
 ## 3. Primærkilder per parti
 
@@ -111,12 +111,22 @@ Implementert i `src/lib/scoring.ts`, dokumentert for brukerne på siden «Hvorda
 | **Vår 2027** | Full gjennomgang før lokalvalget | Gå gjennom alle 720 kodinger på nytt (slik det ble gjort i oktober 2026, se POLITICAL_QA.md), med vekt på spørsmål med `LOW` eller `unknown` (se RESEARCH_AUDIT.md). Oppdater «Sist oppdatert». |
 | **2028–2029** | Nye programmer | Når programutkast for 2029–2033 publiseres, lag en egen gren med nye kodinger. Bytt til de vedtatte programmene først når de er vedtatt på landsmøtet. |
 
+**Verktøy for vedlikehold:**
+
+| Verktøy | Bruk |
+|---|---|
+| `npm run qa:watch` | Sjekker sakene i `research/qa/watchlist.json` på data.stortinget.no (dødshjelp, sexkjøp, statsbudsjettet) og lister nye relevante saker. Avslutter med kode 2 når en fulgt sak er ferdigbehandlet. Kjør månedlig. |
+| `research/tools/import-pdf.sh` | Tar inn et dokument som er lastet ned manuelt, f.eks. en proposisjon fra regjeringen.no, som stenger ute automatiske nedlastinger. Lager søkbar tekst og en ferdig kildeoppføring. |
+| `npm run party-review` | Lager gjennomgangspakkene til partiene (`party-review/`). Se rutinen i `party-review/README.md`. |
+| `scripts/qa/reliability.py` | Måler samsvar mellom en ny blind koding og valgomatens koding (kappa per gruppe) og lister uenighetene som må avgjøres. |
+| `scripts/qa/reapply.sh` | Bygger kodefilene på nytt fra utgangspunktet og endringslisten, slik at alle endringer er sporbare. |
+
 **Kjente forbedringspunkter for neste runde:**
 
-1. Aps 14 gjenværende ukjente standpunkter, blant annet toppskatt, eiendomsskatt, bompenger, kontantstøtte og etiske spørsmål, bør vurderes på nytt etter Aps neste landsmøte og når Stortinget har behandlet sakene om dødshjelp og sexkjøp. 16 av de opprinnelige 30 er kodet ut fra nyere offisielle kilder (POLITICAL_QA.md §6 og §6b).
-2. Stortingets innstillinger og voteringer (data.stortinget.no) bør gjennomgås hvert halvår for alle partiers unknowns, slik det ble gjort i oktober 2026 (§6b).
-3. LOW-kodinger (56 stk.) og de omstridte kodingene i POLITICAL_QA.md §5 bør vurderes av en annen person enn den som kodet, og gjerne legges fram for partiene.
-4. En uavhengig andregangskoding av et tilfeldig utvalg (f.eks. 10 %) vil gi et mål på kodingens pålitelighet.
+1. **Partigjennomgang:** send pakkene i `party-review/` og behandle svarene etter rutinen.
+2. **Aps 12 gjenværende unknowns**, blant annet toppskatt, bompenger, kontantstøtte og etiske spørsmål: vurder dem på nytt etter Aps landsmøte våren 2027 og når `qa:watch` melder at sakene om dødshjelp og sexkjøp er behandlet.
+3. **De 13 omstridte kodingene:** blindtesten viser at det er her usikkerheten ligger (kappa 0,57). Gjerne en menneskelig andregangskoding.
+4. **Halvårlig gjennomgang** av Stortingets innstillinger for alle partiers unknowns, som i oktober 2026 (POLITICAL_QA.md §6b).
 
 ## 8. Rettigheter og etikk
 

@@ -21,7 +21,7 @@ fam_leave_quota|MDG|-3|HIGH|26|MDG vil bevare dagens foreldrekvoter på 15 uker 
 # --- fam_child_benefit_tax: «Barnetrygden bør gjøres skattepliktig og samtidig økes, slik at familier med lave inntekter får mest igjen.»
 fam_child_benefit_tax|Ap|U|-|-|Programmet tar ikke stilling.
 fam_child_benefit_tax|H|-3|HIGH|66|Høyre vil øke barnetrygden, men beholde den som en skattefri, universell ytelse.
-fam_child_benefit_tax|FrP|-1|LOW|115-116|FrP vil videreføre barnetrygden som universell ordning, begrenset til fem barn.
+fam_child_benefit_tax|FrP|U|-|115-116|FrP vil videreføre barnetrygden som universell ordning, men tar ikke stilling til økning eller skatteplikt.
 fam_child_benefit_tax|Sp|-3|HIGH|33|Sp vil øke barnetrygden, men beholde den som en universell ordning uten behovsprøving eller beskatning.
 fam_child_benefit_tax|SV|U|-|20|SV vil trappe opp barnetrygden til 30 000 kroner per barn som universell ordning, uten å nevne skatt.
 fam_child_benefit_tax|R|-3|HIGH|35|Rødt vil øke barnetrygda og bevare den som en universell, skattefri overføring.

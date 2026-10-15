@@ -3,12 +3,12 @@
 econ_tax_level|Ap|0|HIGH|13|Programmet sier eksplisitt at Ap vil holde de samlede skattene og avgiftene på samme nivå som i dag.
 econ_tax_level|H|3|HIGH|31-32|Høyre vil senke skattene betydelig for alle og har som mål å redusere skatt som andel av fastlandsøkonomien.
 econ_tax_level|FrP|3|HIGH|42|FrP vil redusere skatte- og avgiftsnivået.
-econ_tax_level|Sp|U|-|109|Programmet vil redusere skatt på lave/vanlige inntekter og avgifter som elavgift, men tar ikke stilling til det samlede nivået.
+econ_tax_level|Sp|1|LOW|108|Sp vil redusere avgiftene, men bruke progressiv skatt til å finansiere velferden.
 econ_tax_level|SV|-2|MEDIUM|4|SV vil øke skatten på store formuer, arv, eiendom og høye inntekter, og vil ha et skattenivå som finansierer felles velferd. Kodet -2 (ikke -3) fordi SV også vil senke skatten på lave og vanlige inntekter.
 econ_tax_level|R|-2|MEDIUM|5|Rødt vil øke skatt på høye inntekter, store formuer, utbytte og innføre arveskatt, men kutte skatt for dem som tjener minst og flate avgifter.
 econ_tax_level|V|3|HIGH|42|Venstre ønsker å redusere det samlede skatte- og avgiftstrykket, men vil øke skatt på eiendom, forbruk og forurensning (skatteveksling).
 econ_tax_level|KrF|0|HIGH|50|KrF vil holde skatte- og avgiftsnivået om lag på dagens nivå.
-econ_tax_level|MDG|-1|LOW|49|MDG vil innføre arveavgift, eiendomsskatt på næringseiendom og øke klimaavgifter, men også senke skatten for lave inntekter. Netto retning er ikke eksplisitt; kodet svakt negativt.
+econ_tax_level|MDG|U|-|-|MDG vil ha en grønn skatteomlegging, men tar ikke stilling til det samlede skattenivået.
 # --- econ_wealth_working: «Formuesskatten på eierskap i bedrifter (såkalt arbeidende kapital) bør fjernes.»
 econ_wealth_working|Ap|-2|MEDIUM|src:ap_web_skatt|Ap vil «beholde den omfordelende og rettferdige formuesskatten» (partiets nettside). Programmet nevner ikke arbeidende kapital.
 econ_wealth_working|H|3|HIGH|32|Høyre vil fjerne formuesskatten på arbeidende kapital.
@@ -40,7 +40,7 @@ econ_inheritance|V|U|-|-|Programmet tar ikke stilling.
 econ_inheritance|KrF|U|-|-|Programmet tar ikke stilling.
 econ_inheritance|MDG|3|HIGH|49|MDG vil innføre arveavgift med et høyt bunnfradrag.
 # --- econ_property_tax: «Kommunene bør fortsatt kunne kreve eiendomsskatt på boliger.»
-econ_property_tax|Ap|U|-|-|Programmet tar ikke stilling.
+econ_property_tax|Ap|1|LOW|src:sting_refs_2026_10_05|Ap kritiserer lettelser i eiendomsskatten for de dyreste boligene i Oslo (Tonje Brenna i trontaledebatten 2026).
 econ_property_tax|H|U|-|-|Programmet tar ikke stilling til kommunal eiendomsskatt på bolig.
 econ_property_tax|FrP|-3|HIGH|10|FrP vil at kommunenes anledning til å kreve «usosial eiendomsskatt» avvikles.
 econ_property_tax|Sp|1|LOW|109|Sp vil gjøre det mulig for kommunene å sette eiendomsskatt bare på fritidsboliger og differensiere mellom bolig og fritid – kommunal adgang forutsettes videreført. Sp går imot statlig eiendomsskatt på bolig.
@@ -52,7 +52,7 @@ econ_property_tax|MDG|3|HIGH|78|MDG vil beholde kommunenes adgang til å kreve e
 # --- econ_oil_money: «Norge bør kunne bruke mer av oljefondet enn handlingsregelen tillater i dag.»
 econ_oil_money|Ap|-3|HIGH|13|Ap vil følge handlingsregelen.
 econ_oil_money|H|-3|HIGH|31|Høyre holder fast ved handlingsregelen og vil utrede skjerpelser av den.
-econ_oil_money|FrP|1|LOW|42-43|FrP vil skille mellom drift og investeringer i statsbudsjettet, og at oljeverdier også investeres i lønnsom norsk infrastruktur. Ikke eksplisitt om å bryte handlingsregelen.
+econ_oil_money|FrP|U|-|42-43|FrP vil bruke handlingsrommet til investeringer, men omtaler ikke handlingsregelen eller økt bruk av oljefondet.
 econ_oil_money|Sp|-3|HIGH|108|Sp vil holde bruken av oljepenger innenfor rammene handlingsregelen setter.
 econ_oil_money|SV|2|MEDIUM|11,46|SV vil ha en egen «handlingsregel utland» med årlig uttak på 0,25 % av oljefondet til internasjonal klimafinansiering i tillegg til dagens regel.
 econ_oil_money|R|U|-|-|Rødt vil omplassere deler av fondet til et investeringsfond for norsk industri og «hente ut avkastningen over tid uten å tømme fondet», men tar ikke stilling til uttaksnivået.

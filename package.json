@@ -14,7 +14,9 @@
     "typecheck": "tsc -b",
     "qa:stress": "node scripts/qa/run-ts.mjs scripts/qa/stress.ts",
     "qa:clusters": "node scripts/qa/run-ts.mjs scripts/qa/clusters.ts",
-    "qa:smoke": "node scripts/qa/smoke.mjs"
+    "qa:smoke": "node scripts/qa/smoke.mjs",
+    "qa:watch": "NODE_USE_ENV_PROXY=1 NODE_NO_WARNINGS=1 node scripts/qa/watch-storting.mjs",
+    "party-review": "node scripts/party-review.mjs"
   },
   "dependencies": {
     "react": "^19.3.0",

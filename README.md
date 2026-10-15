@@ -30,6 +30,8 @@ npm run build && npx vite preview --port 4173 &
 node scripts/qa/smoke.mjs
 node scripts/qa/run-ts.mjs scripts/qa/stress.ts     # stresstest med 8000+ syntetiske profiler → STRESS_TEST.md
 node scripts/qa/run-ts.mjs scripts/qa/clusters.ts   # dobbelttellingsanalyse → test-results/clusters.md
+npm run qa:watch       # status for Stortingssaker som kan avklare ukjente standpunkter
+npm run party-review   # gjennomgangspakker til partiene → party-review/
 ```
 
 ## Struktur
@@ -56,6 +58,7 @@ node scripts/qa/run-ts.mjs scripts/qa/clusters.ts   # dobbelttellingsanalyse →
 - [`POLITICAL_QA.md`](POLITICAL_QA.md) – red-team-faktasjekk av alle standpunkter, med endringslogg
 - [`STRESS_TEST.md`](STRESS_TEST.md) – stresstest, kalibrering og testpersoner
 - [`FINAL_VALIDATION_REPORT.md`](FINAL_VALIDATION_REPORT.md) – sluttrapport (PASS/FIXED/WARNING/UNKNOWN/BLOCKER)
+- [`party-review/`](party-review/README.md) – gjennomgangspakker til partiene, med følgebrev og rutine
 
 ## Teknologivalg
 

@@ -1,6 +1,6 @@
 # --- transport_toll: «Bompenger bør i stor grad fjernes, og veier bør heller finansieres over statsbudsjettet.»
 transport_toll|Ap|U|-|160|Ap omtaler kun rettferdig bompengeinnkreving, også for utenlandske biler.
-transport_toll|H|1|LOW|62|Høyre vil åpne for lengre nedbetalingstid for å redusere bompengebelastningen, men ikke fjerne bompenger.
+transport_toll|H|0|LOW|62|Høyre godtar bompenger som finansiering, men vil redusere belastningen med lengre nedbetalingstid.
 transport_toll|FrP|3|HIGH|97|FrP er imot bompenger og vil nedbetale bompengegjelden og fjerne dagens innkreving.
 transport_toll|Sp|1|MEDIUM|112|Sp vil redusere bompengene og basere fremtidige prosjekter mindre på bompenger, men ser trengselsavgift som hensiktsmessig i noen byområder.
 transport_toll|SV|U|-|-|Programmet tar ikke stilling.
@@ -9,7 +9,7 @@ transport_toll|V|-2|HIGH|12|Venstre mener bompenger er et viktig virkemiddel for
 transport_toll|KrF|-1|MEDIUM|64|KrF vil vurdere veiprising som alternativ til bompenger.
 transport_toll|MDG|-2|HIGH|94-95|MDG vil vurdere dynamisk veiprising og bruke bompenger til kollektiv, sykkel og gange.
 # --- transport_fuel_tax: «Avgiftene på bensin og diesel bør settes ned.»
-transport_fuel_tax|Ap|U|-|12,121|Ap vil trappe opp CO₂-avgiften og balansere klimaavgifter med andre avgiftsreduksjoner, men tar ikke stilling til drivstoffavgiftene spesifikt.
+transport_fuel_tax|Ap|-1|MEDIUM|src:sting_refs_2026_10_07|Ap-regjeringen holder pumpeprisen uendret og prioriterer lettelser i inntektsskatten, som den mener har «en bedre innretning enn kutt i drivstoffavgiftene». Ap stemte mot å fjerne veibruksavgiften.
 transport_fuel_tax|H|U|-|42|Høyre vil øke CO₂-avgiftene og kompensere med andre skattelettelser, men nevner ikke drivstoffavgiftene spesifikt.
 transport_fuel_tax|FrP|3|HIGH|42|FrP vil redusere bil- og drivstoffavgiftene.
 transport_fuel_tax|Sp|3|HIGH|109|Sp vil redusere drivstoffavgiftene.
@@ -20,7 +20,7 @@ transport_fuel_tax|KrF|U|-|-|KrF vil gradvis øke CO₂-avgiften, men tar ikke s
 transport_fuel_tax|MDG|-3|HIGH|94|MDG vil trappe opp avgiftene på fossilt drivstoff.
 # --- transport_ev: «Elbiler bør fortsatt ha store avgiftsfordeler sammenlignet med bensin- og dieselbiler.»
 transport_ev|Ap|-2|HIGH|src:ap_budsjettavtale_2026|Ap mener «tiden er moden for å fase ut elbilfordelene i merverdiavgiftssystemet», med lavere beløpsgrense i 2026–2028.
-transport_ev|H|U|-|-|Programmet tar ikke stilling.
+transport_ev|H|1|MEDIUM|43|Høyre vil ha et avgiftssystem som bygger opp under målet om at alle nye personbiler skal være utslippsfrie.
 transport_ev|FrP|-1|MEDIUM|42|FrP vil at kjøretøy skal omfattes av et teknologinøytralt regelverk uten ytterligere særavgifter.
 transport_ev|Sp|U|-|-|Programmet tar ikke stilling.
 transport_ev|SV|2|MEDIUM|12|SV vil øke avgiften på fossile biler nok til at nybilsalget blir utslippsfritt før avgiften på elbiler økes.

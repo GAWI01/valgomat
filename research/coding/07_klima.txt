@@ -1,11 +1,11 @@
 # --- cli_target: «Norge bør ha et strengere klimamål for 2035 enn dagens mål om 70–75 prosent kutt (sammenlignet med 1990).»
 cli_target|Ap|0|HIGH|121|Ap foreslår selv dagens mål: minst 70–75 prosent kutt innen 2035, lovfestet i klimaloven.
-cli_target|H|-1|LOW|42|Høyre vil oppnå «betydelige utslippsreduksjoner» i samarbeid med EU, uten å angi et strengere 2035-mål.
+cli_target|H|U|-|42|Høyre vil ha betydelige utslippskutt innen 2030 i samarbeid med EU, men tar ikke stilling til 2035-målet.
 cli_target|FrP|-3|MEDIUM|92-93|FrP kritiserer andre partiers «urealistiske, ineffektive og kostbare mål» og vil basere klimatiltak på kost/nytte.
 cli_target|Sp|-1|LOW|19,22|Sp vil prioritere «effektive» kutt, inkludert kvotekjøp, og innta skog i 2035-målet dersom det gjør det enklere å nå målet.
 cli_target|SV|3|HIGH|32|SV vil lovfeste et mål om 80 prosent nasjonale kutt i 2035.
-cli_target|R|1|LOW|38|Rødt vil kutte minst 55 prosent innen 2030 og gradvis forsterke forpliktelsene, uten et tallfestet 2035-mål.
-cli_target|V|1|LOW|6|Venstre vil kutte 55 % innen 2030 og 95 % innen 2050 gjennom nasjonale tiltak, men angir ikke et eget 2035-mål.
+cli_target|R|U|-|39|Rødt vil kutte minst 55 prosent innen 2030, men tar ikke stilling til 2035-målet.
+cli_target|V|U|-|6|Venstre har mål for 2030 og 2050, men ikke for 2035.
 cli_target|KrF|3|HIGH|41|KrF vil kutte minst 80 prosent innen 2035, koblet til EUs klimamål.
 cli_target|MDG|3|HIGH|7|MDG vil kutte minst 80 prosent av territorielle utslipp innen 2035 og nå netto null i 2045.
 # --- cli_domestic: «Norge bør ta klimakuttene hjemme i Norge, heller enn å betale for kutt i andre land (for eksempel gjennom klimakvoter).»

@@ -1,6 +1,6 @@
 # Politisk QA – red-team-gjennomgang av partistandpunktene
 
-**Dato:** 14. oktober 2026 · **Omfang:** alle 720 kodinger (572 kodede + 148 ukjente i versjonen før gjennomgangen) · **Status etter gjennomgangen:** 619 kodet, 101 ukjent (oppdatert etter oppfølgingsrunden med Stortinget og Rødts gjeldende programfil).
+**Dato:** 14. oktober 2026 · **Omfang:** alle 720 kodinger (572 kodede + 148 ukjente i versjonen før gjennomgangen) · **Status etter gjennomgangen:** 618 kodet, 102 ukjent. Oppdatert etter oppfølgingsrundene: Stortinget, Rødts gjeldende programfil, statsbudsjettet 2027 og blind andregangskoding (§6b–§6d).
 
 Denne gjennomgangen ble gjort for å finne feil, ikke for å bekrefte tidligere arbeid. Ingen standpunkter er endret for å oppnå en bestemt rangering. Alle endringer bygger på et ordrett sitat fra kilden, og sitatet står i arbeidsrapportene i `research/qa/`.
 
@@ -38,20 +38,22 @@ Av de **572 standpunktene som var kodet før gjennomgangen**:
 
 | Utfall | Antall |
 |---|---:|
-| Beholdt helt uendret | **465** |
+| Beholdt helt uendret | **458** |
 | Beholdt verdi og confidence, bare side, kilde eller begrunnelse rettet | 15 |
-| Verdi endret | **54** |
-| – herav feil fortegn rettet | 3 |
-| – herav intensitet opp / ned | 30 / 23 |
-| Satt til unknown | **5** |
+| Verdi endret | **57** |
+| – herav fortegn snudd | 4 |
+| – herav intensitet opp / ned | 31 / 24 |
+| Satt til unknown | **13** |
 | Confidence opp | **19** |
-| Confidence ned | **34** |
-| Sidetall eller kilde rettet | 36 |
-| Begrunnelse omskrevet | 53 |
+| Confidence ned | **31** |
+| Sidetall eller kilde rettet | 34 |
+| Begrunnelse omskrevet | 56 |
 
 (En linje kan ha flere typer endring, så radene summerer ikke til 572.)
 
-Av de **148 ukjente standpunktene**: 52 er nå kodet. 25 av dem kommer fra partiprogrammet, der vi hadde oversett noe, og 27 fra nyere offisielle kilder: partienes nettsider og landsmøtevedtak (§6) og Stortingets innstillinger og debatter (§6b). 96 er beholdt som unknown.
+Av de **148 ukjente standpunktene**: 59 er nå kodet. 30 av dem kommer fra partiprogrammet, der vi hadde oversett noe, og 29 fra nyere offisielle kilder: partienes nettsider og landsmøtevedtak (§6), Stortingets innstillinger og debatter (§6b) og statsbudsjettet 2027 (§6c). 89 er beholdt som unknown.
+
+Fortegnet ble snudd på 4 kodinger. Tre var feil i første runde (§3). Den fjerde er Aps `for_nuclear_ban`: Ap sier at det ikke er mulig å signere nå, så kodingen ble endret fra +1 til −1 etter blindtesten (§6d).
 
 **Andel OK i første lesning per bolk** (fra arbeidsrapportene):
 
@@ -164,7 +166,7 @@ I oppfølgingsrunden (§6b) fikk Ap i tillegg tre kodinger fra Stortinget: `val_
 - `def_allied_bases`.
 - `val_assisted_dying` (Dok. 8:264 S er ikke ferdigbehandlet) og `val_surrogacy`.
 
-Aps antall unknowns er redusert fra 30 til 14. Ap har fortsatt lavest dekning av partiene (se FINAL_VALIDATION_REPORT.md).
+Aps antall unknowns er redusert fra 30 til 12 (se også §6c). Ap har fortsatt lavest dekning av partiene (se FINAL_VALIDATION_REPORT.md).
 
 Den fullstendige gjennomgangen med URL-er og sitater ligger i `research/qa/ap_ukjente.md`.
 
@@ -189,6 +191,58 @@ For alle de gjenværende unknowns søkte vi i Stortingets innstillinger, referat
 | `housing_equity` | KrF | +1 → +2 MEDIUM | Innst. 379 S: KrF fremmet (med FrP) forslag om å «uten ugrunnet opphold avvikle utlånsforskriften» |
 
 **Bevisst ikke brukt:** voteringer uten egen merknad (blant annet `def_ukraine` for FrP, R og Sp, og `imm_integration_req` for V); H, KrF og R som stemte for det midlertidige drivstoffkuttet i 2026, men selv kalte det et midlertidig krisetiltak; og saker som ikke er ferdigbehandlet (sexkjøp Dok. 8:16 S, dødshjelp Dok. 8:264 S og statsbudsjettet 2027).
+
+## 6c. Statsbudsjettet 2027 uten regjeringen.no
+
+regjeringen.no og statsbudsjettet.no står bak en Cloudflare-sjekk som avviser automatiske besøk, også fra en ekte nettleser i dette miljøet. Vi har bevisst ikke forsøkt å omgå sperren. Budsjettforslaget er i stedet lest gjennom offisielle kanaler som er åpne:
+
+- **Stortingets referater** (data.stortinget.no og stortinget.no):
+  - finansministerens redegjørelse for statsbudsjettet 7.10.2026;
+  - trontalen;
+  - trontaledebatten med voteringer 5.–6.10.2026.
+- **Statsforvalteren** (Innlandet, Rogaland, Vestland, Trøndelag): sammendrag av budsjettet og KDDs «Grønt hefte».
+- **Arbeiderpartiets egne sider** om budsjettet.
+
+Rapporten ligger i `research/qa/budsjett_2027.md`.
+
+| Spørsmål | Ny koding (Ap) | Belegg |
+|---|---|---|
+| `transport_fuel_tax` | −1 MEDIUM | Finansministeren 7.10.2026: regjeringen holder pumpeprisen uendret og prioriterer inntektsskattelette, som den mener har «en bedre innretning enn kutt i drivstoffavgiftene». Ap stemte 6.10 mot å sette veibruksavgiften til 0. |
+| `econ_property_tax` | +1 LOW | Trontaledebatten 5.10.2026: Ap (Brenna) kritiserer lettelser i eiendomsskatten for de dyreste boligene |
+| `dist_municipal_merge` | bekreftet | Statsforvalteren: «et samlet utredningstilskudd, standardisert kompensasjon for engangskostnader og et nytt standardisert oppstartstilskudd» |
+
+**Ikke brukt:**
+- kontantstøtten videreføres i budsjettet, men det er ikke et aktivt standpunkt;
+- tilbudet om permanent opphold gjelder bare ukrainere i arbeid;
+- bompenger, jernbane mot motorvei, aktivitetsplikt, tredjeland og baser er ikke omtalt.
+
+**Når proposisjonene trengs direkte:** last dem ned i en vanlig nettleser og importer dem med `research/tools/import-pdf.sh <fil.pdf> <navn> <url>`. Skriptet kontrollerer at fila er en PDF, beregner SHA-256, trekker ut tekst per side og skriver en ferdig kildeoppføring. Etterpå kan dokumentet søkes i med `research/tools/sok.py` og siteres som `src:<navn>@side`.
+
+## 6d. Blind andregangskoding (interkoder-reliabilitet)
+
+En uavhengig koder kodet 145 standpunkter på nytt etter samme kodebok, uten tilgang til valgomatens kodinger. Koderen er en separat AI-agent som bare fikk påstanden og partiprogrammene. Utvalget besto av:
+- alle 52 programbaserte LOW-kodinger;
+- de omstridte kodingene;
+- 60 tilfeldige av de øvrige;
+- 20 tilfeldige unknowns.
+
+| Gruppe | Antall | Enige om kjent/ukjent | Innen ±1 | Vektet kappa |
+|---|---:|---:|---:|---:|
+| Tilfeldige kodinger | 60 | 100 % | 95 % | **0,96** |
+| LOW-kodinger | 52 | 81 % | 95 % | 0,81 |
+| Omstridte | 13 | 85 % | 82 % | 0,57 |
+| Unknowns | 20 | 70 % | – | – |
+| Alle | 145 | 88 % | 94 % | **0,92** |
+
+Alle 25 uenigheter er avgjort mot programteksten:
+- 4 kodinger ble beholdt, fordi blindkoderen hadde oversett et eksplisitt punkt;
+- 3 unknowns ble beholdt;
+- 8 svakt belagte kodinger ble satt til unknown;
+- 3 ble satt til mellomposisjon;
+- 4 fikk justert verdi;
+- 3 nye kodinger kom inn der blindkoderen fant noe vi hadde oversett.
+
+Detaljer står i `research/qa/reliabilitet.md`. Blindkodingen, utvalget og nøkkelen ligger i `research/qa/blindkoding*`.
 
 ## 7. Rødt: kontroll av kilden
 
@@ -235,7 +289,7 @@ Alle 80 påstander ble lest fra perspektivet til en velger av hvert av de ni par
 
 ## 9. Fullstendig endringslogg
 
-Generert fra `research/qa/changes_log.tsv` (én rad per standpunkt; «før» er versjonen før gjennomgangen). «Før» og «etter» er verdi, confidence og kildehenvisning.
+Generert fra `research/qa/changes_log.tsv`, med én rad per standpunkt. «Før» er versjonen før gjennomgangen, og «før» og «etter» viser verdi, confidence og kildehenvisning. Står det flere merknader på samme rad, er de skilt med «/» i den rekkefølgen endringene ble gjort.
 
 | Spørsmål | Parti | Før (verdi conf kilde) | Etter | Type | Merknad |
 |---|---|---|---|---|---|
@@ -243,19 +297,19 @@ Generert fra `research/qa/changes_log.tsv` (én rad per standpunkt; «før» er 
 | `econ_wealth_working` | SV | -3 HIGH 4 | -3 MEDIUM 4 | Conf ↓ | Programmet sier «økt skatt på større formuer», nevner ikke arbeidende kapital spesifikt. |
 | `econ_top_tax` | KrF | 2 HIGH 50 | 3 HIGH 50 | Verdi | «øke bruttobeskatningen av de høyeste inntektene» er like eksplisitt som SV/R/MDG (3). |
 | `econ_property_tax` | Sp | 0 LOW 109 | 1 LOW 109 | Verdi | Tidligere 0: begrunnelsen blandet statlig og kommunal eiendomsskatt. |
-| `econ_oil_money` | FrP | 1 MEDIUM 41-42 | 1 LOW 42-43 | Conf ↓, Side/kilde | Programmet nevner ikke handlingsregelen; slutning fra at handlingsrommet skal brukes til investeringer og et infrastrukturfond. |
+| `econ_oil_money` | FrP | 1 MEDIUM 41-42 | U - 42-43 | Til unknown | Programmet nevner ikke handlingsregelen; slutning fra at handlingsrommet skal brukes til investeringer og et infrastrukturfond. / Blind koder: U. |
 | `econ_oil_money` | R | 1 LOW 7 | U - - | Til unknown | Omplassering ≠ økt bruk. |
 | `econ_oil_money` | V | -2 MEDIUM 43 | -3 HIGH 43 | Verdi, Conf ↑ | Konkret innstramming. |
 | `econ_state_owner` | V | 2 MEDIUM 43 | 2 HIGH 43 | Conf ↑ | Eksplisitt kulepunkt s.43. |
 | `welfare_commercial` | Ap | -1 LOW 50,53,70 | -1 LOW 50,70,95 | Side/kilde | s.95 (offentlig og ideelt barnevern) er relevant; s.53 gjaldt privatskoler. |
-| `work_sickpay` | H | 1 LOW 57-58 | -2 HIGH 57 | Fortegn rettet, Conf ↑, Side/kilde | FEIL FORTEGN rettet (var +1 LOW). |
+| `work_sickpay` | H | 1 LOW 57-58 | -2 HIGH 57 | Fortegn snudd, Conf ↑, Side/kilde | FEIL FORTEGN rettet (var +1 LOW). |
 | `work_temp_agency` | KrF | U - - | -2 MEDIUM 49 | Fra unknown | Fra U. |
 | `work_temp_agency` | MDG | U - - | 1 LOW 22-23 | Fra unknown | Fra U; blandet → LOW. |
 | `work_min_benefits` | Ap | 1 MEDIUM 25 | 1 LOW 25 | Conf ↓ | Programmet sier at minstenivåene skal følge utviklingen – regulering, ikke økning. |
 | `work_min_benefits` | V | 1 MEDIUM 24 | 2 MEDIUM 24 | Verdi |  |
 | `work_min_benefits` | MDG | 2 MEDIUM 21 | 3 HIGH 21,25 | Verdi, Conf ↑, Side/kilde |  |
 | `housing_nonprofit` | Ap | 2 HIGH 29 | 2 MEDIUM 29 | Conf ↓ | Begrunnelsen utelot næringsliv. |
-| `housing_nonprofit` | V | -1 MEDIUM 25 | -1 LOW 25 | Conf ↓ | Prioritering av det ordinære markedet, ikke avvisning. |
+| `housing_nonprofit` | V | -1 MEDIUM 25 | 0 LOW 25 | Verdi, Conf ↓ | Prioritering av det ordinære markedet, ikke avvisning. / Blind koder +1 LOW, vi −1 LOW → dokumentert mellomposisjon. |
 | `housing_nonprofit` | MDG | 3 HIGH 24 | 2 HIGH 24 | Verdi | «Legge til rette» ≠ statlig finansiering av mange flere. |
 | `health_free_choice` | Ap | -2 MEDIUM 70 | -1 MEDIUM 70 | Verdi | Var -2; påstand om regjeringsvedtak hentet utenfor kilden er fjernet. |
 | `health_free_choice` | FrP | 3 MEDIUM 59 | 3 HIGH 59-60 | Conf ↑, Side/kilde | Eksplisitt: tjenestene finansieres av det offentlige uansett utfører. |
@@ -294,7 +348,7 @@ Generert fra `research/qa/changes_log.tsv` (én rad per standpunkt; «før» er 
 | `drug_alcohol` | V | 3 HIGH 32-33 | 2 HIGH 32-33 | Verdi | Konteksten demper. |
 | `drug_alcohol` | MDG | -1 MEDIUM 41 | -2 MEDIUM 41 | Verdi | Vil beholde Vinmonopolet og en restriktiv omsetningspolitikk – samme kombinasjon som Ap (-2). |
 | `cli_target` | FrP | -3 HIGH 92-93 | -3 MEDIUM 92-93 | Conf ↓ | Sterk retning, men ikke direkte om 2035-målet. |
-| `cli_target` | V | 1 MEDIUM 6 | 1 LOW 6 | Conf ↓ | Bare 2030/2050-tall; 2035 er slutning. |
+| `cli_target` | V | 1 MEDIUM 6 | U - 6 | Til unknown | Bare 2030/2050-tall; 2035 er slutning. / Blind koder: U. 55 % i 2030 og 95 % i 2050 gir ikke grunnlag for å si at 2035-målet bør skjerpes. |
 | `cli_target` | KrF | 2 HIGH 41 | 3 HIGH 41 | Verdi | «minst 80 prosent innen 2035» er like eksplisitt som SV/MDG. |
 | `cli_domestic` | Ap | -1 MEDIUM 121 | 0 MEDIUM 121 | Verdi | Begrunnelsen utelot halve setningen. |
 | `cli_domestic` | V | 3 HIGH 6 | 2 HIGH 6 | Verdi | Mindre kategorisk enn SV/R. |
@@ -315,21 +369,21 @@ Generert fra `research/qa/changes_log.tsv` (én rad per standpunkt; «før» er 
 | `energy_onshore_wind` | MDG | -1 MEDIUM 5,17 | 0 MEDIUM 5,16 | Verdi, Side/kilde | Mellomposisjon, ikke nei. |
 | `energy_offshore_wind` | FrP | -1 LOW 84,92 | -3 HIGH 84 | Verdi, Conf ↑, Side/kilde | Eksplisitt. |
 | `energy_offshore_wind` | SV | 1 MEDIUM 34 | 1 LOW 34 | Conf ↓ | SV vil at oljeselskapene finansierer havvind. |
-| `energy_offshore_wind` | R | -1 LOW 58-59 | -2 HIGH 53,60 | Verdi, Conf ↑, Side/kilde | Fra U. Gjeldende versjon av programmet sier eksplisitt nei til vindkraft til havs; speilversjonen hadde en skrivefeil («i fjæra til havs»). |
+| `energy_offshore_wind` | R | -1 LOW 58-59 | -2 HIGH 53,60 | Verdi, Conf ↑, Side/kilde | Sitatene svarte ikke på påstanden. / Fra U. Gjeldende versjon av programmet sier eksplisitt nei til vindkraft til havs; speilversjonen hadde en skrivefeil («i fjæra til havs»). |
 | `energy_hydro` | H | 1 LOW 40 | 2 MEDIUM 41 | Verdi, Conf ↑, Side/kilde | Begrunnelsen «nevner ikke vernede vassdrag» var feil. |
 | `energy_hydro` | FrP | 3 HIGH 81 | 3 HIGH 82 | Side/kilde | Riktig side. |
-| `energy_hydro` | KrF | -1 LOW 46 | 1 LOW 46 | Fortegn rettet | Var -1; samme formulering som Ap (+1 LOW). |
+| `energy_hydro` | KrF | -1 LOW 46 | 1 LOW 46 | Fortegn snudd | Var -1; samme formulering som Ap (+1 LOW). |
 | `energy_cables` | FrP | 3 HIGH 85-86 | 2 MEDIUM 85 | Verdi, Conf ↓, Side/kilde | Betinget nei. |
 | `energy_cables` | MDG | U - - | -3 HIGH 17 | Fra unknown | Fra U. |
 | `energy_price_control` | MDG | -1 MEDIUM 6,15 | 0 MEDIUM 6,15,17 | Verdi, Side/kilde | Var -1. |
 | `transport_rail_vs_road` | KrF | U - - | -1 LOW 63 | Fra unknown | Fra U; samme grunnlag som Sp. |
 | `transport_fuel_tax` | KrF | -1 LOW 50 | U - - | Til unknown | Var -1 LOW. Eneste belegg var CO₂-avgiften, som allerede teller i cli_co2_tax – å bruke samme setning to ganger er dobbelttelling. |
-| `transport_fuel_tax` | Ap | U - 12 | U - 12,121 | Unknown beholdt (ny begrunnelse/side) | Beholdt U: eneste belegg ville vært CO₂-avgiften (dobbelttelling med cli_co2_tax). |
-| `transport_fuel_tax` | V | -2 MEDIUM 42 | -2 MEDIUM src:sting_innst_457s_2526 | Side/kilde | Fra U; direkte om drivstoffavgiftene. |
+| `transport_fuel_tax` | Ap | U - 12 | -1 MEDIUM src:sting_refs_2026_10_07 | Fra unknown | Beholdt U: eneste belegg ville vært CO₂-avgiften (dobbelttelling med cli_co2_tax). / Fra U; direkte om drivstoffavgiftene (ikke CO₂-avgiften alene). |
+| `transport_fuel_tax` | V | -2 MEDIUM 42 | -2 MEDIUM src:sting_innst_457s_2526 | Side/kilde | Var -2 MEDIUM. «noe som øker drivstoffkostnadene» var vår slutning; samme belegg teller allerede i cli_co2_tax (dobbelttelling). / Fra U; direkte om drivstoffavgiftene. |
 | `fam_leave_quota` | Sp | -2 HIGH 33 | -3 HIGH 33 | Verdi | «Minst opprettholde mødre-/fedrekvote på 15 uker» – eksplisitt. |
 | `fam_leave_quota` | R | -2 MEDIUM 35 | -3 HIGH 35 | Verdi, Conf ↑ | Eksplisitte øremerkede kvoter. |
 | `fam_leave_quota` | MDG | -2 HIGH 26 | -3 HIGH 26 | Verdi | «Bevare … foreldrekvoter på 15 uker hver». |
-| `fam_child_benefit_tax` | FrP | -1 MEDIUM 115-116 | -1 LOW 115-116 | Conf ↓ | Skatt og økning nevnes ikke. |
+| `fam_child_benefit_tax` | FrP | -1 MEDIUM 115-116 | U - 115-116 | Til unknown | Skatt og økning nevnes ikke. / Blind koder: U. |
 | `fam_child_benefit_tax` | Sp | U - 33 | -3 HIGH 33 | Fra unknown | Fra U; begrunnelsen var feil. |
 | `fam_abortion` | SV | -3 HIGH 19 | -3 MEDIUM 19 | Conf ↓ | Uke-grensen nevnes ikke. |
 | `fam_abortion` | MDG | -3 HIGH 62 | -3 MEDIUM 62 | Conf ↓ | Uke-grensen nevnes ikke. |
@@ -342,7 +396,7 @@ Generert fra `research/qa/changes_log.tsv` (én rad per standpunkt; «før» er 
 | `econ_nrk` | KrF | -2 HIGH 85 | -2 MEDIUM 85 | Conf ↓ | Finansieringsnivå nevnes ikke. |
 | `dist_municipal_merge` | R | -2 MEDIUM 73 | -2 LOW 73 | Conf ↓ | Kritiserer tvang; insentiver nevnes ikke. |
 | `dist_municipal_merge` | KrF | U - - | 2 HIGH 54 | Fra unknown | Fra U. |
-| `dist_municipal_merge` | MDG | -1 MEDIUM 75 | 2 MEDIUM 77 | Fortegn rettet, Side/kilde | FEIL FORTEGN rettet (var -1). |
+| `dist_municipal_merge` | MDG | -1 MEDIUM 75 | 2 MEDIUM 77 | Fortegn snudd, Side/kilde | FEIL FORTEGN rettet (var -1). |
 | `dist_county` | R | U - - | -3 HIGH 76 | Fra unknown | Fra U. |
 | `dist_county` | V | 1 LOW 59 | U - - | Til unknown | Kilden angir ingen retning. |
 | `dist_county` | KrF | U - - | -3 HIGH 54 | Fra unknown | Fra U. |
@@ -357,7 +411,7 @@ Generert fra `research/qa/changes_log.tsv` (én rad per standpunkt; «før» er 
 | `eu_reservation` | KrF | -1 LOW 76 | U - - | Til unknown |  |
 | `def_budget` | Ap | 0 MEDIUM 176 | 0 MEDIUM 176 | Begrunnelse | «uten å gå utover planen» stod ikke i kilden. |
 | `def_budget` | FrP | 3 HIGH 17 | 3 HIGH 19-20 | Side/kilde | Riktig side. |
-| `def_budget` | Sp | 3 HIGH 48 | 2 MEDIUM 43,48 | Verdi, Conf ↓, Side/kilde | Mindre kategorisk enn KrF. |
+| `def_budget` | Sp | 3 HIGH 48 | 1 MEDIUM 48 | Verdi, Conf ↓ | Mindre kategorisk enn KrF. / Vi +2, blind koder −1 → +1 (fortsatt omstridt). |
 | `def_budget` | R | -1 LOW 88 | 0 LOW 87-88 | Verdi, Side/kilde | Var -1. |
 | `def_budget` | V | 0 MEDIUM 66 | 1 LOW 66 | Verdi, Conf ↓ |  |
 | `def_allied_bases` | Sp | U - 46 | -3 HIGH 48 | Fra unknown | Fra U. |
@@ -365,8 +419,8 @@ Generert fra `research/qa/changes_log.tsv` (én rad per standpunkt; «før» er 
 | `def_allied_bases` | MDG | U - - | 1 MEDIUM 105 | Fra unknown | Fra U. |
 | `def_ukraine` | MDG | U - 105 | 2 MEDIUM 110 | Fra unknown | Fra U. |
 | `for_aid` | R | U - - | 3 HIGH 93 | Fra unknown | Fra U; begrunnelsen var feil. |
-| `for_nuclear_ban` | Ap | 1 MEDIUM 171 | 0 MEDIUM 171 | Verdi | Dokumentert mellomposisjon. |
-| `for_nuclear_ban` | Sp | U - - | 0 MEDIUM 134 | Fra unknown | Fra U. |
+| `for_nuclear_ban` | Ap | 1 MEDIUM 171 | -1 MEDIUM 171 | Fortegn snudd | Dokumentert mellomposisjon. / Vi 0, blind koder −2. Påstanden gjelder å signere nå; samme logikk som eu_membership (−1). |
+| `for_nuclear_ban` | Sp | U - - | -1 MEDIUM 134 | Fra unknown | Fra U. / Konsistent med Ap. |
 | `for_nuclear_ban` | R | 2 MEDIUM 86 | 3 HIGH 86 | Verdi, Conf ↑ |  |
 | `for_nuclear_ban` | V | U - - | -1 LOW 65 | Fra unknown | Fra U. |
 | `for_israel_sanctions` | SV | 3 HIGH 45 | 2 HIGH 45 | Verdi | Målrettet mot okkupasjonsøkonomien. |
@@ -399,3 +453,16 @@ Generert fra `research/qa/changes_log.tsv` (én rad per standpunkt; «før» er 
 | `edu_national_tests` | V | U - - | 3 MEDIUM src:sting_innst_236s_2526 | Fra unknown | Fra U. |
 | `energy_offshore_wind` | Sp | U - 43 | 2 MEDIUM src:sting_innst_401s_2526 | Fra unknown | Fra U. |
 | `housing_equity` | KrF | 1 MEDIUM 50 | 2 MEDIUM 50;src:sting_innst_379s_2526 | Verdi, Side/kilde | Var +1; Stortingsforslaget er tydeligere enn programmet. |
+| `cli_target` | H | -1 LOW 42 | U - 42 | Til unknown | Blind koder: U. Belegget var indirekte → U. |
+| `cli_target` | R | 1 LOW 38 | U - 39 | Til unknown | Blind koder: U. 55 % i 2030 er dagens mål. |
+| `econ_tax_level` | MDG | -1 LOW 49 | U - - | Til unknown | Blind koder: U. |
+| `housing_nonprofit` | FrP | -1 LOW 57 | U - 57 | Til unknown | Blind koder: U. |
+| `transport_toll` | H | 1 LOW 62 | 0 LOW 62 | Verdi | Blind koder −1 LOW, vi +1 LOW → mellomposisjon. |
+| `work_sickpay` | KrF | 1 LOW 51 | U - 51 | Til unknown | Blind koder: U. |
+| `agri_tariffs` | V | U - - | -2 MEDIUM 41 | Fra unknown | Fra U. Blind koder −2 MEDIUM; formuleringen går direkte mot påstandens «selv om det kan gi høyere matpriser». |
+| `just_sentences` | R | U - 11,98 | 0 LOW 97-98 | Fra unknown | Fra U. Blind koder −2; programmet peker i begge retninger → dokumentert mellomposisjon. |
+| `just_sentences` | KrF | 0 HIGH 21 | -1 HIGH 21 | Verdi | Vi 0, blind koder −2. Påstanden gjelder generelt strengere straffer, som KrF sier nei til. |
+| `dist_municipal_merge` | FrP | U - 10 | -1 LOW 10 | Fra unknown | Fra U. Blind koder −2 MEDIUM; indirekte → −1 LOW. |
+| `econ_tax_level` | Sp | U - 109 | 1 LOW 108 | Fra unknown | Fra U. Blind koder +1 MEDIUM; gjelder bare avgiftene → LOW. |
+| `transport_ev` | H | U - - | 1 MEDIUM 43 | Fra unknown | Fra U. Blind koder +2 MEDIUM; sier ikke «store fordeler» → +1. |
+| `econ_property_tax` | Ap | U - - | 1 LOW src:sting_refs_2026_10_05 | Fra unknown | Fra U; debattinnlegg → LOW. |

@@ -22,12 +22,12 @@ Ap = Arbeiderpartiet · H = Høyre · FrP = Fremskrittspartiet · Sp = Senterpar
 
 | # | Påstand | Klynge | Ap | H | FrP | Sp | SV | R | V | KrF | MDG |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | Det samlede skatte- og avgiftsnivået i Norge bør reduseres. <br><sub>`econ_tax_level`</sub> | skattenivaa | 0H | +3H | +3H | ? | -2M | -2M | +3H | 0H | -1L |
+| 1 | Det samlede skatte- og avgiftsnivået i Norge bør reduseres. <br><sub>`econ_tax_level`</sub> | skattenivaa | 0H | +3H | +3H | +1L | -2M | -2M | +3H | 0H | ? |
 | 2 | Formuesskatten på eierskap i bedrifter (såkalt arbeidende kapital) bør fjernes. <br><sub>`econ_wealth_working`</sub> | formue | -2M | +3H | +3H | +1H | -3M | -3H | +3H | +3H | -2M |
 | 3 | Personer med høye inntekter bør betale mer i skatt enn i dag. <br><sub>`econ_top_tax`</sub> | inntektsskatt | ? | -2M | -2M | +1L | +3H | +3H | -1L | +3H | +3H |
 | 4 | Norge bør innføre skatt på store arv. <br><sub>`econ_inheritance`</sub> | formue | -3H | -3H | -3H | ? | +3H | +3H | ? | ? | +3H |
-| 5 | Kommunene bør fortsatt kunne kreve eiendomsskatt på boliger. <br><sub>`econ_property_tax`</sub> | eiendom | ? | ? | -3H | +1L | +3H | +3H | +2M | ? | +3H |
-| 6 | Norge bør kunne bruke mer av oljefondet enn handlingsregelen tillater i dag. <br><sub>`econ_oil_money`</sub> | oljepenger | -3H | -3H | +1L | -3H | +2M | ? | -3H | -3H | +2H |
+| 5 | Kommunene bør fortsatt kunne kreve eiendomsskatt på boliger. <br><sub>`econ_property_tax`</sub> | eiendom | +1L | ? | -3H | +1L | +3H | +3H | +2M | ? | +3H |
+| 6 | Norge bør kunne bruke mer av oljefondet enn handlingsregelen tillater i dag. <br><sub>`econ_oil_money`</sub> | oljepenger | -3H | -3H | ? | -3H | +2M | ? | -3H | -3H | +2H |
 | 7 | Staten bør eie mindre i norsk næringsliv enn i dag. <br><sub>`econ_state_owner`</sub> | eierskap | -2H | +3H | +2H | -2H | -3H | -3H | +2H | +1L | -1M |
 | 8 | NRK bør få mindre offentlig finansiering enn i dag. <br><sub>`econ_nrk`</sub> | nrk | -2M | +1L | +3H | -2M | ? | ? | -1M | -2M | -2M |
 
@@ -35,13 +35,13 @@ Ap = Arbeiderpartiet · H = Høyre · FrP = Fremskrittspartiet · Sp = Senterpar
 
 | # | Påstand | Klynge | Ap | H | FrP | Sp | SV | R | V | KrF | MDG |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | Sykelønnen bør reduseres noe ved lange sykemeldinger, for eksempel fra 100 til 80 prosent etter seks måneder. <br><sub>`work_sickpay`</sub> | sykelonn | -3H | -2H | -2M | -3H | -3H | -3H | +3H | +1L | -2M |
+| 1 | Sykelønnen bør reduseres noe ved lange sykemeldinger, for eksempel fra 100 til 80 prosent etter seks måneder. <br><sub>`work_sickpay`</sub> | sykelonn | -3H | -2H | -2M | -3H | -3H | -3H | +3H | ? | -2M |
 | 2 | Alle sosialhjelpsmottakere i arbeidsfør alder bør ha plikt til å delta i aktivitet for å få utbetalt støtte. <br><sub>`work_activity_duty`</sub> | aktivitet | ? | +3H | +3H | +1M | ? | ? | ? | ? | -2M |
 | 3 | Det bør bli enklere for bedrifter å ansette midlertidig og leie inn arbeidskraft fra bemanningsbyråer. <br><sub>`work_temp_agency`</sub> | arbeidsliv | -3H | +3H | +3H | ? | -3H | -3H | +3H | -2M | +1L |
 | 4 | Minsteytelsene i velferden (som minstepensjon, minste uføretrygd og sosialhjelp) bør økes betydelig. <br><sub>`work_min_benefits`</sub> | ytelser | +1L | ? | +1M | +2M | +3H | +3H | +2M | +1L | +3H |
 | 5 | Kommersielle selskaper bør kunne drive offentlig finansierte velferdstjenester som barnehager, sykehjem og barnevern. <br><sub>`welfare_commercial`</sub> | velferdsprivat | -1L | +3H | +3H | -2H | -3H | -3H | +2H | +1M | ? |
 | 6 | Egenkapitalkravet for boliglån bør lempes eller fjernes, særlig for førstegangskjøpere. <br><sub>`housing_equity`</sub> | bolig | +1M | +2H | +3H | +1M | +1L | ? | +3H | +2M | ? |
-| 7 | Staten bør finansiere mange flere ikke-kommersielle utleieboliger med rimelig husleie. <br><sub>`housing_nonprofit`</sub> | bolig | +2M | ? | -1L | ? | +3H | +3H | -1L | ? | +2H |
+| 7 | Staten bør finansiere mange flere ikke-kommersielle utleieboliger med rimelig husleie. <br><sub>`housing_nonprofit`</sub> | bolig | +2M | ? | ? | ? | +3H | +3H | 0L | ? | +2H |
 
 ## Helse (4)
 
@@ -70,7 +70,7 @@ Ap = Arbeiderpartiet · H = Høyre · FrP = Fremskrittspartiet · Sp = Senterpar
 
 | # | Påstand | Klynge | Ap | H | FrP | Sp | SV | R | V | KrF | MDG |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | Straffene for alvorlig kriminalitet bør generelt bli strengere enn i dag. <br><sub>`just_sentences`</sub> | straff | +1M | +2H | +3H | +1L | -3H | ? | -1M | 0H | ? |
+| 1 | Straffene for alvorlig kriminalitet bør generelt bli strengere enn i dag. <br><sub>`just_sentences`</sub> | straff | +1M | +2H | +3H | +1L | -3H | 0L | -1M | -1H | ? |
 | 2 | Politiet bør være generelt bevæpnet. <br><sub>`just_police_arms`</sub> | politi | +3H | +3H | +3H | +3H | -3H | -3H | -3H | +3H | -3H |
 | 3 | Politiet bør få flere digitale verktøy, som utvidet overvåking og ansiktsgjenkjenning, for å bekjempe alvorlig kriminalitet. <br><sub>`just_surveillance`</sub> | overvaking | +1M | +2M | +2M | -1M | ? | -2M | -2M | -1L | -2M |
 | 4 | Flere lovbrytere bør sone med fotlenke eller samfunnsstraff i stedet for i fengsel. <br><sub>`just_alt_sentences`</sub> | straff | +1L | +1M | -2H | +2H | +3H | +2H | +3H | ? | +3H |
@@ -87,7 +87,7 @@ Ap = Arbeiderpartiet · H = Høyre · FrP = Fremskrittspartiet · Sp = Senterpar
 
 | # | Påstand | Klynge | Ap | H | FrP | Sp | SV | R | V | KrF | MDG |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | Norge bør ha et strengere klimamål for 2035 enn dagens mål om 70–75 prosent kutt (sammenlignet med 1990). <br><sub>`cli_target`</sub> | klimamal | 0H | -1L | -3M | -1L | +3H | +1L | +1L | +3H | +3H |
+| 1 | Norge bør ha et strengere klimamål for 2035 enn dagens mål om 70–75 prosent kutt (sammenlignet med 1990). <br><sub>`cli_target`</sub> | klimamal | 0H | ? | -3M | -1L | +3H | ? | ? | +3H | +3H |
 | 2 | Norge bør ta klimakuttene hjemme i Norge, heller enn å betale for kutt i andre land (for eksempel gjennom klimakvoter). <br><sub>`cli_domestic`</sub> | klimamal | 0M | -2M | -3H | -1M | +3H | +3H | +2H | +2M | +3H |
 | 3 | CO₂-avgiften bør økes raskere enn dagens plan om rundt 2000 kroner per tonn i 2030. <br><sub>`cli_co2_tax`</sub> | klimaavgift | 0H | 0M | -3H | -2M | +2M | +1L | +3H | +1L | +2M |
 | 4 | Mer natur bør vernes, selv om det begrenser utbygging av for eksempel hytter, veier og næringsområder. <br><sub>`nature_protect`</sub> | natur | +2H | +1M | -3H | -2M | +3H | +3H | +3H | +3H | +3H |
@@ -110,9 +110,9 @@ Ap = Arbeiderpartiet · H = Høyre · FrP = Fremskrittspartiet · Sp = Senterpar
 
 | # | Påstand | Klynge | Ap | H | FrP | Sp | SV | R | V | KrF | MDG |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | Bompenger bør i stor grad fjernes, og veier bør heller finansieres over statsbudsjettet. <br><sub>`transport_toll`</sub> | bilkostnader | ? | +1L | +3H | +1M | ? | +2H | -2H | -1M | -2H |
-| 2 | Avgiftene på bensin og diesel bør settes ned. <br><sub>`transport_fuel_tax`</sub> | bilkostnader | ? | ? | +3H | +3H | -1L | ? | -2M | ? | -3H |
-| 3 | Elbiler bør fortsatt ha store avgiftsfordeler sammenlignet med bensin- og dieselbiler. <br><sub>`transport_ev`</sub> | bilkostnader | -2H | ? | -1M | ? | +2M | ? | +2M | -2H | -2H |
+| 1 | Bompenger bør i stor grad fjernes, og veier bør heller finansieres over statsbudsjettet. <br><sub>`transport_toll`</sub> | bilkostnader | ? | 0L | +3H | +1M | ? | +2H | -2H | -1M | -2H |
+| 2 | Avgiftene på bensin og diesel bør settes ned. <br><sub>`transport_fuel_tax`</sub> | bilkostnader | -1M | ? | +3H | +3H | -1L | ? | -2M | ? | -3H |
+| 3 | Elbiler bør fortsatt ha store avgiftsfordeler sammenlignet med bensin- og dieselbiler. <br><sub>`transport_ev`</sub> | bilkostnader | -2H | +1M | -1M | ? | +2M | ? | +2M | -2H | -2H |
 | 4 | Staten bør prioritere jernbane og kollektivtransport foran bygging av nye store motorveier. <br><sub>`transport_rail_vs_road`</sub> | infrastruktur | ? | -1M | -3H | -1L | +3H | +3H | +2H | -1L | +3H |
 | 5 | Persontrafikken på jernbanen bør konkurranseutsettes, slik at flere selskaper kan konkurrere om å kjøre togene. <br><sub>`transport_rail_tender`</sub> | jernbane | -3H | +3H | +3H | -3H | -3H | -3H | ? | ? | ? |
 
@@ -130,7 +130,7 @@ Ap = Arbeiderpartiet · H = Høyre · FrP = Fremskrittspartiet · Sp = Senterpar
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | 1 | Kontantstøtten (støtte til foreldre som ikke bruker barnehage) bør beholdes. <br><sub>`fam_cash_benefit`</sub> | barnehage | ? | -3H | +1M | +2H | ? | ? | -3H | +3H | +3H |
 | 2 | Foreldrene bør selv få bestemme hvordan hele foreldrepermisjonen fordeles, uten øremerkede kvoter til mor og far. <br><sub>`fam_leave_quota`</sub> | permisjon | -3H | +1H | +3H | -3H | -2M | -3H | -3H | +3H | -3H |
-| 3 | Barnetrygden bør gjøres skattepliktig og samtidig økes, slik at familier med lave inntekter får mest igjen. <br><sub>`fam_child_benefit_tax`</sub> | barnetrygd | ? | -3H | -1L | -3H | ? | -3H | +3H | ? | +3H |
+| 3 | Barnetrygden bør gjøres skattepliktig og samtidig økes, slik at familier med lave inntekter får mest igjen. <br><sub>`fam_child_benefit_tax`</sub> | barnetrygd | ? | -3H | ? | -3H | ? | -3H | +3H | ? | +3H |
 | 4 | Grensen for selvbestemt abort bør settes tilbake fra 18 til 12 uker. <br><sub>`fam_abortion`</sub> | abort | -3H | 0H | ? | ? | -3M | -3H | -3H | +3H | -3M |
 
 ## Personlig frihet og etikk (4)
@@ -146,9 +146,9 @@ Ap = Arbeiderpartiet · H = Høyre · FrP = Fremskrittspartiet · Sp = Senterpar
 
 | # | Påstand | Klynge | Ap | H | FrP | Sp | SV | R | V | KrF | MDG |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | Staten bør gi sterkere insentiver til at kommuner slår seg sammen til større kommuner. <br><sub>`dist_municipal_merge`</sub> | kommunestruktur | +2M | +3H | ? | -3H | ? | -2L | +3H | +2H | +2M |
+| 1 | Staten bør gi sterkere insentiver til at kommuner slår seg sammen til større kommuner. <br><sub>`dist_municipal_merge`</sub> | kommunestruktur | +2M | +3H | -1L | -3H | ? | -2L | +3H | +2H | +2M |
 | 2 | Fylkeskommunen bør legges ned, slik at vi får to forvaltningsnivåer: stat og kommune. <br><sub>`dist_county`</sub> | kommunestruktur | -3M | +3H | +3H | -3H | -3M | -3H | ? | -3H | -3M |
-| 3 | Tollvernet for norske landbruksvarer bør styrkes for å sikre norsk matproduksjon, selv om det kan gi høyere matpriser. <br><sub>`agri_tariffs`</sub> | landbruk | +1M | -1H | -3H | +3H | +2M | +3H | ? | +1M | +1M |
+| 3 | Tollvernet for norske landbruksvarer bør styrkes for å sikre norsk matproduksjon, selv om det kan gi høyere matpriser. <br><sub>`agri_tariffs`</sub> | landbruk | +1M | -1H | -3H | +3H | +2M | +3H | -2M | +1M | +1M |
 | 4 | Staten bør bruke mer penger på landbruket for å tette inntektsgapet mellom bønder og andre grupper. <br><sub>`agri_income`</sub> | landbruk | +2H | -2M | -3H | +3H | +3H | +3H | ? | +3H | +2H |
 | 5 | Bestandene av ulv og andre store rovdyr i Norge bør få bli større enn i dag. <br><sub>`agri_predators`</sub> | rovdyr | -1M | 0M | -2M | -3H | +1M | +2M | +3H | 0M | +3H |
 
@@ -165,10 +165,10 @@ Ap = Arbeiderpartiet · H = Høyre · FrP = Fremskrittspartiet · Sp = Senterpar
 
 | # | Påstand | Klynge | Ap | H | FrP | Sp | SV | R | V | KrF | MDG |
 |---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 1 | Norge bør øke forsvarsbudsjettet raskere og mer enn dagens langtidsplan legger opp til. <br><sub>`def_budget`</sub> | forsvarsbudsjett | 0M | +3H | +3H | +2M | -1L | 0L | +1L | +3H | +1M |
+| 1 | Norge bør øke forsvarsbudsjettet raskere og mer enn dagens langtidsplan legger opp til. <br><sub>`def_budget`</sub> | forsvarsbudsjett | 0M | +3H | +3H | +1M | -1L | 0L | +1L | +3H | +1M |
 | 2 | Norge bør melde seg ut av NATO. <br><sub>`def_nato_exit`</sub> | nato | -3H | -3H | -3H | -3H | -1M | +3H | -3H | -3H | -3H |
 | 3 | Norge bør åpne for at allierte land kan ha faste militærbaser i Norge. <br><sub>`def_allied_bases`</sub> | allierte | ? | ? | +3H | -3H | -3H | -3H | +2M | +3H | +1M |
 | 4 | Norge bør øke den militære og sivile støtten til Ukraina betydelig. <br><sub>`def_ukraine`</sub> | ukraina | +1M | +3H | ? | ? | +1M | ? | +3H | +3H | +2M |
 | 5 | Norge bør bruke minst 1 prosent av nasjonalinntekten (BNI) på bistand. <br><sub>`for_aid`</sub> | bistand | +3H | ? | -3H | +3H | +3H | +3H | +3H | +3H | +3H |
-| 6 | Norge bør signere FNs atomvåpenforbud. <br><sub>`for_nuclear_ban`</sub> | nedrustning | 0M | ? | ? | 0M | +3H | +3H | -1L | +3H | ? |
+| 6 | Norge bør signere FNs atomvåpenforbud. <br><sub>`for_nuclear_ban`</sub> | nedrustning | -1M | ? | ? | -1M | +3H | +3H | -1L | +3H | ? |
 | 7 | Norge bør innføre økonomiske sanksjoner eller boikott mot Israel på grunn av okkupasjonen av palestinske områder. <br><sub>`for_israel_sanctions`</sub> | midtosten | +1M | ? | -3H | ? | +2H | +3H | +1L | -3H | +2M |

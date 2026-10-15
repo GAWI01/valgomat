@@ -165,3 +165,26 @@ dist_county|MDG|-3|MEDIUM|src:sting_innst_196s_2526|MDG er med i flertallet som 
 edu_national_tests|V|3|MEDIUM|src:sting_innst_236s_2526|Venstre fremmet (med FrP og H) forslag om å «beholde og forbedre nasjonale prøver».|Fra U.
 energy_offshore_wind|Sp|2|MEDIUM|src:sting_innst_401s_2526|Sp er med i flertallet som mener havvind er en næring som «bør satses videre på, også med midler fra statens side».|Fra U.
 housing_equity|KrF|2|MEDIUM|50;src:sting_innst_379s_2526|KrF vil vurdere avvikling av utlånsforskriften (program) og fremmet i Stortinget forslag om å avvikle den «uten ugrunnet opphold».|Var +1; Stortingsforslaget er tydeligere enn programmet.
+# --- Blind andregangskoding: avgjorte uenigheter (research/qa/reliabilitet.md)
+cli_target|H|U|-|42|Høyre vil ha betydelige utslippskutt innen 2030 i samarbeid med EU, men tar ikke stilling til 2035-målet.|Blind koder: U. Belegget var indirekte → U.
+cli_target|V|U|-|6|Venstre har mål for 2030 og 2050, men ikke for 2035.|Blind koder: U. 55 % i 2030 og 95 % i 2050 gir ikke grunnlag for å si at 2035-målet bør skjerpes.
+cli_target|R|U|-|39|Rødt vil kutte minst 55 prosent innen 2030, men tar ikke stilling til 2035-målet.|Blind koder: U. 55 % i 2030 er dagens mål.
+econ_oil_money|FrP|U|-|42-43|FrP vil bruke handlingsrommet til investeringer, men omtaler ikke handlingsregelen eller økt bruk av oljefondet.|Blind koder: U.
+econ_tax_level|MDG|U|-|-|MDG vil ha en grønn skatteomlegging, men tar ikke stilling til det samlede skattenivået.|Blind koder: U.
+fam_child_benefit_tax|FrP|U|-|115-116|FrP vil videreføre barnetrygden som universell ordning, men tar ikke stilling til økning eller skatteplikt.|Blind koder: U.
+housing_nonprofit|V|0|LOW|25|Venstre vil øke Husbankens låne- og tilskuddsrammer, men mener det viktigste er at det ordinære boligmarkedet fungerer.|Blind koder +1 LOW, vi −1 LOW → dokumentert mellomposisjon.
+housing_nonprofit|FrP|U|-|57|FrP vil øke boligtilbudet med færre krav og mindre regulering, men omtaler ikke ikke-kommersielle utleieboliger.|Blind koder: U.
+transport_toll|H|0|LOW|62|Høyre godtar bompenger som finansiering, men vil redusere belastningen med lengre nedbetalingstid.|Blind koder −1 LOW, vi +1 LOW → mellomposisjon.
+work_sickpay|KrF|U|-|51|KrF vil følge opp Sysselsettingsutvalget om sykepengeordningen, men tar ikke stilling til kompensasjonsnivået.|Blind koder: U.
+agri_tariffs|V|-2|MEDIUM|41|Venstre vil at landbrukspolitikken skal bli «mindre basert på støtte gjennom høye priser og markedsreguleringer».|Fra U. Blind koder −2 MEDIUM; formuleringen går direkte mot påstandens «selv om det kan gi høyere matpriser».
+def_budget|Sp|1|MEDIUM|48|Sp vil styrke forsvarsbevilgningene til minimum 3 % av BNP, men også øke dem «i tråd med Langtidsplanen».|Vi +2, blind koder −1 → +1 (fortsatt omstridt).
+for_nuclear_ban|Ap|-1|MEDIUM|171|Ap mener det i dagens situasjon «ikke er mulig for NATO-land som Norge å undertegne», men at det bør være et mål på sikt.|Vi 0, blind koder −2. Påstanden gjelder å signere nå; samme logikk som eu_membership (−1).
+for_nuclear_ban|Sp|-1|MEDIUM|134|Sp mener det er et mål på sikt å signere, men at det forutsetter gjensidige og verifiserbare nedrustningsavtaler.|Konsistent med Ap.
+just_sentences|R|0|LOW|97-98|Rødt vil skjerpe straffene for blant annet seksuelt misbruk av barn, voldtekt og partnervold, men holde fast ved lave fengselsrater.|Fra U. Blind koder −2; programmet peker i begge retninger → dokumentert mellomposisjon.
+just_sentences|KrF|-1|HIGH|21|KrF vil «beholde det generelle straffenivået», men vurdere straffenivået for seksuallovbrudd.|Vi 0, blind koder −2. Påstanden gjelder generelt strengere straffer, som KrF sier nei til.
+dist_municipal_merge|FrP|-1|LOW|10|FrP mener det er kommunene selv som må ta initiativ til samarbeid eller sammenslåing.|Fra U. Blind koder −2 MEDIUM; indirekte → −1 LOW.
+econ_tax_level|Sp|1|LOW|108|Sp vil redusere avgiftene, men bruke progressiv skatt til å finansiere velferden.|Fra U. Blind koder +1 MEDIUM; gjelder bare avgiftene → LOW.
+transport_ev|H|1|MEDIUM|43|Høyre vil ha et avgiftssystem som bygger opp under målet om at alle nye personbiler skal være utslippsfrie.|Fra U. Blind koder +2 MEDIUM; sier ikke «store fordeler» → +1.
+# --- Statsbudsjettet 2027 via Stortingets referater (regjeringen.no utilgjengelig)
+transport_fuel_tax|Ap|-1|MEDIUM|src:sting_refs_2026_10_07|Ap-regjeringen holder pumpeprisen uendret og prioriterer lettelser i inntektsskatten, som den mener har «en bedre innretning enn kutt i drivstoffavgiftene». Ap stemte mot å fjerne veibruksavgiften.|Fra U; direkte om drivstoffavgiftene (ikke CO₂-avgiften alene).
+econ_property_tax|Ap|1|LOW|src:sting_refs_2026_10_05|Ap kritiserer lettelser i eiendomsskatten for de dyreste boligene i Oslo (Tonje Brenna i trontaledebatten 2026).|Fra U; debattinnlegg → LOW.

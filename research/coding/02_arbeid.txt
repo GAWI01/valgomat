@@ -6,7 +6,7 @@ work_sickpay|Sp|-3|HIGH|28|Sp vil videreføre sykelønnsordningen på nivået de
 work_sickpay|SV|-3|HIGH|13|SV vil bevare og styrke sykelønnsordningen.
 work_sickpay|R|-3|HIGH|10|Rødt vil forsvare sykelønnsordninga med full lønn under sykdom.
 work_sickpay|V|3|HIGH|24|Venstre vil reformere ordningen etter Sysselsettingsutvalgets ekspertgruppe: 100 % de første seks månedene, deretter 80 % ved full sykmelding.
-work_sickpay|KrF|1|LOW|51|KrF vil følge opp Sysselsettingsutvalgets anbefalinger om omlegging av sykepengeordningen, med vekt på arbeidsgivers insentiver og gradert sykmelding. Uklart om kompensasjonsgraden skal ned.
+work_sickpay|KrF|U|-|51|KrF vil følge opp Sysselsettingsutvalget om sykepengeordningen, men tar ikke stilling til kompensasjonsnivået.
 work_sickpay|MDG|-2|MEDIUM|23|MDG vil forsvare sykelønnsordninga for alle, men flytte mer økonomisk ansvar for langtidsfravær til arbeidsgiver.
 # --- work_activity_duty: «Alle sosialhjelpsmottakere i arbeidsfør alder bør ha plikt til å delta i aktivitet for å få utbetalt støtte.»
 work_activity_duty|Ap|U|-|15|Ap vil innføre en aktivitetsreform for unge, men programmet tar ikke stilling til aktivitetsplikt for alle sosialhjelpsmottakere.

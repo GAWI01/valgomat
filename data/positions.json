@@ -47,14 +47,14 @@
   {
     "questionId": "econ_tax_level",
     "party": "Sp",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Programmet vil redusere skatt på lave/vanlige inntekter og avgifter som elavgift, men tar ikke stilling til det samlede nivået.",
+    "position": 1,
+    "confidence": "LOW",
+    "reasoning": "Sp vil redusere avgiftene, men bruke progressiv skatt til å finansiere velferden.",
     "sources": [
       {
         "title": "Senterpartiets stortingsvalgprogram 2025–2029 (bokmål)",
         "url": "https://www.senterpartiet.no/politikk/_/attachment/download/ea7e4063-1374-47bf-8b10-839bf68904c0:3c54bc9ec99b5e017f069f2312b3962bd934c78a/Senterpartiets%20stortingsvalgprogram%202025-2029%20bokm%C3%A5l%20i%20PDF.pdf",
-        "pages": "109",
+        "pages": "108",
         "accessed": "2026-10-14"
       }
     ]
@@ -122,14 +122,14 @@
   {
     "questionId": "econ_tax_level",
     "party": "MDG",
-    "position": -1,
-    "confidence": "LOW",
-    "reasoning": "MDG vil innføre arveavgift, eiendomsskatt på næringseiendom og øke klimaavgifter, men også senke skatten for lave inntekter. Netto retning er ikke eksplisitt; kodet svakt negativt.",
+    "position": "unknown",
+    "confidence": null,
+    "reasoning": "MDG vil ha en grønn skatteomlegging, men tar ikke stilling til det samlede skattenivået.",
     "sources": [
       {
         "title": "MDGs arbeidsprogram 2025–2029 – Det er mulig",
         "url": "https://mdg.no/_service/505809/download/id/1506077/name/MDGs+arbeidsprogram+2025-2029.pdf",
-        "pages": "49",
+        "pages": null,
         "accessed": "2026-10-14"
       }
     ]
@@ -542,13 +542,13 @@
   {
     "questionId": "econ_property_tax",
     "party": "Ap",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Programmet tar ikke stilling.",
+    "position": 1,
+    "confidence": "LOW",
+    "reasoning": "Ap kritiserer lettelser i eiendomsskatten for de dyreste boligene i Oslo (Tonje Brenna i trontaledebatten 2026).",
     "sources": [
       {
-        "title": "Arbeiderpartiets partiprogram 2025–2029",
-        "url": "https://www.dropbox.com/scl/fi/6zrd74f8beiart1af9c3m/Partiprogram_2025-2029_Trykk_Kuttekant.pdf?rlkey=occr7mv05p8wbe5jh0mt6dwm0&dl=1",
+        "title": "Stortingets referat 5. oktober 2026: trontaledebatten",
+        "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2026-2027/refs-202627-10-05/",
         "pages": null,
         "accessed": "2026-10-14"
       }
@@ -707,9 +707,9 @@
   {
     "questionId": "econ_oil_money",
     "party": "FrP",
-    "position": 1,
-    "confidence": "LOW",
-    "reasoning": "FrP vil skille mellom drift og investeringer i statsbudsjettet, og at oljeverdier også investeres i lønnsom norsk infrastruktur. Ikke eksplisitt om å bryte handlingsregelen.",
+    "position": "unknown",
+    "confidence": null,
+    "reasoning": "FrP vil bruke handlingsrommet til investeringer, men omtaler ikke handlingsregelen eller økt bruk av oljefondet.",
     "sources": [
       {
         "title": "Fremskrittspartiets partiprogram 2025–2029 – mer frihet",
@@ -1187,9 +1187,9 @@
   {
     "questionId": "work_sickpay",
     "party": "KrF",
-    "position": 1,
-    "confidence": "LOW",
-    "reasoning": "KrF vil følge opp Sysselsettingsutvalgets anbefalinger om omlegging av sykepengeordningen, med vekt på arbeidsgivers insentiver og gradert sykmelding. Uklart om kompensasjonsgraden skal ned.",
+    "position": "unknown",
+    "confidence": null,
+    "reasoning": "KrF vil følge opp Sysselsettingsutvalget om sykepengeordningen, men tar ikke stilling til kompensasjonsnivået.",
     "sources": [
       {
         "title": "KrFs stortingsprogram 2025–2029 – Trygghet for hverdagen",
@@ -3452,14 +3452,14 @@
   {
     "questionId": "just_sentences",
     "party": "R",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Rødt vil skjerpe straffene for arbeidslivs- og økonomisk kriminalitet, men tar ikke stilling til det generelle straffenivået.",
+    "position": 0,
+    "confidence": "LOW",
+    "reasoning": "Rødt vil skjerpe straffene for blant annet seksuelt misbruk av barn, voldtekt og partnervold, men holde fast ved lave fengselsrater.",
     "sources": [
       {
         "title": "Rødts arbeidsprogram 2025–2029",
         "url": "https://roedt.no/fil/7393ab981e025ec77c5c78797892dfc9f020fc17.pdf?dl=",
-        "pages": "11, 98",
+        "pages": "97-98",
         "accessed": "2026-10-14"
       }
     ]
@@ -3482,9 +3482,9 @@
   {
     "questionId": "just_sentences",
     "party": "KrF",
-    "position": 0,
+    "position": -1,
     "confidence": "HIGH",
-    "reasoning": "KrF vil beholde det generelle straffenivået (men vurdere skjerpelser for seksuallovbrudd mot barn).",
+    "reasoning": "KrF vil «beholde det generelle straffenivået», men vurdere straffenivået for seksuallovbrudd.",
     "sources": [
       {
         "title": "KrFs stortingsprogram 2025–2029 – Trygghet for hverdagen",
@@ -4337,9 +4337,9 @@
   {
     "questionId": "cli_target",
     "party": "H",
-    "position": -1,
-    "confidence": "LOW",
-    "reasoning": "Høyre vil oppnå «betydelige utslippsreduksjoner» i samarbeid med EU, uten å angi et strengere 2035-mål.",
+    "position": "unknown",
+    "confidence": null,
+    "reasoning": "Høyre vil ha betydelige utslippskutt innen 2030 i samarbeid med EU, men tar ikke stilling til 2035-målet.",
     "sources": [
       {
         "title": "Høyres stortingsvalgprogram 2025–2029 (tekstversjon)",
@@ -4397,14 +4397,14 @@
   {
     "questionId": "cli_target",
     "party": "R",
-    "position": 1,
-    "confidence": "LOW",
-    "reasoning": "Rødt vil kutte minst 55 prosent innen 2030 og gradvis forsterke forpliktelsene, uten et tallfestet 2035-mål.",
+    "position": "unknown",
+    "confidence": null,
+    "reasoning": "Rødt vil kutte minst 55 prosent innen 2030, men tar ikke stilling til 2035-målet.",
     "sources": [
       {
         "title": "Rødts arbeidsprogram 2025–2029",
         "url": "https://roedt.no/fil/7393ab981e025ec77c5c78797892dfc9f020fc17.pdf?dl=",
-        "pages": "38",
+        "pages": "39",
         "accessed": "2026-10-14"
       }
     ]
@@ -4412,9 +4412,9 @@
   {
     "questionId": "cli_target",
     "party": "V",
-    "position": 1,
-    "confidence": "LOW",
-    "reasoning": "Venstre vil kutte 55 % innen 2030 og 95 % innen 2050 gjennom nasjonale tiltak, men angir ikke et eget 2035-mål.",
+    "position": "unknown",
+    "confidence": null,
+    "reasoning": "Venstre har mål for 2030 og 2050, men ikke for 2035.",
     "sources": [
       {
         "title": "Venstres stortingsvalgprogram 2025–2029",
@@ -6227,9 +6227,9 @@
   {
     "questionId": "transport_toll",
     "party": "H",
-    "position": 1,
+    "position": 0,
     "confidence": "LOW",
-    "reasoning": "Høyre vil åpne for lengre nedbetalingstid for å redusere bompengebelastningen, men ikke fjerne bompenger.",
+    "reasoning": "Høyre godtar bompenger som finansiering, men vil redusere belastningen med lengre nedbetalingstid.",
     "sources": [
       {
         "title": "Høyres stortingsvalgprogram 2025–2029 (tekstversjon)",
@@ -6347,14 +6347,14 @@
   {
     "questionId": "transport_fuel_tax",
     "party": "Ap",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Ap vil trappe opp CO₂-avgiften og balansere klimaavgifter med andre avgiftsreduksjoner, men tar ikke stilling til drivstoffavgiftene spesifikt.",
+    "position": -1,
+    "confidence": "MEDIUM",
+    "reasoning": "Ap-regjeringen holder pumpeprisen uendret og prioriterer lettelser i inntektsskatten, som den mener har «en bedre innretning enn kutt i drivstoffavgiftene». Ap stemte mot å fjerne veibruksavgiften.",
     "sources": [
       {
-        "title": "Arbeiderpartiets partiprogram 2025–2029",
-        "url": "https://www.dropbox.com/scl/fi/6zrd74f8beiart1af9c3m/Partiprogram_2025-2029_Trykk_Kuttekant.pdf?rlkey=occr7mv05p8wbe5jh0mt6dwm0&dl=1",
-        "pages": "12, 121",
+        "title": "Stortingets referat 7. oktober 2026: finansministerens redegjørelse for statsbudsjettet 2027 (Prop. 1 S og Prop. 1 LS)",
+        "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Referater/Stortinget/2026-2027/refs-202627-10-07/",
+        "pages": null,
         "accessed": "2026-10-14"
       }
     ]
@@ -6497,14 +6497,14 @@
   {
     "questionId": "transport_ev",
     "party": "H",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Programmet tar ikke stilling.",
+    "position": 1,
+    "confidence": "MEDIUM",
+    "reasoning": "Høyre vil ha et avgiftssystem som bygger opp under målet om at alle nye personbiler skal være utslippsfrie.",
     "sources": [
       {
         "title": "Høyres stortingsvalgprogram 2025–2029 (tekstversjon)",
         "url": "https://hoyre.no/content/uploads/sites/83/2025/04/Hoyres_stortingsvalgprogram_2025-2029_-_tekstversjon.pdf",
-        "pages": null,
+        "pages": "43",
         "accessed": "2026-10-14"
       }
     ]
@@ -7592,9 +7592,9 @@
   {
     "questionId": "fam_child_benefit_tax",
     "party": "FrP",
-    "position": -1,
-    "confidence": "LOW",
-    "reasoning": "FrP vil videreføre barnetrygden som universell ordning, begrenset til fem barn.",
+    "position": "unknown",
+    "confidence": null,
+    "reasoning": "FrP vil videreføre barnetrygden som universell ordning, men tar ikke stilling til økning eller skatteplikt.",
     "sources": [
       {
         "title": "Fremskrittspartiets partiprogram 2025–2029 – mer frihet",
@@ -8537,9 +8537,9 @@
   {
     "questionId": "dist_municipal_merge",
     "party": "FrP",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Programmet vil styrke kommunenes handlingsrom, men tar ikke stilling til sammenslåing.",
+    "position": -1,
+    "confidence": "LOW",
+    "reasoning": "FrP mener det er kommunene selv som må ta initiativ til samarbeid eller sammenslåing.",
     "sources": [
       {
         "title": "Fremskrittspartiets partiprogram 2025–2029 – mer frihet",
@@ -8867,14 +8867,14 @@
   {
     "questionId": "agri_tariffs",
     "party": "V",
-    "position": "unknown",
-    "confidence": null,
-    "reasoning": "Programmet tar ikke stilling til tollvern for landbruk.",
+    "position": -2,
+    "confidence": "MEDIUM",
+    "reasoning": "Venstre vil at landbrukspolitikken skal bli «mindre basert på støtte gjennom høye priser og markedsreguleringer».",
     "sources": [
       {
         "title": "Venstres stortingsvalgprogram 2025–2029",
         "url": "https://www.venstre.no/assets/venstre-stortingsprogram-2025-2029.pdf",
-        "pages": null,
+        "pages": "41",
         "accessed": "2026-10-14"
       }
     ]
@@ -9638,14 +9638,14 @@
   {
     "questionId": "def_budget",
     "party": "Sp",
-    "position": 2,
+    "position": 1,
     "confidence": "MEDIUM",
-    "reasoning": "Sp vil ha forsvarsbudsjett på minimum 3 prosent av BNP, men øke bevilgningene i tråd med langtidsplanen og uten tidsangivelse.",
+    "reasoning": "Sp vil styrke forsvarsbevilgningene til minimum 3 % av BNP, men også øke dem «i tråd med Langtidsplanen».",
     "sources": [
       {
         "title": "Senterpartiets stortingsvalgprogram 2025–2029 (bokmål)",
         "url": "https://www.senterpartiet.no/politikk/_/attachment/download/ea7e4063-1374-47bf-8b10-839bf68904c0:3c54bc9ec99b5e017f069f2312b3962bd934c78a/Senterpartiets%20stortingsvalgprogram%202025-2029%20bokm%C3%A5l%20i%20PDF.pdf",
-        "pages": "43, 48",
+        "pages": "48",
         "accessed": "2026-10-14"
       }
     ]
@@ -10268,9 +10268,9 @@
   {
     "questionId": "for_nuclear_ban",
     "party": "Ap",
-    "position": 0,
+    "position": -1,
     "confidence": "MEDIUM",
-    "reasoning": "Ap mener det i dagens situasjon ikke er mulig for NATO-land som Norge å undertegne, men at det bør være et mål.",
+    "reasoning": "Ap mener det i dagens situasjon «ikke er mulig for NATO-land som Norge å undertegne», men at det bør være et mål på sikt.",
     "sources": [
       {
         "title": "Arbeiderpartiets partiprogram 2025–2029",
@@ -10313,7 +10313,7 @@
   {
     "questionId": "for_nuclear_ban",
     "party": "Sp",
-    "position": 0,
+    "position": -1,
     "confidence": "MEDIUM",
     "reasoning": "Sp mener det er et mål på sikt å signere, men at det forutsetter gjensidige og verifiserbare nedrustningsavtaler.",
     "sources": [
@@ -10709,9 +10709,9 @@
   {
     "questionId": "housing_nonprofit",
     "party": "FrP",
-    "position": -1,
-    "confidence": "LOW",
-    "reasoning": "FrP vil øke boligtilbudet gjennom færre krav og mindre regulering, ikke offentlige utleieboliger.",
+    "position": "unknown",
+    "confidence": null,
+    "reasoning": "FrP vil øke boligtilbudet med færre krav og mindre regulering, men omtaler ikke ikke-kommersielle utleieboliger.",
     "sources": [
       {
         "title": "Fremskrittspartiets partiprogram 2025–2029 – mer frihet",
@@ -10769,9 +10769,9 @@
   {
     "questionId": "housing_nonprofit",
     "party": "V",
-    "position": -1,
+    "position": 0,
     "confidence": "LOW",
-    "reasoning": "Venstre mener det viktigste er at det ordinære boligmarkedet fungerer best mulig og at det bygges flere boliger.",
+    "reasoning": "Venstre vil øke Husbankens låne- og tilskuddsrammer, men mener det viktigste er at det ordinære boligmarkedet fungerer.",
     "sources": [
       {
         "title": "Venstres stortingsvalgprogram 2025–2029",

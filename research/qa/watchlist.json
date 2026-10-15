@@ -1,0 +1,16 @@
+{
+  "_om": "Saker som kan gi grunnlag for å kode ukjente standpunkter. Sjekkes med `npm run qa:watch`. Når en sak er behandlet: les partienes merknader i innstillingen og vurder koding etter POLITICAL_QA.md §6b.",
+  "stortinget": [
+    { "sakId": "200192", "henvisning": "Dokument 8:264 S (2025–2026)", "tema": "Selvbestemt livsavslutning / aktiv dødshjelp", "qids": ["val_assisted_dying"], "partier": ["Ap", "H", "R", "SV"] },
+    { "sakId": "200461", "henvisning": "Dokument 8:16 S (2026–2027)", "tema": "Menneskehandel og sexkjøp", "qids": ["val_sex_purchase"], "partier": ["H"] },
+    { "sakId": "200450", "henvisning": "Prop. 1 LS (2026–2027) / Innst. 3 S", "tema": "Skatter og avgifter 2027 (trinnskatt, eiendomsskatt, drivstoff, elbil)", "qids": ["econ_top_tax", "econ_property_tax", "transport_fuel_tax", "transport_ev"], "partier": ["Ap"] },
+    { "sakId": "200434", "henvisning": "Prop. 1 S (2026–2027) / Innst. 2 S", "tema": "Statsbudsjettet 2027", "qids": ["fam_cash_benefit", "transport_toll", "transport_rail_vs_road"], "partier": ["Ap"] }
+  ],
+  "sok": {
+    "_om": "Nye saker i inneværende sesjon hvis tittel inneholder ett av ordene, listes som kandidater.",
+    "ord": ["dødshjelp", "livsavslutning", "sexkjøp", "seksuelle tjenester", "surrogati", "kontantstøtte", "barnetrygd", "aktivitetsplikt", "midlertidig beskyttelse", "tredjeland", "allierte", "baser", "bompeng", "eiendomsskatt", "toppskatt", "trinnskatt"]
+  },
+  "landsmoter": [
+    { "parti": "Ap", "merknad": "Neste ordinære landsmøte (normalt annethvert år, våren 2027). Sjekk vedtak og uttalelser på arbeiderpartiet.no for alle Aps ukjente standpunkter." }
+  ]
+}

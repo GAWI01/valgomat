@@ -1,7 +1,7 @@
 # --- dist_municipal_merge: «Staten bør gi sterkere insentiver til at kommuner slår seg sammen til større kommuner.»
 dist_municipal_merge|Ap|2|MEDIUM|src:sf_budsjett_2027|Ap-regjeringen foreslår i statsbudsjettet for 2027 «mer forutsigbare økonomiske virkemidler» for frivillige kommunesammenslåinger, blant annet et nytt oppstartstilskudd.
 dist_municipal_merge|H|3|HIGH|83-84|Høyre vil premiere kommunesammenslåinger i inntektssystemet og legge til rette for større kommuner.
-dist_municipal_merge|FrP|U|-|10|Programmet vil styrke kommunenes handlingsrom, men tar ikke stilling til sammenslåing.
+dist_municipal_merge|FrP|-1|LOW|10|FrP mener det er kommunene selv som må ta initiativ til samarbeid eller sammenslåing.
 dist_municipal_merge|Sp|-3|HIGH|10|Sp vil ikke tvangssammenslå kommuner og vil ha et inntektssystem som ikke stimulerer til sammenslåinger.
 dist_municipal_merge|SV|U|-|-|Programmet tar ikke stilling.
 dist_municipal_merge|R|-2|LOW|73|Rødt kritiserer tvangssammenslåinger av kommuner som sentraliseringspolitikk.
@@ -25,7 +25,7 @@ agri_tariffs|FrP|-3|HIGH|42,44,51|FrP vil redusere tollsatser og at produksjon o
 agri_tariffs|Sp|3|HIGH|68-69|Sp vil styrke importvernet og tollvernet for å sikre norsk jordbruksproduksjon.
 agri_tariffs|SV|2|MEDIUM|38,46|SV vil gå fra krone- til prosenttoll på landbruksprodukter der det gir best beskyttelse.
 agri_tariffs|R|3|HIGH|54,66|Rødt vil styrke importvernet og tollvernet for matvarer.
-agri_tariffs|V|U|-|-|Programmet tar ikke stilling til tollvern for landbruk.
+agri_tariffs|V|-2|MEDIUM|41|Venstre vil at landbrukspolitikken skal bli «mindre basert på støtte gjennom høye priser og markedsreguleringer».
 agri_tariffs|KrF|1|MEDIUM|71|KrF vil sikre et velfungerende importvern som bidrar til høy norsk matproduksjon.
 agri_tariffs|MDG|1|MEDIUM|52|MDG vil ha et tollvern som sikrer norske bønder lønnsomhet.
 # --- agri_income: «Staten bør bruke mer penger på landbruket for å tette inntektsgapet mellom bønder og andre grupper.»
