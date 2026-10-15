@@ -1,5 +1,11 @@
 # Valgomat 2027
 
+**[▶ Prøv valgomaten: valgomat-2027.vercel.app](https://valgomat-2027.vercel.app)**
+
+![Tester](https://img.shields.io/badge/tester-41%20best%C3%A5tt-2f3842) ![Sårbarheter](https://img.shields.io/badge/npm%20audit-0%20s%C3%A5rbarheter-2f3842) ![Tilgjengelighet](https://img.shields.io/badge/axe--core-0%20brudd-2f3842) ![Personvern](https://img.shields.io/badge/sporing-ingen-2f3842) ![Åpne data](https://img.shields.io/badge/data-%C3%A5pne-2f3842)
+
+![Valgomat 2027 på mobil: forside i lys og mørk modus, et spørsmål og resultatet](docs/screenshots.webp)
+
 En åpen og kildebasert norsk valgomat. Du svarer på **80 politiske påstander**. Valgomaten sammenligner svarene dine med de ni stortingspartienes **vedtatte programmer for 2025–2029** og viser *hvorfor* partiene passer eller ikke passer: per spørsmål, per tema, med kilde og sikkerhet for hvert partistandpunkt.
 
 **Sist oppdatert: 14. oktober 2026** · Partier: Ap, H, FrP, Sp, SV, Rødt, Venstre, KrF og MDG
@@ -33,7 +39,7 @@ Krever Node 22.12 eller nyere.
 ```bash
 npm install
 npm run dev        # bygger data og starter utviklingsserver
-npm test           # 40 tester: scoring, dataintegritet og sikkerhet
+npm test           # 41 tester: scoring, dataintegritet og sikkerhet
 npm run build      # statisk produksjonsbygg i dist/ – kan hostes hvor som helst
 npm run audit      # regenererer RESEARCH_AUDIT.md, QUESTION_BANK.md og data/*.json
 ```
