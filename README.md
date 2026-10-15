@@ -4,10 +4,7 @@
 
 ![Tester](https://img.shields.io/badge/tester-41%20best%C3%A5tt-2f3842) ![Sårbarheter](https://img.shields.io/badge/npm%20audit-0%20s%C3%A5rbarheter-2f3842) ![Tilgjengelighet](https://img.shields.io/badge/axe--core-0%20brudd-2f3842) ![Personvern](https://img.shields.io/badge/sporing-ingen-2f3842) ![Åpne data](https://img.shields.io/badge/data-%C3%A5pne-2f3842) ![Lisens](https://img.shields.io/badge/lisens-MIT%20%2B%20CC%20BY%204.0-2f3842)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/img/hjem-dark.webp">
-  <img src="docs/img/hjem-light.webp" alt="Forsiden til Valgomat 2027 med glassdesign">
-</picture>
+![Forsiden til Valgomat 2027 i lys og mørk modus](docs/img/hjem.jpg)
 
 En åpen og kildebasert norsk valgomat. Du svarer på **80 politiske påstander**. Valgomaten sammenligner svarene dine med de ni stortingspartienes **vedtatte programmer for 2025–2029** og viser *hvorfor* partiene passer eller ikke passer: per spørsmål, per tema, med kilde og sikkerhet for hvert partistandpunkt.
 
@@ -37,67 +34,37 @@ En åpen og kildebasert norsk valgomat. Du svarer på **80 politiske påstander*
 
 ## Slik ser det ut
 
-Bildene følger GitHub-temaet ditt: lys modus i lyst tema og mørk modus i mørkt. Svarene i eksemplene er en nøytral sentrumsprofil.
+Eksemplene bruker en sentrumsprofil (snitt av Aps og Høyres standpunkter), så flere partier ligger nær hverandre.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### Ærlig rangering
+Prosent, usikkerhetsintervall og datagrunnlag for hvert parti. Når partiene ligger nær hverandre, sier valgomaten det.
 
-**Ærlig rangering.** Prosent, usikkerhetsintervall og datagrunnlag for hvert parti. Når partiene ligger nær hverandre, sier valgomaten det.
+![Resultatsiden med vurderingen «Nær match» og rangerte partier](docs/img/rangering.jpg)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/img/rangering-dark.webp">
-  <img src="docs/img/rangering-light.webp" alt="Resultatsiden med vurderingen «Nær match» og rangerte partier">
-</picture>
+### Match per tema
+Viser hvorfor et parti kan ligge nær deg på noen områder og langt unna på andre.
 
-</td>
-<td width="50%" valign="top">
+![Tabell med match per politikkområde for alle ni partier](docs/img/tema.jpg)
 
-**Match per tema.** Viser hvorfor et parti kan ligge nær deg på noen områder og langt unna på andre.
+### Politisk profil
+Sju akser beregnet fra svarene dine, med partienes plassering.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/img/tema-dark.webp">
-  <img src="docs/img/tema-light.webp" alt="Tabell med match per politikkområde for alle ni partier">
-</picture>
+![Politisk profil på sju akser med deg og partiene](docs/img/profil.jpg)
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+### Hvert standpunkt har kilde
+Partienes koding, sikkerhet, begrunnelse og lenke til riktig side i programmet.
 
-**Politisk profil.** Sju akser beregnet fra svarene dine, med partienes plassering.
+![Sakssiden med partienes standpunkter, sikkerhet og kilde](docs/img/sak.jpg)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/img/profil-dark.webp">
-  <img src="docs/img/profil-light.webp" alt="Politisk profil på sju akser med deg og partiene">
-</picture>
+### Hvorfor dette partiet?
+Hva du er mest enig og mest uenig med hvert parti i.
 
-</td>
-<td valign="top">
+![Partisiden med det du er mest enig med partiet i](docs/img/parti.jpg)
 
-**Hvert standpunkt har kilde.** Partienes koding, sikkerhet, begrunnelse og lenke til riktig side i programmet.
+### På mobil
+Forside i lys og mørk modus, et spørsmål og resultatet.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/img/sak-dark.webp">
-  <img src="docs/img/sak-light.webp" alt="Sakssiden med partienes standpunkter, sikkerhet og kilde">
-</picture>
-
-<br><br>
-
-**Hvorfor dette partiet?** Hva du er mest enig og mest uenig med hvert parti i.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="docs/img/parti-dark.webp">
-  <img src="docs/img/parti-light.webp" alt="Partisiden med det du er mest enig med partiet i">
-</picture>
-
-</td>
-</tr>
-</table>
-
-**På mobil** – forside i lys og mørk modus, et spørsmål og resultatet:
-
-<img src="docs/img/mobil.webp" alt="Valgomat 2027 på mobil: forside i lys og mørk modus, et spørsmål og resultatet">
+![Valgomat 2027 på mobil: forside i lys og mørk modus, et spørsmål og resultatet](docs/img/mobil.jpg)
 
 ## Kom i gang
 
@@ -153,7 +120,7 @@ Dekningen per parti (andel av vekten med kjent standpunkt når alle spørsmål e
 | `src/pages/` | Forside, spørsmålsflyt, resultat, parti, sak, metode, «Hvorfor ulikt?», kilder |
 | `tests/` | Vitest-tester for scoring, dataintegritet og sikkerhet |
 | `party-review/` | Gjennomgangspakker til partiene (md og csv), følgebrev og rutine |
-| `docs/img/` | Skjermbilder til README-en, i lys og mørk modus |
+| `docs/img/` | Skjermbilder til README-en (JPG, så de vises også i GitHub-appen) |
 
 ## Dokumentasjon
 
